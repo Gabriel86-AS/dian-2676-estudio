@@ -38,9 +38,9 @@ export function play({ unitId, lessonId, title, steps, container, backHref }) {
     answered = true;
     const ms = Date.now() - tStep;
     if (!r.concept) {
-      const rec = { itemId: step.id, unitId, type: step.type, correct: r.correct, partial: !!r.partial, ms, given: r.given };
+      const rec = { itemId: step.id, unitId: step._unit || unitId, type: step.type, correct: r.correct, partial: !!r.partial, ms, given: r.given, retry: !!step._retry };
       emit('dian:answer', rec);
-      if (!first.has(step.id)) first.set(step.id, rec);
+      if (!step._retry && !first.has(step.id)) first.set(step.id, rec);
       if (r.correct === false) {
         missed.set(step.id, step);
         if (!requeued.has(step.id)) { requeued.add(step.id); queue.push({ ...step, _retry: true }); }

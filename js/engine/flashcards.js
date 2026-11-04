@@ -5,6 +5,7 @@ import { esc } from './md.js';
 export function deck({ unitId, cards, container, backHref }) {
   const q = shuffle(cards);
   let known = 0, flipped = false, x0 = null;
+  const missed = new Set(); // una tarjeta repasada en la misma sesión no vuelve a puntuar
   container.innerHTML = `<p><a href="${esc(backHref)}">← Unidad</a></p><h1>Tarjetas</h1><p class="muted" id="cnt"></p><div class="fcard big" id="fc" tabindex="0" role="button" aria-label="Voltear tarjeta"></div><div class="grade"><button type="button" class="btn alt" id="again">Repasar</button><button type="button" class="btn" id="knew">Lo sabía</button></div><p class="muted">Toca la tarjeta o pulsa espacio para voltear. Desliza → si la sabías, ← para repasar.</p>`;
   const fc = container.querySelector('#fc'), cnt = container.querySelector('#cnt');
   const draw = () => {
@@ -17,8 +18,8 @@ export function deck({ unitId, cards, container, backHref }) {
   const grade = ok => {
     if (!q.length) return;
     const c = q.shift();
-    window.dispatchEvent(new CustomEvent('dian:answer', { detail: { itemId: c.id, unitId, type: 'flashcard', correct: ok, partial: false, ms: 0 } }));
-    if (ok) known++; else q.push(c);
+    window.dispatchEvent(new CustomEvent('dian:answer', { detail: { itemId: c.id, unitId, type: 'flashcard', correct: ok, partial: false, ms: 0, retry: missed.has(c.id) } }));
+    if (ok) known++; else { missed.add(c.id); q.push(c); }
     draw();
   };
   fc.addEventListener('click', flip);

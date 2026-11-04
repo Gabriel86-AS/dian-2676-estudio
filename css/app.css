@@ -79,3 +79,17 @@ a{color:var(--primary)}
 .stats b{display:block;font-size:1.3rem;color:var(--primary)}
 .miss{margin:8px 0}
 @media (prefers-reduced-motion:reduce){.fcard .face,.pbar i{animation:none;transition:none}}
+html.large{font-size:118%}
+.chips{display:flex;flex-wrap:wrap;gap:8px;margin:8px 0}
+.chip{display:inline-flex;align-items:center;min-height:36px;padding:0 14px;border-radius:99px;border:1px solid var(--line);background:var(--card);color:var(--text);font:inherit;font-size:.85rem;text-decoration:none;cursor:pointer}
+.chip.on{background:var(--primary);color:#fff;border-color:var(--primary)}
+.btn.disabled{opacity:.5;pointer-events:none}
+.unit .ulink{display:block;text-decoration:none;color:inherit}
+.unit .cont{margin-top:10px;font-size:.85rem}
+.row{display:flex;gap:10px;align-items:center;min-height:44px}
+.row input{width:20px;height:20px}
+.prep{font-size:1.6rem;margin:.2em 0}
+.bar.gate{position:relative;overflow:visible}
+.bar.gate span{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--text)}
+.bar.gate i{border-radius:99px}
+.nostore{margin:8px 16px}
