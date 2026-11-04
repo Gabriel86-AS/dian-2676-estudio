@@ -1,0 +1,512 @@
+{
+  "id": "recursos-fisicos",
+  "title": "Recursos físicos: inventarios, parque automotor, infraestructura y SIIF Nación",
+  "area": "funcional",
+  "priority": 1,
+  "summary": "Funciones F3, F6 y F10 de la ficha AF-LF-3005 y la competencia funcional SIIF Nación: cómo se reconocen y miden los inventarios y las propiedades, planta y equipo (CGN), las reglas de austeridad sobre vehículos e inmuebles (Decreto 1068/2015) y el uso del SIIF Nación.",
+  "sources": [
+    "CGN, Normas para el Reconocimiento, Medición, Revelación y Presentación de los Hechos Económicos del Marco Normativo para Entidades de Gobierno, versión 2015.13 (actualizadas con la Res. 339/2025), num. 9 y 10",
+    "Decreto 1068/2015 arts. 2.8.4.1.1, 2.8.4.3.4–2.8.4.3.5, 2.8.4.6.6–2.8.4.6.8 y 2.8.4.8.2 (austeridad del gasto; texto de Función Pública actualizado al 21-10-2025)",
+    "Decreto 1068/2015 arts. 2.9.1.1.1–2.9.1.2.18 (SIIF Nación)",
+    "DIAN, Código de Buen Gobierno CG-PEC-0001 v15 (2026), políticas 2.6, 2.7 y 8.1.3"
+  ],
+  "lessons": [
+    {
+      "id": "rec-01",
+      "title": "Inventarios en una entidad de gobierno",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "rec-c-001",
+          "type": "concept",
+          "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 9.1, 9.2.1 y 9.2.4",
+          "title": "Qué es inventario y cómo se mide al entrar",
+          "body": "**Reconocimiento (num. 9.1).** Son inventarios los activos no monetarios adquiridos, en transformación o producidos que se tienen para:\n- **venderse** a precios de mercado o de no mercado;\n- **distribuirse gratis** en el curso normal de la operación;\n- transformarse o **consumirse** en la producción de bienes que se venderán o se distribuirán gratis;\n- consumirse en servicios que generan ingresos con contraprestación.\n\nTambién son inventarios los **materiales** que harán parte del costo de otros activos, los **repuestos que no serán componentes** de una propiedad, planta y equipo, y las **municiones y explosivos**.\n\n**Medición inicial (num. 9.2).** Por el **costo de adquisición o transformación**. El de adquisición incluye el **precio de compra**, los **aranceles y otros impuestos no recuperables**, el **transporte** y otras erogaciones necesarias para dejar el bien en condiciones de uso, venta o distribución. Si llega **sin contraprestación** (por ejemplo, una donación), se mide con la Norma de ingresos de transacciones sin contraprestación.\n\n**Sistema y métodos (num. 9.2.4).** Se usa el **inventario permanente**. Se valoran por **PEPS**, **costo promedio** o **identificación específica**. **No se acepta UEPS.** Inventarios de naturaleza y uso similares usan el mismo método."
+        },
+        { "ref": "rec-q-005" },
+        { "ref": "rec-q-001" },
+        { "ref": "rec-q-002" },
+        {
+          "id": "rec-c-002",
+          "type": "concept",
+          "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 9.3, 9.4 y 9.5",
+          "title": "Medición posterior, resultado y baja",
+          "body": "**Después de reconocerlos (num. 9.3):**\n\n| Inventario | Se mide al menor entre… |\n|---|---|\n| Para vender a **precios de mercado** | el costo y el **valor neto de realización** |\n| Para vender a precios de no mercado o **distribuir gratis** | el costo y el **costo de reposición** |\n\nSi ese valor queda **por debajo del costo**, la diferencia es **deterioro** y va al **gasto** del periodo. Si las causas desaparecen, el deterioro **se revierte**.\n\n**Al resultado (num. 9.4):** lo vendido pasa a **costo de ventas** del periodo en que se causan los ingresos. Lo distribuido gratis es **gasto** cuando se entrega el bien.\n\n**Baja (num. 9.5):** las **mermas, sustracciones o vencimientos** implican **retirar** el inventario y reconocerlo como **gasto** del periodo.",
+          "example": "Un lote de tóner vence en el almacén: se retira del inventario y su valor se lleva al gasto. Las responsabilidades por la pérdida se tramitan por separado."
+        },
+        { "ref": "rec-q-003" },
+        { "ref": "rec-q-004" },
+        { "ref": "rec-q-006" }
+      ]
+    },
+    {
+      "id": "rec-02",
+      "title": "Propiedades, planta y equipo: mejoras, depreciación y baja",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "rec-c-003",
+          "type": "concept",
+          "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 10.1 y 10.2",
+          "title": "Qué es propiedad, planta y equipo",
+          "body": "**Reconocimiento (num. 10.1).** Son propiedades, planta y equipo (PP&E):\n- los activos **tangibles** que se usan para producir o suministrar bienes, prestar servicios o para **fines administrativos**;\n- los bienes muebles que se tienen para **arrendar**;\n- los inmuebles arrendados por **menos del valor de mercado**;\n- los **repuestos que serán componentes** de un elemento de PP&E.\n\nSe prevé usarlos **más de 12 meses** y no se espera venderlos ni distribuirlos gratis. Los **terrenos** se reconocen **por separado** de lo construido sobre ellos.\n\n**Erogaciones posteriores:**\n\n| Erogación | Para qué | Tratamiento |\n|---|---|---|\n| **Adiciones y mejoras** | Aumentar la vida útil, la capacidad o la eficiencia, mejorar la calidad o reducir costos | **Mayor valor** del activo |\n| **Reparaciones** | Recuperar la capacidad normal de uso | **Gasto** del periodo |\n| **Mantenimiento** | Conservar la capacidad normal de uso | **Gasto** del periodo |\n\n**Medición inicial (num. 10.2):** al **costo**, que incluye el precio, los aranceles e impuestos indirectos no recuperables, la preparación del lugar, el transporte, la instalación y las pruebas de funcionamiento. Los descuentos lo reducen."
+        },
+        { "ref": "rec-q-011" },
+        { "ref": "rec-q-007" },
+        {
+          "id": "rec-c-004",
+          "type": "concept",
+          "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 10.3 y 10.4",
+          "title": "Depreciación y baja en cuentas",
+          "body": "**Medición posterior (num. 10.3):** costo − **depreciación acumulada** − **deterioro acumulado**.\n\n- **Depreciación:** distribución sistemática del valor depreciable (costo − valor residual) durante la **vida útil**. Métodos: **lineal**, **decreciente** o **unidades de producción**, aplicados de forma uniforme.\n- **Empieza** cuando el bien está **disponible para su uso**: en el lugar y en las condiciones para operar como lo prevé la administración.\n- **No se detiene** porque el bien esté **sin usar** o en **reparación o mantenimiento**. Solo con un método basado en el uso el cargo puede ser nulo si no hay producción.\n- **Cesa** con la baja en cuentas o cuando el valor residual supera el valor en libros.\n- Los **terrenos no se deprecian**, salvo que se demuestre una vida útil finita.\n- La vida útil, el valor residual y el método se revisan **como mínimo al término de cada periodo contable**. Un ajuste es un **cambio en una estimación contable**.\n\n**Baja en cuentas (num. 10.4):** cuando se **pierde el control** del bien o **no se espera potencial de servicio ni beneficios** por su uso o enajenación. La ganancia o pérdida (lo recibido − valor en libros) va al **resultado** como ingreso o gasto."
+        },
+        { "ref": "rec-q-009" },
+        { "ref": "rec-q-008" },
+        { "ref": "rec-q-012" },
+        { "ref": "rec-q-010" }
+      ]
+    },
+    {
+      "id": "rec-03",
+      "title": "Parque automotor, inmuebles y austeridad del gasto",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "rec-c-005",
+          "type": "concept",
+          "source": "Decreto 1068/2015 arts. 2.8.4.1.1, 2.8.4.6.6 (mod. Decreto 0050/2024), 2.8.4.6.7 y 2.8.4.6.8; Código de Buen Gobierno DIAN v15, política 2.7",
+          "title": "Vehículos oficiales: quién, para qué y hasta dónde",
+          "body": "Las medidas de austeridad del Decreto 1068 aplican a quienes **financian sus gastos con recursos del Tesoro Público** (art. 2.8.4.1.1).\n\n**Asignación de vehículos (art. 2.8.4.6.6).** Solo a una **lista cerrada** de servidores. En las **unidades administrativas especiales** (como la DIAN) están los **directores, subdirectores y secretarios generales**. La norma nombra también al **Defensor del Contribuyente y Usuario Aduanero** de la DIAN. Si el organismo tiene regionales, puede asignarse al servidor que **dirige la regional**.\n\n**Vehículos operativos (art. 2.8.4.6.7).** Son un grupo administrado por la **dependencia a cargo de los transportes**. Se usan **solo para necesidades ocasionales e indispensables** de la entidad. **Nunca** se destinan al uso **habitual y permanente** de un servidor que no esté en la lista. Vela por esto el **secretario general** (o quien haga sus veces). Cada **conductor** debe informarle cualquier uso indebido.\n\n**Traslados fuera de la sede (art. 2.8.4.6.8).** No se hacen en vehículos de la sede, **salvo localidades cercanas y cuando resulte económico**. Tampoco aplica la prohibición si se van a **visitar obras** que exijan uso continuo del vehículo.\n\n**Seguridad vial DIAN (política 2.7).** La DIAN promueve el uso adecuado y eficiente de los medios de transporte por servidores y contratistas en sus roles de **peatón, pasajero y conductor**, para **minimizar la accidentalidad**."
+        },
+        { "ref": "rec-q-013" },
+        { "ref": "rec-q-014" },
+        {
+          "id": "rec-c-006",
+          "type": "concept",
+          "source": "Decreto 1068/2015 arts. 2.8.4.3.4, 2.8.4.3.5 y 2.8.4.8.2; Código de Buen Gobierno DIAN v15, políticas 2.6 y 8.1.3",
+          "title": "Inmuebles, mantenimiento y control del gasto",
+          "body": "**Obras en inmuebles (art. 2.8.4.3.4).** No se pueden contratar trabajos que impliquen **mejoras útiles o suntuarias**: embellecimiento, ornamentación o acabados estéticos. Solo se contratan obras que sean una **mejora necesaria para mantener la estructura física** del bien.\n\n**Suministro, mantenimiento y reparación de muebles; compra de inmuebles (art. 2.8.4.3.5).** Solo se inician cuando el **Secretario General** (o quien haga sus veces) determina **en forma motivada** que la contratación es **indispensable** para el funcionamiento de la entidad o para sus servicios.\n\n**Verificación (art. 2.8.4.8.2).** La **Oficina de Control Interno** verifica el cumplimiento **cada mes** y envía al representante legal un **informe trimestral**. Los secretarios generales velan por el estricto cumplimiento.\n\n**Código de Buen Gobierno DIAN:**\n- **Recursos (2.6):** planificar, distribuir y ejecutar los recursos **físicos, tecnológicos y financieros** con **transparencia, responsabilidad, imparcialidad, celeridad y eficacia**.\n- **Infraestructura (8.1.3):** las herramientas del servicio cuentan con infraestructura **locativa, tecnológica y de comunicaciones** adecuada."
+        },
+        { "ref": "rec-q-015" },
+        { "ref": "rec-q-016" },
+        { "ref": "rec-q-017" },
+        { "ref": "rec-q-018" },
+        { "ref": "rec-q-019" }
+      ]
+    },
+    {
+      "id": "rec-04",
+      "title": "SIIF Nación: qué es, quién responde y cómo se paga",
+      "minutes": 9,
+      "steps": [
+        {
+          "id": "rec-c-007",
+          "type": "concept",
+          "source": "Decreto 1068/2015 arts. 2.9.1.1.2–2.9.1.1.8, 2.9.1.1.12, 2.9.1.1.14 y 2.9.1.1.15",
+          "title": "Qué es el SIIF Nación y cómo se organiza",
+          "body": "**Definición (art. 2.9.1.1.2).** Sistema que **coordina, integra, centraliza y estandariza** la gestión financiera pública nacional, para usar con más eficiencia y seguridad los recursos del Presupuesto General de la Nación (PGN) y dar información oportuna y confiable. La ficha de Gestor III lo nombra **SIIF Nación II**; el decreto lo llama SIIF Nación.\n\n**A quién aplica (art. 2.9.1.1.3):** entidades y órganos que hacen parte del **PGN**.\n\n**Qué refleja (art. 2.9.1.1.4):** programación, liquidación, modificación y **ejecución del presupuesto**; el **PAC** (Programa Anual Mensualizado de Caja); la **gestión contable**; y los recaudos y pagos de la **Cuenta Única Nacional**.\n\n**Obligatorio (art. 2.9.1.1.5):** las entidades deben registrar sus operaciones en el SIIF **dentro del horario** y según los instructivos del Administrador. Los aplicativos misionales autorizados deben **interoperar en línea y tiempo real**: conectarse directo al SIIF y registrar **cuando se generan los hechos**.\n\n**Estructura (art. 2.9.1.1.7):**\n- **Comité Directivo**, presidido por el **Viceministro General de Hacienda**.\n- **Comité Operativo y de Seguridad**, presidido por el Administrador del SIIF.\n- **Administrador del Sistema**, a cargo del Viceministerio General de Hacienda.\n- En cada entidad, el **Coordinador SIIF Entidad**: lo designa el **Secretario General** entre funcionarios del nivel **directivo o asesor**. Crea los usuarios, los **capacita antes de crearlos** y es el enlace con el Administrador (arts. 2.9.1.1.14 y 2.9.1.1.15)."
+        },
+        { "ref": "rec-q-020" },
+        { "ref": "rec-q-025" },
+        { "ref": "rec-q-024" },
+        {
+          "id": "rec-c-008",
+          "type": "concept",
+          "source": "Decreto 1068/2015 arts. 2.9.1.2.1–2.9.1.2.4, 2.9.1.2.10–2.9.1.2.13, 2.9.1.2.16–2.9.1.2.18",
+          "title": "Reglas de uso: pagos, soportes y responsabilidades",
+          "body": "**Pago a beneficiario final (arts. 2.9.1.2.1–2.9.1.2.4).** Las entidades pagan **directamente al beneficiario** desde el SIIF, a una **cuenta bancaria registrada y validada** en el sistema (prenotificada por el sistema Cenit del Banco de la República). Los usuarios que intervienen responden por las **imprecisiones** de lo que registran. El **Secretario General** adopta medidas para evitar **pagos no debidos**. Un cambio de beneficiario (por ejemplo, por cesión del contrato) requiere autorización del **ordenador del gasto**.\n\n**Soportes (art. 2.9.1.2.10).** Todo registro se soporta en **documentos legalmente expedidos**, que hacen parte del acto administrativo o del contrato.\n\n**Obligaciones de las entidades y usuarios (art. 2.9.1.2.12):** registrar **en línea y tiempo real**, cumplir los reglamentos y la seguridad, usar con responsabilidad la aplicación y las **claves**, y establecer controles internos.\n\n**Responden por (art. 2.9.1.2.13):** la creación de usuarios, el uso adecuado, la **veracidad de los datos**, el **registro oportuno**, las claves y firmas digitales, y el registro de beneficiarios y cuentas.\n\n**El Ministerio de Hacienda no responde** por el mal uso del sistema ni por la veracidad de los datos que registran las entidades (art. 2.9.1.2.11, parágrafo).\n\n**Otras reglas:**\n- Usar el SIIF **no exime** de cumplir las normas presupuestales y contables (art. 2.9.1.2.16).\n- Los entes de control pueden pedir un **perfil de consulta** (art. 2.9.1.2.17).\n- Está **prohibido comprar software financiero** que **duplique** los registros del SIIF, salvo sistemas misionales que interoperen, a criterio del Comité Directivo (art. 2.9.1.2.18)."
+        },
+        { "ref": "rec-q-021" },
+        { "ref": "rec-q-027" },
+        { "ref": "rec-q-022" },
+        { "ref": "rec-q-023" },
+        { "ref": "rec-q-026" }
+      ]
+    }
+  ],
+  "flashcards": [
+    { "id": "rec-fc-001", "front": "¿Qué métodos de valuación de inventarios acepta la norma de la CGN para entidades de gobierno?", "back": "PEPS, costo promedio o identificación específica, con sistema de inventario permanente. No se acepta UEPS.", "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 9.2.4" },
+    { "id": "rec-fc-002", "front": "¿Cómo se miden después los inventarios que se van a vender a precios de mercado?", "back": "Al menor valor entre el costo y el valor neto de realización.", "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 9.3" },
+    { "id": "rec-fc-003", "front": "¿Y los inventarios que se distribuyen gratis o a precios de no mercado?", "back": "Al menor valor entre el costo y el costo de reposición. La diferencia es deterioro y va al gasto.", "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 9.3" },
+    { "id": "rec-fc-004", "front": "¿Qué pasa con las mermas, sustracciones o vencimientos de inventarios?", "back": "Se retiran del inventario y se reconocen como gasto del periodo.", "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 9.5" },
+    { "id": "rec-fc-005", "front": "Adiciones y mejoras frente a reparaciones y mantenimiento de una PP&E", "back": "Adiciones y mejoras: mayor valor del activo. Reparaciones y mantenimiento: gasto del periodo.", "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 10.1" },
+    { "id": "rec-fc-006", "front": "¿Cómo se mide una propiedad, planta y equipo después de reconocerla?", "back": "Costo menos depreciación acumulada menos deterioro acumulado.", "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 10.3" },
+    { "id": "rec-fc-007", "front": "¿Se deprecian los terrenos?", "back": "No, salvo que se demuestre que tienen una vida útil finita.", "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 10.3" },
+    { "id": "rec-fc-008", "front": "¿Cuándo se da de baja una propiedad, planta y equipo?", "back": "Cuando se pierde el control o no se espera potencial de servicio ni beneficios económicos por su uso o enajenación.", "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 10.4" },
+    { "id": "rec-fc-009", "front": "¿Para qué se usan los vehículos operativos?", "back": "Solo para necesidades ocasionales e indispensables. Nunca para el uso habitual y permanente de un servidor que no está en la lista del art. 2.8.4.6.6.", "source": "Decreto 1068/2015 art. 2.8.4.6.7" },
+    { "id": "rec-fc-010", "front": "Bajo las normas de austeridad, ¿qué obras se pueden contratar en inmuebles?", "back": "Solo mejoras necesarias para mantener la estructura física. No mejoras útiles o suntuarias (embellecimiento, ornamentación, acabados estéticos).", "source": "Decreto 1068/2015 art. 2.8.4.3.4" },
+    { "id": "rec-fc-011", "front": "Política 2.6 del Código de Buen Gobierno DIAN (recursos)", "back": "Planificar, distribuir y ejecutar los recursos físicos, tecnológicos y financieros con transparencia, responsabilidad, imparcialidad, celeridad y eficacia.", "source": "Código de Buen Gobierno DIAN CG-PEC-0001 v15, política 2.6" },
+    { "id": "rec-fc-012", "front": "¿Qué es el SIIF Nación?", "back": "Sistema que coordina, integra, centraliza y estandariza la gestión financiera pública nacional para usar con eficiencia y seguridad los recursos del PGN.", "source": "Decreto 1068/2015 art. 2.9.1.1.2" },
+    { "id": "rec-fc-013", "front": "¿Quién preside el Comité Directivo del SIIF Nación?", "back": "El Viceministro General de Hacienda. El Administrador del SIIF es el secretario técnico.", "source": "Decreto 1068/2015 art. 2.9.1.1.8" },
+    { "id": "rec-fc-014", "front": "Coordinador SIIF Entidad", "back": "Funcionario del nivel directivo o asesor designado por el Secretario General. Es el enlace oficial con el Administrador del SIIF; puede haber uno por unidad ejecutora.", "source": "Decreto 1068/2015 art. 2.9.1.1.14" },
+    { "id": "rec-fc-015", "front": "¿Qué debe soportar cada registro en el SIIF Nación?", "back": "Documentos legalmente expedidos, que hacen parte del acto administrativo o del contrato.", "source": "Decreto 1068/2015 art. 2.9.1.2.10" }
+  ],
+  "questions": [
+    {
+      "id": "rec-q-001", "type": "mcq", "difficulty": 1, "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 9.2.4",
+      "prompt": "¿Qué método de valuación de inventarios NO acepta la norma de la CGN para entidades de gobierno?",
+      "options": [
+        { "id": "a", "text": "PEPS (primeras en entrar, primeras en salir)" },
+        { "id": "b", "text": "Costo promedio" },
+        { "id": "c", "text": "UEPS (últimas en entrar, primeras en salir)" },
+        { "id": "d", "text": "Identificación específica" }
+      ],
+      "answer": "c",
+      "explain": "El num. 9.2.4 dice expresamente que no se acepta UEPS como método de valuación.",
+      "optionWhy": {
+        "a": "PEPS es uno de los tres métodos permitidos.",
+        "b": "El costo promedio es uno de los métodos permitidos.",
+        "d": "La identificación específica es uno de los métodos permitidos."
+      }
+    },
+    {
+      "id": "rec-q-002", "type": "truefalse", "difficulty": 1, "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 9.2.4",
+      "statement": "Los inventarios de una entidad de gobierno se llevan con el sistema de inventario periódico.",
+      "answer": false,
+      "explain": "Falso. La norma exige el sistema de inventario permanente."
+    },
+    {
+      "id": "rec-q-003", "type": "pjs", "difficulty": 2, "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 9.3",
+      "case": "El almacén de la entidad guarda cartillas que se entregarán gratis a los ciudadanos. Al cierre, el costo de reposición de las cartillas es menor que su costo registrado.",
+      "prompt": "¿Cómo deben medirse estas cartillas?",
+      "options": [
+        { "id": "a", "text": "Al menor entre costo y costo de reposición; la diferencia va al gasto." },
+        { "id": "b", "text": "Al menor entre costo y valor neto de realización, como todo inventario." },
+        { "id": "c", "text": "Al costo histórico sin ajustes, porque no se van a vender a nadie." }
+      ],
+      "answer": "a",
+      "explain": "Los inventarios para distribuir gratis se miden al menor entre el costo y el costo de reposición. La diferencia es deterioro y afecta el gasto del periodo.",
+      "optionWhy": {
+        "b": "El valor neto de realización aplica a los inventarios que se venden a precios de mercado.",
+        "c": "La norma sí exige ajustar por deterioro cuando el costo de reposición es inferior al costo."
+      }
+    },
+    {
+      "id": "rec-q-004", "type": "pjs", "difficulty": 2, "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 9.5",
+      "case": "En la toma física del almacén se detecta un faltante de cartuchos de tóner y varios lotes de papel dañados y vencidos.",
+      "prompt": "¿Cuál es el tratamiento contable que ordena la norma?",
+      "options": [
+        { "id": "a", "text": "Dejarlos en libros hasta que termine la investigación del faltante." },
+        { "id": "b", "text": "Retirarlos del inventario y reconocer su valor como gasto del periodo." },
+        { "id": "c", "text": "Reclasificarlos como propiedades, planta y equipo fuera de servicio." }
+      ],
+      "answer": "b",
+      "explain": "Las mermas, sustracciones o vencimientos implican el retiro del inventario y su reconocimiento como gasto (num. 9.5). La investigación de responsabilidades sigue su propio trámite.",
+      "optionWhy": {
+        "a": "La norma no condiciona el retiro al resultado de una investigación.",
+        "c": "Son bienes de consumo, no activos que se usen por más de 12 meses."
+      }
+    },
+    {
+      "id": "rec-q-005", "type": "mcq", "difficulty": 1, "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 9.2.1",
+      "prompt": "¿Qué incluye el costo de adquisición de un inventario?",
+      "options": [
+        { "id": "a", "text": "Precio de compra más el almacenamiento posterior a la recepción" },
+        { "id": "b", "text": "Únicamente el precio de compra registrado en la factura" },
+        { "id": "c", "text": "Precio de compra más los gastos de administración general" },
+        { "id": "d", "text": "Precio de compra, aranceles, impuestos no recuperables y transporte" }
+      ],
+      "answer": "d",
+      "explain": "El num. 9.2.1 incluye el precio de compra, los aranceles y otros impuestos no recuperables, el transporte y otras erogaciones necesarias para dejar el inventario en condiciones de uso, venta o distribución.",
+      "optionWhy": {
+        "a": "El almacenamiento posterior no es necesario para dejar el bien en condiciones de uso; en la producción, la norma lo lleva al gasto salvo que sea necesario para fabricar (num. 9.2.2.1).",
+        "b": "El costo incluye más que el precio: aranceles, impuestos no recuperables y transporte.",
+        "c": "Los costos indirectos de administración que no contribuyen a la ubicación y condición del inventario van al gasto."
+      }
+    },
+    {
+      "id": "rec-q-006", "type": "match", "difficulty": 2, "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 9.3–9.5",
+      "prompt": "Relaciona cada situación con su tratamiento contable.",
+      "pairs": [
+        { "left": "Venta del inventario", "right": "Costo de ventas del periodo en que se causa el ingreso" },
+        { "left": "Distribución gratuita", "right": "Gasto cuando se entrega el bien" },
+        { "left": "Merma o vencimiento", "right": "Retiro del inventario y gasto del periodo" },
+        { "left": "Costo de reposición menor que el costo (bien para entregar gratis)", "right": "Deterioro reconocido en el gasto" }
+      ],
+      "explain": "Medición posterior (9.3), reconocimiento en el resultado (9.4) y baja en cuentas (9.5)."
+    },
+    {
+      "id": "rec-q-007", "type": "pjs", "difficulty": 2, "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 10.1 y 10.4",
+      "case": "La seccional cambia el motor de un vehículo oficial, lo que alarga su vida útil. En la misma visita al taller se repinta un golpe de la carrocería para devolverla a su estado normal.",
+      "prompt": "¿Cómo se reconocen estas dos erogaciones?",
+      "options": [
+        { "id": "a", "text": "Las dos como gasto del periodo, porque son trabajos de taller." },
+        { "id": "b", "text": "El motor como mayor valor del vehículo y la pintura como gasto." },
+        { "id": "c", "text": "Las dos como mayor valor, porque se hacen sobre el mismo bien." }
+      ],
+      "answer": "b",
+      "explain": "Lo que aumenta la vida útil es una mejora: mayor valor del activo (y se da de baja el componente sustituido, num. 10.4). Lo que solo recupera la capacidad normal de uso es una reparación: gasto del periodo.",
+      "optionWhy": {
+        "a": "El motor aumenta la vida útil; eso es una mejora, no un gasto.",
+        "c": "La pintura no mejora el activo: solo recupera su estado normal, así que es reparación."
+      }
+    },
+    {
+      "id": "rec-q-008", "type": "truefalse", "difficulty": 1, "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 10.3",
+      "statement": "Un computador que la entidad guarda sin usar deja de depreciarse mientras no se utilice.",
+      "answer": false,
+      "explain": "Falso. La depreciación no cesa cuando el activo está sin utilizar. Solo con un método basado en el uso el cargo puede ser nulo si no hay actividad."
+    },
+    {
+      "id": "rec-q-009", "type": "mcq", "difficulty": 1, "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 10.3",
+      "prompt": "¿Cuándo empieza la depreciación de una propiedad, planta y equipo?",
+      "options": [
+        { "id": "a", "text": "Cuando se firma el contrato de compra del bien" },
+        { "id": "b", "text": "Cuando se paga la totalidad de la factura" },
+        { "id": "c", "text": "Cuando el bien se asigna a un servidor en inventario" },
+        { "id": "d", "text": "Cuando el bien está disponible para su uso" }
+      ],
+      "answer": "d",
+      "explain": "La depreciación inicia cuando el bien está en la ubicación y en las condiciones necesarias para operar como lo prevé la administración.",
+      "optionWhy": {
+        "a": "Firmar el contrato no deja el bien listo para operar.",
+        "b": "El pago no determina el inicio de la depreciación.",
+        "c": "La asignación a un responsable es un control administrativo; la norma mira la disponibilidad para el uso."
+      }
+    },
+    {
+      "id": "rec-q-010", "type": "pjs", "difficulty": 3, "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 10.4",
+      "case": "Un escáner de la entidad sufre un daño que no tiene reparación y ya no prestará ningún servicio. Se vende como chatarra por un valor menor que su valor en libros.",
+      "prompt": "¿Qué corresponde hacer?",
+      "options": [
+        { "id": "a", "text": "Darlo de baja y llevar al gasto la diferencia con su valor en libros." },
+        { "id": "b", "text": "Mantenerlo en libros y depreciarlo hasta que termine su vida útil." },
+        { "id": "c", "text": "Pasarlo a inventario para la venta y medirlo al costo de reposición." }
+      ],
+      "answer": "a",
+      "explain": "Se da de baja cuando no se espera potencial de servicio ni beneficios. La diferencia entre lo recibido y el valor en libros va al resultado: aquí es una pérdida (gasto).",
+      "optionWhy": {
+        "b": "Un bien sin potencial de servicio no se mantiene en libros: se da de baja.",
+        "c": "No se compró para vender; la norma ordena la baja en cuentas."
+      }
+    },
+    {
+      "id": "rec-q-011", "type": "cloze", "difficulty": 1, "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 10.1",
+      "text": "Las propiedades, planta y equipo son activos que se prevé usar durante más de {{12}} meses y que no se espera vender ni distribuir en forma gratuita.",
+      "alternatives": { "12": ["doce"] }
+    },
+    {
+      "id": "rec-q-012", "type": "mcq", "difficulty": 2, "source": "CGN, Normas Entidades de Gobierno v2015.13, num. 10.3",
+      "prompt": "¿Con qué periodicidad mínima se revisan la vida útil, el valor residual y el método de depreciación?",
+      "options": [
+        { "id": "a", "text": "Cada cinco años, con un avalúo técnico" },
+        { "id": "b", "text": "Solo cuando el bien se da de baja" },
+        { "id": "c", "text": "Al término de cada periodo contable" },
+        { "id": "d", "text": "Cuando lo pide un ente de control" }
+      ],
+      "answer": "c",
+      "explain": "Se revisan como mínimo al término de cada periodo contable; un ajuste se trata como cambio en una estimación contable.",
+      "optionWhy": {
+        "a": "La norma no fija un ciclo de cinco años.",
+        "b": "La revisión es periódica, no solo al retirar el bien.",
+        "d": "La revisión es obligación de la entidad, no depende de una solicitud externa."
+      }
+    },
+    {
+      "id": "rec-q-013", "type": "pjs", "difficulty": 2, "source": "Decreto 1068/2015 arts. 2.8.4.6.6 y 2.8.4.6.7",
+      "case": "Un jefe de división de una seccional pide que se le asigne, de forma permanente, uno de los vehículos operativos para sus desplazamientos diarios. Su cargo no está en la lista del art. 2.8.4.6.6.",
+      "prompt": "Como gestor del área de servicios, ¿qué corresponde?",
+      "options": [
+        { "id": "a", "text": "Asignárselo, porque un cargo de jefatura justifica el uso diario." },
+        { "id": "b", "text": "Negarlo: los operativos solo cubren necesidades ocasionales." },
+        { "id": "c", "text": "Asignárselo si firma un acta de responsabilidad por el vehículo." }
+      ],
+      "answer": "b",
+      "explain": "Los vehículos operativos se usan solo para necesidades ocasionales e indispensables y nunca para el uso habitual y permanente de un servidor que no esté en la lista.",
+      "optionWhy": {
+        "a": "La lista de servidores con vehículo asignado es cerrada; la jefatura no basta.",
+        "c": "Un acta de responsabilidad no cambia la prohibición del uso permanente."
+      }
+    },
+    {
+      "id": "rec-q-014", "type": "pjs", "difficulty": 2, "source": "Decreto 1068/2015 art. 2.8.4.6.8",
+      "case": "Una funcionaria debe hacer una diligencia en una ciudad lejana. Propone viajar en uno de los vehículos de la sede para ganar tiempo.",
+      "prompt": "¿Qué regla aplica?",
+      "options": [
+        { "id": "a", "text": "No usar vehículos de la sede, salvo localidad cercana y si es económico." },
+        { "id": "b", "text": "Usar el vehículo, porque la diligencia es una función propia del cargo." },
+        { "id": "c", "text": "Usarlo si el conductor acepta y responde por el recorrido completo." }
+      ],
+      "answer": "a",
+      "explain": "Quien deba trasladarse fuera de su sede no puede hacerlo en vehículos de esta, salvo localidades cercanas cuando resulte económico (o visitas a obras que exijan uso continuo).",
+      "optionWhy": {
+        "b": "Que la diligencia sea del cargo no levanta la prohibición.",
+        "c": "El conductor no puede autorizar el uso; además debe informar los usos indebidos."
+      }
+    },
+    {
+      "id": "rec-q-015", "type": "pjs", "difficulty": 2, "source": "Decreto 1068/2015 art. 2.8.4.3.4",
+      "case": "Para mejorar la imagen de una sede, se propone contratar acabados decorativos y ornamentación del vestíbulo. La estructura del edificio está en buen estado.",
+      "prompt": "¿Qué corresponde según las normas de austeridad?",
+      "options": [
+        { "id": "a", "text": "Contratarlo, porque una sede atractiva mejora la atención al ciudadano." },
+        { "id": "b", "text": "Contratarlo como mantenimiento con el rubro de servicios generales." },
+        { "id": "c", "text": "No contratarlo: solo se permiten mejoras necesarias para la estructura." }
+      ],
+      "answer": "c",
+      "explain": "Están prohibidas las mejoras útiles o suntuarias (embellecimiento, ornamentación, acabados estéticos). Solo se contratan mejoras necesarias para mantener la estructura física.",
+      "optionWhy": {
+        "a": "La finalidad de imagen no autoriza mejoras suntuarias.",
+        "b": "Cambiar el nombre del rubro no cambia la naturaleza de la obra."
+      }
+    },
+    {
+      "id": "rec-q-016", "type": "mcq", "difficulty": 2, "source": "Decreto 1068/2015 art. 2.8.4.3.5",
+      "prompt": "¿Quién determina en forma motivada que un contrato de mantenimiento o reparación de bienes muebles es indispensable?",
+      "options": [
+        { "id": "a", "text": "El jefe de la Oficina de Control Interno" },
+        { "id": "b", "text": "El supervisor del contrato que está vigente" },
+        { "id": "c", "text": "El almacenista responsable de los bienes" },
+        { "id": "d", "text": "El Secretario General o quien haga sus veces" }
+      ],
+      "answer": "d",
+      "explain": "El art. 2.8.4.3.5 exige que el Secretario General, o quien haga sus veces, lo determine en forma motivada.",
+      "optionWhy": {
+        "a": "Control interno verifica el cumplimiento; no autoriza la contratación.",
+        "b": "El supervisor vigila un contrato existente; no decide la nueva contratación.",
+        "c": "El almacenista custodia los bienes; la norma no le da esta decisión."
+      }
+    },
+    {
+      "id": "rec-q-017", "type": "truefalse", "difficulty": 1, "source": "Decreto 1068/2015 art. 2.8.4.8.2",
+      "statement": "La Oficina de Control Interno verifica cada mes el cumplimiento de las medidas de austeridad y envía un informe trimestral al representante legal.",
+      "answer": true,
+      "explain": "Verdadero. Así lo dispone el art. 2.8.4.8.2. Los secretarios generales velan por su estricto cumplimiento."
+    },
+    {
+      "id": "rec-q-018", "type": "mcq", "difficulty": 1, "source": "Código de Buen Gobierno DIAN CG-PEC-0001 v15, política 2.7",
+      "prompt": "¿En qué roles promueve la política de seguridad vial de la DIAN el uso adecuado de los medios de transporte?",
+      "options": [
+        { "id": "a", "text": "Peatón, pasajero y conductor" },
+        { "id": "b", "text": "Conductor, supervisor y propietario" },
+        { "id": "c", "text": "Conductor, mecánico y almacenista" },
+        { "id": "d", "text": "Peatón, ciclista y motociclista" }
+      ],
+      "answer": "a",
+      "explain": "La política 2.7 habla de los roles de peatón, pasajero y conductor, con el fin de minimizar la accidentalidad.",
+      "optionWhy": {
+        "b": "La política no menciona supervisores ni propietarios.",
+        "c": "Mecánicos y almacenistas no son roles de la política vial.",
+        "d": "La política no distingue por tipo de vehículo."
+      }
+    },
+    {
+      "id": "rec-q-019", "type": "match", "difficulty": 2, "source": "Decreto 1068/2015 arts. 2.8.4.3.4, 2.8.4.6.6, 2.8.4.6.7 y 2.8.4.6.8",
+      "prompt": "Relaciona cada artículo del Decreto 1068 con su regla.",
+      "pairs": [
+        { "left": "Art. 2.8.4.6.6", "right": "Lista cerrada de servidores con vehículo asignado" },
+        { "left": "Art. 2.8.4.6.7", "right": "Vehículos operativos para necesidades ocasionales" },
+        { "left": "Art. 2.8.4.6.8", "right": "Traslados fuera de la sede" },
+        { "left": "Art. 2.8.4.3.4", "right": "Prohibición de mejoras suntuarias en inmuebles" }
+      ],
+      "explain": "Medidas de austeridad del Libro 2, Parte 8, Título 4 del Decreto 1068/2015."
+    },
+    {
+      "id": "rec-q-020", "type": "mcq", "difficulty": 1, "source": "Decreto 1068/2015 art. 2.9.1.1.14",
+      "prompt": "¿Quién designa al Coordinador SIIF de la entidad?",
+      "options": [
+        { "id": "a", "text": "El Administrador del SIIF en el Ministerio de Hacienda" },
+        { "id": "b", "text": "El Comité Operativo y de Seguridad del SIIF Nación" },
+        { "id": "c", "text": "El Secretario General o quien haga sus veces" },
+        { "id": "d", "text": "El Contador General de la Nación, como órgano rector" }
+      ],
+      "answer": "c",
+      "explain": "Los Secretarios Generales, o quien haga sus veces, designan un funcionario del nivel directivo o asesor como Coordinador SIIF Entidad.",
+      "optionWhy": {
+        "a": "El Administrador es la contraparte del coordinador, no quien lo designa.",
+        "b": "Ese comité fija la seguridad del sistema; no designa coordinadores.",
+        "d": "El Contador General integra el Comité Directivo; no designa coordinadores."
+      }
+    },
+    {
+      "id": "rec-q-021", "type": "pjs", "difficulty": 2, "source": "Decreto 1068/2015 arts. 2.9.1.2.1–2.9.1.2.4",
+      "case": "Un proveedor pide que el pago de su factura se gire a la cuenta de un tercero que no está registrada en el SIIF, «para agilizar».",
+      "prompt": "¿Qué corresponde hacer?",
+      "options": [
+        { "id": "a", "text": "Girar a la cuenta del tercero si el proveedor lo autoriza por escrito." },
+        { "id": "b", "text": "Pagar solo a la cuenta del beneficiario registrada y validada en el SIIF." },
+        { "id": "c", "text": "Pagar por caja menor para no esperar el registro de la nueva cuenta." }
+      ],
+      "answer": "b",
+      "explain": "El pago se hace al beneficiario final, a la cuenta registrada y validada en el SIIF. Un cambio de beneficiario solo procede en los casos legales (como la cesión del contrato) y con autorización del ordenador del gasto.",
+      "optionWhy": {
+        "a": "Una carta del proveedor no reemplaza el registro y la validación de la cuenta.",
+        "c": "Usar otra vía para eludir el SIIF va contra el pago a beneficiario final."
+      }
+    },
+    {
+      "id": "rec-q-022", "type": "truefalse", "difficulty": 2, "source": "Decreto 1068/2015 art. 2.9.1.2.11, parágrafo",
+      "statement": "El Ministerio de Hacienda, como administrador del SIIF Nación, responde por la veracidad de los datos que registran los usuarios de las entidades.",
+      "answer": false,
+      "explain": "Falso. El Ministerio no responde por la veracidad y validez de esos datos; de eso responden la entidad y sus usuarios (art. 2.9.1.2.13)."
+    },
+    {
+      "id": "rec-q-023", "type": "pjs", "difficulty": 3, "source": "Decreto 1068/2015 art. 2.9.1.2.18",
+      "case": "El área financiera quiere comprar un software contable propio que repetiría los registros presupuestales y contables que ya hace en el SIIF Nación.",
+      "prompt": "¿Qué corresponde?",
+      "options": [
+        { "id": "a", "text": "Comprarlo, porque cada entidad elige sus herramientas financieras." },
+        { "id": "b", "text": "Comprarlo si control interno certifica que cuesta menos que el SIIF." },
+        { "id": "c", "text": "No comprarlo: la norma prohíbe software que duplique esos registros." }
+      ],
+      "answer": "c",
+      "explain": "Los usuarios del SIIF no pueden adquirir software financiero que duplique el registro presupuestal y contable. La excepción son los sistemas misionales que interoperen, a criterio del Comité Directivo.",
+      "optionWhy": {
+        "a": "La elección no es libre: el art. 2.9.1.2.18 la restringe.",
+        "b": "El costo no es el criterio de la excepción."
+      }
+    },
+    {
+      "id": "rec-q-024", "type": "order", "difficulty": 2, "source": "Decreto 1068/2015 art. 2.9.1.1.6, literal a), num. 8",
+      "prompt": "Ordena los pasos de la ejecución del gasto que se registran en el SIIF Nación.",
+      "items": [
+        "Expedición del certificado de disponibilidad presupuestal (CDP)",
+        "Asunción del compromiso",
+        "Registro de la obligación",
+        "Pago"
+      ],
+      "explain": "El art. 2.9.1.1.6 enumera la expedición de CDP, la asunción de compromisos, el registro de obligaciones y su pago con cargo a las apropiaciones del PGN."
+    },
+    {
+      "id": "rec-q-025", "type": "mcq", "difficulty": 2, "source": "Decreto 1068/2015 art. 2.9.1.1.5, parágrafo",
+      "prompt": "Para el SIIF Nación, ¿qué significa registrar «en línea y tiempo real»?",
+      "options": [
+        { "id": "a", "text": "Registrar los hechos al final de cada mes en un solo lote" },
+        { "id": "b", "text": "Registrar dentro de los cinco días hábiles siguientes" },
+        { "id": "c", "text": "Enviar los registros al Administrador del Sistema por correo" },
+        { "id": "d", "text": "Conectarse al SIIF y registrar cuando se generan los hechos" }
+      ],
+      "answer": "d",
+      "explain": "Las aplicaciones se conectan directamente al SIIF y los registros se hacen cuando se generan los hechos económicos y financieros.",
+      "optionWhy": {
+        "a": "Un registro mensual en lote no es tiempo real.",
+        "b": "La norma no fija un plazo de días hábiles: el registro es inmediato.",
+        "c": "Los registros se hacen en el sistema, no se envían al Administrador."
+      }
+    },
+    {
+      "id": "rec-q-026", "type": "open", "difficulty": 2, "source": "Decreto 1068/2015 art. 2.9.1.2.13",
+      "prompt": "¿De qué responden el representante legal y los usuarios de una entidad en el SIIF Nación?",
+      "modelAnswer": "De la creación de los usuarios, del uso adecuado del sistema, de la veracidad de los datos, del registro oportuno de la gestión financiera, del uso de las claves y firmas digitales, y del registro de los beneficiarios y sus cuentas bancarias.",
+      "keyPoints": ["Creación de usuarios", "Uso adecuado y veracidad de los datos", "Registro oportuno", "Claves, firmas digitales y cuentas de beneficiarios"],
+      "keywords": ["usuarios", "uso adecuado", "veracidad", "oportuno", "claves", "cuentas"],
+      "minKeywords": 3
+    },
+    {
+      "id": "rec-q-027", "type": "pjs", "difficulty": 2, "source": "Decreto 1068/2015 art. 2.9.1.1.15",
+      "case": "Un funcionario nuevo del grupo financiero necesita acceso al SIIF Nación esta semana para registrar obligaciones.",
+      "prompt": "¿Quién gestiona su usuario y su capacitación?",
+      "options": [
+        { "id": "a", "text": "El Coordinador SIIF de la entidad, que lo capacita y luego crea el usuario." },
+        { "id": "b", "text": "El Administrador del SIIF Nación, que crea directamente cada usuario." },
+        { "id": "c", "text": "El propio funcionario, que se inscribe en el portal con su firma digital." }
+      ],
+      "answer": "a",
+      "explain": "El Coordinador SIIF Entidad responde por la creación de usuarios y debe capacitar a los nuevos antes de crearlos.",
+      "optionWhy": {
+        "b": "El Administrador del SIIF no crea los usuarios de cada entidad; esa es tarea del coordinador.",
+        "c": "Los usuarios no se crean solos: los crea el coordinador de la entidad."
+      }
+    }
+  ]
+}

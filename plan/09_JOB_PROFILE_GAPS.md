@@ -27,7 +27,7 @@ Added 2026-11-04. **The user's instruction: the ficha PDF `manual_de_funciones-g
 | Constitución, principios función pública, Buen Gobierno, Ley de transparencia (Ley 1712/2014) | Partial | Partial (`00_GOA_datos_clave.md` cites Ley 1712 arts. 3, 7) |
 | Gestión documental, instrumentos archivísticos | Yes | Yes |
 | MIPG, integridad | Yes | Yes |
-| Inventarios, parque automotor, infraestructura, SIIF Nación II | None | No primary sources; **skip** unless the user provides them |
+| Inventarios, parque automotor, infraestructura, SIIF Nación II | None | Sources found 2026-11-04: SIIF (`22_`, D1068 Parte 9), vehicles and movable goods (`21_`, D1068 austerity), DIAN Buen Gobierno policies on resources, road safety and infrastructure (`20_`). inventory and PP&E accounting (`23_`, CGN norms v2015.13). Covered by unit `recursos-fisicos` (priority 1) and lesson `integ-05` |
 
 ## Tasks (in order: functional test first, it is eliminatory and 65 %)
 1. ✅ **Done 2026-11-04** (5 lessons, 22 cards, 34 questions, prefix `merc`; priorities updated in the manifest). **New unit `disposicion-mercancias`** (functions F7–F10, 3 of the 11): D1165 arts. 736 ff. (formas de disposición), abandono legal, aprehensión/decomiso links to `sanciones`, custodia, inspección y clasificación, informes. Source in pack. 3–4 lessons, 15 cards, 20 questions (≥ 50 % PJS).

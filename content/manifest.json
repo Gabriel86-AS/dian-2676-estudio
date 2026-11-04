@@ -3,6 +3,7 @@
     { "id": "disposicion-mercancias", "file": "units/disposicion-mercancias.json", "title": "Custodia y disposición de mercancías aprehendidas, decomisadas o abandonadas", "area": "funcional", "priority": 1 },
     { "id": "procedimiento-administrativo", "file": "units/procedimiento-administrativo.json", "title": "Procedimiento administrativo (CPACA): peticiones, notificaciones y recursos", "area": "funcional", "priority": 1 },
     { "id": "contratacion", "file": "units/contratacion.json", "title": "Contratación estatal: planeación, selección, supervisión y liquidación", "area": "funcional", "priority": 1 },
+    { "id": "recursos-fisicos", "file": "units/recursos-fisicos.json", "title": "Recursos físicos: inventarios, parque automotor, infraestructura y SIIF Nación", "area": "funcional", "priority": 1 },
     { "id": "gestion-documental", "file": "units/gestion-documental.json", "title": "Gestión documental y trazabilidad de expedientes", "area": "funcional", "priority": 1 },
     { "id": "constitucion-transparencia", "file": "units/constitucion-transparencia.json", "title": "Constitución, transparencia y servicio al ciudadano", "area": "funcional", "priority": 2 },
     { "id": "mipg", "file": "units/mipg.json", "title": "MIPG: Modelo Integrado de Planeación y Gestión y servicio al ciudadano", "area": "funcional", "priority": 2 },
