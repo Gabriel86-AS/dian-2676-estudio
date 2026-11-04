@@ -120,3 +120,4 @@ Sitio en vivo: https://gabriel86-as.github.io/dian-2676-estudio/ · Repo: https:
 - Confirmado por la persona usuaria: la ficha Gestor III es su cargo. Falta confirmar la OPEC.
 - La persona usuaria fijó la ficha como referencia principal. El PDF no tiene OPEC. Fase 9 reescrita con prioridades (comportamentales → disposicion-mercancias → procedimiento-administrativo → contratacion).
 - OPEC de la persona usuaria: **236739** (no 236767). Actualizados CLAUDE.md, README, overview, fase 9 y current_state. Indicadores de 236739 pendientes: búsqueda web sin resultados y SIMO público con error.
+- Segundo PDF (ficha SIMO) confirma la OPEC 236739, Gestor III, AF-LF-3005, 28 vacantes. Sin lista de indicadores: requiere el número de inscripción de la persona aspirante. Fase 9 reordenada: primero la prueba funcional (disposición de mercancías, CPACA, contratación) y al final los comportamentales.

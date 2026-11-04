@@ -12,11 +12,10 @@ Added 2026-11-04. **The user's instruction: the ficha PDF `manual_de_funciones-g
 - Comportamentales específicas: **Comportamiento ético N4, Adaptabilidad N4, Innovación N3, Solución de problemas N4.**
 - The PDF has no OPEC number. **The user gave it on 2026-11-04: OPEC 236739.** The site was built on the indicators of OPEC 236767 (Gestor I), which is not the user's OPEC.
 
-## Step 0 — indicators of OPEC 236739 (blocking for priorities)
-- The exam's functional questions follow the OPEC's **indicators**, published at http://dian-2676-areandina.com.co/indicadores-dian-2667/ (needs the user's inscription number; Claude cannot log in).
-- 2026-11-04: web search found nothing for 236739; SIMO public endpoints returned errors.
-- **Ask the user to paste the indicator list.** Then map each indicator to an existing unit or a new one, and reorder the tasks below. Existing units not in the list become optional.
-- Until then, follow the task order below (based on the ficha).
+## Step 0 — indicators of OPEC 236739
+- Second PDF `GESTOR III_descripcion_del_cargo_jiovani.pdf` (SIMO listing, untracked, never commit) **confirms**: OPEC 236739, Gestor III 303-03, ficha AF-LF-3005, Proceso de Selección DIAN 2676 – Ingreso, 28 vacantes, cierre de inscripciones 2026-02-07, same functions as the ficha. Experience is required, so the functional test weighs **65 %** (eliminatory, 70/100).
+- The user is preparing the site **for another person** (the candidate). The indicator list (http://dian-2676-areandina.com.co/indicadores-dian-2667/) needs the candidate's inscription number; neither PDF has it.
+- **Working assumption until the candidate sends the list:** the ficha's functions are the proxy for the indicators. If the list arrives, map each indicator to a unit and reorder.
 
 ## Gap analysis (ficha vs site)
 | Ficha item | Site coverage | Source in pack? |
@@ -30,13 +29,13 @@ Added 2026-11-04. **The user's instruction: the ficha PDF `manual_de_funciones-g
 | MIPG, integridad | Yes | Yes |
 | Inventarios, parque automotor, infraestructura, SIIF Nación II | None | No primary sources; **skip** unless the user provides them |
 
-## Tasks (in order)
-1. **Update `comportamentales`** to the ficha's levels: Comportamiento ético N4, Adaptabilidad N4 (+ N3 contrast), new lessons for Innovación N3 and Solución de problemas N4, from Res. 065. Fix the intro text that says "niveles que este curso asume para Gestor I". Add Likert items for the two new competencies.
-2. **New unit `disposicion-mercancias`** (D1165 arts. 736 ff., abandono legal, aprehensión/decomiso links to `sanciones`): formas de disposición, quién decide, custodia, informes. 3 lessons, 15 cards, 20 questions (≥ 50 % PJS).
-3. **New unit `procedimiento-administrativo`** (Ley 1437 + Ley 1755): principios (art. 3), derecho de petición y plazos, notificación personal / por aviso / electrónica, comunicación y publicación, recursos (reposición, apelación, queja), firmeza. Same volume. Download official texts first; verify every article number.
-4. **New unit `contratacion`** (Ley 80, Ley 1150, D1082): principios, etapas, modalidades de selección, plan anual de adquisiciones, estudios previos, supervisión vs interventoría. Same volume.
-5. Update home/overview text and `00_OVERVIEW.md` goal line to name Gestor III / AF-LF-3005 as the reference.
-6. Add the new units to the random simulacro pool; leave the 7 fixed tests as they are unless time allows.
+## Tasks (in order: functional test first, it is eliminatory and 65 %)
+1. **New unit `disposicion-mercancias`** (functions F7–F10, 3 of the 11): D1165 arts. 736 ff. (formas de disposición), abandono legal, aprehensión/decomiso links to `sanciones`, custodia, inspección y clasificación, informes. Source in pack. 3–4 lessons, 15 cards, 20 questions (≥ 50 % PJS).
+2. **New unit `procedimiento-administrativo`** (F2, F4; básicas CPACA, recursos, PQRSF): Ley 1437 + Ley 1755: principios (art. 3), derecho de petición y plazos, notificación personal / por aviso / electrónica, comunicación y publicación, recursos (reposición, apelación, queja), firmeza. Download official texts first; verify every article number.
+3. **New unit `contratacion`** (F1, F4): Ley 80, Ley 1150, D1082: principios, etapas, modalidades de selección, plan anual de adquisiciones, estudios previos, supervisión vs interventoría.
+4. **Update `comportamentales`** to the ficha's levels: Comportamiento ético N4, Adaptabilidad N4, new Innovación N3 and Solución de problemas N4 (Res. 065). Fix the "Gestor I" intro text and `index.html` meta description.
+5. Mark existing units outside the ficha (`cambiaria`, `auditoria`, `lavado`, `liquidacion`, `obligaciones`) as lower priority in the home screen copy; keep them available.
+6. Add the new units to the random simulacro pool and build one fixed simulacro weighted to the ficha's functions.
 
 New sources go under `dian_2676_recursos/dian_material/src/` (gitignored) and into its README map. Authoring rules: `04_CONTENT_TAX.md`. Every item cites its article; never invent articles or figures.
 
