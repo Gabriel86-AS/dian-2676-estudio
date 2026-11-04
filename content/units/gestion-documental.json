@@ -1,0 +1,1305 @@
+{
+  "id": "gestion-documental",
+  "title": "Gestión documental y trazabilidad de expedientes",
+  "area": "funcional",
+  "priority": 2,
+  "summary": "Ciclo vital y archivos, conformación de expedientes, índice electrónico, expedientes híbridos y transferencias documentales.",
+  "sources": [
+    "Acuerdo AGN 001 de 2024 (arts. 4.3 y 4.4)",
+    "Ley 594 de 2000 (arts. 23–24)"
+  ],
+  "lessons": [
+    {
+      "id": "gdoc-01",
+      "title": "Archivos y ciclo vital",
+      "minutes": 5,
+      "steps": [
+        {
+          "id": "gdoc-c-001",
+          "type": "concept",
+          "title": "Tres archivos",
+          "body": "Según el ciclo vital: **archivo de gestión** (uso continuo), **archivo central** (transferencias de los de gestión) y **archivo histórico** (conservación permanente). La **TRD** define cuánto permanece cada serie en cada etapa.",
+          "source": "Ley 594/2000 art. 23, 24"
+        },
+        {
+          "id": "gdoc-q-001",
+          "type": "match",
+          "difficulty": 1,
+          "prompt": "Relacione cada tipo de archivo con su descripción (ciclo vital).",
+          "pairs": [
+            {
+              "left": "Archivo de gestión",
+              "right": "Documentación de uso y consulta continua de las oficinas productoras"
+            },
+            {
+              "left": "Archivo central",
+              "right": "Documentos transferidos desde los archivos de gestión, de consulta menos frecuente"
+            },
+            {
+              "left": "Archivo histórico",
+              "right": "Documentos de conservación permanente transferidos desde el central"
+            }
+          ],
+          "explain": "Ley 594/2000 art. 23.",
+          "source": "Ley 594/2000 art. 23"
+        },
+        {
+          "id": "gdoc-q-002",
+          "type": "order",
+          "difficulty": 1,
+          "prompt": "Ordene el flujo de los archivos según el ciclo vital del documento.",
+          "items": [
+            "Archivo de gestión",
+            "Archivo central",
+            "Archivo histórico"
+          ],
+          "explain": "Ley 594/2000 art. 23: de gestión a central (transferencia primaria) y de central a histórico.",
+          "source": "Ley 594/2000 art. 23"
+        },
+        {
+          "id": "gdoc-q-003",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Qué es una Tabla de Retención Documental (TRD)?",
+          "options": [
+            {
+              "id": "A",
+              "text": "El listado de series con sus tipos documentales, a las que se asigna el tiempo de permanencia en cada etapa del ciclo vital."
+            },
+            {
+              "id": "B",
+              "text": "El inventario de los muebles de la oficina."
+            },
+            {
+              "id": "C",
+              "text": "El índice de las normas aplicables a una entidad."
+            }
+          ],
+          "answer": "A",
+          "explain": "Ley 594/2000, definiciones; art. 24 establece su obligatoriedad.",
+          "optionWhy": {
+            "B": "No es un inventario de bienes.",
+            "C": "No es un índice normativo."
+          },
+          "source": "Ley 594/2000 art. 24 y definiciones"
+        },
+        {
+          "id": "gdoc-q-024",
+          "type": "cloze",
+          "difficulty": 1,
+          "text": "El archivo al que se transfieren los documentos de conservación permanente es el archivo {{histórico}}.",
+          "alternatives": {
+            "histórico": [
+              "historico"
+            ]
+          },
+          "source": "Ley 594/2000 art. 23"
+        },
+        {
+          "id": "gdoc-q-019",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Qué función cumple el archivo central institucional?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Recibir, custodiar, describir, controlar y prestar el servicio de consulta de los documentos recibidos en transferencia primaria."
+            },
+            {
+              "id": "B",
+              "text": "Conservar de forma permanente todo el material de la entidad."
+            },
+            {
+              "id": "C",
+              "text": "Producir los documentos de las oficinas."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 4.4.2.",
+          "optionWhy": {
+            "B": "Esa es la función del archivo histórico.",
+            "C": "La producción corresponde a las oficinas productoras."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.4.2"
+        }
+      ]
+    },
+    {
+      "id": "gdoc-02",
+      "title": "Conformación del expediente",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "gdoc-c-002",
+          "type": "concept",
+          "title": "Reglas del expediente",
+          "body": "Todos los documentos de un trámite van en **una unidad documental**, en **orden original**, **foliados** y con **hoja de control** (no se folia). Se cierra al terminar el trámite y desde ahí corre la retención.",
+          "source": "Acuerdo AGN 001/2024 art. 4.3.1.7–4.3.1.9"
+        },
+        {
+          "id": "gdoc-q-004",
+          "type": "mcq",
+          "difficulty": 1,
+          "prompt": "¿Con qué documentos deben conformarse las unidades documentales o expedientes?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Solo con los documentos en papel."
+            },
+            {
+              "id": "B",
+              "text": "Con la totalidad de los documentos de archivo agrupados en desarrollo de un mismo trámite, actuación o procedimiento, sin importar el soporte o formato."
+            },
+            {
+              "id": "C",
+              "text": "Solo con los documentos firmados."
+            }
+          ],
+          "answer": "B",
+          "explain": "Acuerdo AGN 001/2024, art. 4.3.1.7.",
+          "optionWhy": {
+            "A": "Se incluyen todos los soportes y formatos.",
+            "C": "Se incluyen todos los documentos de archivo del trámite."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.3.1.7"
+        },
+        {
+          "id": "gdoc-q-005",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "Según los criterios de organización, ¿en qué principio se basa el orden de los tipos documentales de un expediente?",
+          "options": [
+            {
+              "id": "A",
+              "text": "En orden alfabético del asunto."
+            },
+            {
+              "id": "B",
+              "text": "En el tamaño del documento."
+            },
+            {
+              "id": "C",
+              "text": "En el principio de orden original: se ordenan de modo que se evidencie el desarrollo del trámite."
+            }
+          ],
+          "answer": "C",
+          "explain": "Art. 4.3.1.8 num. 2.",
+          "optionWhy": {
+            "A": "La regla es el orden en que se desarrolló el trámite.",
+            "B": "No es un criterio del art. 4.3.1.8."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+        },
+        {
+          "id": "gdoc-q-007",
+          "type": "pjs",
+          "difficulty": 2,
+          "case": "Un expediente físico complejo llega a la oficina con 120 folios y sin hoja de control.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Foliar la hoja de control como el folio 1."
+            },
+            {
+              "id": "B",
+              "text": "Diligenciar la hoja de control, que se ubica al inicio de la unidad de conservación y no se folia."
+            },
+            {
+              "id": "C",
+              "text": "Omitir la hoja de control porque ya está foliado."
+            }
+          ],
+          "answer": "B",
+          "explain": "Art. 4.3.1.8 num. 5.",
+          "optionWhy": {
+            "A": "La hoja de control no se debe foliar.",
+            "C": "La hoja de control se diligencia para unidades documentales complejas."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+        },
+        {
+          "id": "gdoc-q-008",
+          "type": "truefalse",
+          "difficulty": 2,
+          "statement": "La hoja de control no se debe foliar.",
+          "answer": true,
+          "explain": "Art. 4.3.1.8 num. 5.",
+          "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+        },
+        {
+          "id": "gdoc-q-009",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Cuándo debe cerrarse una unidad documental?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cuando se llena la carpeta."
+            },
+            {
+              "id": "B",
+              "text": "Al cumplirse un año de apertura."
+            },
+            {
+              "id": "C",
+              "text": "Una vez finalizado el trámite administrativo que le dio origen; desde entonces empiezan a contar los tiempos de retención de la TRD."
+            }
+          ],
+          "answer": "C",
+          "explain": "Art. 4.3.1.9.",
+          "optionWhy": {
+            "A": "El cierre depende de la finalización del trámite.",
+            "B": "No hay término fijo de un año."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.3.1.9"
+        },
+        {
+          "id": "gdoc-q-020",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Cuál es la identificación general de las unidades de conservación (art. 4.3.1.8 num. 6)?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Solo el nombre del funcionario responsable."
+            },
+            {
+              "id": "B",
+              "text": "Fondo, sección, subsección, código, nombre de la serie y subserie, nombre y número del expediente, número de folios, fechas extremas, número de caja y de carpeta."
+            },
+            {
+              "id": "C",
+              "text": "Solo el color de la carpeta."
+            }
+          ],
+          "answer": "B",
+          "explain": "Art. 4.3.1.8 num. 6.",
+          "optionWhy": {
+            "A": "No es suficiente para ubicar y recuperar.",
+            "C": "No es el criterio de identificación."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+        },
+        {
+          "id": "gdoc-q-023",
+          "type": "cloze",
+          "difficulty": 1,
+          "text": "La hoja de control se ubica al {{inicio}} de cada unidad de conservación y no se folia.",
+          "alternatives": {
+            "inicio": [
+              "comienzo",
+              "principio"
+            ]
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+        }
+      ]
+    },
+    {
+      "id": "gdoc-03",
+      "title": "Expediente electrónico e híbrido",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "gdoc-c-003",
+          "type": "concept",
+          "title": "Electrónico e híbrido",
+          "body": "El expediente electrónico tiene documentos, **índice electrónico firmado** y **metadatos**. El **híbrido** combina físico y electrónico como **una sola unidad**, con referencia cruzada.",
+          "source": "Acuerdo AGN 001/2024 art. 4.3.2, 4.3.3"
+        },
+        {
+          "id": "gdoc-q-010",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Qué elementos mínimos tiene un expediente electrónico de archivo?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Documentos electrónicos de archivo, índice electrónico, firma del índice electrónico y metadatos."
+            },
+            {
+              "id": "B",
+              "text": "Solo documentos en PDF."
+            },
+            {
+              "id": "C",
+              "text": "Un archivo comprimido sin metadatos."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 4.3.2.2.",
+          "optionWhy": {
+            "B": "Debe incluir índice, firma y metadatos.",
+            "C": "Los metadatos son elemento mínimo."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.3.2.2"
+        },
+        {
+          "id": "gdoc-q-013",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Qué debe cumplir el índice electrónico?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Ser editable por cualquier usuario."
+            },
+            {
+              "id": "B",
+              "text": "Actualizarse manualmente una vez al año."
+            },
+            {
+              "id": "C",
+              "text": "Identificar todos los documentos del expediente, asegurar su secuencia, garantizar la integridad y actualizarse automáticamente con cada documento incorporado."
+            }
+          ],
+          "answer": "C",
+          "explain": "Art. 4.3.2.3.",
+          "optionWhy": {
+            "A": "Debe garantizar integridad e inalterabilidad.",
+            "B": "Debe actualizarse automáticamente."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.3.2.3"
+        },
+        {
+          "id": "gdoc-q-011",
+          "type": "pjs",
+          "difficulty": 2,
+          "case": "Terminado un procedimiento administrativo, un expediente electrónico sigue abierto en el sistema.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dejarlo abierto para futuras consultas."
+            },
+            {
+              "id": "B",
+              "text": "Cerrar el expediente y firmar el índice electrónico, como funcionario autorizado por procedimiento."
+            },
+            {
+              "id": "C",
+              "text": "Eliminar el índice electrónico."
+            }
+          ],
+          "answer": "B",
+          "explain": "Art. 4.3.2.4.",
+          "optionWhy": {
+            "A": "Al finalizar la actuación debe cerrarse (art. 4.3.2.4).",
+            "C": "El índice se firma, no se elimina."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.3.2.4"
+        },
+        {
+          "id": "gdoc-q-006",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Cuál es el equivalente funcional de la foliación en un expediente electrónico?",
+          "options": [
+            {
+              "id": "A",
+              "text": "La asociación de los documentos a un índice electrónico."
+            },
+            {
+              "id": "B",
+              "text": "La numeración de las carpetas."
+            },
+            {
+              "id": "C",
+              "text": "La firma del funcionario en cada archivo."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 4.3.1.8 num. 4.",
+          "optionWhy": {
+            "B": "No es el equivalente que fija la norma.",
+            "C": "La firma es del índice electrónico."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+        },
+        {
+          "id": "gdoc-q-012",
+          "type": "truefalse",
+          "difficulty": 3,
+          "statement": "Los procesos de digitalización permiten eliminar los documentos originales y reducir el tiempo de retención.",
+          "answer": false,
+          "explain": "Art. 4.3.2.5 par.: la digitalización no puede aumentar ni disminuir la retención, ni justificar eliminar originales.",
+          "source": "Acuerdo AGN 001/2024 art. 4.3.2.5"
+        },
+        {
+          "id": "gdoc-q-014",
+          "type": "pjs",
+          "difficulty": 3,
+          "case": "Un trámite genera simultáneamente documentos en papel y documentos electrónicos, y se conservan en sus soportes originales por separado.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Garantizar que forman una sola unidad documental, con referencia cruzada en la hoja de control y en el índice electrónico."
+            },
+            {
+              "id": "B",
+              "text": "Tratarlos como dos expedientes independientes."
+            },
+            {
+              "id": "C",
+              "text": "Digitalizar todo y destruir el papel de inmediato."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 4.3.3.1 y par. 2: referencia cruzada para garantizar integridad y vínculo archivístico.",
+          "optionWhy": {
+            "B": "Constituyen un expediente híbrido: una sola unidad documental.",
+            "C": "La digitalización no autoriza eliminar originales (art. 4.3.2.5 par.)."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.3.3.1"
+        },
+        {
+          "id": "gdoc-q-015",
+          "type": "truefalse",
+          "difficulty": 2,
+          "statement": "En un expediente híbrido, el vínculo archivístico entre los documentos físicos y electrónicos debe mantenerse con apoyo de herramientas tecnológicas.",
+          "answer": true,
+          "explain": "Art. 4.3.3.1.",
+          "source": "Acuerdo AGN 001/2024 art. 4.3.3.1"
+        }
+      ]
+    },
+    {
+      "id": "gdoc-04",
+      "title": "Transferencias y trazabilidad",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "gdoc-c-004",
+          "type": "concept",
+          "title": "Transferencia primaria",
+          "body": "Plan **anual**; series y subseries del archivo de gestión al central según la TRD, con hoja de control o índice firmado. Recibida la transferencia, no se agregan documentos.",
+          "source": "Acuerdo AGN 001/2024 art. 4.4"
+        },
+        {
+          "id": "gdoc-q-016",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Con qué periodicidad debe elaborarse el Plan de Transferencias Documentales primarias?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cada cinco años."
+            },
+            {
+              "id": "B",
+              "text": "Anualmente."
+            },
+            {
+              "id": "C",
+              "text": "Solo cuando se termina el contrato del jefe de oficina."
+            }
+          ],
+          "answer": "B",
+          "explain": "Art. 4.4.3: desde el archivo de gestión al central, según los tiempos de retención de la TRD.",
+          "optionWhy": {
+            "A": "La norma exige un plan anual.",
+            "C": "No es esa la regla."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.4.3"
+        },
+        {
+          "id": "gdoc-q-017",
+          "type": "pjs",
+          "difficulty": 2,
+          "case": "Una oficina productora va a transferir un expediente al archivo central.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Entregarlo sin hoja de control para agilizar."
+            },
+            {
+              "id": "B",
+              "text": "Transferirlo antes de cumplir el tiempo de retención."
+            },
+            {
+              "id": "C",
+              "text": "Entregarlo por series y subseries según la TRD vigente al cierre, con la hoja de control o índice electrónico firmado."
+            }
+          ],
+          "answer": "C",
+          "explain": "Art. 4.4.3 par. 1 y 2.",
+          "optionWhy": {
+            "A": "La unidad documental debe ir con hoja de control o índice firmado (art. 4.4.3 par. 2).",
+            "B": "La transferencia es una vez cumplidos los tiempos de retención en el archivo de gestión."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.4.3"
+        },
+        {
+          "id": "gdoc-q-018",
+          "type": "truefalse",
+          "difficulty": 2,
+          "statement": "Una vez recibida la transferencia documental no se deben incorporar nuevos documentos a los expedientes.",
+          "answer": true,
+          "explain": "Art. 4.4.2 par.",
+          "source": "Acuerdo AGN 001/2024 art. 4.4.2"
+        },
+        {
+          "id": "gdoc-q-021",
+          "type": "pjs",
+          "difficulty": 3,
+          "case": "Al revisar un expediente de fiscalización en archivo de gestión, el gestor nota que le faltan 3 folios que debían estar según el índice y la foliación.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Foliar de nuevo todo el expediente sin dejar constancia."
+            },
+            {
+              "id": "B",
+              "text": "Ignorar la falta si el trámite ya cerró."
+            },
+            {
+              "id": "C",
+              "text": "Dejar constancia, reportar la falta y reconstruir el expediente según el orden original y la hoja de control, para asegurar su completitud."
+            }
+          ],
+          "answer": "C",
+          "explain": "Arts. 4.3.1.8 (orden original, foliación, hoja de control) y 4.3.3.1 par. 1 (completitud).",
+          "optionWhy": {
+            "A": "Se perdería la trazabilidad de la falta; debe asegurarse la completitud.",
+            "B": "La integridad de las unidades debe asegurarse durante todo el ciclo vital."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.3.1.8 y 4.3.3.1"
+        },
+        {
+          "id": "gdoc-q-022",
+          "type": "pjs",
+          "difficulty": 3,
+          "case": "Un funcionario guarda pruebas físicas y su versión digital en lugares distintos y las describe en dos listas separadas.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Unificar la descripción en una hoja de control o índice con referencia cruzada entre los documentos físicos y electrónicos."
+            },
+            {
+              "id": "B",
+              "text": "Mantener dos listas sin relación."
+            },
+            {
+              "id": "C",
+              "text": "Descartar la versión digital."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 4.3.3.1 par. 2.",
+          "optionWhy": {
+            "B": "Rompe el vínculo archivístico del expediente híbrido.",
+            "C": "No procede; ambos componentes forman el expediente."
+          },
+          "source": "Acuerdo AGN 001/2024 art. 4.3.3.1"
+        },
+        {
+          "id": "gdoc-q-026",
+          "type": "open",
+          "difficulty": 2,
+          "prompt": "Describa el proceso de transferencia documental primaria.",
+          "modelAnswer": "Se elabora anualmente un Plan de Transferencias; las series y subseries pasan del archivo de gestión al archivo central según la TRD vigente al cierre del expediente, una vez cumplidos los tiempos de retención. Cada unidad va con la hoja de control o el índice electrónico firmado y, recibida la transferencia, no se incorporan nuevos documentos.",
+          "keyPoints": [
+            "Plan anual",
+            "De gestión a central según la TRD",
+            "Hoja de control o índice firmado",
+            "Sin nuevos documentos tras recibir"
+          ],
+          "keywords": [
+            "plan",
+            "anual",
+            "archivo central",
+            "TRD",
+            "hoja de control",
+            "índice"
+          ],
+          "minKeywords": 3,
+          "source": "Acuerdo AGN 001/2024 art. 4.4.2 y 4.4.3"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "gdoc-fc-001",
+      "front": "Archivos según el ciclo vital",
+      "back": "De gestión, central e histórico.",
+      "source": "Ley 594/2000 art. 23"
+    },
+    {
+      "id": "gdoc-fc-002",
+      "front": "Archivo de gestión",
+      "back": "Documentación de uso y consulta continua por las oficinas productoras.",
+      "source": "Ley 594/2000 art. 23"
+    },
+    {
+      "id": "gdoc-fc-003",
+      "front": "Archivo central",
+      "back": "Recibe transferencias de los archivos de gestión; consulta menos frecuente pero vigente.",
+      "source": "Ley 594/2000 art. 23"
+    },
+    {
+      "id": "gdoc-fc-004",
+      "front": "Archivo histórico",
+      "back": "Recibe del central los documentos de conservación permanente.",
+      "source": "Ley 594/2000 art. 23"
+    },
+    {
+      "id": "gdoc-fc-005",
+      "front": "TRD",
+      "back": "Series y tipos documentales con el tiempo de permanencia en cada etapa del ciclo vital.",
+      "source": "Ley 594/2000 art. 24"
+    },
+    {
+      "id": "gdoc-fc-006",
+      "front": "Unidad documental",
+      "back": "Se conforma con todos los documentos de un mismo trámite, sin importar soporte o formato.",
+      "source": "Acuerdo AGN 001/2024 art. 4.3.1.7"
+    },
+    {
+      "id": "gdoc-fc-007",
+      "front": "Orden original",
+      "back": "Los tipos documentales se ordenan para evidenciar el desarrollo del trámite.",
+      "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+    },
+    {
+      "id": "gdoc-fc-008",
+      "front": "Foliación",
+      "back": "Obligatoria en documentos físicos; en electrónicos, el equivalente es el índice electrónico.",
+      "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+    },
+    {
+      "id": "gdoc-fc-009",
+      "front": "Hoja de control",
+      "back": "Para unidades complejas; al inicio de la unidad de conservación; no se folia; firmada.",
+      "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+    },
+    {
+      "id": "gdoc-fc-010",
+      "front": "Cierre de la unidad documental",
+      "back": "Al finalizar el trámite; empiezan a contar los tiempos de retención.",
+      "source": "Acuerdo AGN 001/2024 art. 4.3.1.9"
+    },
+    {
+      "id": "gdoc-fc-011",
+      "front": "Elementos del expediente electrónico",
+      "back": "Documentos electrónicos, índice electrónico, firma del índice y metadatos.",
+      "source": "Acuerdo AGN 001/2024 art. 4.3.2.2"
+    },
+    {
+      "id": "gdoc-fc-012",
+      "front": "Cierre del expediente electrónico",
+      "back": "El funcionario autorizado cierra el expediente y firma el índice electrónico.",
+      "source": "Acuerdo AGN 001/2024 art. 4.3.2.4"
+    },
+    {
+      "id": "gdoc-fc-013",
+      "front": "Digitalización",
+      "back": "No aumenta ni disminuye la retención ni autoriza eliminar originales.",
+      "source": "Acuerdo AGN 001/2024 art. 4.3.2.5"
+    },
+    {
+      "id": "gdoc-fc-014",
+      "front": "Expediente híbrido",
+      "back": "Una sola unidad documental con referencia cruzada entre lo físico y lo electrónico.",
+      "source": "Acuerdo AGN 001/2024 art. 4.3.3.1"
+    },
+    {
+      "id": "gdoc-fc-015",
+      "front": "Plan de transferencias",
+      "back": "Anual, del archivo de gestión al central, según la TRD.",
+      "source": "Acuerdo AGN 001/2024 art. 4.4.3"
+    },
+    {
+      "id": "gdoc-fc-016",
+      "front": "Archivo central institucional",
+      "back": "Recibe, custodia, describe, controla y presta consulta de lo transferido.",
+      "source": "Acuerdo AGN 001/2024 art. 4.4.2"
+    }
+  ],
+  "questions": [
+    {
+      "id": "gdoc-q-001",
+      "type": "match",
+      "difficulty": 1,
+      "prompt": "Relacione cada tipo de archivo con su descripción (ciclo vital).",
+      "pairs": [
+        {
+          "left": "Archivo de gestión",
+          "right": "Documentación de uso y consulta continua de las oficinas productoras"
+        },
+        {
+          "left": "Archivo central",
+          "right": "Documentos transferidos desde los archivos de gestión, de consulta menos frecuente"
+        },
+        {
+          "left": "Archivo histórico",
+          "right": "Documentos de conservación permanente transferidos desde el central"
+        }
+      ],
+      "explain": "Ley 594/2000 art. 23.",
+      "source": "Ley 594/2000 art. 23"
+    },
+    {
+      "id": "gdoc-q-002",
+      "type": "order",
+      "difficulty": 1,
+      "prompt": "Ordene el flujo de los archivos según el ciclo vital del documento.",
+      "items": [
+        "Archivo de gestión",
+        "Archivo central",
+        "Archivo histórico"
+      ],
+      "explain": "Ley 594/2000 art. 23: de gestión a central (transferencia primaria) y de central a histórico.",
+      "source": "Ley 594/2000 art. 23"
+    },
+    {
+      "id": "gdoc-q-003",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Qué es una Tabla de Retención Documental (TRD)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El listado de series con sus tipos documentales, a las que se asigna el tiempo de permanencia en cada etapa del ciclo vital."
+        },
+        {
+          "id": "B",
+          "text": "El inventario de los muebles de la oficina."
+        },
+        {
+          "id": "C",
+          "text": "El índice de las normas aplicables a una entidad."
+        }
+      ],
+      "answer": "A",
+      "explain": "Ley 594/2000, definiciones; art. 24 establece su obligatoriedad.",
+      "optionWhy": {
+        "B": "No es un inventario de bienes.",
+        "C": "No es un índice normativo."
+      },
+      "source": "Ley 594/2000 art. 24 y definiciones"
+    },
+    {
+      "id": "gdoc-q-004",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "¿Con qué documentos deben conformarse las unidades documentales o expedientes?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solo con los documentos en papel."
+        },
+        {
+          "id": "B",
+          "text": "Con la totalidad de los documentos de archivo agrupados en desarrollo de un mismo trámite, actuación o procedimiento, sin importar el soporte o formato."
+        },
+        {
+          "id": "C",
+          "text": "Solo con los documentos firmados."
+        }
+      ],
+      "answer": "B",
+      "explain": "Acuerdo AGN 001/2024, art. 4.3.1.7.",
+      "optionWhy": {
+        "A": "Se incluyen todos los soportes y formatos.",
+        "C": "Se incluyen todos los documentos de archivo del trámite."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.3.1.7"
+    },
+    {
+      "id": "gdoc-q-005",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Según los criterios de organización, ¿en qué principio se basa el orden de los tipos documentales de un expediente?",
+      "options": [
+        {
+          "id": "A",
+          "text": "En orden alfabético del asunto."
+        },
+        {
+          "id": "B",
+          "text": "En el tamaño del documento."
+        },
+        {
+          "id": "C",
+          "text": "En el principio de orden original: se ordenan de modo que se evidencie el desarrollo del trámite."
+        }
+      ],
+      "answer": "C",
+      "explain": "Art. 4.3.1.8 num. 2.",
+      "optionWhy": {
+        "A": "La regla es el orden en que se desarrolló el trámite.",
+        "B": "No es un criterio del art. 4.3.1.8."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+    },
+    {
+      "id": "gdoc-q-006",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Cuál es el equivalente funcional de la foliación en un expediente electrónico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La asociación de los documentos a un índice electrónico."
+        },
+        {
+          "id": "B",
+          "text": "La numeración de las carpetas."
+        },
+        {
+          "id": "C",
+          "text": "La firma del funcionario en cada archivo."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 4.3.1.8 num. 4.",
+      "optionWhy": {
+        "B": "No es el equivalente que fija la norma.",
+        "C": "La firma es del índice electrónico."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+    },
+    {
+      "id": "gdoc-q-007",
+      "type": "pjs",
+      "difficulty": 2,
+      "case": "Un expediente físico complejo llega a la oficina con 120 folios y sin hoja de control.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Foliar la hoja de control como el folio 1."
+        },
+        {
+          "id": "B",
+          "text": "Diligenciar la hoja de control, que se ubica al inicio de la unidad de conservación y no se folia."
+        },
+        {
+          "id": "C",
+          "text": "Omitir la hoja de control porque ya está foliado."
+        }
+      ],
+      "answer": "B",
+      "explain": "Art. 4.3.1.8 num. 5.",
+      "optionWhy": {
+        "A": "La hoja de control no se debe foliar.",
+        "C": "La hoja de control se diligencia para unidades documentales complejas."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+    },
+    {
+      "id": "gdoc-q-008",
+      "type": "truefalse",
+      "difficulty": 2,
+      "statement": "La hoja de control no se debe foliar.",
+      "answer": true,
+      "explain": "Art. 4.3.1.8 num. 5.",
+      "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+    },
+    {
+      "id": "gdoc-q-009",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Cuándo debe cerrarse una unidad documental?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cuando se llena la carpeta."
+        },
+        {
+          "id": "B",
+          "text": "Al cumplirse un año de apertura."
+        },
+        {
+          "id": "C",
+          "text": "Una vez finalizado el trámite administrativo que le dio origen; desde entonces empiezan a contar los tiempos de retención de la TRD."
+        }
+      ],
+      "answer": "C",
+      "explain": "Art. 4.3.1.9.",
+      "optionWhy": {
+        "A": "El cierre depende de la finalización del trámite.",
+        "B": "No hay término fijo de un año."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.3.1.9"
+    },
+    {
+      "id": "gdoc-q-010",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Qué elementos mínimos tiene un expediente electrónico de archivo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Documentos electrónicos de archivo, índice electrónico, firma del índice electrónico y metadatos."
+        },
+        {
+          "id": "B",
+          "text": "Solo documentos en PDF."
+        },
+        {
+          "id": "C",
+          "text": "Un archivo comprimido sin metadatos."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 4.3.2.2.",
+      "optionWhy": {
+        "B": "Debe incluir índice, firma y metadatos.",
+        "C": "Los metadatos son elemento mínimo."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.3.2.2"
+    },
+    {
+      "id": "gdoc-q-011",
+      "type": "pjs",
+      "difficulty": 2,
+      "case": "Terminado un procedimiento administrativo, un expediente electrónico sigue abierto en el sistema.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dejarlo abierto para futuras consultas."
+        },
+        {
+          "id": "B",
+          "text": "Cerrar el expediente y firmar el índice electrónico, como funcionario autorizado por procedimiento."
+        },
+        {
+          "id": "C",
+          "text": "Eliminar el índice electrónico."
+        }
+      ],
+      "answer": "B",
+      "explain": "Art. 4.3.2.4.",
+      "optionWhy": {
+        "A": "Al finalizar la actuación debe cerrarse (art. 4.3.2.4).",
+        "C": "El índice se firma, no se elimina."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.3.2.4"
+    },
+    {
+      "id": "gdoc-q-012",
+      "type": "truefalse",
+      "difficulty": 3,
+      "statement": "Los procesos de digitalización permiten eliminar los documentos originales y reducir el tiempo de retención.",
+      "answer": false,
+      "explain": "Art. 4.3.2.5 par.: la digitalización no puede aumentar ni disminuir la retención, ni justificar eliminar originales.",
+      "source": "Acuerdo AGN 001/2024 art. 4.3.2.5"
+    },
+    {
+      "id": "gdoc-q-013",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Qué debe cumplir el índice electrónico?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Ser editable por cualquier usuario."
+        },
+        {
+          "id": "B",
+          "text": "Actualizarse manualmente una vez al año."
+        },
+        {
+          "id": "C",
+          "text": "Identificar todos los documentos del expediente, asegurar su secuencia, garantizar la integridad y actualizarse automáticamente con cada documento incorporado."
+        }
+      ],
+      "answer": "C",
+      "explain": "Art. 4.3.2.3.",
+      "optionWhy": {
+        "A": "Debe garantizar integridad e inalterabilidad.",
+        "B": "Debe actualizarse automáticamente."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.3.2.3"
+    },
+    {
+      "id": "gdoc-q-014",
+      "type": "pjs",
+      "difficulty": 3,
+      "case": "Un trámite genera simultáneamente documentos en papel y documentos electrónicos, y se conservan en sus soportes originales por separado.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Garantizar que forman una sola unidad documental, con referencia cruzada en la hoja de control y en el índice electrónico."
+        },
+        {
+          "id": "B",
+          "text": "Tratarlos como dos expedientes independientes."
+        },
+        {
+          "id": "C",
+          "text": "Digitalizar todo y destruir el papel de inmediato."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 4.3.3.1 y par. 2: referencia cruzada para garantizar integridad y vínculo archivístico.",
+      "optionWhy": {
+        "B": "Constituyen un expediente híbrido: una sola unidad documental.",
+        "C": "La digitalización no autoriza eliminar originales (art. 4.3.2.5 par.)."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.3.3.1"
+    },
+    {
+      "id": "gdoc-q-015",
+      "type": "truefalse",
+      "difficulty": 2,
+      "statement": "En un expediente híbrido, el vínculo archivístico entre los documentos físicos y electrónicos debe mantenerse con apoyo de herramientas tecnológicas.",
+      "answer": true,
+      "explain": "Art. 4.3.3.1.",
+      "source": "Acuerdo AGN 001/2024 art. 4.3.3.1"
+    },
+    {
+      "id": "gdoc-q-016",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Con qué periodicidad debe elaborarse el Plan de Transferencias Documentales primarias?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cada cinco años."
+        },
+        {
+          "id": "B",
+          "text": "Anualmente."
+        },
+        {
+          "id": "C",
+          "text": "Solo cuando se termina el contrato del jefe de oficina."
+        }
+      ],
+      "answer": "B",
+      "explain": "Art. 4.4.3: desde el archivo de gestión al central, según los tiempos de retención de la TRD.",
+      "optionWhy": {
+        "A": "La norma exige un plan anual.",
+        "C": "No es esa la regla."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.4.3"
+    },
+    {
+      "id": "gdoc-q-017",
+      "type": "pjs",
+      "difficulty": 2,
+      "case": "Una oficina productora va a transferir un expediente al archivo central.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Entregarlo sin hoja de control para agilizar."
+        },
+        {
+          "id": "B",
+          "text": "Transferirlo antes de cumplir el tiempo de retención."
+        },
+        {
+          "id": "C",
+          "text": "Entregarlo por series y subseries según la TRD vigente al cierre, con la hoja de control o índice electrónico firmado."
+        }
+      ],
+      "answer": "C",
+      "explain": "Art. 4.4.3 par. 1 y 2.",
+      "optionWhy": {
+        "A": "La unidad documental debe ir con hoja de control o índice firmado (art. 4.4.3 par. 2).",
+        "B": "La transferencia es una vez cumplidos los tiempos de retención en el archivo de gestión."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.4.3"
+    },
+    {
+      "id": "gdoc-q-018",
+      "type": "truefalse",
+      "difficulty": 2,
+      "statement": "Una vez recibida la transferencia documental no se deben incorporar nuevos documentos a los expedientes.",
+      "answer": true,
+      "explain": "Art. 4.4.2 par.",
+      "source": "Acuerdo AGN 001/2024 art. 4.4.2"
+    },
+    {
+      "id": "gdoc-q-019",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Qué función cumple el archivo central institucional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recibir, custodiar, describir, controlar y prestar el servicio de consulta de los documentos recibidos en transferencia primaria."
+        },
+        {
+          "id": "B",
+          "text": "Conservar de forma permanente todo el material de la entidad."
+        },
+        {
+          "id": "C",
+          "text": "Producir los documentos de las oficinas."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 4.4.2.",
+      "optionWhy": {
+        "B": "Esa es la función del archivo histórico.",
+        "C": "La producción corresponde a las oficinas productoras."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.4.2"
+    },
+    {
+      "id": "gdoc-q-020",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Cuál es la identificación general de las unidades de conservación (art. 4.3.1.8 num. 6)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solo el nombre del funcionario responsable."
+        },
+        {
+          "id": "B",
+          "text": "Fondo, sección, subsección, código, nombre de la serie y subserie, nombre y número del expediente, número de folios, fechas extremas, número de caja y de carpeta."
+        },
+        {
+          "id": "C",
+          "text": "Solo el color de la carpeta."
+        }
+      ],
+      "answer": "B",
+      "explain": "Art. 4.3.1.8 num. 6.",
+      "optionWhy": {
+        "A": "No es suficiente para ubicar y recuperar.",
+        "C": "No es el criterio de identificación."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+    },
+    {
+      "id": "gdoc-q-021",
+      "type": "pjs",
+      "difficulty": 3,
+      "case": "Al revisar un expediente de fiscalización en archivo de gestión, el gestor nota que le faltan 3 folios que debían estar según el índice y la foliación.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Foliar de nuevo todo el expediente sin dejar constancia."
+        },
+        {
+          "id": "B",
+          "text": "Ignorar la falta si el trámite ya cerró."
+        },
+        {
+          "id": "C",
+          "text": "Dejar constancia, reportar la falta y reconstruir el expediente según el orden original y la hoja de control, para asegurar su completitud."
+        }
+      ],
+      "answer": "C",
+      "explain": "Arts. 4.3.1.8 (orden original, foliación, hoja de control) y 4.3.3.1 par. 1 (completitud).",
+      "optionWhy": {
+        "A": "Se perdería la trazabilidad de la falta; debe asegurarse la completitud.",
+        "B": "La integridad de las unidades debe asegurarse durante todo el ciclo vital."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.3.1.8 y 4.3.3.1"
+    },
+    {
+      "id": "gdoc-q-022",
+      "type": "pjs",
+      "difficulty": 3,
+      "case": "Un funcionario guarda pruebas físicas y su versión digital en lugares distintos y las describe en dos listas separadas.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Unificar la descripción en una hoja de control o índice con referencia cruzada entre los documentos físicos y electrónicos."
+        },
+        {
+          "id": "B",
+          "text": "Mantener dos listas sin relación."
+        },
+        {
+          "id": "C",
+          "text": "Descartar la versión digital."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 4.3.3.1 par. 2.",
+      "optionWhy": {
+        "B": "Rompe el vínculo archivístico del expediente híbrido.",
+        "C": "No procede; ambos componentes forman el expediente."
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.3.3.1"
+    },
+    {
+      "id": "gdoc-q-023",
+      "type": "cloze",
+      "difficulty": 1,
+      "text": "La hoja de control se ubica al {{inicio}} de cada unidad de conservación y no se folia.",
+      "alternatives": {
+        "inicio": [
+          "comienzo",
+          "principio"
+        ]
+      },
+      "source": "Acuerdo AGN 001/2024 art. 4.3.1.8"
+    },
+    {
+      "id": "gdoc-q-024",
+      "type": "cloze",
+      "difficulty": 1,
+      "text": "El archivo al que se transfieren los documentos de conservación permanente es el archivo {{histórico}}.",
+      "alternatives": {
+        "histórico": [
+          "historico"
+        ]
+      },
+      "source": "Ley 594/2000 art. 23"
+    },
+    {
+      "id": "gdoc-q-025",
+      "type": "open",
+      "difficulty": 2,
+      "prompt": "Explique qué es un expediente híbrido y cómo se garantiza su integridad.",
+      "modelAnswer": "Es el que se conforma simultáneamente con documentos en soporte físico y en formato electrónico. Aunque se conserven separados en sus soportes originales, forman una sola unidad documental por el trámite o actuación; se garantiza con herramientas tecnológicas que mantengan el vínculo archivístico, estrategias de completitud, orden original y una referencia cruzada en la hoja de control y el índice electrónico.",
+      "keyPoints": [
+        "Documentos físicos y electrónicos de un mismo trámite",
+        "Una sola unidad documental",
+        "Referencia cruzada en hoja de control e índice"
+      ],
+      "keywords": [
+        "híbrido",
+        "físico",
+        "electrónico",
+        "una sola unidad",
+        "referencia cruzada",
+        "hoja de control"
+      ],
+      "minKeywords": 3,
+      "source": "Acuerdo AGN 001/2024 art. 4.3.3.1"
+    },
+    {
+      "id": "gdoc-q-026",
+      "type": "open",
+      "difficulty": 2,
+      "prompt": "Describa el proceso de transferencia documental primaria.",
+      "modelAnswer": "Se elabora anualmente un Plan de Transferencias; las series y subseries pasan del archivo de gestión al archivo central según la TRD vigente al cierre del expediente, una vez cumplidos los tiempos de retención. Cada unidad va con la hoja de control o el índice electrónico firmado y, recibida la transferencia, no se incorporan nuevos documentos.",
+      "keyPoints": [
+        "Plan anual",
+        "De gestión a central según la TRD",
+        "Hoja de control o índice firmado",
+        "Sin nuevos documentos tras recibir"
+      ],
+      "keywords": [
+        "plan",
+        "anual",
+        "archivo central",
+        "TRD",
+        "hoja de control",
+        "índice"
+      ],
+      "minKeywords": 3,
+      "source": "Acuerdo AGN 001/2024 art. 4.4.2 y 4.4.3"
+    }
+  ]
+}
