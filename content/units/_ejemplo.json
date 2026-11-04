@@ -1,0 +1,50 @@
+{
+  "id": "_ejemplo",
+  "title": "Ejemplo de unidad (formato; no es contenido de estudio)",
+  "area": "funcional",
+  "priority": 3,
+  "summary": "Unidad de muestra que ejercita cada tipo de ítem. Datos tomados de la GOA 19-10-2026.",
+  "sources": ["GOA DIAN 2676 (19-10-2026)"],
+  "lessons": [
+    {
+      "id": "ej-01",
+      "title": "Formato del examen",
+      "minutes": 3,
+      "steps": [
+        { "id": "ej-c-001", "type": "concept", "title": "Prueba de Juicio Situacional",
+          "body": "Cada ítem trae **1 caso**, **1 enunciado** y **3 opciones (A–C)**. Solo una es correcta.",
+          "example": "La correcta es la acción de la ETAPA exacta que pide el caso.", "source": "GOA §4.1" },
+        { "id": "ej-q-001", "type": "mcq", "difficulty": 1, "prompt": "¿Cuántas opciones tiene un ítem PJS?",
+          "options": [ { "id": "A", "text": "Dos" }, { "id": "B", "text": "Tres" }, { "id": "C", "text": "Cuatro" } ],
+          "answer": "B", "explain": "El formato PJS ofrece tres opciones (A, B, C).",
+          "optionWhy": { "A": "Son tres, no dos.", "C": "Son tres, no cuatro." }, "source": "GOA pág. 13" }
+      ]
+    }
+  ],
+  "flashcards": [
+    { "id": "ej-fc-001", "front": "¿A qué hora cierran las puertas el día del examen?",
+      "back": "8:30 a. m. (abren 7:15). Después se es ausente.", "source": "GOA §6" }
+  ],
+  "questions": [
+    { "id": "ej-q-002", "type": "pjs", "difficulty": 2,
+      "case": "Un ciudadano pregunta a un funcionario por el estado de su trámite.",
+      "prompt": "¿Qué debe hacer el funcionario?",
+      "options": [ { "id": "A", "text": "Informar la etapa e indicar el canal de consulta." }, { "id": "B", "text": "Pedirle que vuelva en un mes." }, { "id": "C", "text": "Remitirlo sin información." } ],
+      "answer": "A", "explain": "Informar la etapa y el canal de consulta (Ley 1437 art. 5 num. 2; Ley 1712 arts. 3 y 7).",
+      "optionWhy": { "B": "No orienta al ciudadano.", "C": "Omite el deber de información." }, "source": "GOA pág. 16–17" },
+    { "id": "ej-q-003", "type": "truefalse", "difficulty": 1, "statement": "La Ley 2586 de 2026 es evaluable.", "answer": true,
+      "explain": "El corte es normas expedidas hasta el 19-jun-2026, inclusive.", "source": "GOA §4.3 pág. 11" },
+    { "id": "ej-q-004", "type": "open", "difficulty": 2, "prompt": "Explique el patrón de la respuesta correcta en un PJS.",
+      "modelAnswer": "Es la acción que corresponde a la etapa exacta del procedimiento que pide el caso, con fundamento normativo.",
+      "keyPoints": ["Etapa exacta", "Fundamento normativo"], "keywords": ["etapa", "procedimiento", "normativ"], "minKeywords": 2, "source": "GOA pág. 13–14" },
+    { "id": "ej-q-005", "type": "order", "difficulty": 2, "prompt": "Ordene las etapas del ejemplo oficial de talento humano.",
+      "items": ["Diagnóstico (Matriz de Gestión Estratégica del Talento Humano)", "Plan de acción"], "explain": "El diagnóstico es la etapa 2; el plan de acción la etapa 3.", "source": "GOA pág. 13–14" },
+    { "id": "ej-q-006", "type": "match", "difficulty": 1, "prompt": "Relacione prueba y carácter.",
+      "pairs": [ { "left": "Funcionales", "right": "Eliminatoria (mín. 70)" }, { "left": "Comportamentales", "right": "Clasificatoria" } ],
+      "explain": "Art. 17 Acuerdo 21/2025.", "source": "GOA ponderación" },
+    { "id": "ej-q-007", "type": "cloze", "difficulty": 1, "text": "El examen dura {{5}} horas.",
+      "alternatives": { "5": ["cinco"] }, "source": "GOA §6" },
+    { "id": "ej-q-008", "type": "likert", "statement": "Oriento a una persona sobre su trámite aunque ya sea el cierre de la jornada.",
+      "competency": "Orientación al usuario", "level": "N1", "insight": "Conducta observable de Res. 065/2024.", "source": "GOA pág. 18–19" }
+  ]
+}
