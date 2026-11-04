@@ -10,12 +10,14 @@ export function playDeck({ unit, cards, el, backHref }) {
   const seen = new Set();
   let flipped = false;
   let done = false;
+  let tCard = 0;
 
   document.body.classList.add('in-lesson');
 
   function show() {
     if (!queue.length) return finish();
     flipped = false;
+    tCard = Date.now();
     const card = queue[0];
     el.innerHTML = `
       <div class="player deck">
@@ -57,7 +59,7 @@ export function playDeck({ unit, cards, el, backHref }) {
     const card = queue.shift();
     if (!seen.has(card.id) && knew) knewFirst.add(card.id);
     seen.add(card.id);
-    emit('card', { cardId: card.id, unitId: unit.id, knew });
+    emit('card', { cardId: card.id, unitId: card._unit || unit.id, knew, ms: Date.now() - tCard });
     if (!knew) queue.push(card);
     show();
   }

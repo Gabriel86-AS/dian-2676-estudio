@@ -1,9 +1,14 @@
 // Shell de la app: enrutador por hash y pantallas.
-import { loadManifest, loadUnit, loadJSON } from './content.js';
+import { loadUnit, loadJSON } from './content.js';
 import { esc, shuffle } from './util.js';
 import { playLesson } from './engine/player.js';
 import { playDeck } from './engine/flashcards.js';
-import { on } from './engine/events.js';
+import { initProgress, getState, isPersistent } from './progress/store.js';
+import { allUnitStats, dueItems, visibleEntry } from './progress/stats.js';
+import { loadData } from './screens/data.js';
+import { renderRepaso, renderSession } from './screens/repaso.js';
+import { renderProgreso } from './screens/progreso.js';
+import { renderAjustes, applySettings } from './screens/ajustes.js';
 
 const view = document.getElementById('view');
 // 8 nov 2026, 8:00 a. m. hora de Bogotá (UTC−5).
@@ -12,10 +17,12 @@ const PRACTICE_SIZE = 10;
 
 const AREA_LABEL = { funcional: 'Funcional', comportamental: 'Comportamental', integridad: 'Integridad' };
 
-// Hasta la fase 3 los eventos solo se registran en consola.
-on('answer', (e) => console.debug('[answer]', e));
-on('lessonComplete', (e) => console.debug('[lessonComplete]', e));
-on('card', (e) => console.debug('[card]', e));
+initProgress();
+applySettings();
+if (!isPersistent()) {
+  document.querySelector('.topbar').insertAdjacentHTML('afterend',
+    '<p class="storage-warn" role="alert">El progreso no se guardará en este navegador.</p>');
+}
 
 let cleanup = null;
 function onLeave(fn) { cleanup = fn; }
@@ -27,12 +34,14 @@ const routes = [
   { re: /^\/leccion\/([\w-]+)\/([\w-]+)$/, tab: 'inicio', render: lessonPage },
   { re: /^\/practicar\/([\w-]+)$/, tab: 'inicio', render: practicePage },
   { re: /^\/tarjetas\/([\w-]+)$/, tab: 'inicio', render: deckPage },
-  { re: /^\/repaso$/, tab: 'repaso', render: () => soon('Repaso de errores') },
+  { re: /^\/repaso$/, tab: 'repaso', render: () => renderRepaso(view) },
+  { re: /^\/repaso\/unidad\/([\w-]+)$/, tab: 'repaso', render: (id) => renderRepaso(view, id) },
+  { re: /^\/repaso\/(errores|dia)$/, tab: 'repaso', render: async (kind) => onLeave(await renderSession(view, kind)) },
   { re: /^\/simulacros$/, tab: 'simulacros', render: () => soon('Simulacros') },
   { re: /^\/simulacro\/([\w-]+)$/, tab: 'simulacros', render: () => soon('Simulacro') },
-  { re: /^\/progreso$/, tab: 'progreso', render: () => soon('Progreso') },
+  { re: /^\/progreso$/, tab: 'progreso', render: () => renderProgreso(view) },
   { re: /^\/recursos$/, tab: 'recursos', render: recursos },
-  { re: /^\/ajustes$/, tab: 'ajustes', render: () => soon('Ajustes') },
+  { re: /^\/ajustes$/, tab: 'ajustes', render: () => renderAjustes(view) },
 ];
 
 async function router() {
@@ -67,6 +76,7 @@ async function home() {
       <div class="cd-grid" id="cd" role="timer" aria-live="off"></div>
       <p class="small">Competencias funcionales: eliminatoria, mínimo 70/100.</p>
     </section>
+    <div id="due-chip"></div>
     <h2 class="section-title">Unidades</h2>
     <div class="unit-grid" id="units"><p class="muted">Cargando unidades…</p></div>`;
 
@@ -78,8 +88,11 @@ async function home() {
 
   const box = document.getElementById('units');
   try {
-    const { units } = await loadManifest();
-    box.innerHTML = units.map(unitCard).join('');
+    const { all, index, state } = await loadData();
+    const stats = allUnitStats(all, index, state).filter((u) => visibleEntry(u.entry, state.settings));
+    box.innerHTML = stats.map(unitCard).join('');
+    const due = dueItems(index, state).filter((x) => visibleEntry(x.entry, state.settings)).length;
+    if (due) document.getElementById('due-chip').innerHTML = `<a class="due-chip" href="#/repaso">Repaso pendiente: ${due}</a>`;
   } catch (err) {
     box.innerHTML = `<div class="card notice"><p>No se pudo cargar la lista de unidades. ${esc(err.message)}</p></div>`;
   }
@@ -97,16 +110,22 @@ function countdownHTML(ms) {
   return parts.map(([n, l]) => `<div class="cd-cell"><span class="cd-num">${n}</span><span class="cd-lbl">${l}</span></div>`).join('');
 }
 
-function unitCard(u) {
+function unitCard(s) {
+  const u = s.entry;
+  const m = Math.round(s.mastery * 100);
   return `
-    <a class="card unit-card" href="#/unidad/${esc(u.id)}">
-      <h3>${esc(u.title)}</h3>
-      <div class="progress" aria-label="Progreso de la unidad: 0 %"><span style="width:0%"></span></div>
+    <div class="card unit-card">
+      <h3><a class="unit-link" href="#/unidad/${esc(u.id)}">${esc(u.title)}</a></h3>
+      <div class="progress" role="img" aria-label="Dominio de la unidad: ${m} %"><span style="width:${m}%"></span></div>
+      <p class="small muted unit-sub">${s.hasContent
+        ? `${m} % dominio · ${s.lessonsDone}/${s.lessonsTotal} lecciones${s.mistakes ? ` · ${s.mistakes} por repasar` : ''}`
+        : 'Contenido en preparación'}</p>
       <div class="unit-meta">
         <span class="badge">${esc(AREA_LABEL[u.area] || u.area)}</span>
         <span class="badge p${u.priority}">Prioridad ${u.priority}</span>
+        ${s.next ? `<a class="btn small-btn continue" href="#/leccion/${esc(u.id)}/${esc(s.next.id)}">Continuar</a>` : ''}
       </div>
-    </a>`;
+    </div>`;
 }
 
 // ---------- Unidad ----------
@@ -128,6 +147,7 @@ async function unitPage(id) {
   const lessons = unit.lessons || [];
   const nQ = unit.questions?.length || 0;
   const nC = deckCards(unit).length;
+  const done = getState().lessons;
   view.innerHTML = `
     <a class="back" href="#/">← Unidades</a>
     <h1>${esc(unit.title)}</h1>
@@ -136,12 +156,17 @@ async function unitPage(id) {
     <div class="unit-actions">
       ${nC ? `<a class="btn secondary" href="#/tarjetas/${esc(unit.id)}">Tarjetas (${nC})</a>` : ''}
       ${nQ ? `<a class="btn secondary" href="#/practicar/${esc(unit.id)}">Practicar preguntas</a>` : ''}
-      <a class="btn secondary" href="#/repaso">Mis errores en esta unidad</a>
+      <a class="btn secondary" href="#/repaso/unidad/${esc(unit.id)}">Mis errores en esta unidad</a>
     </div>
     <section class="card">
       <h2>Lecciones</h2>
-      ${lessons.length ? `<ul class="lesson-list">${lessons.map((l) => `
-        <li><a href="#/leccion/${esc(unit.id)}/${esc(l.id)}"><span>${esc(l.title)}</span><span class="muted small">${l.minutes ? `${l.minutes} min` : ''}</span></a></li>`).join('')}
+      ${lessons.length ? `<ul class="lesson-list">${lessons.map((l) => {
+        const d = done[l.id];
+        return `
+        <li><a href="#/leccion/${esc(unit.id)}/${esc(l.id)}">
+          <span>${d?.completedAt ? '<span class="done" aria-label="Completada">✓</span> ' : ''}${esc(l.title)}</span>
+          <span class="muted small">${d?.completedAt ? `mejor ${Math.round(d.bestAccuracy * 100)} % · ` : ''}${l.minutes ? `${l.minutes} min` : ''}</span></a></li>`;
+      }).join('')}
       </ul>` : '<p class="muted">Aún no hay lecciones.</p>'}
     </section>`;
 }
@@ -158,7 +183,7 @@ async function practicePage(unitId) {
   const unit = await requireUnit(unitId);
   if (!unit) return;
   const picks = shuffle(unit.questions || []).slice(0, PRACTICE_SIZE);
-  const lesson = { id: 'practica', title: `Práctica · ${unit.title}`, steps: picks.map((q) => ({ ref: q.id })) };
+  const lesson = { id: 'practica', virtual: true, title: `Práctica · ${unit.title}`, steps: picks.map((q) => ({ ref: q.id })) };
   onLeave(playLesson({ unit, lesson, el: view, backHref: `#/unidad/${unit.id}` }));
 }
 

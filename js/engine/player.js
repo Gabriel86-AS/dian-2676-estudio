@@ -108,7 +108,7 @@ export function playLesson({ unit, lesson, el, backHref }) {
     if (state === 'next') { idx++; return show(); }
     if (state !== 'answer' || main.disabled) return;
     const { item } = queue[idx];
-    if (item.type === 'concept') { idx++; return show(); }
+    if (item.type === 'concept') { emit('time', { ms: Date.now() - tItem }); idx++; return show(); }
     state = 'checking';
     main.disabled = true;
     const res = await current.check();
@@ -122,7 +122,7 @@ export function playLesson({ unit, lesson, el, backHref }) {
 
   function record(item, res) {
     const ms = Date.now() - tItem;
-    emit('answer', { itemId: item.id, unitId: unit.id, type: item.type, correct: res.correct, partial: !!res.partial, ms, given: res.given });
+    emit('answer', { itemId: item.id, unitId: item._unit || unit.id, type: item.type, correct: res.correct, partial: !!res.partial, ms, given: res.given });
     if (!first.has(item.id)) first.set(item.id, { item, ...res });
     const scored = isScored(item);
     let requeued = false;
@@ -149,7 +149,7 @@ export function playLesson({ unit, lesson, el, backHref }) {
     const correctFirstTry = results.filter((r) => r.correct).length;
     const total = results.length;
     const ms = Date.now() - tStart;
-    emit('lessonComplete', { unitId: unit.id, lessonId: lesson.id, correctFirstTry, total, ms });
+    emit('lessonComplete', { unitId: unit.id, lessonId: lesson.id, correctFirstTry, total, ms, virtual: !!lesson.virtual });
     const missed = results.filter((r) => !r.correct);
     const pct = total ? Math.round((correctFirstTry / total) * 100) : 100;
     document.body.classList.remove('in-lesson');
