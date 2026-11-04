@@ -1,0 +1,534 @@
+{
+  "id": "cambiaria",
+  "title": "Normativa cambiaria",
+  "area": "funcional",
+  "priority": 3,
+  "summary": "Qué controla la DIAN en materia cambiaria y el régimen sancionatorio del Decreto 2245 de 2011: infracciones y multas, prescripción, formulación de cargos y traslado, sanción reducida por reconocimiento (40/60/75 %), recurso de reconsideración y silencio positivo.",
+  "sources": ["Decreto Ley 2245 de 2011, arts. 1–30", "Decreto 1742 de 2020, arts. 1, 3 y 31"],
+  "lessons": [
+    {
+      "id": "camb-01",
+      "title": "Competencia cambiaria de la DIAN",
+      "minutes": 6,
+      "steps": [
+        {
+          "id": "camb-c-001",
+          "type": "concept",
+          "source": "D1742/2020 arts. 1, 3 y 31; D2245/2011 arts. 1, 2, 3 par. 3 y 10",
+          "title": "¿Qué vigila la DIAN?",
+          "body": "- El **Banco de la República** expide la regulación cambiaria; la **DIAN** controla y sanciona las operaciones de su competencia.\n- **Competencia de la DIAN (D1742 art. 1 y art. 31):** importaciones y exportaciones de bienes y servicios, sus **gastos asociados**, su **financiación en moneda extranjera**, la **sub- y sobrefacturación**, el **endeudamiento externo de personas naturales**, los **profesionales de compra y venta de divisas** y las demás operaciones **no asignadas a otra entidad**.\n- **Infracción cambiaria (D2245 art. 2):** contravención **administrativa** del régimen vigente al momento de la transgresión; la sanción busca el cumplimiento y proteger el **orden público económico**.\n- La multa se liquida con la **UVT y la TRM vigentes en la fecha del hecho** (art. 3 par. 3).\n- Si en una investigación tributaria o aduanera se detecta una posible infracción cambiaria, se **trasladan las pruebas** a la dependencia competente, y viceversa (art. 10)."
+        },
+        { "ref": "camb-q-001" },
+        { "ref": "camb-q-002" },
+        { "ref": "camb-q-020" },
+        { "ref": "camb-q-021" },
+        { "ref": "camb-q-015" },
+        { "ref": "camb-q-029" },
+        { "ref": "camb-q-026" }
+      ]
+    },
+    {
+      "id": "camb-02",
+      "title": "Infracciones y multas (D2245 art. 3)",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "camb-c-002",
+          "type": "concept",
+          "source": "D2245/2011 art. 3",
+          "title": "Las multas que más se preguntan",
+          "body": "| Conducta | Multa |\n|---|---|\n| Pagar o recibir por el **mercado no cambiario** operaciones de **canalización obligatoria** (num. 2) | **100 %** del monto dejado de canalizar |\n| Canalizar **menos** de lo que dicen los documentos de aduana (num. 4) | 100 % de la diferencia |\n| **Reintegrar** fuera del plazo general (num. 6) | **40 UVT por mes o fracción**, máximo **400 UVT** por reintegro |\n| No transmitir al BanRep la relación de operaciones de la **cuenta de compensación** (num. 12) | según el numeral |\n| Ejercer como **profesional de cambio** sin requisitos o sin inscripción en el registro de la DIAN (num. 18) | según el numeral |\n| No **declarar efectivo** al entrar o salir del país (num. 28) | **30 %** (ingreso) / **40 %** (egreso) del valor no declarado |\n\n**Mínimos y reincidencia (par. 4):** para los num. 2–5 y 7–10, mínimo **200 UVT**, y **+1/3** si ya fue sancionado por el mismo tipo en los **5 años** anteriores; para los demás numerales, mínimo **25 UVT**.\n\n**Frontera (par. 5):** las sanciones de los num. 19–23 se **reducen 1/3** para profesionales de cambio autorizados en zonas de frontera."
+        },
+        { "ref": "camb-q-017" },
+        { "ref": "camb-q-018" },
+        { "ref": "camb-q-019" },
+        { "ref": "camb-q-022" },
+        { "ref": "camb-q-030" },
+        { "ref": "camb-q-014" }
+      ]
+    },
+    {
+      "id": "camb-03",
+      "title": "Procedimiento: cargos, traslado y prescripción",
+      "minutes": 9,
+      "steps": [
+        {
+          "id": "camb-c-003",
+          "type": "concept",
+          "source": "D2245/2011 arts. 5, 7, 8, 9, 11, 21 y 24",
+          "title": "Del inicio a la resolución sancionatoria",
+          "body": "1. **Inicio (art. 7):** de oficio, por informes de terceros, visitas, traslado de otras autoridades, quejas o cualquier medio creíble. No se requiere que el investigado lo sepa.\n2. **Facultades (art. 9):** diligencias, **visitas de registro, inspección, vigilancia y control**, copias de documentos. A la DIAN **no se le oponen la reserva bancaria ni la judicial** (art. 8).\n3. **Acto de formulación de cargos (art. 11):** motivado, con hechos, pruebas, normas y liquidación de la multa propuesta. **No tiene recurso.** Debe **notificarse dentro de 5 años** desde los hechos (art. 5).\n4. **Traslado (art. 21):** **2 meses**; es la **única oportunidad** para presentar descargos y pedir pruebas.\n5. **Pruebas (art. 24):** hasta **4 meses** (en Colombia) o **6 meses** (en el exterior).\n6. **Resolución sancionatoria o de terminación:** dentro de los **2 años** siguientes al vencimiento del término de respuesta a los cargos (art. 5).\n\n**Infracción continuada:** la prescripción corre desde el **último hecho**; el incumplimiento de **plazos** no es infracción continuada (art. 5)."
+        },
+        { "ref": "camb-q-003" },
+        { "ref": "camb-q-004" },
+        { "ref": "camb-q-005" },
+        { "ref": "camb-q-006" },
+        { "ref": "camb-q-007" },
+        { "ref": "camb-q-025" },
+        { "ref": "camb-q-016" },
+        { "ref": "camb-q-024" },
+        { "ref": "camb-q-028" }
+      ]
+    },
+    {
+      "id": "camb-04",
+      "title": "Sanción reducida y recurso de reconsideración",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "camb-c-004",
+          "type": "concept",
+          "source": "D2245/2011 arts. 11 par., 23, 26, 28 y 30",
+          "title": "Reconocer y pagar: 40 %, 60 % o 75 %",
+          "body": "**Sanción reducida (art. 23)**, si el investigado o su apoderado facultado reconoce la infracción y paga:\n\n| Momento del reconocimiento | Paga |\n|---|---|\n| **Antes de la visita** administrativa de la DIAN | **40 %** de la sanción |\n| Dentro del **traslado** del acto de formulación de cargos | **60 %** de la multa propuesta |\n| Dentro del término para interponer el **recurso** contra la resolución sancionatoria | **75 %** de la multa impuesta |\n\nCumplir u ordenar la operación **después** de notificados los cargos **no sanea** la infracción (art. 11 par.).\n\n**Recurso de reconsideración (art. 26):** contra la resolución que impone multa, entre otras; se presenta ante la **División de Gestión Jurídica** (o quien haga sus veces) **dentro del mes siguiente** a la notificación.\n\n**Término para resolverlo (art. 28):** **7 meses** desde su interposición en debida forma. Si vence sin decisión notificada, se entiende **fallado a favor del recurrente** (silencio positivo, art. 30)."
+        },
+        { "ref": "camb-q-008" },
+        { "ref": "camb-q-009" },
+        { "ref": "camb-q-010" },
+        { "ref": "camb-q-011" },
+        { "ref": "camb-q-023" },
+        { "ref": "camb-q-012" },
+        { "ref": "camb-q-013" },
+        { "ref": "camb-q-027" }
+      ]
+    }
+  ],
+  "flashcards": [
+    { "id": "camb-fc-001", "front": "¿Quién regula el régimen cambiario y quién controla las operaciones de comercio exterior?", "back": "Regula el Banco de la República; la DIAN controla y sanciona las operaciones de su competencia.", "source": "D2245/2011 considerandos y art. 1; D1742/2020 art. 1" },
+    { "id": "camb-fc-002", "front": "Operaciones cambiarias que controla la DIAN", "back": "Importaciones y exportaciones de bienes y servicios, gastos asociados, financiación en moneda extranjera, sub/sobrefacturación, endeudamiento externo de personas naturales, profesionales de cambio y operaciones no asignadas a otra entidad.", "source": "D1742/2020 arts. 1 y 31" },
+    { "id": "camb-fc-003", "front": "¿Qué es una infracción cambiaria?", "back": "Una contravención administrativa del régimen cambiario vigente al momento de la transgresión.", "source": "D2245/2011 art. 2" },
+    { "id": "camb-fc-004", "front": "Plazo para notificar el acto de formulación de cargos", "back": "5 años desde la ocurrencia de los hechos (en infracción continuada, desde el último hecho).", "source": "D2245/2011 art. 5" },
+    { "id": "camb-fc-005", "front": "Plazo para expedir y notificar la resolución sancionatoria", "back": "2 años desde el vencimiento del término de respuesta al acto de formulación de cargos.", "source": "D2245/2011 art. 5" },
+    { "id": "camb-fc-006", "front": "¿El incumplimiento de plazos cambiarios es infracción continuada?", "back": "No. La norma lo excluye expresamente.", "source": "D2245/2011 art. 5" },
+    { "id": "camb-fc-007", "front": "Término de traslado del acto de formulación de cargos", "back": "2 meses desde el día siguiente a su notificación; única oportunidad para presentar descargos.", "source": "D2245/2011 art. 21" },
+    { "id": "camb-fc-008", "front": "¿Procede recurso contra el acto de formulación de cargos?", "back": "No.", "source": "D2245/2011 art. 11" },
+    { "id": "camb-fc-009", "front": "Término máximo del período probatorio", "back": "4 meses (pruebas en Colombia) o 6 meses (en el exterior).", "source": "D2245/2011 art. 24" },
+    { "id": "camb-fc-010", "front": "¿Se puede oponer la reserva bancaria a la DIAN en una investigación cambiaria?", "back": "No; tampoco la judicial. Los documentos conservan su reserva en cuaderno separado.", "source": "D2245/2011 art. 8" },
+    { "id": "camb-fc-011", "front": "Sanción reducida si se reconoce antes de la visita de la DIAN", "back": "Se paga el 40 % de la sanción.", "source": "D2245/2011 art. 23 num. 1" },
+    { "id": "camb-fc-012", "front": "Sanción reducida si se reconoce durante el traslado de cargos", "back": "Se paga el 60 % de la multa propuesta.", "source": "D2245/2011 art. 23 num. 2" },
+    { "id": "camb-fc-013", "front": "Sanción reducida si se reconoce en el término del recurso", "back": "Se paga el 75 % de la multa impuesta.", "source": "D2245/2011 art. 23 num. 3" },
+    { "id": "camb-fc-014", "front": "Recurso de reconsideración cambiario: ¿ante quién y en qué plazo?", "back": "Ante la División de Gestión Jurídica competente, dentro del mes siguiente a la notificación.", "source": "D2245/2011 art. 26" },
+    { "id": "camb-fc-015", "front": "Plazo para resolver el recurso y efecto si vence", "back": "7 meses; si vence sin decisión notificada, se entiende fallado a favor del recurrente.", "source": "D2245/2011 arts. 28 y 30" },
+    { "id": "camb-fc-016", "front": "Multa por pagar por el mercado no cambiario una operación de canalización obligatoria", "back": "100 % del monto dejado de canalizar.", "source": "D2245/2011 art. 3 num. 2" },
+    { "id": "camb-fc-017", "front": "Multa por reintegro extemporáneo", "back": "40 UVT por cada mes o fracción de retardo, sin exceder 400 UVT por reintegro.", "source": "D2245/2011 art. 3 num. 6" },
+    { "id": "camb-fc-018", "front": "Multa por no declarar efectivo al ingresar o salir del país", "back": "30 % del valor no declarado al ingresar; 40 % al salir.", "source": "D2245/2011 art. 3 num. 28" },
+    { "id": "camb-fc-019", "front": "Mínimo y reincidencia en las infracciones de los num. 2–5 y 7–10", "back": "Mínimo 200 UVT; se incrementa 1/3 si hubo sanción en firme por el mismo tipo en los 5 años anteriores.", "source": "D2245/2011 art. 3 par. 4" },
+    { "id": "camb-fc-020", "front": "¿Con qué UVT y TRM se liquida la multa cambiaria?", "back": "Con las vigentes en la fecha de ocurrencia del hecho.", "source": "D2245/2011 art. 3 par. 3" }
+  ],
+  "questions": [
+    {
+      "id": "camb-q-001", "type": "mcq", "difficulty": 1, "source": "D2245/2011 art. 2",
+      "prompt": "Según el Decreto 2245 de 2011, la infracción cambiaria es:",
+      "options": [
+        { "id": "a", "text": "Un delito contra el orden económico que juzga un juez penal" },
+        { "id": "b", "text": "Una contravención administrativa del régimen cambiario vigente" },
+        { "id": "c", "text": "Una falta disciplinaria de los intermediarios del mercado" },
+        { "id": "d", "text": "Un incumplimiento tributario que se sanciona según el ET" }
+      ],
+      "answer": "b",
+      "explain": "El art. 2 la define como contravención administrativa de las normas cambiarias vigentes al momento de la transgresión.",
+      "optionWhy": {
+        "a": "Es administrativa, no penal.",
+        "c": "No es disciplinaria ni se limita a los intermediarios.",
+        "d": "Tiene un régimen propio (D2245), distinto del ET."
+      }
+    },
+    {
+      "id": "camb-q-002", "type": "truefalse", "difficulty": 1, "source": "D2245/2011 considerandos y art. 1",
+      "statement": "La DIAN expide las regulaciones cambiarias que luego ella misma controla.",
+      "answer": false,
+      "explain": "Falso. Las regulaciones cambiarias las expide el Banco de la República; la DIAN determina y sanciona las infracciones de su competencia."
+    },
+    {
+      "id": "camb-q-003", "type": "mcq", "difficulty": 1, "source": "D2245/2011 art. 5",
+      "prompt": "El acto de formulación de cargos cambiarios debe notificarse dentro de:",
+      "options": [
+        { "id": "a", "text": "Los 2 años siguientes a la ocurrencia de los hechos" },
+        { "id": "b", "text": "Los 3 años siguientes al vencimiento para declarar" },
+        { "id": "c", "text": "Los 5 años siguientes a la ocurrencia de los hechos" },
+        { "id": "d", "text": "Los 10 años siguientes a la operación de cambio" }
+      ],
+      "answer": "c",
+      "explain": "El art. 5 exige notificar el acto de formulación de cargos dentro de los 5 años siguientes a los hechos.",
+      "optionWhy": {
+        "a": "Los 2 años son para expedir la resolución sancionatoria tras la respuesta a los cargos.",
+        "b": "Los 3 años son un término tributario (requerimiento especial), no cambiario.",
+        "d": "No existe ese término en el D2245."
+      }
+    },
+    {
+      "id": "camb-q-004", "type": "pjs", "difficulty": 3, "source": "D2245/2011 art. 5",
+      "case": "Un importador canalizó pagos por el mercado no cambiario en marzo de 2021, junio de 2022 y agosto de 2023, todos violando la misma norma. El gestor evalúa en 2026 si aún puede formular cargos por toda la conducta.",
+      "prompt": "¿Desde cuándo se cuenta la prescripción?",
+      "options": [
+        { "id": "a", "text": "Desde marzo de 2021, el primer hecho, por lo que todo prescribió." },
+        { "id": "b", "text": "Desde agosto de 2023, el último hecho, por tratarse de infracción continuada." },
+        { "id": "c", "text": "Desde la fecha en que la DIAN conoció los hechos por primera vez." }
+      ],
+      "answer": "b",
+      "explain": "En la infracción continuada (varias acciones que violan la misma norma), los 5 años se cuentan desde el último hecho (art. 5).",
+      "optionWhy": {
+        "a": "Contar desde el primer hecho ignora la regla de la infracción continuada.",
+        "c": "La norma cuenta desde los hechos, no desde que la DIAN los conoce."
+      }
+    },
+    {
+      "id": "camb-q-005", "type": "pjs", "difficulty": 3, "source": "D2245/2011 art. 5",
+      "case": "Una empresa transmitió tarde al Banco de la República, en cinco meses distintos, información que debía reportar en un plazo fijo. Un compañero propone tratarlo como infracción continuada para contar la prescripción desde el último retraso.",
+      "prompt": "El gestor debe responder que:",
+      "options": [
+        { "id": "a", "text": "Es correcto, porque todos los retrasos violan la misma norma." },
+        { "id": "b", "text": "Es correcto solo si los retrasos ocurrieron en el mismo año." },
+        { "id": "c", "text": "No procede: el incumplimiento de plazos no es infracción continuada." }
+      ],
+      "answer": "c",
+      "explain": "El art. 5 dice expresamente que no se considera infracción continuada el incumplimiento de plazos o términos legales.",
+      "optionWhy": {
+        "a": "La regla general cede ante la exclusión expresa de los incumplimientos de plazos.",
+        "b": "La norma no hace distinción por año."
+      }
+    },
+    {
+      "id": "camb-q-006", "type": "mcq", "difficulty": 2, "source": "D2245/2011 art. 5",
+      "prompt": "Vencido el término de respuesta al acto de formulación de cargos, la DIAN debe expedir y notificar la resolución sancionatoria o de terminación dentro de:",
+      "options": [
+        { "id": "a", "text": "2 años" },
+        { "id": "b", "text": "6 meses" },
+        { "id": "c", "text": "1 año" },
+        { "id": "d", "text": "5 años" }
+      ],
+      "answer": "a",
+      "explain": "El art. 5 da 2 años desde el vencimiento del término de respuesta a los cargos, previa práctica de pruebas.",
+      "optionWhy": {
+        "b": "6 meses es el tope del período probatorio en el exterior (art. 24).",
+        "c": "No es el término del art. 5.",
+        "d": "5 años es el plazo para notificar los cargos."
+      }
+    },
+    {
+      "id": "camb-q-007", "type": "pjs", "difficulty": 2, "source": "D2245/2011 art. 21",
+      "case": "Se notificó un acto de formulación de cargos cambiarios. Tres meses después, el investigado presenta sus descargos y pide pruebas.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        { "id": "a", "text": "Estudiar los descargos, porque pueden presentarse hasta la resolución sancionatoria." },
+        { "id": "b", "text": "Tenerlos por extemporáneos: el traslado es de 2 meses y es la única oportunidad." },
+        { "id": "c", "text": "Abrir un nuevo traslado de 1 mes para garantizar el derecho de defensa." }
+      ],
+      "answer": "b",
+      "explain": "El traslado dura 2 meses desde el día siguiente a la notificación y es la única oportunidad para presentar descargos y pedir pruebas (art. 21).",
+      "optionWhy": {
+        "a": "La norma limita los descargos al término de traslado.",
+        "c": "No está previsto un segundo traslado."
+      }
+    },
+    {
+      "id": "camb-q-008", "type": "pjs", "difficulty": 2, "source": "D2245/2011 art. 23 num. 1",
+      "case": "Antes de cualquier visita de la DIAN, un exportador descubre que reintegró tarde varias divisas. Quiere reconocer la infracción voluntariamente.",
+      "prompt": "Para obtener la sanción reducida debe pagar:",
+      "options": [
+        { "id": "a", "text": "El 75 % de la sanción, adjuntando el escrito de reconocimiento." },
+        { "id": "b", "text": "El 60 % de la sanción, adjuntando el escrito de reconocimiento." },
+        { "id": "c", "text": "El 40 % de la sanción, adjuntando el escrito de reconocimiento." }
+      ],
+      "answer": "c",
+      "explain": "Si reconoce antes de que la DIAN inicie visita administrativa, paga el 40 % de la sanción (art. 23 num. 1).",
+      "optionWhy": {
+        "a": "El 75 % aplica al reconocimiento en el término del recurso.",
+        "b": "El 60 % aplica durante el traslado de cargos."
+      }
+    },
+    {
+      "id": "camb-q-009", "type": "pjs", "difficulty": 3, "source": "D2245/2011 art. 23 num. 2",
+      "case": "Se notificó un acto de formulación de cargos que propone una multa de 1.000 UVT. Un mes después, el investigado reconoce la infracción.",
+      "prompt": "¿Cuánto debe pagar para la sanción reducida?",
+      "options": [
+        { "id": "a", "text": "400 UVT, que es el 40 % de la multa propuesta." },
+        { "id": "b", "text": "600 UVT, que es el 60 % de la multa propuesta." },
+        { "id": "c", "text": "750 UVT, que es el 75 % de la multa propuesta." }
+      ],
+      "answer": "b",
+      "explain": "Está dentro del traslado (2 meses), así que paga el 60 %: 1.000 × 60 % = 600 UVT (art. 23 num. 2).",
+      "optionWhy": {
+        "a": "El 40 % solo aplica si reconoce antes de la visita de la DIAN.",
+        "c": "El 75 % aplica después de la resolución sancionatoria."
+      }
+    },
+    {
+      "id": "camb-q-010", "type": "pjs", "difficulty": 3, "source": "D2245/2011 arts. 23 num. 3 y 26",
+      "case": "Se notificó la resolución que impone una multa cambiaria de 800 UVT. Diez días después, el sancionado quiere reconocer la infracción en lugar de recurrir.",
+      "prompt": "¿Qué debe hacer para obtener la reducción?",
+      "options": [
+        { "id": "a", "text": "Reconocer y pagar 600 UVT (75 %) dentro del mes para recurrir." },
+        { "id": "b", "text": "Reconocer y pagar 480 UVT (60 %) dentro del mes para recurrir." },
+        { "id": "c", "text": "Pagar la multa completa: después de la sanción ya no hay reducción." }
+      ],
+      "answer": "a",
+      "explain": "Si reconoce dentro del término para interponer el recurso (1 mes, art. 26), paga el 75 % de la multa impuesta: 800 × 75 % = 600 UVT (art. 23 num. 3).",
+      "optionWhy": {
+        "b": "El 60 % es para el reconocimiento durante el traslado de cargos.",
+        "c": "La norma sí prevé reducción en esta etapa."
+      }
+    },
+    {
+      "id": "camb-q-011", "type": "match", "difficulty": 2, "source": "D2245/2011 art. 23",
+      "prompt": "Relaciona el momento del reconocimiento con el porcentaje que se paga.",
+      "pairs": [
+        { "left": "Antes de la visita de la DIAN", "right": "40 %" },
+        { "left": "Durante el traslado de cargos", "right": "60 %" },
+        { "left": "En el término del recurso de reconsideración", "right": "75 %" }
+      ],
+      "explain": "Cuanto más tarde se reconoce, mayor es el porcentaje que se paga."
+    },
+    {
+      "id": "camb-q-012", "type": "pjs", "difficulty": 2, "source": "D2245/2011 art. 26",
+      "case": "Un profesional de cambio fue sancionado con multa. Pregunta al gestor cómo impugnar la decisión.",
+      "prompt": "La orientación correcta es:",
+      "options": [
+        { "id": "a", "text": "Presentar recurso de apelación ante el Director General dentro de 10 días." },
+        { "id": "b", "text": "Presentar recurso de reconsideración ante la División de Gestión Jurídica dentro del mes siguiente." },
+        { "id": "c", "text": "Presentar recurso de reposición ante quien firmó, dentro de los 2 meses siguientes." }
+      ],
+      "answer": "b",
+      "explain": "Procede únicamente el recurso de reconsideración, ante la División de Gestión Jurídica competente, dentro del mes siguiente a la notificación (art. 26).",
+      "optionWhy": {
+        "a": "No procede apelación ni ante el Director General.",
+        "c": "No procede reposición y el plazo es de un mes."
+      }
+    },
+    {
+      "id": "camb-q-013", "type": "pjs", "difficulty": 3, "source": "D2245/2011 arts. 28 y 30",
+      "case": "Un recurso de reconsideración cambiario se interpuso en debida forma hace 7 meses y 5 días. No hubo suspensión de términos y la DIAN no ha notificado decisión.",
+      "prompt": "¿Cuál es la situación del recurso?",
+      "options": [
+        { "id": "a", "text": "Se entiende fallado a favor del recurrente por silencio administrativo positivo." },
+        { "id": "b", "text": "Se entiende negado y el recurrente puede acudir directamente a la jurisdicción." },
+        { "id": "c", "text": "La DIAN conserva 2 años más para decidir, porque el término no es perentorio." }
+      ],
+      "answer": "a",
+      "explain": "El término para resolver es de 7 meses (art. 28); si vence sin decisión notificada, se entiende fallado a favor del recurrente (art. 30).",
+      "optionWhy": {
+        "b": "El silencio previsto aquí es positivo, no negativo.",
+        "c": "El término de 7 meses sí es perentorio y su vencimiento tiene efecto."
+      }
+    },
+    {
+      "id": "camb-q-014", "type": "pjs", "difficulty": 2, "source": "D2245/2011 art. 11 par.",
+      "case": "Después de notificado el acto de formulación de cargos por no canalizar una exportación, la empresa canaliza las divisas y pide archivar la investigación porque «ya cumplió».",
+      "prompt": "La respuesta correcta es:",
+      "options": [
+        { "id": "a", "text": "Archivar, porque el saneamiento elimina la infracción en cualquier momento." },
+        { "id": "b", "text": "Archivar solo si la canalización se hizo antes de la resolución sancionatoria." },
+        { "id": "c", "text": "Continuar: cumplir tras la notificación de cargos no sanea la infracción." }
+      ],
+      "answer": "c",
+      "explain": "El cumplimiento o saneamiento posterior a la notificación del acto de formulación de cargos no sanea ni elimina la infracción (art. 11 par.).",
+      "optionWhy": {
+        "a": "La norma fija un límite: la notificación de los cargos.",
+        "b": "El límite no es la resolución sancionatoria, sino la notificación de los cargos."
+      }
+    },
+    {
+      "id": "camb-q-015", "type": "pjs", "difficulty": 1, "source": "D2245/2011 art. 10",
+      "case": "En una auditoría de renta, el gestor encuentra pagos de importaciones hechos a través del mercado no cambiario.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        { "id": "a", "text": "Remitir las pruebas a la dependencia competente para la investigación cambiaria." },
+        { "id": "b", "text": "Ignorar el hallazgo, porque su auditoría es solo tributaria." },
+        { "id": "c", "text": "Imponer él mismo la multa cambiaria dentro de la liquidación de renta." }
+      ],
+      "answer": "a",
+      "explain": "Quien detecta posibles infracciones cambiarias en una actuación tributaria o aduanera remite documentos y pruebas a la dependencia competente (art. 10).",
+      "optionWhy": {
+        "b": "La norma obliga a trasladar la información.",
+        "c": "La sanción cambiaria tiene su propio procedimiento y dependencia."
+      }
+    },
+    {
+      "id": "camb-q-016", "type": "pjs", "difficulty": 2, "source": "D2245/2011 art. 8",
+      "case": "En una investigación cambiaria, un banco se niega a entregar los extractos de un investigado, alegando reserva bancaria.",
+      "prompt": "El gestor debe:",
+      "options": [
+        { "id": "a", "text": "Pedir una orden judicial, porque la reserva bancaria solo cede ante un juez." },
+        { "id": "b", "text": "Insistir: la reserva bancaria no es oponible a la DIAN en esta materia." },
+        { "id": "c", "text": "Desistir de la prueba y pedir los extractos al propio investigado." }
+      ],
+      "answer": "b",
+      "explain": "A las actuaciones cambiarias de la DIAN no se pueden oponer la reserva bancaria ni la judicial; los documentos siguen reservados en cuaderno separado (art. 8).",
+      "optionWhy": {
+        "a": "El art. 8 no exige orden judicial.",
+        "c": "La DIAN puede obtenerlos directamente del banco."
+      }
+    },
+    {
+      "id": "camb-q-017", "type": "pjs", "difficulty": 1, "source": "D2245/2011 art. 3 num. 2",
+      "case": "Un importador pagó a su proveedor del exterior USD 50.000 en efectivo, por fuera de los intermediarios del mercado cambiario, aunque la operación era de canalización obligatoria.",
+      "prompt": "La multa a proponer es:",
+      "options": [
+        { "id": "a", "text": "El 30 % del monto dejado de canalizar." },
+        { "id": "b", "text": "El 100 % del monto dejado de canalizar." },
+        { "id": "c", "text": "40 UVT por cada mes de retraso." }
+      ],
+      "answer": "b",
+      "explain": "Pagar por el mercado no cambiario operaciones obligatoriamente canalizables genera multa del 100 % del monto dejado de canalizar (art. 3 num. 2), con mínimo de 200 UVT (par. 4).",
+      "optionWhy": {
+        "a": "El 30 % es para el efectivo no declarado al ingresar al país (num. 28).",
+        "c": "Los 40 UVT por mes son para el reintegro extemporáneo (num. 6)."
+      }
+    },
+    {
+      "id": "camb-q-018", "type": "pjs", "difficulty": 3, "source": "D2245/2011 art. 3 num. 6 y par. 4",
+      "case": "Un exportador reintegró las divisas de una exportación 3 meses y 10 días después del plazo general de reintegro. No tiene sanciones previas.",
+      "prompt": "¿Qué multa corresponde proponer?",
+      "options": [
+        { "id": "a", "text": "120 UVT: 40 UVT por cada uno de los 3 meses completos." },
+        { "id": "b", "text": "200 UVT: el mínimo para infracciones de canalización." },
+        { "id": "c", "text": "160 UVT: 40 UVT por cada mes o fracción (4 periodos)." }
+      ],
+      "answer": "c",
+      "explain": "Son 40 UVT por cada mes **o fracción** de retardo: 3 meses y 10 días = 4 periodos × 40 = 160 UVT, sin superar 400 UVT. El num. 6 no está entre los que tienen mínimo de 200 UVT; su mínimo es 25 UVT (par. 4).",
+      "optionWhy": {
+        "a": "La fracción de mes también cuenta como un periodo completo.",
+        "b": "El mínimo de 200 UVT aplica a los num. 2–5 y 7–10, no al num. 6."
+      }
+    },
+    {
+      "id": "camb-q-019", "type": "pjs", "difficulty": 3, "source": "D2245/2011 art. 3 num. 28",
+      "case": "Un viajero sale del país con el equivalente a $60 millones en efectivo sin presentar la declaración exigida por el régimen cambiario.",
+      "prompt": "La multa a proponer es:",
+      "options": [
+        { "id": "a", "text": "$18 millones: el 30 % del valor no declarado." },
+        { "id": "b", "text": "$24 millones: el 40 % del valor no declarado." },
+        { "id": "c", "text": "$60 millones: el 100 % del valor no declarado." }
+      ],
+      "answer": "b",
+      "explain": "En operaciones de **egreso** la multa es del 40 % del valor dejado de declarar: 60 × 40 % = $24 millones (num. 28). En ingreso sería 30 %.",
+      "optionWhy": {
+        "a": "El 30 % aplica al ingreso de efectivo, no a la salida.",
+        "c": "El 100 % corresponde a otras conductas, como no canalizar."
+      }
+    },
+    {
+      "id": "camb-q-020", "type": "pjs", "difficulty": 1, "source": "D1742/2020 art. 1; D2245/2011 art. 1",
+      "case": "Un exportador facturó sus ventas al exterior por debajo del valor real y recibió la diferencia por fuera del mercado cambiario.",
+      "prompt": "¿A quién corresponde investigar la infracción cambiaria?",
+      "options": [
+        { "id": "a", "text": "A la Superintendencia Financiera, que vigila el mercado de divisas." },
+        { "id": "b", "text": "Al Banco de la República, que expide la regulación cambiaria." },
+        { "id": "c", "text": "A la DIAN, que controla la subfacturación de exportaciones." }
+      ],
+      "answer": "c",
+      "explain": "La DIAN controla el régimen cambiario en exportaciones, incluida la sub- y sobrefacturación (D1742 art. 1), y aplica el D2245.",
+      "optionWhy": {
+        "a": "Este control de operaciones de comercio exterior no es de la Superfinanciera.",
+        "b": "El Banco de la República regula, pero no investiga ni sanciona estas operaciones."
+      }
+    },
+    {
+      "id": "camb-q-021", "type": "pjs", "difficulty": 2, "source": "D1742/2020 art. 3 num. 7; D2245/2011 art. 3 num. 18",
+      "case": "En una visita, el gestor encuentra un local que compra y vende dólares en efectivo de forma habitual y profesional, pero no está inscrito en el registro de profesionales de cambio de la DIAN.",
+      "prompt": "La situación configura:",
+      "options": [
+        { "id": "a", "text": "Una infracción cambiaria por ejercer la actividad sin estar inscrito." },
+        { "id": "b", "text": "Una conducta permitida si las operaciones son de bajo monto." },
+        { "id": "c", "text": "Un asunto de la cámara de comercio por falta de matrícula." }
+      ],
+      "answer": "a",
+      "explain": "Ejercer profesionalmente la compra y venta de divisas sin requisitos o sin inscripción en el registro de la DIAN es infracción (D2245 art. 3 num. 18). La DIAN autoriza y vigila esta actividad (D1742 art. 3 num. 7).",
+      "optionWhy": {
+        "b": "La norma no exime por monto.",
+        "c": "El registro que se exige es el de la DIAN, no solo la matrícula mercantil."
+      }
+    },
+    {
+      "id": "camb-q-022", "type": "mcq", "difficulty": 3, "source": "D2245/2011 art. 3 par. 4",
+      "prompt": "Una empresa ya fue sancionada (acto en firme hace 3 años) por pagar por el mercado no cambiario. Ahora repite la conducta. La multa a proponer:",
+      "options": [
+        { "id": "a", "text": "Se duplica por ser la segunda vez" },
+        { "id": "b", "text": "Se mantiene igual: no hay reincidencia cambiaria" },
+        { "id": "c", "text": "Se incrementa en una tercera parte por reincidencia" },
+        { "id": "d", "text": "Se reduce, porque ya pagó la primera sanción" }
+      ],
+      "answer": "c",
+      "explain": "Para los num. 2–5 y 7–10, la sanción se incrementa en 1/3 si hubo sanción en firme por el mismo tipo dentro de los 5 años anteriores (par. 4).",
+      "optionWhy": {
+        "a": "El incremento es de un tercio, no del doble.",
+        "b": "El par. 4 sí prevé el incremento por reincidencia.",
+        "d": "Haber pagado antes no reduce la nueva sanción."
+      }
+    },
+    {
+      "id": "camb-q-023", "type": "cloze", "difficulty": 1, "source": "D2245/2011 art. 21",
+      "text": "El término de traslado del acto de formulación de cargos es de {{2}} meses, y es la única oportunidad para presentar descargos.",
+      "alternatives": { "2": ["dos"] }
+    },
+    {
+      "id": "camb-q-024", "type": "order", "difficulty": 2, "source": "D2245/2011 arts. 7, 11, 21, 24, 26",
+      "prompt": "Ordena las etapas del procedimiento administrativo cambiario.",
+      "items": ["Inicio de la actuación (de oficio, visita, queja…)", "Acto de formulación de cargos", "Traslado de 2 meses para descargos", "Período probatorio", "Resolución sancionatoria o de terminación", "Recurso de reconsideración"],
+      "explain": "Los cargos son requisito previo de la sanción; el recurso procede contra la resolución que impone la multa."
+    },
+    {
+      "id": "camb-q-025", "type": "truefalse", "difficulty": 1, "source": "D2245/2011 art. 11",
+      "statement": "Contra el acto de formulación de cargos cambiarios procede el recurso de reconsideración.",
+      "answer": false,
+      "explain": "Falso. Es un acto motivado contra el cual no procede recurso alguno; la defensa se ejerce con los descargos en el traslado."
+    },
+    {
+      "id": "camb-q-026", "type": "open", "difficulty": 2, "source": "D1742/2020 arts. 1 y 31; D2245/2011 art. 1",
+      "prompt": "Explica en 2–3 líneas el papel del Banco de la República y el de la DIAN en el régimen cambiario.",
+      "modelAnswer": "El Banco de la República expide la regulación cambiaria. La DIAN controla y sanciona, con el D2245/2011, las operaciones de su competencia: importaciones y exportaciones, sus gastos y financiación en moneda extranjera, sub/sobrefacturación, endeudamiento externo de personas naturales, profesionales de cambio y operaciones no asignadas a otra entidad.",
+      "keyPoints": ["Banco de la República: regula", "DIAN: controla y sanciona", "Comercio exterior, financiación, sub/sobrefacturación", "Endeudamiento externo de personas naturales y profesionales de cambio"],
+      "keywords": ["banco de la republica", "regula", "dian", "sanciona", "importaciones", "exportaciones", "personas naturales", "profesionales"],
+      "minKeywords": 4
+    },
+    {
+      "id": "camb-q-027", "type": "open", "difficulty": 3, "source": "D2245/2011 art. 23",
+      "prompt": "Explica las tres oportunidades de sanción reducida del D2245/2011 y su porcentaje.",
+      "modelAnswer": "Si el investigado reconoce la infracción antes de la visita de la DIAN, paga el 40 % de la sanción. Si la reconoce durante el traslado del acto de formulación de cargos, paga el 60 % de la multa propuesta. Si la reconoce dentro del término para recurrir la resolución sancionatoria, paga el 75 % de la multa impuesta. Debe presentar un escrito y acreditar el pago.",
+      "keyPoints": ["Antes de la visita: 40 %", "Traslado de cargos: 60 %", "Término del recurso: 75 %", "Escrito de reconocimiento y prueba del pago"],
+      "keywords": ["40", "60", "75", "visita", "traslado", "recurso", "pago", "reconocimiento"],
+      "minKeywords": 5
+    },
+    {
+      "id": "camb-q-028", "type": "open", "difficulty": 2, "source": "D2245/2011 art. 5",
+      "prompt": "Explica los términos de prescripción de la acción sancionatoria cambiaria.",
+      "modelAnswer": "Los cargos deben notificarse dentro de los 5 años siguientes a los hechos; en la infracción continuada, desde el último hecho (no aplica a incumplimientos de plazos). Luego, la resolución sancionatoria o de terminación debe notificarse dentro de los 2 años siguientes al vencimiento del término para responder los cargos. La prescripción se decreta de oficio o a petición.",
+      "keyPoints": ["5 años para notificar los cargos", "Infracción continuada: desde el último hecho", "Los incumplimientos de plazos no son continuados", "2 años para la resolución tras la respuesta a los cargos"],
+      "keywords": ["5 anos", "2 anos", "cargos", "continuada", "ultimo hecho", "resolucion", "plazos"],
+      "minKeywords": 4
+    },
+    {
+      "id": "camb-q-029", "type": "mcq", "difficulty": 1, "source": "D2245/2011 art. 3 par. 3",
+      "prompt": "Para liquidar una multa cambiaria se usan la UVT y la TRM vigentes:",
+      "options": [
+        { "id": "a", "text": "En la fecha de expedición de la resolución sancionatoria" },
+        { "id": "b", "text": "En la fecha de notificación de los cargos" },
+        { "id": "c", "text": "En la fecha de ocurrencia del hecho constitutivo de infracción" },
+        { "id": "d", "text": "En la fecha en que el sancionado paga la multa" }
+      ],
+      "answer": "c",
+      "explain": "El par. 3 del art. 3 ordena usar la UVT y la TRM vigentes en la fecha de ocurrencia del hecho.",
+      "optionWhy": {
+        "a": "La resolución no fija la fecha de la UVT ni de la TRM.",
+        "b": "Los cargos tampoco son la referencia.",
+        "d": "La fecha de pago no cambia la base de liquidación."
+      }
+    },
+    {
+      "id": "camb-q-030", "type": "pjs", "difficulty": 2, "source": "D2245/2011 art. 3 par. 5",
+      "case": "Un profesional de cambio autorizado en Cúcuta (zona de frontera) no conservó las declaraciones de cambio de sus compras de divisas, infracción del num. 19 del art. 3.",
+      "prompt": "Al proponer la sanción, el gestor debe:",
+      "options": [
+        { "id": "a", "text": "Reducirla en una tercera parte por tratarse de zona de frontera." },
+        { "id": "b", "text": "Aumentarla en una tercera parte por el riesgo de la frontera." },
+        { "id": "c", "text": "Aplicarla completa, porque la frontera no cambia la multa." }
+      ],
+      "answer": "a",
+      "explain": "Las sanciones de los num. 19 a 23 se reducen en 1/3 cuando las operaciones se celebran en zonas de frontera por profesionales de cambio autorizados allí (par. 5).",
+      "optionWhy": {
+        "b": "La norma reduce, no aumenta; el aumento de 1/3 es por reincidencia (par. 4).",
+        "c": "El par. 5 prevé expresamente la reducción."
+      }
+    }
+  ]
+}
