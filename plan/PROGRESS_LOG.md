@@ -17,4 +17,5 @@ Sitio en vivo: https://gabriel86-as.github.io/dian-2676-estudio/ · Repo: https:
 - Shell nuevo: router por hash con las 10 rutas, barra inferior en móvil / superior en escritorio, tema claro/oscuro, cuenta regresiva al 8-nov-2026 8:00 (Bogotá), 13 tarjetas de unidad desde `content/manifest.json`, aviso amable si falta el archivo de una unidad.
 - `content/SCHEMA.md` documenta los 10 tipos con un ejemplo JSON cada uno, reglas de IDs, prefijos por unidad y la regla de opciones equilibradas. Novedad: paso `{ "ref": id }` para reutilizar preguntas del banco en lecciones.
 - QA: probado en Edge headless a 375 px (sin scroll horizontal, sin errores de consola). Nota: Edge headless impone ~500 px de ancho mínimo; para medir 375 px usar un iframe.
+- Publicado (push del reinicio, a pedido del usuario): https://gabriel86-as.github.io/dian-2676-estudio/ sirve el shell nuevo. Tag de respaldo también subido a GitHub.
 - Pendiente: Fase 2 (motor de lecciones).
