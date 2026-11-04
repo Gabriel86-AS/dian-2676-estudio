@@ -111,3 +111,10 @@ Sitio en vivo: https://gabriel86-as.github.io/dian-2676-estudio/ · Repo: https:
 - Niveles de competencia de Gestor I tomados del plan; confirmar en la ficha de SIMO.
 - Código de Integridad propio de la DIAN (CG-TAH-0002) no es público; se usa el código general de Función Pública.
 - La prueba en un celular real y la descarga del archivo de exportación en el teléfono quedan a cargo de la candidata o el candidato (la QA se hizo con emulación móvil en Edge headless).
+
+## 2026-11-04 — Plan: fase 9 (brechas de la ficha de empleo)
+- Revisado `manual_de_funciones-gestor3_jiovani.pdf`: ficha Gestor III (303-03, AF-LF-3005, Res. 067/2024), proceso Administrativo y Financiero. No coincide con Gestor I (OPEC 236767).
+- Brechas frente al sitio: contratación pública, Ley 1437 (notificaciones, recursos), PQRSF, inventarios, SIIF y disposición de mercancías aprehendidas (esta última solo parcial).
+- Creado `plan/09_JOB_PROFILE_GAPS.md` (copiado en `plan_and_context/`), con una condición previa: confirmar con la persona usuaria si la ficha es su cargo. No se cambió contenido.
+- El paquete no trae el anexo de 466 fichas ni las fuentes de Ley 1437, Ley 80/1150 o D1082: hay que conseguirlas antes de escribir contenido.
+- Confirmado por la persona usuaria: la ficha Gestor III es su cargo. Falta confirmar la OPEC.

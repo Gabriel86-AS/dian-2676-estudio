@@ -57,6 +57,7 @@ Files are large. **Never read a whole file; use `grep -n` to locate article numb
 | 6 | `06_CONTENT_BEHAVIORAL_REASONING.md` | Units `razonamiento`, `comportamentales`, `integridad` | 1 h |
 | 7 | `07_PRACTICE_TESTS.md` | Full practice tests (3 difficulties + exam simulation) and external simulacro links | 1 h |
 | 8 | `08_QA_AND_LAUNCH.md` | Fact audit, mobile QA, accessibility, final deploy, user guide | 45 min |
+| 9 | `09_JOB_PROFILE_GAPS.md` | Optional, gated: compare the ficha PDF (Gestor III, AF-LF-3005) with the site; add `procedimiento-administrativo` / `contratacion` units only if the user confirms it is their job | 1 h |
 
 After phase 3 plus phase 4 the site is already useful: **deploy at the end of every phase** so the candidate can start studying immediately.
 
