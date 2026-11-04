@@ -1,0 +1,1195 @@
+{
+  "id": "obligaciones",
+  "title": "Obligaciones formales y sustanciales en materia tributaria",
+  "area": "funcional",
+  "priority": 1,
+  "summary": "Deberes formales: declaraciones, declaraciones tenidas por no presentadas, correcciones, facturación, información y conservación de pruebas.",
+  "sources": [
+    "Estatuto Tributario, Libro Quinto (arts. 571–632)"
+  ],
+  "lessons": [
+    {
+      "id": "obli-01",
+      "title": "Deberes formales y declaraciones",
+      "minutes": 6,
+      "steps": [
+        {
+          "id": "obli-c-001",
+          "type": "concept",
+          "title": "Deberes formales",
+          "body": "Los **deberes formales** son obligaciones de hacer: declarar, facturar, informar, conservar pruebas. Los cumplen los **contribuyentes o responsables directos**, por sí o por sus representantes (art. 571). La obligación **sustancial** es pagar el tributo.",
+          "source": "ET art. 571, 574"
+        },
+        {
+          "id": "obli-q-019",
+          "type": "truefalse",
+          "difficulty": 1,
+          "statement": "Los deberes formales son obligaciones de hacer, como declarar, facturar o informar; la obligación sustancial es pagar el tributo.",
+          "answer": true,
+          "explain": "Distinción doctrinal que se refleja en los arts. 571 (deberes formales), 574 (declaraciones), 615 y 632.",
+          "source": "ET art. 571, 574, 615, 632"
+        },
+        {
+          "id": "obli-q-001",
+          "type": "mcq",
+          "difficulty": 1,
+          "prompt": "¿Quiénes deben cumplir los deberes formales señalados en la ley o el reglamento?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Los contribuyentes o responsables directos del pago del tributo, personalmente o por medio de sus representantes (y, a falta de estos, el administrador del patrimonio)."
+            },
+            {
+              "id": "B",
+              "text": "Únicamente los contadores públicos."
+            },
+            {
+              "id": "C",
+              "text": "Solo la Administración de Impuestos."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 571 del ET.",
+          "optionWhy": {
+            "B": "Los deberes formales son del contribuyente o responsable (art. 571).",
+            "C": "Los obligados son los contribuyentes y responsables."
+          },
+          "source": "ET art. 571"
+        },
+        {
+          "id": "obli-q-002",
+          "type": "mcq",
+          "difficulty": 1,
+          "prompt": "¿Cuál de estas es una de las declaraciones tributarias del art. 574?",
+          "options": [
+            {
+              "id": "A",
+              "text": "La declaración trimestral de predial."
+            },
+            {
+              "id": "B",
+              "text": "La declaración anual del impuesto sobre la renta y complementarios."
+            },
+            {
+              "id": "C",
+              "text": "La declaración semanal de retención."
+            }
+          ],
+          "answer": "B",
+          "explain": "Art. 574: renta anual (o monotributo), ventas, retención en la fuente, entre otras.",
+          "optionWhy": {
+            "A": "El art. 574 no la incluye.",
+            "C": "La retención se declara en la forma que señala la ley, no semanalmente."
+          },
+          "source": "ET art. 574"
+        },
+        {
+          "id": "obli-q-003",
+          "type": "truefalse",
+          "difficulty": 2,
+          "statement": "Toda declaración presentada después de la inicial se considera una corrección de la declaración inicial o de la última corrección presentada.",
+          "answer": true,
+          "explain": "Art. 588, inciso segundo.",
+          "source": "ET art. 588"
+        },
+        {
+          "id": "obli-q-021",
+          "type": "cloze",
+          "difficulty": 1,
+          "text": "Las informaciones y pruebas deben conservarse por un mínimo de {{5}} años.",
+          "alternatives": {
+            "5": [
+              "cinco"
+            ]
+          },
+          "source": "ET art. 632"
+        }
+      ]
+    },
+    {
+      "id": "obli-02",
+      "title": "Declaraciones tenidas por no presentadas",
+      "minutes": 6,
+      "steps": [
+        {
+          "id": "obli-c-002",
+          "type": "concept",
+          "title": "Art. 580",
+          "body": "No se cumple el deber de declarar si: no se presenta en los **lugares** señalados; no hay **identificación** del declarante o es equivocada; no contiene los **factores para identificar las bases**; o falta la **firma** (declarante, contador o revisor fiscal obligado).",
+          "source": "ET art. 580"
+        },
+        {
+          "id": "obli-q-009",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿En cuál de estos casos la declaración se tiene por no presentada?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cuando se presenta con un error aritmético."
+            },
+            {
+              "id": "B",
+              "text": "Cuando no se suministra la identificación del declarante o se hace de forma equivocada."
+            },
+            {
+              "id": "C",
+              "text": "Cuando se presenta con retraso."
+            }
+          ],
+          "answer": "B",
+          "explain": "Art. 580: lugar no señalado, identificación omitida o equivocada, falta de factores para identificar las bases gravables, y falta de firma (del declarante o del contador o revisor fiscal obligado).",
+          "optionWhy": {
+            "A": "El error aritmético se corrige por liquidación (arts. 697–698).",
+            "C": "Es extemporánea y se sanciona (art. 641), pero existe."
+          },
+          "source": "ET art. 580"
+        },
+        {
+          "id": "obli-q-010",
+          "type": "pjs",
+          "difficulty": 3,
+          "case": "Una sociedad obligada a tener revisor fiscal presenta su declaración sin la firma del revisor fiscal.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tratarla como presentada y aplicar solo una sanción de corrección."
+            },
+            {
+              "id": "B",
+              "text": "Proferir una liquidación de corrección aritmética."
+            },
+            {
+              "id": "C",
+              "text": "Considerar que no se cumplió el deber de declarar, porque la declaración se tiene por no presentada."
+            }
+          ],
+          "answer": "C",
+          "explain": "Art. 580 lit. d: se omite la firma del contador público o revisor fiscal existiendo la obligación legal.",
+          "optionWhy": {
+            "A": "La falta de firma del revisor fiscal obligado es causal del art. 580 lit. d.",
+            "B": "No es un error aritmético, sino una causal de no presentación."
+          },
+          "source": "ET art. 580"
+        },
+        {
+          "id": "obli-q-011",
+          "type": "truefalse",
+          "difficulty": 2,
+          "statement": "Una declaración que no contiene los factores necesarios para identificar las bases gravables se tiene por no presentada.",
+          "answer": true,
+          "explain": "Art. 580 lit. c.",
+          "source": "ET art. 580"
+        },
+        {
+          "id": "obli-q-016",
+          "type": "pjs",
+          "difficulty": 3,
+          "case": "Un contribuyente presentó una declaración con error en la identificación del declarante (NIT equivocado) y se le notificó que se tiene por no presentada.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Recordar que el art. 589-1 prevé la corrección de algunos errores que implican tener la declaración por no presentada."
+            },
+            {
+              "id": "B",
+              "text": "Informarle que no hay forma de subsanar el error."
+            },
+            {
+              "id": "C",
+              "text": "Proferir de inmediato una liquidación de aforo."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 589-1 trata la corrección de algunos de esos errores.",
+          "optionWhy": {
+            "B": "Existe el procedimiento del art. 589-1.",
+            "C": "El aforo procede tras agotar el procedimiento por no declarar (art. 717)."
+          },
+          "source": "ET art. 589-1 y 580"
+        },
+        {
+          "id": "obli-q-024",
+          "type": "open",
+          "difficulty": 2,
+          "prompt": "Enumere los casos en que una declaración tributaria se tiene por no presentada (art. 580).",
+          "modelAnswer": "Cuando no se presente en los lugares señalados; cuando no se suministre la identificación del declarante o se haga en forma equivocada; cuando no contenga los factores necesarios para identificar las bases gravables; y cuando no se presente firmada por quien deba declarar o se omita la firma del contador público o revisor fiscal existiendo la obligación.",
+          "keyPoints": [
+            "Lugar no señalado",
+            "Identificación omitida o equivocada",
+            "Sin factores para identificar las bases",
+            "Sin firma obligatoria"
+          ],
+          "keywords": [
+            "lugares",
+            "identificación",
+            "bases gravables",
+            "firma",
+            "contador",
+            "revisor fiscal"
+          ],
+          "minKeywords": 3,
+          "source": "ET art. 580"
+        }
+      ]
+    },
+    {
+      "id": "obli-03",
+      "title": "Correcciones",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "obli-c-003",
+          "type": "concept",
+          "title": "Dos reglas, dos plazos",
+          "body": "- **Aumentar el impuesto o disminuir el saldo a favor**: 3 años desde el vencimiento y antes de requerimiento especial o pliego de cargos; con sanción de corrección (art. 588).\n- **Disminuir el pago o aumentar el saldo a favor**: dentro del año siguiente al vencimiento (art. 589).",
+          "source": "ET art. 588–589"
+        },
+        {
+          "id": "obli-q-012",
+          "type": "mcq",
+          "difficulty": 1,
+          "prompt": "¿En qué plazo pueden corregirse las declaraciones para aumentar el impuesto o disminuir el saldo a favor?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dentro de los tres (3) años siguientes al vencimiento del plazo para declarar y antes de que se notifique requerimiento especial o pliego de cargos."
+            },
+            {
+              "id": "B",
+              "text": "Dentro del año siguiente al vencimiento."
+            },
+            {
+              "id": "C",
+              "text": "Dentro de los cinco años siguientes."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 588 (modificado por Ley 2010/2019), liquidando la sanción por corrección.",
+          "optionWhy": {
+            "B": "Un año es el plazo para corregir reduciendo el valor a pagar o aumentando el saldo a favor (art. 589).",
+            "C": "No es el término del art. 588."
+          },
+          "source": "ET art. 588"
+        },
+        {
+          "id": "obli-q-013",
+          "type": "mcq",
+          "difficulty": 1,
+          "prompt": "¿En qué plazo debe presentarse la corrección que disminuye el valor a pagar o aumenta el saldo a favor?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dentro de los tres años siguientes."
+            },
+            {
+              "id": "B",
+              "text": "Dentro del año siguiente al vencimiento del término para presentar la declaración."
+            },
+            {
+              "id": "C",
+              "text": "Dentro del mes siguiente."
+            }
+          ],
+          "answer": "B",
+          "explain": "Art. 589 (modificado por Ley 1819/2016): la corrección no impide la revisión, cuyo término se cuenta desde la corrección.",
+          "optionWhy": {
+            "A": "Tres años es el plazo para corregir aumentando el impuesto.",
+            "C": "No es el plazo del art. 589."
+          },
+          "source": "ET art. 589"
+        },
+        {
+          "id": "obli-q-014",
+          "type": "pjs",
+          "difficulty": 2,
+          "case": "Un contribuyente quiere corregir una declaración para aumentar su saldo a favor, 8 meses después del vencimiento del plazo para declarar.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Informarle que ya no puede hacerlo."
+            },
+            {
+              "id": "B",
+              "text": "Informarle que debe esperar a que la Administración profiera una liquidación."
+            },
+            {
+              "id": "C",
+              "text": "Informarle que puede hacerlo, porque está dentro del año siguiente al vencimiento."
+            }
+          ],
+          "answer": "C",
+          "explain": "Art. 589: la corrección se presenta dentro del año siguiente al vencimiento del término para declarar.",
+          "optionWhy": {
+            "A": "Le quedan 4 meses del año del art. 589.",
+            "B": "El contribuyente corrige presentando la declaración respectiva."
+          },
+          "source": "ET art. 589"
+        },
+        {
+          "id": "obli-q-015",
+          "type": "truefalse",
+          "difficulty": 3,
+          "statement": "Si el mayor valor a pagar obedece a una diferencia de criterio sobre la interpretación del derecho aplicable, con hechos completos y verdaderos, no se aplica la sanción de corrección.",
+          "answer": true,
+          "explain": "Art. 588, inciso adicionado por la Ley 49 de 1990, con el procedimiento del art. 589 y explicando las razones.",
+          "source": "ET art. 588"
+        },
+        {
+          "id": "obli-q-017",
+          "type": "order",
+          "difficulty": 2,
+          "prompt": "Ordene los plazos de corrección, de menor a mayor.",
+          "items": [
+            "1 año: corregir disminuyendo el valor a pagar (art. 589)",
+            "2 años: liquidación de corrección aritmética (art. 699)",
+            "3 años: corregir aumentando el impuesto (art. 588)",
+            "5 años: conservar informaciones y pruebas (art. 632)"
+          ],
+          "explain": "Arts. 589, 699, 588 y 632.",
+          "source": "ET art. 589, 699, 588, 632"
+        },
+        {
+          "id": "obli-q-025",
+          "type": "open",
+          "difficulty": 2,
+          "prompt": "Explique en 2–3 líneas la diferencia entre corregir aumentando el impuesto y corregir disminuyéndolo.",
+          "modelAnswer": "Para aumentar el impuesto o disminuir el saldo a favor se puede corregir dentro de 3 años desde el vencimiento y antes de requerimiento especial o pliego de cargos, liquidando sanción de corrección. Para disminuir el valor a pagar o aumentar el saldo a favor se presenta la corrección dentro del año siguiente al vencimiento.",
+          "keyPoints": [
+            "Aumenta el impuesto: 3 años y sanción de corrección",
+            "Disminuye el impuesto: 1 año"
+          ],
+          "keywords": [
+            "3 años",
+            "un año",
+            "sanción",
+            "requerimiento especial",
+            "vencimiento"
+          ],
+          "minKeywords": 3,
+          "source": "ET art. 588 y 589"
+        }
+      ]
+    },
+    {
+      "id": "obli-04",
+      "title": "Facturación, información y conservación",
+      "minutes": 6,
+      "steps": [
+        {
+          "id": "obli-c-004",
+          "type": "concept",
+          "title": "Otros deberes",
+          "body": "**Facturar** (art. 615), **informar el cese** de actividades del IVA en 30 días (art. 614) y **conservar** informaciones y pruebas 5 años (art. 632).",
+          "source": "ET art. 614, 615, 632"
+        },
+        {
+          "id": "obli-q-004",
+          "type": "mcq",
+          "difficulty": 1,
+          "prompt": "Para efectos de control, ¿por cuánto tiempo mínimo deben conservarse las informaciones y pruebas del art. 632?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dos (2) años desde su expedición."
+            },
+            {
+              "id": "B",
+              "text": "Tres (3) años desde su elaboración."
+            },
+            {
+              "id": "C",
+              "text": "Cinco (5) años, contados desde el 1.º de enero del año siguiente al de su elaboración, expedición o recibo."
+            }
+          ],
+          "answer": "C",
+          "explain": "Art. 632. Aplica a contribuyentes o no contribuyentes.",
+          "optionWhy": {
+            "A": "El mínimo es de cinco años.",
+            "B": "Es el término de firmeza, no el de conservación."
+          },
+          "source": "ET art. 632"
+        },
+        {
+          "id": "obli-q-005",
+          "type": "pjs",
+          "difficulty": 2,
+          "case": "Un contribuyente obligado a llevar contabilidad recibe una solicitud de la DIAN para exhibir sus libros y comprobantes de hace cuatro años y alega que ya no tiene que conservarlos.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Informarle que debe conservarlos mínimo cinco años, contados desde el 1.º de enero del año siguiente a su elaboración."
+            },
+            {
+              "id": "B",
+              "text": "Aceptar que ya no está obligado, porque pasaron tres años."
+            },
+            {
+              "id": "C",
+              "text": "Informarle que solo debe conservar los libros, no los comprobantes."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 632 num. 1: libros de contabilidad y comprobantes que den origen a los registros.",
+          "optionWhy": {
+            "B": "El plazo de conservación es de cinco años (art. 632).",
+            "C": "El numeral 1 exige libros junto con los comprobantes internos y externos."
+          },
+          "source": "ET art. 632"
+        },
+        {
+          "id": "obli-q-006",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Quién debe expedir factura o documento equivalente, según el art. 615?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Únicamente los grandes contribuyentes."
+            },
+            {
+              "id": "B",
+              "text": "Todas las personas o entidades que sean comerciantes, ejerzan profesiones liberales o presten servicios inherentes a ellas, o enajenen bienes de la actividad agrícola o ganadera."
+            },
+            {
+              "id": "C",
+              "text": "Solo los responsables del IVA."
+            }
+          ],
+          "answer": "B",
+          "explain": "Art. 615. Además, hay que conservar copia por cada operación.",
+          "optionWhy": {
+            "A": "La obligación no depende de ser gran contribuyente.",
+            "C": "Aplica independientemente de ser contribuyente o no de los impuestos administrados."
+          },
+          "source": "ET art. 615"
+        },
+        {
+          "id": "obli-q-007",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿En cuánto tiempo debe un responsable del IVA informar el cese definitivo de actividades?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dentro de los diez (10) días hábiles."
+            },
+            {
+              "id": "B",
+              "text": "Dentro de los dos (2) meses."
+            },
+            {
+              "id": "C",
+              "text": "Dentro de los treinta (30) días siguientes al cese."
+            }
+          ],
+          "answer": "C",
+          "explain": "Art. 614: mientras no informe el cese, está obligado a declarar el IVA.",
+          "optionWhy": {
+            "A": "El art. 614 fija treinta días.",
+            "B": "No es el término del art. 614."
+          },
+          "source": "ET art. 614"
+        },
+        {
+          "id": "obli-q-008",
+          "type": "pjs",
+          "difficulty": 2,
+          "case": "Un responsable del IVA cesó definitivamente sus actividades gravadas pero no informó el cese a la Administración y no presentó las declaraciones siguientes.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Exigir las declaraciones de IVA, porque mientras no se informe el cese subsiste la obligación de declarar."
+            },
+            {
+              "id": "B",
+              "text": "Cancelar la inscripción de oficio sin más trámite."
+            },
+            {
+              "id": "C",
+              "text": "Considerar que la obligación terminó el día del cese."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 614.",
+          "optionWhy": {
+            "B": "La cancelación procede una vez recibida la información y previas verificaciones.",
+            "C": "La norma exige informar el cese; sin ello debe seguir declarando."
+          },
+          "source": "ET art. 614"
+        },
+        {
+          "id": "obli-q-018",
+          "type": "match",
+          "difficulty": 2,
+          "prompt": "Relacione cada obligación con su plazo.",
+          "pairs": [
+            {
+              "left": "Conservar informaciones y pruebas",
+              "right": "5 años"
+            },
+            {
+              "left": "Corregir aumentando el impuesto",
+              "right": "3 años"
+            },
+            {
+              "left": "Corregir disminuyendo el valor a pagar",
+              "right": "1 año"
+            },
+            {
+              "left": "Informar el cese de actividades del IVA",
+              "right": "30 días"
+            }
+          ],
+          "explain": "Arts. 632, 588, 589 y 614.",
+          "source": "ET art. 632, 588, 589, 614"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "obli-fc-001",
+      "front": "Obligados a cumplir deberes formales",
+      "back": "Contribuyentes o responsables directos, personalmente o por representantes; a falta de ellos, el administrador del patrimonio.",
+      "source": "ET art. 571"
+    },
+    {
+      "id": "obli-fc-002",
+      "front": "Clases de declaraciones",
+      "back": "Renta anual (o monotributo), IVA, retención en la fuente, entre otras (art. 574).",
+      "source": "ET art. 574"
+    },
+    {
+      "id": "obli-fc-003",
+      "front": "Declaración por no presentada: lugar",
+      "back": "Cuando no se presenta en los lugares señalados.",
+      "source": "ET art. 580 lit. a"
+    },
+    {
+      "id": "obli-fc-004",
+      "front": "Declaración por no presentada: identificación",
+      "back": "Cuando no se suministra la identificación del declarante o se hace equivocada.",
+      "source": "ET art. 580 lit. b"
+    },
+    {
+      "id": "obli-fc-005",
+      "front": "Declaración por no presentada: bases",
+      "back": "Cuando no contiene los factores para identificar las bases gravables.",
+      "source": "ET art. 580 lit. c"
+    },
+    {
+      "id": "obli-fc-006",
+      "front": "Declaración por no presentada: firma",
+      "back": "Sin firma de quien debe declarar, o sin firma del contador o revisor fiscal obligado.",
+      "source": "ET art. 580 lit. d"
+    },
+    {
+      "id": "obli-fc-007",
+      "front": "Corrección que aumenta el impuesto",
+      "back": "3 años desde el vencimiento y antes de requerimiento especial o pliego de cargos; con sanción de corrección.",
+      "source": "ET art. 588"
+    },
+    {
+      "id": "obli-fc-008",
+      "front": "Declaración posterior a la inicial",
+      "back": "Se considera corrección de la inicial o de la última corrección.",
+      "source": "ET art. 588"
+    },
+    {
+      "id": "obli-fc-009",
+      "front": "Diferencia de criterio",
+      "back": "Sin sanción de corrección si los hechos son completos y verdaderos y la diferencia es de interpretación.",
+      "source": "ET art. 588"
+    },
+    {
+      "id": "obli-fc-010",
+      "front": "Corrección que disminuye el pago",
+      "back": "Dentro del año siguiente al vencimiento; el término de revisión cuenta desde la corrección.",
+      "source": "ET art. 589"
+    },
+    {
+      "id": "obli-fc-011",
+      "front": "Corrección de errores que implican declaración por no presentada",
+      "back": "El art. 589-1 regula la corrección de algunos de esos errores.",
+      "source": "ET art. 589-1"
+    },
+    {
+      "id": "obli-fc-012",
+      "front": "Cese de actividades del IVA",
+      "back": "Informar dentro de 30 días; mientras no se informe, se debe seguir declarando.",
+      "source": "ET art. 614"
+    },
+    {
+      "id": "obli-fc-013",
+      "front": "Obligación de facturar",
+      "back": "Comerciantes, profesiones liberales y quienes enajenen bienes agrícolas o ganaderos, sean o no contribuyentes.",
+      "source": "ET art. 615"
+    },
+    {
+      "id": "obli-fc-014",
+      "front": "Conservación de información",
+      "back": "5 años desde el 1.º de enero del año siguiente; libros más comprobantes si se lleva contabilidad.",
+      "source": "ET art. 632"
+    },
+    {
+      "id": "obli-fc-015",
+      "front": "Deber de atender requerimientos",
+      "back": "Contribuyentes y no contribuyentes deben atender requerimientos de información y pruebas.",
+      "source": "ET art. 686"
+    },
+    {
+      "id": "obli-fc-016",
+      "front": "Inscripción de responsables del IVA",
+      "back": "Los responsables deben inscribirse conforme al art. 507; el régimen simplificado, conforme al art. 508.",
+      "source": "ET art. 613"
+    }
+  ],
+  "questions": [
+    {
+      "id": "obli-q-001",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "¿Quiénes deben cumplir los deberes formales señalados en la ley o el reglamento?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Los contribuyentes o responsables directos del pago del tributo, personalmente o por medio de sus representantes (y, a falta de estos, el administrador del patrimonio)."
+        },
+        {
+          "id": "B",
+          "text": "Únicamente los contadores públicos."
+        },
+        {
+          "id": "C",
+          "text": "Solo la Administración de Impuestos."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 571 del ET.",
+      "optionWhy": {
+        "B": "Los deberes formales son del contribuyente o responsable (art. 571).",
+        "C": "Los obligados son los contribuyentes y responsables."
+      },
+      "source": "ET art. 571"
+    },
+    {
+      "id": "obli-q-002",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas es una de las declaraciones tributarias del art. 574?",
+      "options": [
+        {
+          "id": "A",
+          "text": "La declaración trimestral de predial."
+        },
+        {
+          "id": "B",
+          "text": "La declaración anual del impuesto sobre la renta y complementarios."
+        },
+        {
+          "id": "C",
+          "text": "La declaración semanal de retención."
+        }
+      ],
+      "answer": "B",
+      "explain": "Art. 574: renta anual (o monotributo), ventas, retención en la fuente, entre otras.",
+      "optionWhy": {
+        "A": "El art. 574 no la incluye.",
+        "C": "La retención se declara en la forma que señala la ley, no semanalmente."
+      },
+      "source": "ET art. 574"
+    },
+    {
+      "id": "obli-q-003",
+      "type": "truefalse",
+      "difficulty": 2,
+      "statement": "Toda declaración presentada después de la inicial se considera una corrección de la declaración inicial o de la última corrección presentada.",
+      "answer": true,
+      "explain": "Art. 588, inciso segundo.",
+      "source": "ET art. 588"
+    },
+    {
+      "id": "obli-q-004",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "Para efectos de control, ¿por cuánto tiempo mínimo deben conservarse las informaciones y pruebas del art. 632?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dos (2) años desde su expedición."
+        },
+        {
+          "id": "B",
+          "text": "Tres (3) años desde su elaboración."
+        },
+        {
+          "id": "C",
+          "text": "Cinco (5) años, contados desde el 1.º de enero del año siguiente al de su elaboración, expedición o recibo."
+        }
+      ],
+      "answer": "C",
+      "explain": "Art. 632. Aplica a contribuyentes o no contribuyentes.",
+      "optionWhy": {
+        "A": "El mínimo es de cinco años.",
+        "B": "Es el término de firmeza, no el de conservación."
+      },
+      "source": "ET art. 632"
+    },
+    {
+      "id": "obli-q-005",
+      "type": "pjs",
+      "difficulty": 2,
+      "case": "Un contribuyente obligado a llevar contabilidad recibe una solicitud de la DIAN para exhibir sus libros y comprobantes de hace cuatro años y alega que ya no tiene que conservarlos.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Informarle que debe conservarlos mínimo cinco años, contados desde el 1.º de enero del año siguiente a su elaboración."
+        },
+        {
+          "id": "B",
+          "text": "Aceptar que ya no está obligado, porque pasaron tres años."
+        },
+        {
+          "id": "C",
+          "text": "Informarle que solo debe conservar los libros, no los comprobantes."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 632 num. 1: libros de contabilidad y comprobantes que den origen a los registros.",
+      "optionWhy": {
+        "B": "El plazo de conservación es de cinco años (art. 632).",
+        "C": "El numeral 1 exige libros junto con los comprobantes internos y externos."
+      },
+      "source": "ET art. 632"
+    },
+    {
+      "id": "obli-q-006",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Quién debe expedir factura o documento equivalente, según el art. 615?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Únicamente los grandes contribuyentes."
+        },
+        {
+          "id": "B",
+          "text": "Todas las personas o entidades que sean comerciantes, ejerzan profesiones liberales o presten servicios inherentes a ellas, o enajenen bienes de la actividad agrícola o ganadera."
+        },
+        {
+          "id": "C",
+          "text": "Solo los responsables del IVA."
+        }
+      ],
+      "answer": "B",
+      "explain": "Art. 615. Además, hay que conservar copia por cada operación.",
+      "optionWhy": {
+        "A": "La obligación no depende de ser gran contribuyente.",
+        "C": "Aplica independientemente de ser contribuyente o no de los impuestos administrados."
+      },
+      "source": "ET art. 615"
+    },
+    {
+      "id": "obli-q-007",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿En cuánto tiempo debe un responsable del IVA informar el cese definitivo de actividades?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dentro de los diez (10) días hábiles."
+        },
+        {
+          "id": "B",
+          "text": "Dentro de los dos (2) meses."
+        },
+        {
+          "id": "C",
+          "text": "Dentro de los treinta (30) días siguientes al cese."
+        }
+      ],
+      "answer": "C",
+      "explain": "Art. 614: mientras no informe el cese, está obligado a declarar el IVA.",
+      "optionWhy": {
+        "A": "El art. 614 fija treinta días.",
+        "B": "No es el término del art. 614."
+      },
+      "source": "ET art. 614"
+    },
+    {
+      "id": "obli-q-008",
+      "type": "pjs",
+      "difficulty": 2,
+      "case": "Un responsable del IVA cesó definitivamente sus actividades gravadas pero no informó el cese a la Administración y no presentó las declaraciones siguientes.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Exigir las declaraciones de IVA, porque mientras no se informe el cese subsiste la obligación de declarar."
+        },
+        {
+          "id": "B",
+          "text": "Cancelar la inscripción de oficio sin más trámite."
+        },
+        {
+          "id": "C",
+          "text": "Considerar que la obligación terminó el día del cese."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 614.",
+      "optionWhy": {
+        "B": "La cancelación procede una vez recibida la información y previas verificaciones.",
+        "C": "La norma exige informar el cese; sin ello debe seguir declarando."
+      },
+      "source": "ET art. 614"
+    },
+    {
+      "id": "obli-q-009",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿En cuál de estos casos la declaración se tiene por no presentada?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cuando se presenta con un error aritmético."
+        },
+        {
+          "id": "B",
+          "text": "Cuando no se suministra la identificación del declarante o se hace de forma equivocada."
+        },
+        {
+          "id": "C",
+          "text": "Cuando se presenta con retraso."
+        }
+      ],
+      "answer": "B",
+      "explain": "Art. 580: lugar no señalado, identificación omitida o equivocada, falta de factores para identificar las bases gravables, y falta de firma (del declarante o del contador o revisor fiscal obligado).",
+      "optionWhy": {
+        "A": "El error aritmético se corrige por liquidación (arts. 697–698).",
+        "C": "Es extemporánea y se sanciona (art. 641), pero existe."
+      },
+      "source": "ET art. 580"
+    },
+    {
+      "id": "obli-q-010",
+      "type": "pjs",
+      "difficulty": 3,
+      "case": "Una sociedad obligada a tener revisor fiscal presenta su declaración sin la firma del revisor fiscal.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tratarla como presentada y aplicar solo una sanción de corrección."
+        },
+        {
+          "id": "B",
+          "text": "Proferir una liquidación de corrección aritmética."
+        },
+        {
+          "id": "C",
+          "text": "Considerar que no se cumplió el deber de declarar, porque la declaración se tiene por no presentada."
+        }
+      ],
+      "answer": "C",
+      "explain": "Art. 580 lit. d: se omite la firma del contador público o revisor fiscal existiendo la obligación legal.",
+      "optionWhy": {
+        "A": "La falta de firma del revisor fiscal obligado es causal del art. 580 lit. d.",
+        "B": "No es un error aritmético, sino una causal de no presentación."
+      },
+      "source": "ET art. 580"
+    },
+    {
+      "id": "obli-q-011",
+      "type": "truefalse",
+      "difficulty": 2,
+      "statement": "Una declaración que no contiene los factores necesarios para identificar las bases gravables se tiene por no presentada.",
+      "answer": true,
+      "explain": "Art. 580 lit. c.",
+      "source": "ET art. 580"
+    },
+    {
+      "id": "obli-q-012",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "¿En qué plazo pueden corregirse las declaraciones para aumentar el impuesto o disminuir el saldo a favor?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dentro de los tres (3) años siguientes al vencimiento del plazo para declarar y antes de que se notifique requerimiento especial o pliego de cargos."
+        },
+        {
+          "id": "B",
+          "text": "Dentro del año siguiente al vencimiento."
+        },
+        {
+          "id": "C",
+          "text": "Dentro de los cinco años siguientes."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 588 (modificado por Ley 2010/2019), liquidando la sanción por corrección.",
+      "optionWhy": {
+        "B": "Un año es el plazo para corregir reduciendo el valor a pagar o aumentando el saldo a favor (art. 589).",
+        "C": "No es el término del art. 588."
+      },
+      "source": "ET art. 588"
+    },
+    {
+      "id": "obli-q-013",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "¿En qué plazo debe presentarse la corrección que disminuye el valor a pagar o aumenta el saldo a favor?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dentro de los tres años siguientes."
+        },
+        {
+          "id": "B",
+          "text": "Dentro del año siguiente al vencimiento del término para presentar la declaración."
+        },
+        {
+          "id": "C",
+          "text": "Dentro del mes siguiente."
+        }
+      ],
+      "answer": "B",
+      "explain": "Art. 589 (modificado por Ley 1819/2016): la corrección no impide la revisión, cuyo término se cuenta desde la corrección.",
+      "optionWhy": {
+        "A": "Tres años es el plazo para corregir aumentando el impuesto.",
+        "C": "No es el plazo del art. 589."
+      },
+      "source": "ET art. 589"
+    },
+    {
+      "id": "obli-q-014",
+      "type": "pjs",
+      "difficulty": 2,
+      "case": "Un contribuyente quiere corregir una declaración para aumentar su saldo a favor, 8 meses después del vencimiento del plazo para declarar.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Informarle que ya no puede hacerlo."
+        },
+        {
+          "id": "B",
+          "text": "Informarle que debe esperar a que la Administración profiera una liquidación."
+        },
+        {
+          "id": "C",
+          "text": "Informarle que puede hacerlo, porque está dentro del año siguiente al vencimiento."
+        }
+      ],
+      "answer": "C",
+      "explain": "Art. 589: la corrección se presenta dentro del año siguiente al vencimiento del término para declarar.",
+      "optionWhy": {
+        "A": "Le quedan 4 meses del año del art. 589.",
+        "B": "El contribuyente corrige presentando la declaración respectiva."
+      },
+      "source": "ET art. 589"
+    },
+    {
+      "id": "obli-q-015",
+      "type": "truefalse",
+      "difficulty": 3,
+      "statement": "Si el mayor valor a pagar obedece a una diferencia de criterio sobre la interpretación del derecho aplicable, con hechos completos y verdaderos, no se aplica la sanción de corrección.",
+      "answer": true,
+      "explain": "Art. 588, inciso adicionado por la Ley 49 de 1990, con el procedimiento del art. 589 y explicando las razones.",
+      "source": "ET art. 588"
+    },
+    {
+      "id": "obli-q-016",
+      "type": "pjs",
+      "difficulty": 3,
+      "case": "Un contribuyente presentó una declaración con error en la identificación del declarante (NIT equivocado) y se le notificó que se tiene por no presentada.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Recordar que el art. 589-1 prevé la corrección de algunos errores que implican tener la declaración por no presentada."
+        },
+        {
+          "id": "B",
+          "text": "Informarle que no hay forma de subsanar el error."
+        },
+        {
+          "id": "C",
+          "text": "Proferir de inmediato una liquidación de aforo."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 589-1 trata la corrección de algunos de esos errores.",
+      "optionWhy": {
+        "B": "Existe el procedimiento del art. 589-1.",
+        "C": "El aforo procede tras agotar el procedimiento por no declarar (art. 717)."
+      },
+      "source": "ET art. 589-1 y 580"
+    },
+    {
+      "id": "obli-q-017",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": "Ordene los plazos de corrección, de menor a mayor.",
+      "items": [
+        "1 año: corregir disminuyendo el valor a pagar (art. 589)",
+        "2 años: liquidación de corrección aritmética (art. 699)",
+        "3 años: corregir aumentando el impuesto (art. 588)",
+        "5 años: conservar informaciones y pruebas (art. 632)"
+      ],
+      "explain": "Arts. 589, 699, 588 y 632.",
+      "source": "ET art. 589, 699, 588, 632"
+    },
+    {
+      "id": "obli-q-018",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": "Relacione cada obligación con su plazo.",
+      "pairs": [
+        {
+          "left": "Conservar informaciones y pruebas",
+          "right": "5 años"
+        },
+        {
+          "left": "Corregir aumentando el impuesto",
+          "right": "3 años"
+        },
+        {
+          "left": "Corregir disminuyendo el valor a pagar",
+          "right": "1 año"
+        },
+        {
+          "left": "Informar el cese de actividades del IVA",
+          "right": "30 días"
+        }
+      ],
+      "explain": "Arts. 632, 588, 589 y 614.",
+      "source": "ET art. 632, 588, 589, 614"
+    },
+    {
+      "id": "obli-q-019",
+      "type": "truefalse",
+      "difficulty": 1,
+      "statement": "Los deberes formales son obligaciones de hacer, como declarar, facturar o informar; la obligación sustancial es pagar el tributo.",
+      "answer": true,
+      "explain": "Distinción doctrinal que se refleja en los arts. 571 (deberes formales), 574 (declaraciones), 615 y 632.",
+      "source": "ET art. 571, 574, 615, 632"
+    },
+    {
+      "id": "obli-q-020",
+      "type": "pjs",
+      "difficulty": 2,
+      "case": "Un contribuyente persona natural, comerciante, vendió bienes y no expidió factura porque dice que \"no es responsable del IVA\".",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Aceptar el argumento: solo los responsables del IVA facturan."
+        },
+        {
+          "id": "B",
+          "text": "Recordarle que debe expedir factura o documento equivalente, independientemente de su calidad de contribuyente."
+        },
+        {
+          "id": "C",
+          "text": "Exigirle factura solo si supera un monto mínimo."
+        }
+      ],
+      "answer": "B",
+      "explain": "Art. 615.",
+      "optionWhy": {
+        "A": "El art. 615 obliga a todos los comerciantes.",
+        "C": "El art. 615 no condiciona la obligación a un monto."
+      },
+      "source": "ET art. 615"
+    },
+    {
+      "id": "obli-q-021",
+      "type": "cloze",
+      "difficulty": 1,
+      "text": "Las informaciones y pruebas deben conservarse por un mínimo de {{5}} años.",
+      "alternatives": {
+        "5": [
+          "cinco"
+        ]
+      },
+      "source": "ET art. 632"
+    },
+    {
+      "id": "obli-q-022",
+      "type": "cloze",
+      "difficulty": 1,
+      "text": "El cese de actividades del IVA debe informarse dentro de los {{30}} días siguientes.",
+      "alternatives": {
+        "30": [
+          "treinta"
+        ]
+      },
+      "source": "ET art. 614"
+    },
+    {
+      "id": "obli-q-023",
+      "type": "cloze",
+      "difficulty": 1,
+      "text": "La corrección que disminuye el valor a pagar debe presentarse dentro del {{año}} siguiente al vencimiento.",
+      "alternatives": {
+        "año": [
+          "1 año",
+          "un año"
+        ]
+      },
+      "source": "ET art. 589"
+    },
+    {
+      "id": "obli-q-024",
+      "type": "open",
+      "difficulty": 2,
+      "prompt": "Enumere los casos en que una declaración tributaria se tiene por no presentada (art. 580).",
+      "modelAnswer": "Cuando no se presente en los lugares señalados; cuando no se suministre la identificación del declarante o se haga en forma equivocada; cuando no contenga los factores necesarios para identificar las bases gravables; y cuando no se presente firmada por quien deba declarar o se omita la firma del contador público o revisor fiscal existiendo la obligación.",
+      "keyPoints": [
+        "Lugar no señalado",
+        "Identificación omitida o equivocada",
+        "Sin factores para identificar las bases",
+        "Sin firma obligatoria"
+      ],
+      "keywords": [
+        "lugares",
+        "identificación",
+        "bases gravables",
+        "firma",
+        "contador",
+        "revisor fiscal"
+      ],
+      "minKeywords": 3,
+      "source": "ET art. 580"
+    },
+    {
+      "id": "obli-q-025",
+      "type": "open",
+      "difficulty": 2,
+      "prompt": "Explique en 2–3 líneas la diferencia entre corregir aumentando el impuesto y corregir disminuyéndolo.",
+      "modelAnswer": "Para aumentar el impuesto o disminuir el saldo a favor se puede corregir dentro de 3 años desde el vencimiento y antes de requerimiento especial o pliego de cargos, liquidando sanción de corrección. Para disminuir el valor a pagar o aumentar el saldo a favor se presenta la corrección dentro del año siguiente al vencimiento.",
+      "keyPoints": [
+        "Aumenta el impuesto: 3 años y sanción de corrección",
+        "Disminuye el impuesto: 1 año"
+      ],
+      "keywords": [
+        "3 años",
+        "un año",
+        "sanción",
+        "requerimiento especial",
+        "vencimiento"
+      ],
+      "minKeywords": 3,
+      "source": "ET art. 588 y 589"
+    }
+  ]
+}
