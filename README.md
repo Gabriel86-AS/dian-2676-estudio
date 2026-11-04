@@ -7,7 +7,7 @@ Sitio de estudio para la prueba escrita **DIAN 2676 – Gestor III, código 303 
 HTML, CSS y JavaScript sin frameworks ni paso de compilación; contenido en JSON; pensado primero para el celular.
 
 ## Qué incluye
-- **16 unidades** con lecciones cortas, tarjetas y banco de preguntas (selección múltiple, juicio situacional, V/F, relacionar, ordenar, completar y abiertas). Cada ítem cita su fuente legal.
+- **17 unidades** con lecciones cortas, tarjetas y banco de preguntas (selección múltiple, juicio situacional, V/F, relacionar, ordenar, completar y abiertas). Cada ítem cita su fuente legal.
 - **Repaso espaciado** (Leitner, 5 cajas) y **Mis errores**.
 - **Simulacros**: 8 fijos (básico, intermedio, avanzado, uno ponderado por la ficha de Gestor III y la simulación del examen de 5 h con autoinforme Likert) y uno aleatorio. Puntaje 0–100 truncado a dos decimales, meta 70,00.
 - **Autoinforme comportamental e integridad** (Likert, sin puntaje) con pantalla de reflexión.

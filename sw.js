@@ -1,6 +1,6 @@
 // Service worker: red primero (siempre lo más reciente si hay conexión) y caché como respaldo sin conexión.
 // Al instalarse guarda el shell y todo el contenido (unidades y simulacros) para estudiar offline.
-const VERSION = 'dian2676-v5';
+const VERSION = 'dian2676-v6';
 const SHELL = ['./', 'index.html', 'css/app.css', 'js/app.js', 'content/manifest.json', 'content/resources.json', 'content/tests/index.json'];
 
 self.addEventListener('install', (e) => {
