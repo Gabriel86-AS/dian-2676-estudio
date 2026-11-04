@@ -35,7 +35,8 @@ try {
   await until(`!!document.querySelector('.test-card')`);
   await ev(`localStorage.clear(); true`);
   await shot('e2e-1-lista.png');
-  check(await ev(`document.querySelectorAll('.test-card').length`) === 8, 'lista: 7 simulacros + aleatorio');
+  const nTests = JSON.parse(fs.readFileSync(new URL('../../content/tests/index.json', import.meta.url), 'utf8')).tests.length;
+  check(await ev(`document.querySelectorAll('.test-card').length`) === nTests + 1, `lista: ${nTests} simulacros + aleatorio`);
   check(await ev(`document.querySelectorAll('.ext-list li').length`) >= 5, 'lista: enlaces externos de simulacros');
 
   // Respuestas esperadas

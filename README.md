@@ -9,7 +9,7 @@ HTML, CSS y JavaScript sin frameworks ni paso de compilación; contenido en JSON
 ## Qué incluye
 - **16 unidades** con lecciones cortas, tarjetas y banco de preguntas (selección múltiple, juicio situacional, V/F, relacionar, ordenar, completar y abiertas). Cada ítem cita su fuente legal.
 - **Repaso espaciado** (Leitner, 5 cajas) y **Mis errores**.
-- **Simulacros**: 7 fijos (básico, intermedio, avanzado y simulación del examen de 5 h con autoinforme Likert) y uno aleatorio. Puntaje 0–100 truncado a dos decimales, meta 70,00.
+- **Simulacros**: 8 fijos (básico, intermedio, avanzado, uno ponderado por la ficha de Gestor III y la simulación del examen de 5 h con autoinforme Likert) y uno aleatorio. Puntaje 0–100 truncado a dos decimales, meta 70,00.
 - **Autoinforme comportamental e integridad** (Likert, sin puntaje) con pantalla de reflexión.
 - Funciona **sin conexión** después de la primera visita (service worker, red primero).
 

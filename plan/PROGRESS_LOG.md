@@ -146,3 +146,12 @@ Sitio en vivo: https://gabriel86-as.github.io/dian-2676-estudio/ · Repo: https:
 - Simulacros regenerados; `sw.js` → `dian2676-v4`.
 - Pruebas: validate sin errores; progress 14/14; simulacro 9/9; E2E qa-site 34/34, simulacro-basico 15/15, simulacro-examen 10/10.
 - Pendiente: niveles de `comportamentales` (tarea 4), textos de prioridad en inicio (tarea 5) y simulacro ponderado por la ficha (tarea 6).
+
+## 2026-11-04 — Fase 9: comportamentales, prioridades en inicio y simulacro de la ficha (tareas 4–6)
+- Ficha AF-LF-3005 releída: lista las 6 básicas sin nivel (Res. 065 Cap. II las asimila al nivel 1) y las específicas Comportamiento ético 4, Adaptabilidad 4, Innovación 3, Solución de problemas 4.
+- `comportamentales`: `comp-c-001` y el resumen ya no dicen «Gestor I» (niveles de la ficha y lista de las 10 específicas); `comp-c-002` pasa a Adaptabilidad niveles 1 y 4; lecciones nuevas `comp-10` (Innovación N3) y `comp-11` (Solución de problemas N4), y `comp-12` (autoinforme D, 10 afirmaciones Likert de las específicas). 22 preguntas nuevas (`comp-q-061`–`082`: 8 de opción múltiple, 2 de relacionar, 2 V/F y 10 Likert) y 6 tarjetas (`comp-fc-010`–`015`). Textos de los niveles tomados de `11_competencias_Res065_integridad.txt` (específicas desde ~l. 455; la tabla lista las conductas en orden de nivel 1 a 4 por fila). Respuestas correctas acortadas para que no sean la opción más larga.
+- Inicio: «Cómo usar» explica que la prioridad 1 son las funciones de la ficha y que la prioridad 3 no está en la ficha; la insignia de prioridad 3 dice «fuera de la ficha».
+- `tools/build-tests.mjs`: opción `weights` por simulacro (por defecto 50/35/15). Nuevo `test-ficha-1` (40 ítems, 75/25/0): 30 ítems de mercancías, procedimiento administrativo, contratación y gestión documental, 10 de prioridad 2. Los 7 simulacros anteriores no cambian salvo la muestra Likert de la simulación del examen (el banco Likert creció).
+- E2E: `simulacro-basico` lee el número de simulacros de `content/tests/index.json`; `qa-site` calcula las lecciones esperadas de `comportamentales` desde el archivo de la unidad (antes, números fijos).
+- `sw.js` → `dian2676-v5`. Pruebas: validate sin errores; progress 14/14; simulacro 9/9; E2E qa-site 34/34 (24 páginas sin desbordes), simulacro-basico 15/15, simulacro-examen 10/10.
+- Fase 9 completa. Pendiente opcional: indicadores de la OPEC 236739 si llegan; sin fuentes para inventarios, parque automotor, infraestructura y SIIF.

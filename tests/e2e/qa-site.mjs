@@ -145,7 +145,10 @@ try {
   await send('Page.reload'); await sleep(600);
   await until(`!!document.querySelector('.lesson-list')`);
   const after = await ev(`document.querySelectorAll('.lesson-list li').length`);
-  check(before === 9 && after === 6, `ocultar autoinforme: comportamentales pasa de ${before} a ${after} lecciones (las 6 puntuadas siguen)`);
+  const compUnit = JSON.parse(fs.readFileSync(new URL('../../content/units/comportamentales.json', import.meta.url), 'utf8'));
+  const likertIds = new Set(compUnit.questions.filter((q) => q.type === 'likert').map((q) => q.id));
+  const scored = compUnit.lessons.filter((l) => !l.steps.every((s) => likertIds.has(s.ref))).length;
+  check(before === compUnit.lessons.length && after === scored, `ocultar autoinforme: comportamentales pasa de ${before} a ${after} lecciones (las ${scored} puntuadas siguen)`);
   await go('#/');
   await until(`!!document.querySelector('.unit-card')`);
   check(await ev(`[...document.querySelectorAll('.unit-card h3')].some(h => /Integridad/.test(h.textContent))`), 'con el ajuste activo, Integridad sigue en Inicio');

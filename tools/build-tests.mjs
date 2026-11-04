@@ -1,7 +1,7 @@
 // Genera los simulacros fijos en content/tests/ a partir del banco de preguntas.
 // Uso: node tools/build-tests.mjs   (determinista: misma semilla → mismos simulacros)
 // Reglas (plan/07): solo mcq/pjs de unidades funcionales; prioridad 1 ≈ 50 %, 2 ≈ 35 %, 3 ≈ 15 %;
-// sin repetir ítems entre simulacros del mismo nivel.
+// sin repetir ítems entre simulacros del mismo nivel. `weights` cambia ese reparto por prioridad.
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -34,11 +34,11 @@ const load = (u) => JSON.parse(fs.readFileSync(path.join(ROOT, u.file), 'utf8'))
 const functional = units.filter((u) => u.area === 'funcional').map((u) => ({ ...u, qs: load(u).questions.filter((q) => q.type === 'mcq' || q.type === 'pjs') }));
 const likertPool = Object.fromEntries(units.filter((u) => u.area !== 'funcional').map((u) => [u.id, load(u).questions.filter((q) => q.type === 'likert').map((q) => q.id)]));
 
-function build({ n, mix, used, seed }) {
+function build({ n, mix, used, seed, weights = [50, 35, 15] }) {
   const r = rng(seed);
   const pick = new Set();
   const byPriority = [1, 2, 3].map((p) => functional.filter((u) => u.priority === p));
-  const quotas = split(n, [50, 35, 15]);
+  const quotas = split(n, weights);
   byPriority.forEach((us, pi) => {
     const q = quotas[pi];
     const diffs = shuffle(split(q, mix).flatMap((c, d) => Array(c).fill(d + 1)), r);
@@ -68,6 +68,8 @@ const SPECS = [
   { group: 'medio', ids: ['test-medio-1', 'test-medio-2'], title: 'Simulacro intermedio', difficulty: 2, n: 40, mix: [15, 70, 15], minutes: 60, mode: 'practice' },
   { group: 'avanzado', ids: ['test-avanzado-1', 'test-avanzado-2'], title: 'Simulacro avanzado', difficulty: 3, n: 40, mix: [0, 30, 70], minutes: 70, mode: 'practice' },
   { group: 'examen', ids: ['test-examen-1'], title: 'Simulación del examen', difficulty: 2, n: 60, mix: [30, 40, 30], minutes: 300, mode: 'exam', likert: { comportamentales: 25, integridad: 15 } },
+  // Ponderado por la ficha AF-LF-3005 (Gestor III): solo unidades de prioridad 1 y 2.
+  { group: 'ficha', ids: ['test-ficha-1'], title: 'Simulacro ficha Gestor III', difficulty: 2, n: 40, mix: [20, 50, 30], minutes: 60, mode: 'practice', weights: [75, 25, 0] },
 ];
 
 fs.mkdirSync(path.join(ROOT, 'tests'), { recursive: true });
@@ -76,7 +78,7 @@ let seed = 2676;
 for (const s of SPECS) {
   const used = new Set();
   s.ids.forEach((id, i) => {
-    const items = build({ n: s.n, mix: s.mix, used, seed: seed++ });
+    const items = build({ n: s.n, mix: s.mix, used, seed: seed++, weights: s.weights });
     items.forEach((x) => used.add(x));
     const blueprint = {};
     items.forEach((x) => { const u = uidOf.get(x); blueprint[u] = (blueprint[u] || 0) + 1; });
