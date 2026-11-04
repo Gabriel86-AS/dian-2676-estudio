@@ -4,7 +4,12 @@ const EXAM = new Date('2026-11-08T08:00:00-05:00'); // America/Bogota (UTC-5, si
 const AREAS = { funcional: 'Funcional', comportamental: 'Comportamental', integridad: 'Integridad' };
 let manifest = null;
 
-const esc = s => String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+import { esc } from './engine/md.js';
+import { play } from './engine/player.js';
+import { deck } from './engine/flashcards.js';
+import { shuffle } from './engine/items.js';
+
+let current = null; // active player/deck, destroyed on route change
 
 async function loadManifest() {
   if (manifest) return manifest;
@@ -64,8 +69,36 @@ async function unit(id) {
     app.innerHTML = '<p><a href="#/">← Inicio</a></p><h1>Unidad no disponible</h1><p class="msg">El contenido de esta unidad aún no se ha publicado.</p>';
     return;
   }
+  const lessons = u.lessons || [];
   app.innerHTML = `<p><a href="#/">← Inicio</a></p><h1>${esc(u.title)}</h1><p>${esc(u.summary || '')}</p>
-    <p class="msg">Lecciones, tarjetas y preguntas se activan en la fase 2.</p>`;
+    ${u.sources?.length ? `<p class="muted">Fuentes: ${u.sources.map(esc).join('; ')}</p>` : ''}
+    <div class="actions">
+      <a class="btn" href="#/tarjetas/${esc(u.id)}"${u.flashcards?.length ? '' : ' hidden'}>Tarjetas (${(u.flashcards || []).length})</a>
+      <a class="btn" href="#/practica/${esc(u.id)}"${u.questions?.length ? '' : ' hidden'}>Practicar preguntas</a>
+      <a class="btn alt" href="#/repaso">Mis errores</a>
+    </div>
+    <h2>Lecciones</h2>
+    ${lessons.length ? lessons.map(l => `<a class="card unit" href="#/leccion/${esc(u.id)}/${esc(l.id)}"><h3>${esc(l.title)}</h3><small class="muted">${l.minutes || '?'} min · ${l.steps.length} pasos</small></a>`).join('<br>') : '<p class="msg">Aún no hay lecciones.</p>'}`;
+}
+
+async function lesson(unitId, lessonId) {
+  const u = await loadUnit(unitId);
+  const l = u?.lessons?.find(x => x.id === lessonId);
+  if (!l) { app.innerHTML = '<p><a href="#/">← Inicio</a></p><h1>Lección no disponible</h1>'; return; }
+  current = play({ unitId, lessonId, title: l.title, steps: l.steps, container: app, backHref: `#/unidad/${unitId}` });
+}
+
+async function practice(unitId) {
+  const u = await loadUnit(unitId);
+  const qs = (u?.questions || []).filter(q => q.type !== 'concept');
+  if (!qs.length) { app.innerHTML = '<p><a href="#/">← Inicio</a></p><h1>Sin preguntas todavía</h1>'; return; }
+  current = play({ unitId, lessonId: 'practica', title: 'Práctica', steps: shuffle(qs).slice(0, 10), container: app, backHref: `#/unidad/${unitId}` });
+}
+
+async function cards(unitId) {
+  const u = await loadUnit(unitId);
+  if (!u?.flashcards?.length) { app.innerHTML = '<p><a href="#/">← Inicio</a></p><h1>Sin tarjetas todavía</h1>'; return; }
+  current = deck({ unitId, cards: u.flashcards, container: app, backHref: `#/unidad/${unitId}` });
 }
 
 const placeholder = title => () => {
@@ -75,8 +108,9 @@ const placeholder = title => () => {
 const routes = [
   [/^#?\/?$/, 'inicio', home],
   [/^#\/unidad\/([^/]+)$/, 'inicio', unit],
-  [/^#\/leccion\/([^/]+)\/([^/]+)$/, 'inicio', placeholder('Lección')],
-  [/^#\/tarjetas\/([^/]+)$/, 'inicio', placeholder('Tarjetas')],
+  [/^#\/leccion\/([^/]+)\/([^/]+)$/, 'inicio', lesson],
+  [/^#\/practica\/([^/]+)$/, 'inicio', practice],
+  [/^#\/tarjetas\/([^/]+)$/, 'inicio', cards],
   [/^#\/repaso$/, 'repaso', placeholder('Repaso')],
   [/^#\/simulacros$/, 'simulacros', placeholder('Simulacros')],
   [/^#\/simulacro\/([^/]+)$/, 'simulacros', placeholder('Simulacro')],
@@ -87,6 +121,8 @@ const routes = [
 
 async function route() {
   const hash = location.hash || '#/';
+  current?.destroy?.(); current = null;
+  document.body.classList.remove('in-lesson');
   for (const [re, tab, fn] of routes) {
     const mt = hash.match(re);
     if (!mt) continue;
