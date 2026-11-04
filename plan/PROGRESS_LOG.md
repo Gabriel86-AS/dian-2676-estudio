@@ -162,3 +162,10 @@ Sitio en vivo: https://gabriel86-as.github.io/dian-2676-estudio/ · Repo: https:
 - Cifras verificadas contra el texto: tutela en 10 días (Const. art. 86), 7 principios del art. 209, reserva por intereses públicos máximo 15 años (Ley 1712 art. 22), clasificada de duración ilimitada (art. 18 par.), respuesta en los plazos del art. 14 de la Ley 1437 (art. 26), actualización mensual de la información del art. 9 (art. 10 par.), informe semestral de control interno (Ley 1474 art. 76).
 - `audit-sample` marcó 6 ítems de unidades anteriores (la muestra cambió al crecer el banco): los 6 están en la fuente con otra grafía («quince (15) días», «un (1) mes», «0.5%»). Errores: 0.
 - Simulacros regenerados; `sw.js` → `dian2676-v6`. Pruebas: validate sin errores; progress 14/14; simulacro 9/9; E2E qa-site 35/35, simulacro-basico 15/15, simulacro-examen 10/10.
+
+## 2026-11-04 — Unidad mipg (MIPG, control interno y servicio al ciudadano)
+- Fuentes nuevas (Función Pública): Decreto 1083/2015 compilado, Títulos 21–23, en `dian_material/19_D1083_2015_MIPG_control_interno.txt`. El Decreto 1499/2017 original listaba 16 políticas; el texto compilado vigente tiene **19** (mejora normativa, D1299/2018; información estadística, D454/2020; compras y contratación, D742/2021). Se usa el compilado.
+- Manual Operativo MIPG: v6.1 (feb-2026) con 7 dimensiones y v7 (28-ago-2026) con 6 dimensiones. La v7 es posterior al corte de la GOA (19-jun-2026): la unidad enseña las 7 dimensiones y presenta la v7 en una nota con la etiqueta `post-corte` (concepto `mipg-c-005`, tarjeta `mipg-fc-016`, pregunta `mipg-q-013`).
+- Nueva unidad `mipg` (prioridad 2): 3 lecciones (qué es el MIPG y su comité; las 7 dimensiones y el control interno; política de servicio al ciudadano), 16 tarjetas, 28 preguntas (14 PJS = 50 %, 2 abiertas).
+- El Código de Buen Gobierno de la DIAN (CG-PEC-0001 v13) no es público: no se creó contenido sobre él.
+- Simulacros regenerados; `sw.js` → `dian2676-v7`. Pruebas: validate sin errores; progress 14/14; simulacro 9/9; E2E qa-site 36/36, simulacro-basico 15/15, simulacro-examen 10/10.
