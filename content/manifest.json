@@ -99,5 +99,38 @@
       "priority": 3
     }
   ],
-  "tests": []
+  "tests": [
+    {
+      "id": "test-basico-1",
+      "file": "tests/test-basico-1.json",
+      "title": "Simulacro básico 1",
+      "count": 30,
+      "minutes": 45,
+      "mode": "practice"
+    },
+    {
+      "id": "test-medio-1",
+      "file": "tests/test-medio-1.json",
+      "title": "Simulacro intermedio 1",
+      "count": 40,
+      "minutes": 60,
+      "mode": "practice"
+    },
+    {
+      "id": "test-avanzado-1",
+      "file": "tests/test-avanzado-1.json",
+      "title": "Simulacro avanzado 1",
+      "count": 40,
+      "minutes": 70,
+      "mode": "practice"
+    },
+    {
+      "id": "test-examen-1",
+      "file": "tests/test-examen-1.json",
+      "title": "Simulación de examen 1",
+      "count": 60,
+      "minutes": 120,
+      "mode": "exam"
+    }
+  ]
 }

@@ -93,3 +93,8 @@ html.large{font-size:118%}
 .bar.gate span{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--text)}
 .bar.gate i{border-radius:99px}
 .nostore{margin:8px 16px}
+.navgrid{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0}
+.navgrid .chip{min-width:44px;justify-content:center}
+.navgrid .chip.ans{border-color:var(--ok)}
+.navgrid .chip.flg{border-color:var(--bad);border-style:dashed}
+select{font:inherit;padding:6px;border-radius:8px;border:1px solid var(--line);background:var(--card);color:var(--text);min-height:36px}

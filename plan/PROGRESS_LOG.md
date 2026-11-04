@@ -38,3 +38,9 @@ Sitio en vivo: https://gabriel86-as.github.io/dian-2676-estudio/ · Repo: https:
 - Desviaciones: no se cubrieron los niveles N2–N4 de las demás competencias (no leídos). 18 Likert en vez de 30.
 - No hecho: `integridad` (el paquete no trae el Código de Integridad de la DIAN; solo el de Santa Marta, que no se debe usar) y `razonamiento` (requiere ítems originales; fuente Icfes). Quedan fuera del manifest con contenido hasta que se escriban.
 - Siguiente: Fase 7 (simulacros) con el banco existente, o `razonamiento`; luego Fase 8 (QA, quitar `_ejemplo`).
+
+## 2026-11-03 — Fase 7 (simulacros)
+- Hecho: `js/tests/runner.js` (rutas `#/simulacros`, `#/simulacro/:id`): una pregunta por pantalla, sin retroalimentación hasta enviar, marcar para revisar, navegador de preguntas, temporizador (envío automático al agotarse), autoguardado y "Continuar simulacro", puntaje 0–100 con dos decimales truncados frente a 70.00, desglose por unidad y errores con explicación y fuente; los resultados alimentan el banco de errores y `progress.tests`. Generador `tools/make_tests.mjs` → `content/tests/` (básico 1: 30, intermedio 1: 40, avanzado 1: 40, examen 1: 60) y un simulacro aleatorio por unidad/cantidad/dificultad. Enlaces externos gratuitos (Geard, YouTube).
+- Verificado: los 4 archivos de test referencian solo ids del banco, sin duplicados; capturas headless de la lista y de la primera pregunta.
+- Desviaciones: solo hay una versión por dificultad (el plan pide 2) porque el banco es pequeño; el simulacro de examen dura 120 min (60 ítems), no 5 h; no incluye sección Likert; solo mcq/pjs/truefalse; sin gráfico de tendencia de puntajes (la tabla de historial sí está en Progreso).
+- Siguiente: Fase 8 (QA: quitar `_ejemplo`, probar en móvil, README) y más contenido (`liquidacion`, `razonamiento`, más PJS/dificultad 3).

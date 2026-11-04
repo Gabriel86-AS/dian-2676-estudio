@@ -13,6 +13,7 @@ import { unitStats, dueList } from './progress/stats.js';
 import { repaso } from './screens/repaso.js';
 import { progreso } from './screens/progreso.js';
 import { ajustes, applySettings } from './screens/ajustes.js';
+import { simulacros, simulacro } from './tests/runner.js';
 
 let current = null; // active player/deck, destroyed on route change
 
@@ -104,8 +105,8 @@ const routes = [
   [/^#\/practica\/([^/]+)$/, 'inicio', practice],
   [/^#\/tarjetas\/([^/]+)$/, 'inicio', cards],
   [/^#\/repaso(?:\/(errores|dia|ver))?$/, 'repaso', mode => repaso(app, mode)],
-  [/^#\/simulacros$/, 'simulacros', placeholder('Simulacros')],
-  [/^#\/simulacro\/([^/]+)$/, 'simulacros', placeholder('Simulacro')],
+  [/^#\/simulacros$/, 'simulacros', () => simulacros(app)],
+  [/^#\/simulacro\/([^/]+)$/, 'simulacros', id => simulacro(app, id)],
   [/^#\/progreso$/, 'progreso', () => progreso(app)],
   [/^#\/recursos$/, 'recursos', placeholder('Recursos')],
   [/^#\/ajustes$/, 'ajustes', () => ajustes(app)],
