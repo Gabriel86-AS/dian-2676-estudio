@@ -10,6 +10,6 @@
 - Pruebas: `node tests/progress.test.js` (14/14), `node tests/simulacro.test.js` (9/9) y E2E en `tests/e2e/` (`qa-site` 31/31, `simulacro-basico` 15/15, `simulacro-examen` 10/10).
 - Sitio: https://gabriel86-as.github.io/dian-2676-estudio/ · `gh` no está instalado; basta `git push`.
 
-**Referencia principal (2026-11-04):** la ficha **AF-LF-3005, Gestor III** (`manual_de_funciones-gestor3_jiovani.pdf`, sin versionar). El PDF no trae número de OPEC.
+**Referencia principal (2026-11-04):** la ficha **AF-LF-3005, Gestor III** (`manual_de_funciones-gestor3_jiovani.pdf`, sin versionar). **OPEC 236739** (dato de la persona usuaria; el sitio se construyó con los indicadores de la OPEC 236767, Gestor I). **Falta la lista de indicadores de la OPEC 236739** (página de Areandina, requiere número de inscripción).
 
 **Siguiente:** fase 9 (`plan/09_JOB_PROFILE_GAPS.md`), en orden: niveles de `comportamentales` (ético N4, adaptabilidad N4, innovación N3, solución de problemas N4); unidad `disposicion-mercancias` (D1165 art. 736 y ss.); `procedimiento-administrativo` (Ley 1437 y Ley 1755, conseguir las fuentes); `contratacion` (Ley 80, Ley 1150 y D1082, conseguir las fuentes). Al cambiar contenido: `node tools/validate.mjs`; si cambia el banco, `node tools/build-tests.mjs`; si cambian `index.html`, `css` o `js`, subir `VERSION` en `sw.js`. Examen **8 nov 2026**. Al terminar cada ejecución, actualizar este archivo y `plan/PROGRESS_LOG.md`.

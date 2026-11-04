@@ -10,7 +10,13 @@ Added 2026-11-04. **The user's instruction: the ficha PDF `manual_de_funciones-g
 - Competencias funcionales básicas: los 6 comportamentales básicos; evasión, elusión y contrabando, Ley de transparencia; herramientas informáticas; gestión documental; MIPG; Código de Buen Gobierno y de Integridad; principios de la función pública y CPACA (Ley 1437/2011 Títulos I, II, III caps. I, V–VIII); Sistema PQRSF; políticas de servicio al ciudadano; Constitución (derechos fundamentales, principios, estructura del Estado); generalidades de los recursos administrativos.
 - Competencias funcionales: custodia y disposición de mercancías; infraestructura; servicios; contratación pública; control de ingresos, almacenamiento y registro de mercancías; gestión documental; SIIF Nación II.
 - Comportamentales específicas: **Comportamiento ético N4, Adaptabilidad N4, Innovación N3, Solución de problemas N4.**
-- The PDF has **no OPEC number**. The site was built on OPEC 236767 (Gestor I) indicators; keep those units, but the ficha now sets priorities.
+- The PDF has no OPEC number. **The user gave it on 2026-11-04: OPEC 236739.** The site was built on the indicators of OPEC 236767 (Gestor I), which is not the user's OPEC.
+
+## Step 0 — indicators of OPEC 236739 (blocking for priorities)
+- The exam's functional questions follow the OPEC's **indicators**, published at http://dian-2676-areandina.com.co/indicadores-dian-2667/ (needs the user's inscription number; Claude cannot log in).
+- 2026-11-04: web search found nothing for 236739; SIMO public endpoints returned errors.
+- **Ask the user to paste the indicator list.** Then map each indicator to an existing unit or a new one, and reorder the tasks below. Existing units not in the list become optional.
+- Until then, follow the task order below (based on the ficha).
 
 ## Gap analysis (ficha vs site)
 | Ficha item | Site coverage | Source in pack? |

@@ -1,6 +1,6 @@
 # DIAN 2676 · Estudio
 
-Sitio de estudio para la prueba escrita **DIAN 2676 – Gestor I (nivel Profesional, OPEC 236767)**, domingo **8 de noviembre de 2026**, 8:00 a. m.–1:00 p. m.
+Sitio de estudio para la prueba escrita **DIAN 2676 – Gestor III, código 303 grado 03 (nivel Profesional, OPEC 236739, ficha AF-LF-3005)**, domingo **8 de noviembre de 2026**, 8:00 a. m.–1:00 p. m.
 
 **En vivo:** https://gabriel86-as.github.io/dian-2676-estudio/
 

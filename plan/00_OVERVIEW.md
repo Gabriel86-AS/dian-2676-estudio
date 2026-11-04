@@ -3,7 +3,7 @@
 ## Goal
 A static learning website on GitHub Pages for one candidate preparing for the **DIAN 2676 written exam (CNSC/Areandina), Gestor I, nivel Profesional, OPEC 236767**. Exam: **Sunday 8 Nov 2026, 8:00 a.m.–1:00 p.m.** The site must be usable **today** and grow over the next days.
 
-> **Update 2026-11-04:** the user's job ficha **AF-LF-3005, Gestor III (303-03), Administrativo y Financiero** (`manual_de_funciones-gestor3_jiovani.pdf`, repo root, untracked) is the **main reference**. See phase 9.
+> **Update 2026-11-04:** the user's job ficha **AF-LF-3005, Gestor III (303-03), Administrativo y Financiero** (`manual_de_funciones-gestor3_jiovani.pdf`, repo root, untracked) is the **main reference**. **The user's OPEC is 236739** (not 236767). Its exam indicators are not yet known; see phase 9, Step 0.
 
 Style: Duolingo/Brilliant-like interactive lessons, flashcards, multiple-choice ("ABC") questions, open-answer questions and full practice tests at different difficulties. **Progress and mistake tracking. No lives, hearts, streak penalties or gamified punishments.**
 
