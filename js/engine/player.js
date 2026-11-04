@@ -1,9 +1,10 @@
 // Reproductor de lecciones: un paso por pantalla, sin vidas ni temporizadores.
 // Un ítem fallado se repite una vez al final ("Repasemos esta").
 import { esc, formatTime } from '../util.js';
-import { inline } from './md.js';
+import { inline, md } from './md.js';
 import { renderers, isScored } from './items/index.js';
 import { LETTERS } from './items/choice.js';
+import { likertReflection } from './items/likert.js';
 import { emit } from './events.js';
 
 // Resuelve los pasos de una lección: ítems completos o { ref } al banco.
@@ -29,7 +30,7 @@ export function explainHTML(item) {
     case 'mcq':
     case 'pjs': {
       const i = item.options.findIndex((o) => o.id === item.answer);
-      return `<p><strong>${LETTERS[i]}. ${esc(item.options[i]?.text)}</strong></p><p>${inline(item.explain)}</p>`;
+      return `<p><strong>${LETTERS[i]}. ${esc(item.options[i]?.text)}</strong></p>${md(item.explain)}`;
     }
     case 'truefalse': return `<p><strong>${item.answer ? 'Verdadero' : 'Falso'}.</strong> ${inline(item.explain)}</p>`;
     case 'open': return `<p>${inline(item.modelAnswer)}</p>`;
@@ -152,19 +153,22 @@ export function playLesson({ unit, lesson, el, backHref }) {
     emit('lessonComplete', { unitId: unit.id, lessonId: lesson.id, correctFirstTry, total, ms, virtual: !!lesson.virtual });
     const missed = results.filter((r) => !r.correct);
     const pct = total ? Math.round((correctFirstTry / total) * 100) : 100;
+    const givens = [...first.values()].filter((r) => r.item.type === 'likert' && r.given).map((r) => Number(r.given));
     document.body.classList.remove('in-lesson');
     el.innerHTML = `
       <div class="end">
         <h1>Lección terminada</h1>
         <p class="muted">${esc(lesson.title)}</p>
         <div class="stats">
-          <div class="stat"><span class="stat-n">${pct} %</span><span class="stat-l">a la primera (${correctFirstTry}/${total})</span></div>
+          ${total ? `<div class="stat"><span class="stat-n">${pct} %</span><span class="stat-l">a la primera (${correctFirstTry}/${total})</span></div>`
+            : `<div class="stat"><span class="stat-n">${givens.length}</span><span class="stat-l">afirmaciones respondidas</span></div>`}
           <div class="stat"><span class="stat-n">${formatTime(ms)}</span><span class="stat-l">tiempo</span></div>
         </div>
         ${missed.length ? `<section class="card"><h2>Para repasar</h2>
           ${missed.map((r) => `<details class="missed"><summary><span>${esc(itemLabel(r.item))}</span><span class="small link">Ver explicación</span></summary>
             ${explainHTML(r.item)}${r.item.source ? `<p class="small muted">Fuente: ${esc(r.item.source)}</p>` : ''}</details>`).join('')}
           </section>` : total ? '<div class="card"><p>Todo correcto a la primera. ¡Muy bien!</p></div>' : ''}
+        ${likertReflection(givens)}
         <div class="actions">
           <button type="button" class="btn" data-act="again">Repetir lección</button>
           <a class="btn secondary" href="${esc(backHref)}">Volver a la unidad</a>

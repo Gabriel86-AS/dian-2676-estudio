@@ -1,5 +1,6 @@
 // Pantalla Repaso: mis errores, repaso del día, filtros y explicaciones.
 import { esc } from '../util.js';
+import { md } from '../engine/md.js';
 import { playLesson, itemLabel, explainHTML } from '../engine/player.js';
 import { mistakeItems, dueItems, visibleEntry } from '../progress/stats.js';
 import { loadData, TYPE_LABEL } from './data.js';
@@ -64,7 +65,7 @@ export async function renderRepaso(view, presetUnit) {
       <h2>Errores abiertos</h2>
       ${mistakes.map((x) => `<details class="missed">
         <summary><span>${esc(itemLabel(x.item))}<br><span class="small muted">${esc(x.entry.title)} · ${esc(TYPE_LABEL[x.item.type] || x.item.type)}</span></span><span class="small link">Ver explicación</span></summary>
-        ${x.item.case ? `<div class="case"><span class="box-lbl">Caso</span><p>${esc(x.item.case)}</p></div>` : ''}
+        ${x.item.case ? `<div class="case"><span class="box-lbl">Caso</span>${md(x.item.case)}</div>` : ''}
         ${explainHTML(x.item)}
         ${x.item.source ? `<p class="small muted">Fuente: ${esc(x.item.source)}</p>` : ''}
       </details>`).join('')}

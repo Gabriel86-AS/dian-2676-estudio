@@ -10,9 +10,9 @@
     { "id": "lavado", "file": "units/lavado.json", "title": "Lavado de activos, FT, ROS y denuncias", "area": "funcional", "priority": 2 },
     { "id": "cambiaria", "file": "units/cambiaria.json", "title": "Normativa cambiaria", "area": "funcional", "priority": 3 },
     { "id": "auditoria", "file": "units/auditoria.json", "title": "Normas y técnicas de auditoría", "area": "funcional", "priority": 3 },
-    { "id": "razonamiento", "file": "units/razonamiento.json", "title": "Razonamiento analítico", "area": "funcional", "priority": 3, "pending": true },
-    { "id": "comportamentales", "file": "units/comportamentales.json", "title": "Competencias comportamentales", "area": "comportamental", "priority": 3, "pending": true },
-    { "id": "integridad", "file": "units/integridad.json", "title": "Integridad", "area": "integridad", "priority": 3, "pending": true },
+    { "id": "razonamiento", "file": "units/razonamiento.json", "title": "Razonamiento analítico", "area": "funcional", "priority": 3 },
+    { "id": "comportamentales", "file": "units/comportamentales.json", "title": "Competencias comportamentales", "area": "comportamental", "priority": 3 },
+    { "id": "integridad", "file": "units/integridad.json", "title": "Integridad", "area": "integridad", "priority": 3 },
     { "id": "_ejemplo", "file": "units/_ejemplo.json", "title": "Demo (temporal): todos los tipos de ejercicio", "area": "funcional", "priority": 3, "demo": true }
   ],
   "tests": []

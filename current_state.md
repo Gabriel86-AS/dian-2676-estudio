@@ -1,6 +1,6 @@
 # Current State (2026-11-04)
 
-**Fases 1–5 hechas (reinicio).** Shell, motor de lecciones (10 tipos), mazo de tarjetas, progreso con repaso espaciado, panel y ajustes. **Contenido real:** 4 unidades tributarias (fase 4) + `estructura`, `misionalidad`, `gestion-documental`, `lavado`, `cambiaria`, `auditoria` (fase 5): 44 lecciones, 222 tarjetas, 344 preguntas. Faltan `razonamiento`, `comportamentales`, `integridad` (fase 6) y los simulacros (fase 7).
+**Fases 1–6 hechas (reinicio).** Shell, motor de lecciones (10 tipos), mazo de tarjetas, progreso con repaso espaciado, panel y ajustes. **Contenido real:** las 13 unidades del manifiesto (61 lecciones, 256 tarjetas, 470 preguntas, de ellas 50 afirmaciones Likert). Faltan los simulacros (fase 7) y el QA y lanzamiento (fase 8).
 
 - Versión anterior respaldada en el tag git `backup-v1-before-restart` (también en GitHub).
 - Código: `js/app.js` (rutas, inicio, unidad), `js/content.js`, `js/engine/*`, `js/progress/*`, `js/screens/*`.
@@ -11,4 +11,4 @@
 - Pruebas: `node tests/progress.test.js` (14/14).
 - Sitio: https://gabriel86-as.github.io/dian-2676-estudio/ · `gh` no está instalado; basta `git push`.
 
-**Siguiente:** Fase 6 (`plan/06_CONTENT_BEHAVIORAL_REASONING.md`): `razonamiento`, `comportamentales`, `integridad`. Luego fase 7 (simulacros). Examen **8 nov 2026**. Al terminar cada ejecución, actualizar este archivo y `plan/PROGRESS_LOG.md`.
+**Siguiente:** Fase 7 (`plan/07_PRACTICE_TESTS.md`): simulacros. Para el autoinforme se puede reutilizar `likertReflection(givens)` de `js/engine/items/likert.js`. Examen **8 nov 2026**. Al terminar cada ejecución, actualizar este archivo y `plan/PROGRESS_LOG.md`.

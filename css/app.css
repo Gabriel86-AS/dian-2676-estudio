@@ -269,10 +269,11 @@ body.in-lesson .tabs, body.in-lesson .topbar { display: none; }
 .retry-tag { display: inline-block; margin: 0 0 .75rem; padding: .2rem .7rem; border-radius: 999px; background: var(--warn-soft); color: var(--warn); font-weight: 700; font-size: .85rem; }
 
 .step-title { font-size: 1.3rem; }
-.prose table { border-collapse: collapse; width: 100%; font-size: .95rem; }
+.prose table, .case table { border-collapse: collapse; width: 100%; font-size: .95rem; }
 .table-wrap { overflow-x: auto; margin: 0 0 .75rem; }
-.prose th, .prose td { border: 1px solid var(--border); padding: .4rem .5rem; text-align: left; vertical-align: top; }
+.prose th, .prose td, .case th, .case td { border: 1px solid var(--border); padding: .4rem .5rem; text-align: left; vertical-align: top; }
 .prose th { background: var(--surface-2); }
+.case th { background: var(--surface); }
 .prose ul, .prose ol, .feedback ul, .feedback ol { padding-left: 1.3rem; margin: 0 0 .75rem; }
 .box-lbl { display: block; font-size: .75rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); margin-bottom: .25rem; }
 .example, .case, .model { background: var(--surface-2); border-radius: 12px; padding: 12px 14px; margin: 0 0 1rem; }
@@ -380,3 +381,13 @@ body.in-lesson .tabs, body.in-lesson .topbar { display: none; }
 @media (prefers-reduced-motion: reduce) {
   *, *::before, *::after { animation: none !important; transition: none !important; }
 }
+
+/* Reflexión tras el autoinforme Likert */
+.reflection h2 { margin-top: 0; }
+.likert-dist { list-style: none; padding: 0; margin: .75rem 0; display: grid; gap: 10px; }
+.likert-dist li { display: grid; grid-template-columns: 1fr auto; gap: 4px 10px; align-items: center; }
+.ld-label { font-size: .92rem; }
+.ld-n { font-size: .85rem; color: var(--muted); text-align: right; }
+.ld-bar { grid-column: 1 / -1; height: 10px; border-radius: 999px; background: var(--surface-2); overflow: hidden; }
+.ld-bar > span { display: block; height: 100%; background: var(--primary); }
+.reflection .note { background: var(--primary-soft); border-radius: var(--radius); padding: 10px 12px; }
