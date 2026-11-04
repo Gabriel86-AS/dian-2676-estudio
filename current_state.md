@@ -1,12 +1,12 @@
 # Current State (2026-11-03)
 
-**Fase 1 hecha (reinicio).** Hay shell de la app, esquema de contenido y manifiesto con las 13 unidades; aún no hay motor de lecciones, progreso ni contenido real.
+**Fases 1 y 2 hechas (reinicio).** Shell, esquema de contenido, motor de lecciones con los 10 tipos de ítem y mazo de tarjetas. Aún no hay progreso guardado (fase 3) ni contenido real (fases 4–6).
 
-- Versión anterior respaldada en el tag git `backup-v1-before-restart` (commit 2c87cd6).
-- Archivos: `index.html`, `css/app.css`, `js/app.js` (router + pantallas base), `js/content.js` (carga JSON), `content/manifest.json`, `content/SCHEMA.md`, `content/units/_ejemplo.json` (un ítem de cada tipo, datos verificados ET 703–713 y Res. DIAN 65/2024), `content/resources.json` (vacío).
-- Rutas listas: `#/`, `#/unidad/:id`, `#/recursos`. Las demás (`leccion`, `tarjetas`, `repaso`, `simulacros`, `simulacro`, `progreso`, `ajustes`) muestran "disponible muy pronto".
-- Pasos en lecciones pueden ser un ítem completo o `{ "ref": "<id>" }` a una pregunta del banco (ver SCHEMA.md).
-- Sitio: https://gabriel86-as.github.io/dian-2676-estudio/ ya sirve el shell nuevo (el sitio anterior ya no está publicado).
-- `gh` no está instalado; el repo y Pages ya existen, basta `git push`.
+- Versión anterior respaldada en el tag git `backup-v1-before-restart` (también en GitHub).
+- Código: `js/app.js` (rutas y pantallas), `js/content.js`, `js/util.js`, `js/engine/player.js`, `js/engine/flashcards.js`, `js/engine/items/*.js`, `js/engine/md.js`, `js/engine/events.js`.
+- Eventos para la fase 3 (`js/engine/events.js`): `answer {itemId, unitId, type, correct, partial, ms, given}`, `lessonComplete {unitId, lessonId, correctFirstTry, total, ms}`, `card {cardId, unitId, knew}`. Likert envía `correct: null`.
+- Rutas listas: `#/`, `#/unidad/:id`, `#/leccion/:unit/:lesson`, `#/practicar/:unit`, `#/tarjetas/:unit`, `#/recursos`. Stubs: `repaso`, `simulacros`, `simulacro`, `progreso`, `ajustes`.
+- Demo temporal: unidad `_ejemplo` en el manifiesto (`"demo": true`). Quitarla antes del lanzamiento.
+- Sitio: https://gabriel86-as.github.io/dian-2676-estudio/ · `gh` no está instalado; basta `git push`.
 
-**Siguiente:** Fase 2 (`plan/02_LESSON_ENGINE.md`). Examen **8 nov 2026**. Al terminar cada ejecución, actualizar este archivo y `plan/PROGRESS_LOG.md`.
+**Siguiente:** Fase 3 (`plan/03_PROGRESS_AND_MISTAKES.md`). Examen **8 nov 2026**. Al terminar cada ejecución, actualizar este archivo y `plan/PROGRESS_LOG.md`.

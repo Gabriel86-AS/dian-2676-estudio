@@ -29,7 +29,21 @@
           "back": "3 meses desde su notificación."
         },
         { "ref": "ej-q-001" },
-        { "ref": "ej-q-002" }
+        { "ref": "ej-q-002" },
+        {
+          "id": "ej-c-002",
+          "type": "concept",
+          "difficulty": 1,
+          "source": "ET arts. 705, 707, 708, 709, 713",
+          "title": "Plazos y reducciones",
+          "body": "| Regla | Plazo o efecto | Fuente |\n|---|---|---|\n| Notificar el requerimiento | 3 años | art. 705 |\n| Responderlo | 3 meses | art. 707 |\n| Ampliarlo | una sola vez | art. 708 |\n| Aceptar hechos del requerimiento | sanción a la **cuarta parte** | art. 709 |\n| Aceptar hechos de la liquidación de revisión | sanción a la **mitad** | art. 713 |"
+        },
+        { "ref": "ej-q-003" },
+        { "ref": "ej-q-004" },
+        { "ref": "ej-q-005" },
+        { "ref": "ej-q-006" },
+        { "ref": "ej-q-007" },
+        { "ref": "ej-q-008" }
       ]
     }
   ],

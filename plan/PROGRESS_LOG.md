@@ -19,3 +19,10 @@ Sitio en vivo: https://gabriel86-as.github.io/dian-2676-estudio/ · Repo: https:
 - QA: probado en Edge headless a 375 px (sin scroll horizontal, sin errores de consola). Nota: Edge headless impone ~500 px de ancho mínimo; para medir 375 px usar un iframe.
 - Publicado (push del reinicio, a pedido del usuario): https://gabriel86-as.github.io/dian-2676-estudio/ sirve el shell nuevo. Tag de respaldo también subido a GitHub.
 - Pendiente: Fase 2 (motor de lecciones).
+
+## 2026-11-03 — Fase 2 (motor de lecciones)
+- `js/engine/player.js` (un paso por pantalla, barra de avance, Comprobar/Continuar, ítem fallado se repite una vez al final, pantalla final con aciertos, tiempo y "Ver explicación"), `js/engine/items/*.js` (un módulo por tipo; contrato en `items/index.js`), `js/engine/flashcards.js` (mazo con voltear, deslizar, teclas), `js/engine/md.js`, `js/engine/events.js` (eventos `answer`, `lessonComplete`, `card`; por ahora solo `console.debug`), `js/util.js`.
+- Nuevas rutas: `#/practicar/:unit` (10 preguntas al azar). La unidad muestra Tarjetas / Practicar / Mis errores (este último apunta a `#/repaso`, stub hasta fase 3).
+- Desviación: en vez de `_demo.json`, el demo es `_ejemplo.json` (lección `ej-01` con los 10 tipos), listado en el manifiesto como "Demo (temporal)" con `"demo": true`. **Quitarlo del manifiesto antes del lanzamiento (fase 8).**
+- Decisiones: "Parcial" (abierta) no se repite al final pero sí aparece en "Para repasar". Likert y concept no cuentan en el puntaje.
+- QA automatizado en Edge headless a 375 px: los 10 tipos, repetición, pantalla final, teclado (1–4, Enter, Ctrl+Enter en abierta), mazo, sin errores de consola.

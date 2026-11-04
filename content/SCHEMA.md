@@ -37,7 +37,7 @@ Prefijos por unidad: `fisc` fiscalizacion · `sanc` sanciones · `oblig` obligac
 }
 ```
 
-`area`: `funcional` | `comportamental` | `integridad`. `priority`: 1 (más alta) a 3. Si el archivo de una unidad aún no existe, la app muestra un aviso en vez de fallar.
+`area`: `funcional` | `comportamental` | `integridad`. `priority`: 1 (más alta) a 3. `demo: true` marca entradas temporales que se quitan antes del lanzamiento. Si el archivo de una unidad aún no existe, la app muestra un aviso en vez de fallar.
 
 ## Unidad
 
