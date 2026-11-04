@@ -1,0 +1,547 @@
+{
+  "id": "liquidacion",
+  "title": "Liquidación de impuestos nacionales",
+  "area": "funcional",
+  "priority": 2,
+  "summary": "Cómo se liquidan y pagan los impuestos nacionales según el Libro V del ET: liquidación privada y oficial, periodos, conversión de UVT, anticipo de renta, pago, imputación, intereses y responsables solidarios. Las tarifas de renta, IVA y retención (Libros I a III) no están en el paquete de fuentes y no se incluyen.",
+  "sources": ["ET arts. 592–606, 634, 635, 698, 717, 764 y 792–807", "UVT 2026 = $52.374 (Res. DIAN 238/2025)"],
+  "lessons": [
+    {
+      "id": "liq-01",
+      "title": "Liquidación privada y liquidación oficial",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "liq-c-001",
+          "type": "concept",
+          "source": "ET arts. 596, 602, 606 y 792",
+          "title": "La liquidación privada",
+          "body": "El **sujeto pasivo** es la persona respecto de quien se realiza el **hecho generador** de la obligación tributaria sustancial (art. 792).\n\nEl contribuyente liquida su propio impuesto en la declaración: es la **liquidación privada**.\n\n- **Renta:** incluye el **anticipo** y las **sanciones** (art. 596, num. 4).\n- **IVA:** incluye las sanciones (art. 602, num. 4).\n- **Retención:** discrimina lo que debió retenerse en el mes y liquida las sanciones (art. 606).\n\nEn todas deben estar los **factores para determinar las bases gravables**; sin ellos la declaración se tiene por no presentada (art. 580)."
+        },
+        {
+          "id": "liq-c-002",
+          "type": "concept",
+          "source": "ET arts. 698, 702, 717 y 764",
+          "title": "Las liquidaciones oficiales",
+          "body": "Cuando la DIAN determina el impuesto, lo hace mediante una **liquidación oficial**:\n\n| Liquidación oficial | Para qué |\n|---|---|\n| De **corrección aritmética** (art. 698) | Corregir errores de operación que reducen el impuesto |\n| De **revisión** (arts. 702 y 710) | Modificar la liquidación privada, previo requerimiento especial |\n| De **aforo** (art. 717) | Determinar el impuesto de quien no declaró |\n| **Provisional** (art. 764) | Proceso abreviado para contribuyentes pequeños |"
+        },
+        { "ref": "liq-q-001" },
+        { "ref": "liq-q-002" },
+        { "ref": "liq-q-003" },
+        { "ref": "liq-q-004" },
+        { "ref": "liq-q-024" },
+        { "ref": "liq-q-026" }
+      ]
+    },
+    {
+      "id": "liq-02",
+      "title": "Periodos y conversión de UVT",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "liq-c-003",
+          "type": "concept",
+          "source": "ET arts. 595, 600 y 604",
+          "title": "Periodos gravables",
+          "body": "- **Renta:** anual.\n- **IVA:** bimestral (ingresos ≥ 92.000 UVT o gran contribuyente) o cuatrimestral (art. 600).\n- **Retención:** mensual (art. 604).\n- **Inicio de actividades:** el periodo va desde el inicio hasta el fin del periodo respectivo (arts. 600 y 604).\n- **Liquidación en el año (art. 595):** el año termina, por ejemplo, en la fecha de aprobación del acta de liquidación (personas jurídicas vigiladas) o en la ejecutoria de la sentencia de partición (sucesiones)."
+        },
+        {
+          "id": "liq-c-004",
+          "type": "concept",
+          "source": "ET arts. 592, 596, 600, 639 y 764; UVT 2026",
+          "title": "Convertir UVT a pesos",
+          "body": "**Pesos = UVT × valor de la UVT.** En 2026, 1 UVT = **$52.374**.\n\n| Cifra | Norma | En pesos 2026 |\n|---|---|---|\n| 10 UVT (sanción mínima) | art. 639 | $523.740 |\n| 1.400 UVT (ingresos, no declarar) | art. 592 | $73.323.600 |\n| 4.500 UVT (patrimonio, no declarar) | art. 592 | $235.683.000 |\n| 15.000 UVT (liquidación provisional) | art. 764 | $785.610.000 |\n| 92.000 UVT (IVA bimestral) | art. 600 | $4.818.408.000 |\n| 100.000 UVT (firma de contador) | art. 596 | $5.237.400.000 |",
+          "example": "950 UVT × $52.374 = $49.755.300 (tope de la sanción del art. 652)."
+        },
+        { "ref": "liq-q-005" },
+        { "ref": "liq-q-006" },
+        { "ref": "liq-q-007" },
+        { "ref": "liq-q-008" },
+        { "ref": "liq-q-027" },
+        { "ref": "liq-q-022" }
+      ]
+    },
+    {
+      "id": "liq-03",
+      "title": "El anticipo del impuesto de renta",
+      "minutes": 9,
+      "steps": [
+        {
+          "id": "liq-c-005",
+          "type": "concept",
+          "source": "ET art. 807",
+          "title": "Cómo se calcula el anticipo",
+          "body": "En su declaración de renta, el contribuyente paga por adelantado parte del impuesto del **año siguiente**.\n\n1. **Base:** el impuesto neto de renta del año, **o** el promedio de los 2 últimos años, a elección del contribuyente.\n2. **Porcentaje:** **75 %**. Si declara por primera vez: **25 %** el primer año, **50 %** el segundo y 75 % después.\n3. **Resta** las retenciones en la fuente del año.\n\nEl resultado es el anticipo a pagar.",
+          "example": "Impuesto neto: $40.000.000; retenciones: $8.000.000. 75 % × 40.000.000 = 30.000.000 − 8.000.000 = $22.000.000 de anticipo."
+        },
+        {
+          "id": "liq-c-006",
+          "type": "concept",
+          "source": "ET art. 807",
+          "title": "El saldo a pagar de la declaración",
+          "body": "En la liquidación privada de renta:\n\n**Saldo = impuesto del año + anticipo del año siguiente − anticipo pagado el año anterior − retenciones − saldo a favor del periodo anterior.**\n\nLa diferencia se paga en la proporción y los plazos fijados para la liquidación privada."
+        },
+        { "ref": "liq-q-009" },
+        { "ref": "liq-q-010" },
+        { "ref": "liq-q-011" },
+        { "ref": "liq-q-012" },
+        { "ref": "liq-q-025" },
+        { "ref": "liq-q-019" }
+      ]
+    },
+    {
+      "id": "liq-04",
+      "title": "Pago, imputación, intereses y solidaridad",
+      "minutes": 9,
+      "steps": [
+        {
+          "id": "liq-c-007",
+          "type": "concept",
+          "source": "ET arts. 634, 800, 802, 803 y 804",
+          "title": "Pagar bien",
+          "body": "- **Dónde:** en los lugares que señale el Gobierno, incluidos los bancos autorizados (art. 800).\n- **Redondeo:** los recibos se aproximan al **múltiplo de mil más cercano** (art. 802).\n- **Fecha de pago:** el día en que los valores ingresan a la DIAN o a los bancos autorizados (art. 803).\n- **Imputación (art. 804):** el pago de deudas vencidas se imputa al periodo e impuesto que indique el contribuyente, **en proporción** a sanciones, intereses, anticipos, impuestos y retenciones. Si lo imputa distinto, la DIAN **reimputa sin acto administrativo previo**.\n- **Intereses (art. 634):** los mayores valores determinados en liquidaciones oficiales causan intereses desde el día siguiente al vencimiento del plazo original de pago."
+        },
+        {
+          "id": "liq-c-008",
+          "type": "concept",
+          "source": "ET arts. 793 y 794",
+          "title": "Quién más responde por la deuda",
+          "body": "**Responden solidariamente con el contribuyente (art. 793), entre otros:**\n\n- Herederos y legatarios, a prorrata de sus cuotas.\n- Socios de sociedades disueltas, hasta lo recibido en la liquidación.\n- La sociedad absorbente, por las obligaciones de la absorbida.\n\n**Socios y similares (art. 794):** responden solidariamente por los impuestos, actualización e intereses de la sociedad, **a prorrata de sus aportes y del tiempo** que los poseyeron en el periodo. No aplica, por ejemplo, a miembros de fondos de empleados o de pensiones."
+        },
+        { "ref": "liq-q-013" },
+        { "ref": "liq-q-014" },
+        { "ref": "liq-q-015" },
+        { "ref": "liq-q-016" },
+        { "ref": "liq-q-017" },
+        { "ref": "liq-q-018" },
+        { "ref": "liq-q-028" }
+      ]
+    }
+  ],
+  "flashcards": [
+    { "id": "liq-fc-001", "front": "¿Quién es sujeto pasivo del tributo?", "back": "La persona respecto de quien se realiza el hecho generador de la obligación tributaria sustancial.", "source": "ET art. 792" },
+    { "id": "liq-fc-002", "front": "¿Qué incluye la liquidación privada de renta?", "back": "El impuesto, el anticipo y las sanciones, cuando haya lugar.", "source": "ET art. 596" },
+    { "id": "liq-fc-003", "front": "Liquidación oficial para quien no declaró", "back": "Liquidación de aforo.", "source": "ET art. 717" },
+    { "id": "liq-fc-004", "front": "Liquidación oficial para corregir errores de operación", "back": "Liquidación de corrección aritmética.", "source": "ET art. 698" },
+    { "id": "liq-fc-005", "front": "Periodo fiscal de la retención en la fuente", "back": "Mensual.", "source": "ET art. 604" },
+    { "id": "liq-fc-006", "front": "¿Cuándo termina el año gravable de una persona jurídica vigilada que se liquida?", "back": "En la fecha de aprobación del acta de liquidación.", "source": "ET art. 595" },
+    { "id": "liq-fc-007", "front": "Valor de la UVT en 2026", "back": "$52.374.", "source": "Res. DIAN 238/2025" },
+    { "id": "liq-fc-008", "front": "1.400 UVT en pesos de 2026", "back": "$73.323.600.", "source": "ET art. 592; UVT 2026" },
+    { "id": "liq-fc-009", "front": "4.500 UVT en pesos de 2026", "back": "$235.683.000.", "source": "ET art. 592; UVT 2026" },
+    { "id": "liq-fc-010", "front": "Porcentaje general del anticipo de renta", "back": "75 % del impuesto neto (del año o del promedio de los dos últimos).", "source": "ET art. 807" },
+    { "id": "liq-fc-011", "front": "Anticipo para quien declara por primera vez", "back": "25 % el primer año, 50 % el segundo, 75 % después.", "source": "ET art. 807" },
+    { "id": "liq-fc-012", "front": "¿Qué se resta al calcular el anticipo?", "back": "Las retenciones en la fuente del respectivo año.", "source": "ET art. 807" },
+    { "id": "liq-fc-013", "front": "¿A qué múltiplo se aproximan los valores en los recibos de pago?", "back": "Al múltiplo de mil más cercano.", "source": "ET art. 802" },
+    { "id": "liq-fc-014", "front": "¿Qué fecha se tiene como fecha de pago?", "back": "La fecha en que los valores ingresan a la DIAN o a los bancos autorizados.", "source": "ET art. 803" },
+    { "id": "liq-fc-015", "front": "¿Cómo se imputan los pagos de deudas vencidas?", "back": "Proporcionalmente a sanciones, intereses, anticipos, impuestos y retenciones.", "source": "ET art. 804" },
+    { "id": "liq-fc-016", "front": "Si el contribuyente imputa mal un pago, ¿qué hace la DIAN?", "back": "Lo reimputa en el orden legal sin acto administrativo previo.", "source": "ET art. 804" },
+    { "id": "liq-fc-017", "front": "¿Desde cuándo causan intereses los mayores valores de una liquidación oficial?", "back": "Desde el día siguiente al vencimiento del plazo en que debieron pagarse.", "source": "ET art. 634" },
+    { "id": "liq-fc-018", "front": "¿Cómo responden los herederos por las deudas del causante?", "back": "Solidariamente, a prorrata de sus cuotas y con beneficio de inventario.", "source": "ET art. 793" },
+    { "id": "liq-fc-019", "front": "¿Cómo responden los socios por los impuestos de la sociedad?", "back": "Solidariamente, a prorrata de sus aportes y del tiempo de posesión en el periodo.", "source": "ET art. 794" },
+    { "id": "liq-fc-020", "front": "Efecto de una declaración presentada por quien no estaba obligado", "back": "No produce efecto legal alguno.", "source": "ET art. 594-2" }
+  ],
+  "questions": [
+    {
+      "id": "liq-q-001", "type": "pjs", "difficulty": 1, "source": "ET art. 596",
+      "case": "Un contribuyente presentó su declaración de renta y liquidó el impuesto del año, pero dejó en blanco el anticipo del año siguiente porque «eso lo calcula la DIAN».",
+      "prompt": "¿Qué debe explicarle el gestor?",
+      "options": [
+        { "id": "a", "text": "Que el anticipo lo liquida la DIAN en una liquidación oficial." },
+        { "id": "b", "text": "Que el anticipo hace parte de su propia liquidación privada." },
+        { "id": "c", "text": "Que el anticipo se liquida solo si la DIAN se lo requiere." }
+      ],
+      "answer": "b",
+      "explain": "La declaración de renta debe contener la liquidación privada del impuesto, incluidos el anticipo y las sanciones (art. 596, num. 4).",
+      "optionWhy": {
+        "a": "El anticipo lo liquida el contribuyente en su declaración, no la DIAN.",
+        "c": "Es parte obligatoria del contenido de la declaración (art. 596)."
+      }
+    },
+    {
+      "id": "liq-q-002", "type": "pjs", "difficulty": 2, "source": "ET arts. 698, 703 y 717",
+      "case": "Su grupo tiene tres casos: (1) un omiso que no declaró pese al emplazamiento y ya fue sancionado; (2) una declaración con una suma mal hecha; (3) una declaración con costos inexistentes.",
+      "prompt": "¿Qué liquidación oficial corresponde al caso 1?",
+      "options": [
+        { "id": "a", "text": "Liquidación de aforo." },
+        { "id": "b", "text": "Liquidación de revisión." },
+        { "id": "c", "text": "Liquidación de corrección aritmética." }
+      ],
+      "answer": "a",
+      "explain": "Al omiso, agotados el emplazamiento y la sanción por no declarar, se le determina el impuesto con liquidación de aforo (art. 717). El caso 2 va por corrección aritmética (art. 698) y el 3 por revisión, previo requerimiento especial (art. 703).",
+      "optionWhy": {
+        "b": "La revisión modifica una declaración existente: es para el caso 3.",
+        "c": "La corrección aritmética es para el caso 2."
+      }
+    },
+    {
+      "id": "liq-q-003", "type": "pjs", "difficulty": 2, "source": "ET arts. 580 y 602",
+      "case": "Un responsable de IVA presentó su declaración con el impuesto total, pero sin discriminar los factores para determinar la base gravable.",
+      "prompt": "¿Qué consecuencia tiene esa omisión?",
+      "options": [
+        { "id": "a", "text": "Solo genera una sanción por corrección del 10 %." },
+        { "id": "b", "text": "La DIAN debe proferir liquidación de aforo de inmediato." },
+        { "id": "c", "text": "La declaración se tiene por no presentada." }
+      ],
+      "answer": "c",
+      "explain": "La declaración de IVA debe discriminar los factores de la base gravable (art. 602, num. 3). Si no los contiene, se tiene por no presentada (art. 580, lit. c).",
+      "optionWhy": {
+        "a": "No se trata de una corrección: falta un elemento esencial de la declaración.",
+        "b": "El aforo exige agotar antes el emplazamiento y la sanción por no declarar."
+      }
+    },
+    {
+      "id": "liq-q-004", "type": "pjs", "difficulty": 3, "source": "ET arts. 592 y 594-2",
+      "case": "Una persona que no estaba obligada a declarar renta presentó «por si acaso» una declaración con saldo a pagar, y ahora pide que la DIAN la tenga en cuenta.",
+      "prompt": "¿Qué efecto tiene esa declaración?",
+      "options": [
+        { "id": "a", "text": "Produce efectos plenos, porque fue presentada en plazo." },
+        { "id": "b", "text": "No produce efecto legal alguno, por no estar obligada." },
+        { "id": "c", "text": "Produce efectos solo si la persona paga el saldo." }
+      ],
+      "answer": "b",
+      "explain": "Las declaraciones tributarias presentadas por los no obligados a declarar no producen efecto legal alguno (art. 594-2).",
+      "optionWhy": {
+        "a": "Presentarla a tiempo no le da efectos a quien no estaba obligado.",
+        "c": "El art. 594-2 no condiciona la falta de efectos al pago."
+      }
+    },
+    {
+      "id": "liq-q-005", "type": "pjs", "difficulty": 2, "source": "ET art. 604",
+      "case": "Una empresa empezó a operar el 18 de marzo de 2026 y practicó retenciones desde ese día. Pregunta qué periodo cubre su primera declaración de retención.",
+      "prompt": "¿Qué periodo debe declarar?",
+      "options": [
+        { "id": "a", "text": "Del 18 al 31 de marzo de 2026." },
+        { "id": "b", "text": "Del 1 al 31 de marzo de 2026." },
+        { "id": "c", "text": "Del 18 de marzo al 30 de abril de 2026." }
+      ],
+      "answer": "a",
+      "explain": "El periodo fiscal de la retención es mensual. Si las actividades empiezan durante el mes, el periodo va desde la fecha de inicio hasta el fin del mes (art. 604).",
+      "optionWhy": {
+        "b": "Antes del 18 de marzo la empresa no operaba.",
+        "c": "El periodo de retención es mensual; no se acumulan dos meses."
+      }
+    },
+    {
+      "id": "liq-q-006", "type": "pjs", "difficulty": 2, "source": "ET art. 764; UVT 2026",
+      "case": "Su equipo evalúa una liquidación provisional para un contribuyente que declaró ingresos brutos de $700.000.000 el año anterior. UVT 2026: $52.374.",
+      "prompt": "¿Cumple el tope de ingresos del art. 764?",
+      "options": [
+        { "id": "a", "text": "No, porque el tope es de 1.400 UVT ($73.323.600)." },
+        { "id": "b", "text": "No, porque el tope es de 30.000 UVT de ingresos." },
+        { "id": "c", "text": "Sí, porque 15.000 UVT equivalen a $785.610.000." }
+      ],
+      "answer": "c",
+      "explain": "El tope de ingresos brutos es 15.000 UVT (art. 764, par. 1): 15.000 × $52.374 = $785.610.000. Como $700.000.000 es menor, cumple.",
+      "optionWhy": {
+        "a": "1.400 UVT es el tope de ingresos para no declarar renta (art. 592).",
+        "b": "30.000 UVT es el tope de patrimonio bruto, no de ingresos."
+      }
+    },
+    {
+      "id": "liq-q-007", "type": "pjs", "difficulty": 3, "source": "ET art. 600; UVT 2026",
+      "case": "Una sociedad, que no es gran contribuyente, tuvo ingresos brutos de $5.000.000.000 a 31 de diciembre de 2025. Pregunta si en 2026 declara IVA cada dos o cada cuatro meses. Use la UVT de 2026 ($52.374) como referencia.",
+      "prompt": "¿Qué le responde el gestor?",
+      "options": [
+        { "id": "a", "text": "Cuatrimestral: el tope bimestral es de 100.000 UVT." },
+        { "id": "b", "text": "Cuatrimestral: solo los grandes contribuyentes son bimestrales." },
+        { "id": "c", "text": "Bimestral: sus ingresos superan 92.000 UVT ($4.818.408.000)." }
+      ],
+      "answer": "c",
+      "explain": "Declaran bimestralmente quienes tuvieron ingresos brutos ≥ 92.000 UVT (art. 600, num. 1). 92.000 × $52.374 = $4.818.408.000, y $5.000.000.000 lo supera.",
+      "optionWhy": {
+        "a": "100.000 UVT es el tope para exigir firma de contador (art. 596), no el del IVA.",
+        "b": "Además de los grandes contribuyentes, también son bimestrales quienes superan 92.000 UVT."
+      }
+    },
+    {
+      "id": "liq-q-008", "type": "pjs", "difficulty": 1, "source": "ET art. 639; UVT 2026",
+      "case": "Un contribuyente le pregunta a cuánto equivale en pesos la sanción mínima en 2026.",
+      "prompt": "¿Qué le responde el gestor?",
+      "options": [
+        { "id": "a", "text": "$523.740 (10 UVT)." },
+        { "id": "b", "text": "$261.870 (5 UVT)." },
+        { "id": "c", "text": "$1.047.480 (20 UVT)." }
+      ],
+      "answer": "a",
+      "explain": "La sanción mínima es 10 UVT (art. 639): 10 × $52.374 = $523.740.",
+      "optionWhy": {
+        "b": "La mínima no es de 5 UVT.",
+        "c": "La mínima no es de 20 UVT."
+      }
+    },
+    {
+      "id": "liq-q-009", "type": "pjs", "difficulty": 2, "source": "ET art. 807",
+      "case": "Un contribuyente que declara renta hace muchos años tuvo un impuesto neto de $40.000.000 en el año gravable y retenciones de $8.000.000. Elige como base el impuesto del año.",
+      "prompt": "¿Cuál es su anticipo para el año siguiente?",
+      "options": [
+        { "id": "a", "text": "$30.000.000" },
+        { "id": "b", "text": "$22.000.000" },
+        { "id": "c", "text": "$24.000.000" }
+      ],
+      "answer": "b",
+      "explain": "75 % × $40.000.000 = $30.000.000. Menos retenciones de $8.000.000: anticipo = $22.000.000 (art. 807).",
+      "optionWhy": {
+        "a": "Faltó descontar las retenciones en la fuente.",
+        "c": "Se aplicó 80 % en vez del 75 % legal: 0,8 × 40.000.000 − 8.000.000."
+      }
+    },
+    {
+      "id": "liq-q-010", "type": "pjs", "difficulty": 3, "source": "ET art. 807",
+      "case": "El impuesto neto de renta de una sociedad fue de $40.000.000 en 2025 y de $30.000.000 en 2024. Sus retenciones de 2025 fueron $8.000.000. Quiere pagar el menor anticipo que permita la ley.",
+      "prompt": "¿Qué base debe elegir y cuánto pagará?",
+      "options": [
+        { "id": "a", "text": "El impuesto de 2025: $22.000.000." },
+        { "id": "b", "text": "El impuesto de 2024: $14.500.000." },
+        { "id": "c", "text": "El promedio de los dos años: $18.250.000." }
+      ],
+      "answer": "c",
+      "explain": "Puede usar el impuesto del año o el promedio de los 2 últimos (art. 807). Promedio: $35.000.000 × 75 % = $26.250.000 − $8.000.000 = $18.250.000, menor que con el año 2025 ($22.000.000).",
+      "optionWhy": {
+        "a": "Es una opción válida, pero no la menor.",
+        "b": "La ley no permite usar solo el año anterior; las opciones son el año o el promedio."
+      }
+    },
+    {
+      "id": "liq-q-011", "type": "pjs", "difficulty": 2, "source": "ET art. 807",
+      "case": "Una persona natural declara renta por primera vez. Su impuesto neto fue de $20.000.000 y le retuvieron $2.000.000.",
+      "prompt": "¿Cuánto es su anticipo para el año siguiente?",
+      "options": [
+        { "id": "a", "text": "$3.000.000" },
+        { "id": "b", "text": "$8.000.000" },
+        { "id": "c", "text": "$13.000.000" }
+      ],
+      "answer": "a",
+      "explain": "Quien declara por primera vez aplica 25 % el primer año (art. 807): 25 % × $20.000.000 = $5.000.000 − $2.000.000 = $3.000.000.",
+      "optionWhy": {
+        "b": "Aplica el 50 %, que corresponde al segundo año: 0,5 × 20.000.000 − 2.000.000.",
+        "c": "Aplica el 75 % general, que no corresponde al primer año."
+      }
+    },
+    {
+      "id": "liq-q-012", "type": "pjs", "difficulty": 3, "source": "ET art. 807",
+      "case": "En su renta 2025, una sociedad tiene impuesto de $40.000.000, anticipo para 2026 de $22.000.000, anticipo pagado el año anterior de $15.000.000 y retenciones de $8.000.000. No tiene saldo a favor anterior.",
+      "prompt": "¿Cuál es el saldo a pagar de la declaración?",
+      "options": [
+        { "id": "a", "text": "$47.000.000" },
+        { "id": "b", "text": "$17.000.000" },
+        { "id": "c", "text": "$39.000.000" }
+      ],
+      "answer": "c",
+      "explain": "Impuesto + anticipo siguiente − anticipo anterior − retenciones (art. 807): 40.000.000 + 22.000.000 − 15.000.000 − 8.000.000 = $39.000.000.",
+      "optionWhy": {
+        "a": "Faltó restar las retenciones: 40 + 22 − 15.",
+        "b": "Faltó sumar el anticipo del año siguiente: 40 − 15 − 8."
+      }
+    },
+    {
+      "id": "liq-q-013", "type": "pjs", "difficulty": 1, "source": "ET art. 802",
+      "case": "Un contribuyente diligencia un recibo de pago por $1.523.740.",
+      "prompt": "¿Qué valor debe registrar en el recibo?",
+      "options": [
+        { "id": "a", "text": "$1.523.000" },
+        { "id": "b", "text": "$1.524.000" },
+        { "id": "c", "text": "$1.523.740" }
+      ],
+      "answer": "b",
+      "explain": "Los valores de los recibos se aproximan al múltiplo de mil más cercano (art. 802). $1.523.740 está más cerca de $1.524.000.",
+      "optionWhy": {
+        "a": "No se trunca: se aproxima al múltiplo de mil más cercano.",
+        "c": "El art. 802 exige aproximar."
+      }
+    },
+    {
+      "id": "liq-q-014", "type": "pjs", "difficulty": 2, "source": "ET art. 803",
+      "case": "Un contribuyente consignó su impuesto en un banco autorizado el último día del plazo. El banco transfirió los recursos a la DIAN tres días después.",
+      "prompt": "¿Qué fecha de pago debe tenerse en cuenta?",
+      "options": [
+        { "id": "a", "text": "La fecha en que la DIAN recibió la transferencia." },
+        { "id": "b", "text": "La fecha en que se presentó la declaración." },
+        { "id": "c", "text": "La fecha en que ingresó el dinero al banco autorizado." }
+      ],
+      "answer": "c",
+      "explain": "Es fecha de pago aquella en que los valores ingresan a las oficinas de la DIAN o a los bancos autorizados (art. 803). El pago fue oportuno.",
+      "optionWhy": {
+        "a": "El ingreso al banco autorizado ya cuenta como pago.",
+        "b": "La presentación de la declaración no equivale al pago."
+      }
+    },
+    {
+      "id": "liq-q-015", "type": "pjs", "difficulty": 3, "source": "ET art. 804",
+      "case": "Una persona debe IVA vencido con impuesto, sanción e intereses. Hace un abono y escribe en el recibo que todo se aplique al impuesto. Usted revisa el estado de cuenta.",
+      "prompt": "¿Cómo debe imputarse el abono?",
+      "options": [
+        { "id": "a", "text": "Todo al impuesto, como lo indicó el contribuyente." },
+        { "id": "b", "text": "En proporción a sanción, intereses e impuesto; se reimputa sin acto." },
+        { "id": "c", "text": "Primero a intereses y sanción, y el saldo al impuesto, con acto previo." }
+      ],
+      "answer": "b",
+      "explain": "Los pagos de deudas vencidas se imputan en la misma proporción con que participan sanciones, intereses, anticipos, impuestos y retenciones. Si el contribuyente lo imputa distinto, la DIAN lo reimputa sin acto administrativo previo (art. 804).",
+      "optionWhy": {
+        "a": "El contribuyente escoge el periodo e impuesto, pero no puede alterar la proporción legal.",
+        "c": "La regla es proporcional, no de prelación, y no exige acto previo."
+      }
+    },
+    {
+      "id": "liq-q-016", "type": "pjs", "difficulty": 2, "source": "ET art. 634",
+      "case": "Una liquidación de revisión, en firme en 2026, determinó un mayor impuesto de renta del año gravable 2023. El contribuyente pregunta desde cuándo debe intereses sobre ese mayor valor.",
+      "prompt": "¿Qué le responde el gestor?",
+      "options": [
+        { "id": "a", "text": "Desde el día siguiente al vencimiento del plazo de pago de 2023." },
+        { "id": "b", "text": "Desde la fecha de notificación de la liquidación de revisión." },
+        { "id": "c", "text": "Desde la fecha en que quedó en firme la liquidación." }
+      ],
+      "answer": "a",
+      "explain": "Los mayores valores determinados en liquidaciones oficiales causan intereses desde el día siguiente al vencimiento del término en que debieron pagarse, según los plazos del periodo liquidado (art. 634).",
+      "optionWhy": {
+        "b": "Los intereses no se cuentan desde la notificación, sino desde el vencimiento original.",
+        "c": "La firmeza del acto no marca el inicio de los intereses."
+      }
+    },
+    {
+      "id": "liq-q-017", "type": "pjs", "difficulty": 2, "source": "ET art. 794",
+      "case": "Una sociedad limitada quedó debiendo impuestos. Un socio tuvo el 30 % de las cuotas durante todo el periodo gravable.",
+      "prompt": "¿Cómo responde ese socio?",
+      "options": [
+        { "id": "a", "text": "Por el 100 % de la deuda, sin límite alguno." },
+        { "id": "b", "text": "No responde, porque la sociedad es una persona distinta." },
+        { "id": "c", "text": "Solidariamente, a prorrata de su aporte y del tiempo." }
+      ],
+      "answer": "c",
+      "explain": "Los socios responden solidariamente por los impuestos, actualización e intereses de la sociedad, a prorrata de sus aportes y del tiempo que los poseyeron en el periodo (art. 794).",
+      "optionWhy": {
+        "a": "La responsabilidad se limita a la prorrata de aportes y tiempo.",
+        "b": "El art. 794 establece la responsabilidad solidaria de los socios."
+      }
+    },
+    {
+      "id": "liq-q-018", "type": "pjs", "difficulty": 1, "source": "ET art. 793",
+      "case": "Un contribuyente murió debiendo impuestos. Sus dos hijos heredaron por partes iguales.",
+      "prompt": "¿Cómo responden los herederos por esa deuda?",
+      "options": [
+        { "id": "a", "text": "No responden; la deuda se extingue con la muerte." },
+        { "id": "b", "text": "Solidariamente, a prorrata de sus cuotas hereditarias." },
+        { "id": "c", "text": "Cada uno por el total, sin beneficio de inventario." }
+      ],
+      "answer": "b",
+      "explain": "Los herederos y legatarios responden con el contribuyente por las obligaciones del causante, a prorrata de sus cuotas y sin perjuicio del beneficio de inventario (art. 793, lit. a).",
+      "optionWhy": {
+        "a": "La deuda tributaria no se extingue por la muerte; la asumen herederos y sucesión.",
+        "c": "Responden a prorrata y con beneficio de inventario."
+      }
+    },
+    {
+      "id": "liq-q-019", "type": "open", "difficulty": 3, "source": "ET art. 807",
+      "prompt": "Explique paso a paso cómo se calcula el anticipo de renta y en qué cambia para quien declara por primera vez.",
+      "modelAnswer": "Se toma como base el impuesto neto de renta del año o el promedio de los dos últimos años, a elección del contribuyente. A esa base se aplica el 75 % y al resultado se le restan las retenciones en la fuente del año. Quien declara por primera vez aplica 25 % el primer año y 50 % el segundo; luego, 75 %.",
+      "keyPoints": [
+        "Base: impuesto neto del año o promedio de los dos últimos años",
+        "Porcentaje general: 75 %",
+        "Se restan las retenciones del año",
+        "Primera vez: 25 %, luego 50 %, luego 75 %"
+      ],
+      "keywords": ["impuesto neto", "promedio", "75", "retenciones", "25", "50"],
+      "minKeywords": 4
+    },
+    {
+      "id": "liq-q-020", "type": "open", "difficulty": 2, "source": "ET arts. 802, 803 y 804",
+      "prompt": "Explique tres reglas sobre el pago de impuestos: redondeo, fecha de pago e imputación.",
+      "modelAnswer": "Los valores de los recibos se aproximan al múltiplo de mil más cercano. La fecha de pago es aquella en que el dinero ingresa a la DIAN o a un banco autorizado. Los pagos de deudas vencidas se imputan en proporción a sanciones, intereses, anticipos, impuestos y retenciones; si el contribuyente los imputa distinto, la DIAN los reimputa sin acto previo.",
+      "keyPoints": [
+        "Redondeo al múltiplo de mil más cercano (802)",
+        "Fecha de pago: ingreso a la DIAN o al banco autorizado (803)",
+        "Imputación proporcional (804)",
+        "Reimputación sin acto administrativo (804)"
+      ],
+      "keywords": ["mil", "banco", "fecha", "proporcion", "imputa", "sin acto"],
+      "minKeywords": 4
+    },
+    {
+      "id": "liq-q-021", "type": "open", "difficulty": 2, "source": "ET arts. 698, 702, 717 y 764",
+      "prompt": "Nombre las cuatro clases de liquidación oficial y para qué sirve cada una.",
+      "modelAnswer": "Corrección aritmética: corrige errores de operación que reducen el impuesto. Revisión: modifica la liquidación privada, previo requerimiento especial. Aforo: determina el impuesto de quien no declaró. Provisional: proceso abreviado para contribuyentes bajo los topes de ingresos o patrimonio.",
+      "keyPoints": [
+        "Corrección aritmética: errores de operación",
+        "Revisión: modificar la liquidación privada (previo requerimiento)",
+        "Aforo: omisos",
+        "Provisional: proceso abreviado con topes de UVT"
+      ],
+      "keywords": ["correccion aritmetica", "revision", "aforo", "provisional", "requerimiento", "no declaro"],
+      "minKeywords": 4
+    },
+    {
+      "id": "liq-q-022", "type": "match", "difficulty": 2, "source": "ET arts. 592, 596, 600, 639 y 764; UVT 2026",
+      "prompt": "Relacione cada cifra en UVT con su valor en pesos de 2026.",
+      "pairs": [
+        { "left": "10 UVT", "right": "$523.740" },
+        { "left": "1.400 UVT", "right": "$73.323.600" },
+        { "left": "4.500 UVT", "right": "$235.683.000" },
+        { "left": "15.000 UVT", "right": "$785.610.000" },
+        { "left": "100.000 UVT", "right": "$5.237.400.000" }
+      ],
+      "explain": "UVT 2026 = $52.374. Multiplique las UVT por ese valor."
+    },
+    {
+      "id": "liq-q-023", "type": "mcq", "difficulty": 1, "source": "ET art. 807",
+      "prompt": "¿Qué porcentaje general se aplica para calcular el anticipo de renta?",
+      "options": [
+        { "id": "a", "text": "25 %" },
+        { "id": "b", "text": "50 %" },
+        { "id": "c", "text": "75 %" },
+        { "id": "d", "text": "100 %" }
+      ],
+      "answer": "c",
+      "explain": "El porcentaje general es 75 % (art. 807).",
+      "optionWhy": {
+        "a": "El 25 % es solo para el primer año de quien declara por primera vez.",
+        "b": "El 50 % es para el segundo año de quien declara por primera vez.",
+        "d": "El anticipo no es el 100 % del impuesto."
+      }
+    },
+    {
+      "id": "liq-q-024", "type": "mcq", "difficulty": 1, "source": "ET art. 792",
+      "prompt": "Según el ET, ¿quién es contribuyente o responsable directo del pago del tributo?",
+      "options": [
+        { "id": "a", "text": "Quien firma la declaración como contador" },
+        { "id": "b", "text": "El banco que recibe el pago del impuesto" },
+        { "id": "c", "text": "El funcionario que liquida el impuesto" },
+        { "id": "d", "text": "Aquel respecto de quien se realiza el hecho generador" }
+      ],
+      "answer": "d",
+      "explain": "Son contribuyentes o responsables directos los sujetos respecto de quienes se realiza el hecho generador de la obligación sustancial (art. 792).",
+      "optionWhy": {
+        "a": "El contador certifica hechos (art. 581); no es el sujeto pasivo.",
+        "b": "El banco recauda; no es el obligado al tributo.",
+        "c": "El funcionario actúa por la DIAN; no es el obligado."
+      }
+    },
+    {
+      "id": "liq-q-025", "type": "order", "difficulty": 2, "source": "ET art. 807",
+      "prompt": "Ordene los pasos para calcular el anticipo de renta.",
+      "items": [
+        "Elegir la base: impuesto neto del año o promedio de los dos últimos años",
+        "Aplicar el porcentaje (75 %, o 25 % y 50 % si declara por primera vez)",
+        "Restar las retenciones en la fuente del año",
+        "Agregar el anticipo resultante a la liquidación privada"
+      ],
+      "explain": "Art. 807: base, porcentaje, menos retenciones, y el anticipo se suma al total liquidado."
+    },
+    {
+      "id": "liq-q-026", "type": "truefalse", "difficulty": 1, "source": "ET art. 594-2",
+      "statement": "Una declaración de renta presentada por quien no estaba obligado a declarar produce plenos efectos legales.",
+      "answer": false,
+      "explain": "Falso. Las declaraciones de los no obligados no producen efecto legal alguno (art. 594-2)."
+    },
+    {
+      "id": "liq-q-027", "type": "cloze", "difficulty": 1, "source": "ET art. 604",
+      "text": "El período fiscal de las retenciones en la fuente es {{mensual}}.",
+      "alternatives": { "mensual": ["un mes", "cada mes"] },
+      "explain": "Art. 604."
+    },
+    {
+      "id": "liq-q-028", "type": "truefalse", "difficulty": 1, "source": "ET art. 804",
+      "statement": "Si un contribuyente imputa un pago de forma distinta a la legal, la DIAN debe expedir un acto administrativo antes de reimputarlo.",
+      "answer": false,
+      "explain": "Falso. La DIAN lo reimputa en el orden señalado sin que se requiera acto administrativo previo (art. 804)."
+    }
+  ]
+}

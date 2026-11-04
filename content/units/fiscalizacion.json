@@ -1,0 +1,1011 @@
+{
+  "id": "fiscalizacion",
+  "title": "Fiscalización y liquidación tributaria y aduanera",
+  "area": "funcional",
+  "priority": 1,
+  "summary": "Cómo la DIAN verifica las declaraciones y determina oficialmente los impuestos: emplazamientos, corrección aritmética, requerimiento especial, liquidación de revisión y de aforo, liquidación provisional, recursos y su equivalente aduanero en la Ley 2586 de 2026.",
+  "sources": ["ET arts. 684–734 y 764–764-3", "Ley 2586/2026 arts. 3–12, 56–98 y 112", "Decreto 1165/2019 arts. 576–582"],
+  "lessons": [
+    {
+      "id": "fisc-01",
+      "title": "Facultades de fiscalización y emplazamiento para corregir",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "fisc-c-001",
+          "type": "concept",
+          "source": "ET arts. 684 y 686",
+          "title": "Amplias facultades de fiscalización",
+          "body": "La DIAN tiene **amplias facultades de fiscalización e investigación** para asegurar el cumplimiento de las normas sustanciales (ET art. 684). Entre otras, puede:\n\n- Verificar la exactitud de las declaraciones.\n- Investigar hechos generadores no declarados.\n- Citar o requerir al contribuyente o a **terceros** para que rindan informes o contesten interrogatorios.\n- Exigir documentos y ordenar la **exhibición de libros** y comprobantes.\n\nContribuyentes y **no contribuyentes** deben atender los requerimientos de información y pruebas (ET art. 686)."
+        },
+        {
+          "id": "fisc-c-002",
+          "type": "concept",
+          "source": "ET arts. 685 y 706",
+          "title": "Emplazamiento para corregir",
+          "body": "Si la DIAN tiene **indicios de inexactitud**, puede enviar un **emplazamiento para corregir** (ET art. 685):\n\n- El contribuyente puede corregir **dentro del mes siguiente** a la notificación, liquidando la sanción de corrección (art. 644).\n- **No responder no genera sanción.**\n- La DIAN puede señalar diferencias de criterio que no son inexactitud; esas se corrigen **sin** sanción de corrección.\n\nEl término para notificar el requerimiento especial se **suspende durante el mes** siguiente a la notificación del emplazamiento (art. 706).",
+          "example": "Es una invitación: si la persona no corrige, la DIAN puede seguir con el requerimiento especial."
+        },
+        { "ref": "fisc-q-041" },
+        { "ref": "fisc-q-042" },
+        { "ref": "fisc-q-001" },
+        { "ref": "fisc-q-002" },
+        { "ref": "fisc-q-044" },
+        { "ref": "fisc-q-011" }
+      ]
+    },
+    {
+      "id": "fisc-02",
+      "title": "Corrección aritmética y sanciones mal liquidadas",
+      "minutes": 6,
+      "steps": [
+        {
+          "id": "fisc-c-003",
+          "type": "concept",
+          "source": "ET arts. 697–699",
+          "title": "Liquidación de corrección aritmética",
+          "body": "Hay **error aritmético** cuando, con valores bien declarados, se anota un resultado equivocado, se aplica mal la tarifa o una operación da un valor errado que implica **menor valor a pagar** o **mayor saldo a favor** (art. 697).\n\n- La DIAN lo corrige con una **liquidación de corrección** (art. 698).\n- Plazo: **2 años** desde la **presentación** de la declaración (art. 699).\n- No impide la facultad de revisión."
+        },
+        {
+          "id": "fisc-c-004",
+          "type": "concept",
+          "source": "ET art. 701",
+          "title": "Sanciones no liquidadas o mal liquidadas",
+          "body": "Si el declarante no liquidó las sanciones a su cargo, o las liquidó mal, la DIAN las liquida **incrementadas en un 30 %** (art. 701).\n\n- Si se impone en resolución independiente, procede el **recurso de reconsideración**.\n- El **incremento** se reduce **a la mitad** si, dentro del término para recurrir, la persona **acepta los hechos, renuncia al recurso y paga** la sanción más el incremento reducido."
+        },
+        { "ref": "fisc-q-048" },
+        { "ref": "fisc-q-004" },
+        { "ref": "fisc-q-005" },
+        { "ref": "fisc-q-006" },
+        { "ref": "fisc-q-007" }
+      ]
+    },
+    {
+      "id": "fisc-03",
+      "title": "Requerimiento especial",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "fisc-c-005",
+          "type": "concept",
+          "source": "ET arts. 703–705",
+          "title": "El requisito previo de la liquidación de revisión",
+          "body": "Antes de la **liquidación de revisión**, la DIAN envía **por una sola vez** un **requerimiento especial** con todos los puntos que propone modificar y sus razones (art. 703), cuantificando impuestos, anticipos, retenciones y sanciones (art. 704).\n\n| Situación | Plazo para notificarlo (art. 705) |\n|---|---|\n| Declaración oportuna | 3 años desde el vencimiento del plazo para declarar |\n| Declaración extemporánea | 3 años desde su presentación |\n| Saldo a favor | 3 años desde la solicitud de devolución o compensación |"
+        },
+        {
+          "id": "fisc-c-006",
+          "type": "concept",
+          "source": "ET arts. 706–709",
+          "title": "Respuesta, ampliación y aceptación",
+          "body": "- **Suspensión** del término para notificarlo: inspección tributaria de oficio (3 meses), inspección a solicitud (mientras dure) y el mes siguiente al emplazamiento para corregir (art. 706).\n- **Respuesta:** dentro de los **3 meses** siguientes a la notificación (art. 707).\n- **Ampliación:** **una sola vez**, dentro de los 3 meses siguientes al vencimiento del plazo para responder; puede incluir hechos nuevos; su respuesta tiene un plazo **entre 3 y 6 meses** (art. 708).\n- **Aceptar** los hechos al responder el requerimiento o la ampliación reduce la sanción por inexactitud a la **cuarta parte** (art. 709)."
+        },
+        { "ref": "fisc-q-008" },
+        { "ref": "fisc-q-009" },
+        { "ref": "fisc-q-012" },
+        { "ref": "fisc-q-013" },
+        { "ref": "fisc-q-014" },
+        { "ref": "fisc-q-039" }
+      ]
+    },
+    {
+      "id": "fisc-04",
+      "title": "Liquidación de revisión, firmeza y nulidades",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "fisc-c-007",
+          "type": "concept",
+          "source": "ET arts. 710–713",
+          "title": "Liquidación oficial de revisión",
+          "body": "- Se notifica dentro de los **6 meses** siguientes al vencimiento del término para responder el requerimiento o su ampliación (art. 710).\n- Ese término se suspende **3 meses** por inspección tributaria de oficio, mientras dure la inspección contable pedida por el contribuyente y **2 meses** cuando se piden documentos que no están en el expediente.\n- **Correspondencia:** solo puede referirse a la declaración y a los hechos del requerimiento o de su ampliación (art. 711).\n- Aceptar los hechos de la liquidación dentro del término para recurrir reduce la sanción por inexactitud a la **mitad** (art. 713)."
+        },
+        {
+          "id": "fisc-c-008",
+          "type": "concept",
+          "source": "ET arts. 689-3, 714 y 730",
+          "title": "Firmeza y nulidades",
+          "body": "**Firmeza general (art. 714):** la declaración queda en firme si en **3 años** desde el vencimiento del plazo para declarar (o desde su presentación, si fue extemporánea) no se notificó requerimiento especial. También queda en firme si vence el término para notificar la liquidación de revisión sin hacerlo.\n\n**Beneficio de auditoría (art. 689-3, periodos hasta 2026):** si la declaración de renta es oportuna, se paga a tiempo y el impuesto neto sube:\n\n| Incremento | Firmeza |\n|---|---|\n| ≥ 35 % | 6 meses |\n| ≥ 25 % | 12 meses |\n\nNo aplica si el impuesto neto del año base es inferior a 71 UVT.\n\n**Nulidad (art. 730):** entre otras causales, es nula la liquidación dictada por funcionario incompetente o **sin requerimiento especial previo**."
+        },
+        { "ref": "fisc-q-045" },
+        { "ref": "fisc-q-015" },
+        { "ref": "fisc-q-017" },
+        { "ref": "fisc-q-018" },
+        { "ref": "fisc-q-019" },
+        { "ref": "fisc-q-020" }
+      ]
+    },
+    {
+      "id": "fisc-05",
+      "title": "Omisos: emplazamiento, aforo y liquidación provisional",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "fisc-c-009",
+          "type": "concept",
+          "source": "ET arts. 715–719",
+          "title": "Ruta para quien no declara",
+          "body": "1. **Emplazamiento previo por no declarar:** plazo perentorio de **1 mes** (art. 715). Si declara después, liquida la sanción por **extemporaneidad** (art. 642).\n2. Vencido el mes sin declaración: **sanción por no declarar** (arts. 716 y 643).\n3. **Liquidación de aforo:** dentro de los **5 años** siguientes al vencimiento del plazo para declarar (art. 717). Tiene el contenido de la liquidación de revisión más los fundamentos del aforo (art. 719).\n\nLa DIAN puede divulgar el nombre de los emplazados o sancionados por no declarar (art. 718)."
+        },
+        {
+          "id": "fisc-c-010",
+          "type": "concept",
+          "source": "ET arts. 764, 764-1, 764-2 y 764-3",
+          "title": "Liquidación provisional",
+          "body": "Sirve para liquidar impuestos inexactos u omitidos, sanciones mal liquidadas o sanciones formales (art. 764). Solo procede si en el año anterior el contribuyente declaró **ingresos brutos ≤ 15.000 UVT** o **patrimonio bruto ≤ 30.000 UVT**.\n\n- El contribuyente tiene **1 mes** para aceptarla, rechazarla o pedir su modificación **una vez**; la DIAN responde la solicitud en **2 meses** (art. 764-1).\n- Si se rechaza, **reemplaza** al requerimiento especial, al pliego de cargos o al emplazamiento previo por no declarar (art. 764-2).\n- Si se **acepta y paga dentro del mes**, las sanciones se reducen en un **40 %** (art. 764-3)."
+        },
+        { "ref": "fisc-q-003" },
+        { "ref": "fisc-q-022" },
+        { "ref": "fisc-q-023" },
+        { "ref": "fisc-q-021" },
+        { "ref": "fisc-q-024" },
+        { "ref": "fisc-q-047" }
+      ]
+    },
+    {
+      "id": "fisc-06",
+      "title": "Recurso de reconsideración",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "fisc-c-011",
+          "type": "concept",
+          "source": "ET arts. 720, 722, 732 y 734",
+          "title": "Discusión en sede administrativa",
+          "body": "- Procede contra liquidaciones oficiales, resoluciones que imponen sanciones o que ordenan reintegros (art. 720).\n- Se interpone dentro de los **2 meses** siguientes a la notificación del acto.\n- **Per saltum:** si se atendió en debida forma el requerimiento especial, se puede ir directo a lo contencioso dentro de los **4 meses** siguientes a la liquidación oficial (art. 720, parágrafo).\n- **Requisitos (art. 722):** por escrito con motivos concretos, en tiempo, por el interesado o apoderado acreditado. Solo **abogados** pueden ser agentes oficiosos y la persona debe ratificar en **2 meses**.\n- La DIAN tiene **1 año** para resolver (art. 732); si no lo hace, opera el **silencio administrativo positivo** (art. 734)."
+        },
+        { "ref": "fisc-q-046" },
+        { "ref": "fisc-q-043" },
+        { "ref": "fisc-q-026" },
+        { "ref": "fisc-q-027" },
+        { "ref": "fisc-q-028" },
+        { "ref": "fisc-q-029" },
+        { "ref": "fisc-q-050" }
+      ]
+    },
+    {
+      "id": "fisc-07",
+      "title": "Fiscalización aduanera: controles, persuasión y REA",
+      "minutes": 9,
+      "steps": [
+        {
+          "id": "fisc-c-012",
+          "type": "concept",
+          "source": "Decreto 1165/2019 arts. 578 y 582; Ley 2586/2026 arts. 7 y 9",
+          "title": "Momentos del control y medidas cautelares",
+          "body": "**Momentos del control aduanero (D. 1165 art. 578):**\n\n| Control | Cuándo |\n|---|---|\n| Previo | Antes de presentar la declaración aduanera |\n| Simultáneo | Desde la declaración hasta la nacionalización |\n| Posterior (fiscalización) | Después de la nacionalización o del fin del régimen |\n\n**Riesgo** es la probabilidad de que no se cumpla la normativa aduanera (art. 582).\n\n**Medidas cautelares (Ley 2586 art. 7):** aprehensión, suspensión de la operación (mercancía pirata o de marca falsa), inmovilización, entre otras. Se levanta **acta**; el acto es **de trámite y no tiene recurso** (art. 9)."
+        },
+        {
+          "id": "fisc-c-013",
+          "type": "concept",
+          "source": "Ley 2586/2026 arts. 5, 66, 67, 70, 72, 88, 94 y 96",
+          "title": "Del indicio a la decisión de fondo",
+          "body": "1. **Gestión persuasiva (art. 5):** ante indicios de inexactitud o de una infracción con sanción monetaria, la DIAN **invita** a corregir o allanarse **dentro del mes siguiente**. No responder no genera sanción.\n2. **Requerimiento Especial Aduanero (arts. 66–67):** inicia formalmente el proceso; se expide a más tardar **30 días hábiles** después de establecida la presunta infracción o inexactitud.\n3. **Respuesta:** **15 días hábiles** (art. 70).\n4. **Decisión de fondo:** **70 días hábiles** (art. 72).\n5. **Reconsideración:** **15 días hábiles** para interponerlo (art. 88); **5 meses** para decidirlo (art. 94).\n6. Si se vencen los términos: **silencio administrativo positivo** (art. 96)."
+        },
+        { "ref": "fisc-q-036" },
+        { "ref": "fisc-q-030" },
+        { "ref": "fisc-q-031" },
+        { "ref": "fisc-q-034" },
+        { "ref": "fisc-q-049" },
+        { "ref": "fisc-q-052" },
+        { "ref": "fisc-q-040" }
+      ]
+    }
+  ],
+  "flashcards": [
+    { "id": "fisc-fc-001", "front": "¿Plazo para corregir tras un emplazamiento para corregir?", "back": "El mes siguiente a su notificación.", "source": "ET art. 685" },
+    { "id": "fisc-fc-002", "front": "¿Qué pasa si no se responde el emplazamiento para corregir?", "back": "Nada: la no respuesta no ocasiona sanción.", "source": "ET art. 685" },
+    { "id": "fisc-fc-003", "front": "¿Quiénes deben atender los requerimientos de información de la DIAN?", "back": "Los contribuyentes y también los no contribuyentes.", "source": "ET art. 686" },
+    { "id": "fisc-fc-004", "front": "¿Plazo para proferir la liquidación de corrección aritmética?", "back": "2 años desde la presentación de la declaración.", "source": "ET art. 699" },
+    { "id": "fisc-fc-005", "front": "Sanciones no liquidadas por el declarante: ¿cómo las liquida la DIAN?", "back": "Incrementadas en un 30 %. El incremento baja a la mitad si acepta, renuncia al recurso y paga.", "source": "ET art. 701" },
+    { "id": "fisc-fc-006", "front": "¿Cuántas veces se envía el requerimiento especial?", "back": "Por una sola vez, con todos los puntos que se proponen modificar.", "source": "ET art. 703" },
+    { "id": "fisc-fc-007", "front": "¿Qué debe cuantificar el requerimiento especial?", "back": "Los impuestos, anticipos, retenciones y sanciones que se pretende adicionar.", "source": "ET art. 704" },
+    { "id": "fisc-fc-008", "front": "Término para notificar el requerimiento especial (declaración oportuna)", "back": "3 años desde el vencimiento del plazo para declarar.", "source": "ET art. 705" },
+    { "id": "fisc-fc-009", "front": "Término para notificar el requerimiento especial si la declaración fue extemporánea", "back": "3 años desde la fecha de presentación.", "source": "ET art. 705" },
+    { "id": "fisc-fc-010", "front": "Término para notificar el requerimiento especial si hay saldo a favor", "back": "3 años desde la solicitud de devolución o compensación.", "source": "ET art. 705" },
+    { "id": "fisc-fc-011", "front": "¿Cuánto se suspende el término del requerimiento especial por inspección tributaria de oficio?", "back": "3 meses desde la notificación del auto que la decreta.", "source": "ET art. 706" },
+    { "id": "fisc-fc-012", "front": "Plazo para responder el requerimiento especial", "back": "3 meses desde su notificación.", "source": "ET art. 707" },
+    { "id": "fisc-fc-013", "front": "Ampliación del requerimiento especial: ¿cuándo y cuántas veces?", "back": "Una sola vez, dentro de los 3 meses siguientes al vencimiento del plazo para responder.", "source": "ET art. 708" },
+    { "id": "fisc-fc-014", "front": "Plazo para responder la ampliación del requerimiento", "back": "No menos de 3 ni más de 6 meses.", "source": "ET art. 708" },
+    { "id": "fisc-fc-015", "front": "Aceptar los hechos al responder el requerimiento especial reduce la inexactitud a…", "back": "La cuarta parte de la planteada por la DIAN.", "source": "ET art. 709" },
+    { "id": "fisc-fc-016", "front": "Término para notificar la liquidación de revisión", "back": "6 meses desde el vencimiento del término para responder el requerimiento o su ampliación.", "source": "ET art. 710" },
+    { "id": "fisc-fc-017", "front": "¿Qué puede incluir la liquidación de revisión?", "back": "Solo la declaración y los hechos del requerimiento especial o de su ampliación.", "source": "ET art. 711" },
+    { "id": "fisc-fc-018", "front": "Aceptar los hechos de la liquidación de revisión reduce la inexactitud a…", "back": "La mitad, si se acepta dentro del término para interponer el recurso.", "source": "ET art. 713" },
+    { "id": "fisc-fc-019", "front": "Término general de firmeza de las declaraciones", "back": "3 años desde el vencimiento del plazo para declarar, si no se notificó requerimiento especial.", "source": "ET art. 714" },
+    { "id": "fisc-fc-020", "front": "Beneficio de auditoría: incremento del 35 % en el impuesto neto de renta", "back": "Firmeza en 6 meses (con 25 %: 12 meses), si es oportuna y se paga a tiempo.", "source": "ET art. 689-3" },
+    { "id": "fisc-fc-021", "front": "Plazo del emplazamiento previo por no declarar", "back": "1 mes, perentorio.", "source": "ET art. 715" },
+    { "id": "fisc-fc-022", "front": "Término para la liquidación de aforo", "back": "5 años desde el vencimiento del plazo para declarar.", "source": "ET art. 717" },
+    { "id": "fisc-fc-023", "front": "Liquidación provisional: topes del contribuyente", "back": "Ingresos brutos ≤ 15.000 UVT o patrimonio bruto ≤ 30.000 UVT en el año anterior.", "source": "ET art. 764" },
+    { "id": "fisc-fc-024", "front": "Liquidación provisional aceptada y pagada dentro del mes: reducción de sanciones", "back": "40 %.", "source": "ET art. 764-3" },
+    { "id": "fisc-fc-025", "front": "Plazo para el recurso de reconsideración (tributario)", "back": "2 meses desde la notificación del acto.", "source": "ET art. 720" },
+    { "id": "fisc-fc-026", "front": "Plazo de la DIAN para resolver el recurso de reconsideración (tributario)", "back": "1 año desde su interposición en debida forma; si no, silencio positivo.", "source": "ET arts. 732 y 734" },
+    { "id": "fisc-fc-027", "front": "Gestión persuasiva aduanera: plazo para corregir o allanarse", "back": "Dentro del mes siguiente a la comunicación. No responder no genera sanción.", "source": "Ley 2586/2026 art. 5" },
+    { "id": "fisc-fc-028", "front": "Plazo para responder el Requerimiento Especial Aduanero", "back": "15 días hábiles desde su notificación.", "source": "Ley 2586/2026 art. 70" },
+    { "id": "fisc-fc-029", "front": "Recurso de reconsideración aduanero: plazo para interponer y para decidir", "back": "15 días hábiles para interponerlo; 5 meses para decidirlo.", "source": "Ley 2586/2026 arts. 88 y 94" },
+    { "id": "fisc-fc-030", "front": "Control aduanero posterior o de fiscalización", "back": "El que se ejerce después de la nacionalización o de finalizar el régimen.", "source": "Decreto 1165/2019 art. 578" }
+  ],
+  "questions": [
+    {
+      "id": "fisc-q-001", "type": "pjs", "difficulty": 1, "source": "ET art. 685",
+      "case": "Usted es gestor en la División de Fiscalización. Un cruce de información muestra indicios de que una sociedad omitió ingresos en su declaración de renta, presentada a tiempo hace cinco meses.",
+      "prompt": "¿Qué actuación le corresponde proyectar para invitar a la sociedad a corregir voluntariamente?",
+      "options": [
+        { "id": "a", "text": "Un emplazamiento para corregir, con un mes para que corrija." },
+        { "id": "b", "text": "Un emplazamiento previo por no declarar, con un mes de plazo." },
+        { "id": "c", "text": "Una liquidación de aforo por los ingresos que no se declararon." }
+      ],
+      "answer": "a",
+      "explain": "Con indicios de inexactitud, el art. 685 prevé el emplazamiento para corregir: el contribuyente puede corregir dentro del mes siguiente.",
+      "optionWhy": {
+        "b": "El emplazamiento previo por no declarar (art. 715) es para quien no presentó la declaración; aquí sí la presentó.",
+        "c": "El aforo (art. 717) determina la obligación de quien no declaró; no aplica a una declaración presentada."
+      }
+    },
+    {
+      "id": "fisc-q-002", "type": "pjs", "difficulty": 1, "source": "ET art. 685",
+      "case": "Hace seis semanas se notificó un emplazamiento para corregir a un contribuyente. No corrigió ni envió respuesta. Su jefe le pide definir el paso siguiente.",
+      "prompt": "¿Qué debe tener en cuenta el gestor sobre el silencio del contribuyente?",
+      "options": [
+        { "id": "a", "text": "Debe imponerse la sanción por no atender el emplazamiento." },
+        { "id": "b", "text": "No genera sanción; puede evaluarse el requerimiento especial." },
+        { "id": "c", "text": "La declaración queda en firme por no haberse corregido." }
+      ],
+      "answer": "b",
+      "explain": "El art. 685 dice expresamente que la no respuesta al emplazamiento no ocasiona sanción. La DIAN puede continuar con el requerimiento especial.",
+      "optionWhy": {
+        "a": "La ley no prevé sanción por no responder el emplazamiento para corregir (art. 685).",
+        "c": "La firmeza depende de los términos del art. 714, no de la falta de respuesta al emplazamiento."
+      }
+    },
+    {
+      "id": "fisc-q-003", "type": "pjs", "difficulty": 1, "source": "ET art. 715",
+      "case": "Al revisar el RUT y la información exógena, usted comprueba que una persona natural estaba obligada a declarar renta del año gravable 2024 y no lo hizo.",
+      "prompt": "¿Cuál es la primera actuación que corresponde frente a este omiso?",
+      "options": [
+        { "id": "a", "text": "Notificarle un requerimiento especial para que declare." },
+        { "id": "b", "text": "Proferir de inmediato la liquidación de aforo del impuesto." },
+        { "id": "c", "text": "Emplazarlo para que declare en el término de un mes." }
+      ],
+      "answer": "c",
+      "explain": "Previa comprobación de su obligación, quien no declara es emplazado para hacerlo en el término perentorio de un mes (art. 715).",
+      "optionWhy": {
+        "a": "El requerimiento especial (art. 703) busca modificar una declaración presentada, no obtener una omitida.",
+        "b": "El aforo (art. 717) solo procede agotados el emplazamiento y la sanción por no declarar (arts. 715, 716 y 643)."
+      }
+    },
+    {
+      "id": "fisc-q-004", "type": "pjs", "difficulty": 1, "source": "ET arts. 697 y 698",
+      "case": "En una declaración de retención en la fuente los valores de las bases están bien registrados, pero al sumar los renglones el contribuyente anotó un total menor al que resulta de la operación.",
+      "prompt": "¿Qué acto debe proyectar el gestor para corregir este error?",
+      "options": [
+        { "id": "a", "text": "Un requerimiento especial por inexactitud sancionable." },
+        { "id": "b", "text": "Una liquidación de corrección por error aritmético." },
+        { "id": "c", "text": "Una resolución sanción por corrección de la declaración." }
+      ],
+      "answer": "b",
+      "explain": "Un resultado mal sumado que genera menor valor a pagar es un error aritmético (art. 697). La DIAN lo corrige con liquidación de corrección (art. 698).",
+      "optionWhy": {
+        "a": "El requerimiento especial es para modificar hechos o bases; aquí solo hay un error de operación.",
+        "c": "La sanción por corrección la liquida el propio contribuyente cuando corrige; no es el acto para un error aritmético."
+      }
+    },
+    {
+      "id": "fisc-q-005", "type": "pjs", "difficulty": 2, "source": "ET arts. 699 y 705",
+      "case": "Una declaración de renta se presentó a tiempo el 15 de marzo de 2024 con un error aritmético que reduce el impuesto. Hoy es 10 de mayo de 2026 y nadie la ha revisado.",
+      "prompt": "¿Puede la DIAN proferir todavía la liquidación de corrección aritmética?",
+      "options": [
+        { "id": "a", "text": "Sí, porque tiene tres años desde el vencimiento para declarar." },
+        { "id": "b", "text": "No; vencieron los dos años, pero aún cabe la vía de revisión." },
+        { "id": "c", "text": "Sí, mientras no haya prescrito la facultad sancionatoria." }
+      ],
+      "answer": "b",
+      "explain": "La corrección aritmética debe proferirse dentro de los 2 años siguientes a la presentación (art. 699): venció el 15 de marzo de 2026. La revisión sigue abierta dentro de los 3 años del art. 705.",
+      "optionWhy": {
+        "a": "Los 3 años son del requerimiento especial (art. 705), no de la corrección aritmética.",
+        "c": "La prescripción sancionatoria no amplía el término propio del art. 699."
+      }
+    },
+    {
+      "id": "fisc-q-006", "type": "pjs", "difficulty": 2, "source": "ET art. 701",
+      "case": "Un contribuyente presentó tarde su declaración de IVA y no liquidó la sanción por extemporaneidad. Usted debe proyectar el acto que la determine.",
+      "prompt": "¿Cómo debe liquidarse esa sanción en el acto oficial?",
+      "options": [
+        { "id": "a", "text": "Por el valor legal de la sanción, sin ningún incremento." },
+        { "id": "b", "text": "Por el valor de la sanción incrementado en un cien por ciento." },
+        { "id": "c", "text": "Por el valor de la sanción incrementado en un treinta por ciento." }
+      ],
+      "answer": "c",
+      "explain": "Cuando el declarante no liquidó las sanciones a que estaba obligado, la DIAN las liquida incrementadas en un 30 % (art. 701).",
+      "optionWhy": {
+        "a": "El art. 701 ordena un incremento cuando la sanción no fue liquidada.",
+        "b": "El incremento es del 30 %, no del 100 %."
+      }
+    },
+    {
+      "id": "fisc-q-007", "type": "pjs", "difficulty": 2, "source": "ET art. 701",
+      "case": "La DIAN liquidó en resolución independiente una sanción omitida, incrementada en 30 %. Dentro del término para recurrir, el contribuyente acepta los hechos, renuncia al recurso y quiere pagar.",
+      "prompt": "¿Qué beneficio le corresponde?",
+      "options": [
+        { "id": "a", "text": "El incremento del 30 % se reduce a la mitad de su valor." },
+        { "id": "b", "text": "La sanción completa, con su incremento, se reduce a la mitad." },
+        { "id": "c", "text": "Se elimina el incremento y paga solo la sanción inicial." }
+      ],
+      "answer": "a",
+      "explain": "El art. 701 reduce a la mitad el incremento (no la sanción) si acepta los hechos, renuncia al recurso y paga la sanción más el incremento reducido.",
+      "optionWhy": {
+        "b": "La reducción recae sobre el incremento, no sobre toda la sanción.",
+        "c": "La ley reduce el incremento a la mitad; no lo elimina."
+      }
+    },
+    {
+      "id": "fisc-q-008", "type": "pjs", "difficulty": 2, "source": "ET arts. 703 y 704",
+      "case": "Usted proyecta un requerimiento especial para una sociedad con costos sin soporte. Un compañero sugiere dejar la cuantificación para la liquidación de revisión.",
+      "prompt": "¿Qué debe contener el requerimiento especial?",
+      "options": [
+        { "id": "a", "text": "Las glosas propuestas; las cifras se fijan en la liquidación." },
+        { "id": "b", "text": "Los puntos a modificar y la orden de pagar dentro del mes." },
+        { "id": "c", "text": "Los puntos a modificar, sus razones y la cuantificación." }
+      ],
+      "answer": "c",
+      "explain": "El requerimiento debe contener todos los puntos que se propone modificar con sus razones (art. 703) y la cuantificación de impuestos, anticipos, retenciones y sanciones (art. 704).",
+      "optionWhy": {
+        "a": "El art. 704 exige cuantificar en el propio requerimiento; no se puede dejar para después.",
+        "b": "El requerimiento propone modificaciones; no es un acto que ordene pagar."
+      }
+    },
+    {
+      "id": "fisc-q-009", "type": "pjs", "difficulty": 3, "source": "ET art. 705",
+      "case": "El plazo para declarar renta de una sociedad vencía el 12 de abril de 2023, pero la sociedad presentó la declaración el 5 de junio de 2023. No hubo inspecciones ni emplazamientos.",
+      "prompt": "¿Hasta qué fecha puede notificarse el requerimiento especial?",
+      "options": [
+        { "id": "a", "text": "Hasta el 12 de abril de 2026." },
+        { "id": "b", "text": "Hasta el 5 de junio de 2026." },
+        { "id": "c", "text": "Hasta el 5 de junio de 2025." }
+      ],
+      "answer": "b",
+      "explain": "Si la declaración inicial fue extemporánea, los 3 años se cuentan desde su presentación (art. 705): 5 de junio de 2023 + 3 años = 5 de junio de 2026.",
+      "optionWhy": {
+        "a": "Contar desde el vencimiento del plazo aplica a declaraciones oportunas; esta fue extemporánea.",
+        "c": "Dos años es el término de la corrección aritmética (art. 699), no del requerimiento especial."
+      }
+    },
+    {
+      "id": "fisc-q-010", "type": "pjs", "difficulty": 3, "source": "ET arts. 705 y 714",
+      "case": "Una declaración presentada a tiempo (plazo: 10 de mayo de 2024) arrojó saldo a favor. La empresa solicitó la devolución el 20 de agosto de 2024. Usted quiere proponer el rechazo de unos costos.",
+      "prompt": "¿Hasta cuándo puede notificar el requerimiento especial?",
+      "options": [
+        { "id": "a", "text": "Hasta el 10 de mayo de 2027." },
+        { "id": "b", "text": "Hasta el 20 de agosto de 2026." },
+        { "id": "c", "text": "Hasta el 20 de agosto de 2027." }
+      ],
+      "answer": "c",
+      "explain": "Con saldo a favor, el requerimiento se notifica a más tardar 3 años después de la solicitud de devolución o compensación (art. 705): 20 de agosto de 2027.",
+      "optionWhy": {
+        "a": "Con saldo a favor el término no corre desde el vencimiento del plazo, sino desde la solicitud.",
+        "b": "El término es de 3 años, no de 2."
+      }
+    },
+    {
+      "id": "fisc-q-011", "type": "pjs", "difficulty": 2, "source": "ET art. 706",
+      "case": "Usted calcula el último día para notificar un requerimiento especial. Durante el término se notificó a la contribuyente un emplazamiento para corregir.",
+      "prompt": "¿Qué efecto tiene ese emplazamiento en su cálculo?",
+      "options": [
+        { "id": "a", "text": "El término se suspende durante el mes siguiente a su notificación." },
+        { "id": "b", "text": "El término se suspende tres meses desde la notificación." },
+        { "id": "c", "text": "Ninguno, porque el emplazamiento es solo una invitación." }
+      ],
+      "answer": "a",
+      "explain": "El art. 706 suspende el término para notificar el requerimiento especial durante el mes siguiente a la notificación del emplazamiento para corregir.",
+      "optionWhy": {
+        "b": "La suspensión de 3 meses corresponde a la inspección tributaria de oficio.",
+        "c": "Aunque es una invitación, la ley sí le da efecto suspensivo (art. 706)."
+      }
+    },
+    {
+      "id": "fisc-q-012", "type": "pjs", "difficulty": 2, "source": "ET art. 707",
+      "case": "Un contribuyente recibió la notificación de un requerimiento especial el 2 de febrero de 2026 y llama a preguntar hasta cuándo puede responder.",
+      "prompt": "¿Qué fecha límite debe indicarle el gestor?",
+      "options": [
+        { "id": "a", "text": "El 2 de marzo de 2026." },
+        { "id": "b", "text": "El 2 de agosto de 2026." },
+        { "id": "c", "text": "El 2 de mayo de 2026." }
+      ],
+      "answer": "c",
+      "explain": "La respuesta se presenta dentro de los 3 meses siguientes a la notificación (art. 707): 2 de mayo de 2026.",
+      "optionWhy": {
+        "a": "Un mes es el plazo del emplazamiento para corregir, no de la respuesta al requerimiento.",
+        "b": "Seis meses es el máximo para responder una ampliación (art. 708), no el requerimiento."
+      }
+    },
+    {
+      "id": "fisc-q-013", "type": "pjs", "difficulty": 2, "source": "ET arts. 703, 708 y 711",
+      "case": "Tras vencer el plazo de respuesta a un requerimiento especial, el funcionario que estudia el caso descubre ingresos omitidos que el requerimiento no mencionó.",
+      "prompt": "¿Cómo puede incorporar esos hechos nuevos?",
+      "options": [
+        { "id": "a", "text": "Incluyéndolos directamente en la liquidación de revisión." },
+        { "id": "b", "text": "Ordenando la ampliación, por una sola vez, en el plazo legal." },
+        { "id": "c", "text": "Expidiendo un segundo requerimiento especial completo." }
+      ],
+      "answer": "b",
+      "explain": "La ampliación puede incluir hechos no contemplados en el requerimiento inicial. Se ordena por una sola vez dentro de los 3 meses siguientes al vencimiento del plazo para responder (art. 708).",
+      "optionWhy": {
+        "a": "La liquidación de revisión solo puede referirse a hechos del requerimiento o su ampliación (art. 711).",
+        "c": "El requerimiento especial se envía por una sola vez (art. 703)."
+      }
+    },
+    {
+      "id": "fisc-q-014", "type": "pjs", "difficulty": 2, "source": "ET art. 709",
+      "case": "Al responder la ampliación del requerimiento especial, el contribuyente acepta parte de los hechos y corrige su declaración incluyendo los mayores valores aceptados.",
+      "prompt": "¿Qué reducción aplica a la sanción por inexactitud sobre esos hechos?",
+      "options": [
+        { "id": "a", "text": "Se reduce a la cuarta parte de la planteada por la DIAN." },
+        { "id": "b", "text": "Se reduce a la mitad de la planteada por la DIAN." },
+        { "id": "c", "text": "Ninguna, porque la aceptación llegó en la ampliación." }
+      ],
+      "answer": "a",
+      "explain": "El art. 709 aplica a la respuesta al requerimiento o a su ampliación: la sanción por inexactitud se reduce a la cuarta parte.",
+      "optionWhy": {
+        "b": "La mitad (art. 713) es para la aceptación de los hechos de la liquidación de revisión.",
+        "c": "El art. 709 incluye expresamente la respuesta a la ampliación."
+      }
+    },
+    {
+      "id": "fisc-q-015", "type": "pjs", "difficulty": 3, "source": "ET arts. 707 y 710",
+      "case": "El requerimiento especial se notificó el 3 de marzo de 2025. No hubo ampliación, inspecciones ni pruebas de documentos fuera del expediente.",
+      "prompt": "¿Hasta cuándo debe notificarse la liquidación de revisión?",
+      "options": [
+        { "id": "a", "text": "Hasta el 3 de septiembre de 2025." },
+        { "id": "b", "text": "Hasta el 3 de diciembre de 2025." },
+        { "id": "c", "text": "Hasta el 3 de marzo de 2026." }
+      ],
+      "answer": "b",
+      "explain": "Plazo de respuesta: 3 de junio de 2025 (art. 707). La liquidación de revisión se notifica dentro de los 6 meses siguientes a ese vencimiento (art. 710): 3 de diciembre de 2025.",
+      "optionWhy": {
+        "a": "Seis meses se cuentan desde que vence el plazo de respuesta, no desde la notificación del requerimiento.",
+        "c": "No existe un término de un año contado desde el requerimiento."
+      }
+    },
+    {
+      "id": "fisc-q-016", "type": "pjs", "difficulty": 3, "source": "ET art. 710",
+      "case": "Venció el plazo de respuesta a un requerimiento especial el 3 de junio de 2025. Después, la DIAN decretó de oficio una inspección tributaria, y el auto se notificó dentro del término para liquidar.",
+      "prompt": "¿Cuál es el nuevo límite para notificar la liquidación de revisión?",
+      "options": [
+        { "id": "a", "text": "El 3 de diciembre de 2025, sin cambios." },
+        { "id": "b", "text": "El 3 de febrero de 2026, por dos meses de suspensión." },
+        { "id": "c", "text": "El 3 de marzo de 2026, por tres meses de suspensión." }
+      ],
+      "answer": "c",
+      "explain": "La inspección tributaria de oficio suspende el término del art. 710 por 3 meses: 3 de diciembre de 2025 + 3 meses = 3 de marzo de 2026.",
+      "optionWhy": {
+        "a": "La inspección de oficio sí suspende el término (art. 710).",
+        "b": "Dos meses aplican cuando la prueba son documentos que no reposan en el expediente."
+      }
+    },
+    {
+      "id": "fisc-q-017", "type": "pjs", "difficulty": 2, "source": "ET art. 711",
+      "case": "Mientras proyecta la liquidación de revisión, usted encuentra una deducción improcedente que no se mencionó en el requerimiento especial ni hubo ampliación.",
+      "prompt": "¿Qué debe hacer con ese hallazgo en la liquidación?",
+      "options": [
+        { "id": "a", "text": "Incluirlo, porque la DIAN tiene amplias facultades de fiscalización." },
+        { "id": "b", "text": "Incluirlo, siempre que le dé al contribuyente diez días para opinar." },
+        { "id": "c", "text": "No incluirlo: la liquidación solo puede abarcar lo ya propuesto." }
+      ],
+      "answer": "c",
+      "explain": "La liquidación de revisión debe contraerse a la declaración y a los hechos contemplados en el requerimiento especial o su ampliación (art. 711).",
+      "optionWhy": {
+        "a": "Las facultades del art. 684 no permiten saltarse la correspondencia del art. 711.",
+        "b": "La ley no prevé ese traslado; los hechos nuevos solo entran por la ampliación (art. 708)."
+      }
+    },
+    {
+      "id": "fisc-q-018", "type": "pjs", "difficulty": 2, "source": "ET art. 714",
+      "case": "Una declaración de renta se presentó a tiempo; el plazo vencía el 14 de abril de 2022. Al 20 de mayo de 2025 no se ha notificado ningún requerimiento especial y su coordinador quiere notificarlo ese día.",
+      "prompt": "¿Qué debe advertir el gestor?",
+      "options": [
+        { "id": "a", "text": "Que la declaración ya está en firme desde abril de 2025." },
+        { "id": "b", "text": "Que aún hay plazo, pues se cuentan cinco años en renta." },
+        { "id": "c", "text": "Que puede notificarse si antes se emplaza para corregir." }
+      ],
+      "answer": "a",
+      "explain": "La declaración quedó en firme el 14 de abril de 2025: pasaron 3 años desde el vencimiento sin requerimiento especial (art. 714).",
+      "optionWhy": {
+        "b": "El término general de firmeza es de 3 años (art. 714); los 5 años son del aforo para omisos.",
+        "c": "Un emplazamiento no revive un término que ya venció."
+      }
+    },
+    {
+      "id": "fisc-q-019", "type": "pjs", "difficulty": 3, "source": "ET art. 689-3",
+      "case": "Una sociedad presentó y pagó a tiempo su renta del año gravable 2025. Su impuesto neto subió 30 % frente a 2024, y el de 2024 superó las 71 UVT. No goza de beneficios por zona geográfica.",
+      "prompt": "¿En qué término queda en firme su declaración, si no se le notifica ningún acto previo?",
+      "options": [
+        { "id": "a", "text": "En seis meses desde su presentación." },
+        { "id": "b", "text": "En tres años desde el vencimiento del plazo." },
+        { "id": "c", "text": "En doce meses desde su presentación." }
+      ],
+      "answer": "c",
+      "explain": "Con un incremento de al menos 25 % (pero menor de 35 %), la firmeza es de 12 meses desde la presentación, siempre que no se notifique emplazamiento, requerimiento o liquidación provisional (art. 689-3).",
+      "optionWhy": {
+        "a": "Seis meses exigen un incremento de al menos 35 %.",
+        "b": "La regla general de 3 años (art. 714) se acorta cuando se cumplen los requisitos del beneficio."
+      }
+    },
+    {
+      "id": "fisc-q-020", "type": "pjs", "difficulty": 2, "source": "ET art. 730",
+      "case": "Al revisar un expediente heredado, usted ve que se profirió liquidación de revisión de una declaración de IVA sin notificar antes el requerimiento especial.",
+      "prompt": "¿Cómo debe valorarse esa liquidación?",
+      "options": [
+        { "id": "a", "text": "Es válida si el contribuyente pagó parte del mayor valor." },
+        { "id": "b", "text": "Es nula por omitir el requerimiento especial previo." },
+        { "id": "c", "text": "Es válida, pero la sanción debe reducirse a la mitad." }
+      ],
+      "answer": "b",
+      "explain": "Son nulos los actos de liquidación cuando se omite el requerimiento especial previo a la liquidación de revisión (art. 730, num. 2).",
+      "optionWhy": {
+        "a": "Un pago parcial no subsana la omisión del requisito previo.",
+        "c": "La reducción a la mitad (art. 713) no corrige un vicio de nulidad."
+      }
+    },
+    {
+      "id": "fisc-q-021", "type": "pjs", "difficulty": 2, "source": "ET arts. 716 y 717",
+      "case": "Un omiso fue emplazado para declarar, no lo hizo en el mes y ya se le impuso la sanción por no declarar. Su coordinador le pide determinar el impuesto.",
+      "prompt": "¿Qué acto procede y en qué término?",
+      "options": [
+        { "id": "a", "text": "Liquidación de aforo, dentro de cinco años desde el vencimiento." },
+        { "id": "b", "text": "Liquidación de revisión, dentro de tres años desde el vencimiento." },
+        { "id": "c", "text": "Liquidación de corrección, dentro de dos años desde la sanción." }
+      ],
+      "answer": "a",
+      "explain": "Agotados el emplazamiento y la sanción por no declarar, la DIAN puede proferir liquidación de aforo dentro de los 5 años siguientes al vencimiento del plazo para declarar (art. 717).",
+      "optionWhy": {
+        "b": "La revisión modifica una declaración existente; aquí no hay declaración.",
+        "c": "La corrección aritmética (arts. 698–699) corrige errores de una declaración presentada."
+      }
+    },
+    {
+      "id": "fisc-q-022", "type": "pjs", "difficulty": 2, "source": "ET art. 715",
+      "case": "Un contribuyente emplazado para declarar presenta su declaración dos semanas después de notificado el emplazamiento previo.",
+      "prompt": "¿Qué sanción debe liquidar en esa declaración?",
+      "options": [
+        { "id": "a", "text": "La sanción por no declarar del artículo 643." },
+        { "id": "b", "text": "La sanción por extemporaneidad del artículo 642." },
+        { "id": "c", "text": "Ninguna, porque declaró dentro del mes." }
+      ],
+      "answer": "b",
+      "explain": "Quien declara después del emplazamiento debe liquidar y pagar la sanción por extemporaneidad del art. 642 (art. 715).",
+      "optionWhy": {
+        "a": "La sanción por no declarar se aplica si vence el mes sin declarar (art. 716).",
+        "c": "Declarar dentro del mes evita la sanción por no declarar, pero no la de extemporaneidad."
+      }
+    },
+    {
+      "id": "fisc-q-023", "type": "pjs", "difficulty": 1, "source": "ET arts. 643 y 716",
+      "case": "Venció el mes del emplazamiento previo por no declarar y el contribuyente sigue sin presentar la declaración.",
+      "prompt": "¿Qué debe aplicar la DIAN a continuación?",
+      "options": [
+        { "id": "a", "text": "Un nuevo emplazamiento con un mes adicional." },
+        { "id": "b", "text": "La sanción por extemporaneidad del art. 642." },
+        { "id": "c", "text": "La sanción por no declarar del art. 643." }
+      ],
+      "answer": "c",
+      "explain": "Vencido el término del emplazamiento sin declaración, la DIAN aplica la sanción por no declarar del art. 643 (art. 716).",
+      "optionWhy": {
+        "a": "La ley no prevé un segundo emplazamiento; el término es perentorio (art. 715).",
+        "b": "La extemporaneidad aplica a quien sí declara después del emplazamiento."
+      }
+    },
+    {
+      "id": "fisc-q-024", "type": "pjs", "difficulty": 3, "source": "ET arts. 764-1 y 764-3",
+      "case": "Se notificó una liquidación provisional a una comerciante con ingresos brutos de 9.000 UVT el año anterior. Ella pregunta qué gana si la acepta.",
+      "prompt": "¿Qué debe explicarle el gestor?",
+      "options": [
+        { "id": "a", "text": "Si la acepta y paga dentro del mes, las sanciones bajan un 40 %." },
+        { "id": "b", "text": "Si la acepta en cualquier momento, la sanción baja a la cuarta parte." },
+        { "id": "c", "text": "Si la acepta en los dos meses siguientes, la sanción baja a la mitad." }
+      ],
+      "answer": "a",
+      "explain": "Las sanciones de una liquidación provisional aceptada se reducen en 40 % si se acepta y paga dentro del mes siguiente a la notificación (art. 764-3). Ese mes es también su plazo para aceptar, rechazar o pedir modificación (art. 764-1).",
+      "optionWhy": {
+        "b": "La cuarta parte es la reducción del art. 709 por aceptar el requerimiento especial.",
+        "c": "Los dos meses son el plazo de la DIAN para pronunciarse sobre la solicitud de modificación."
+      }
+    },
+    {
+      "id": "fisc-q-025", "type": "pjs", "difficulty": 2, "source": "ET art. 764",
+      "case": "Su equipo quiere usar la liquidación provisional contra una sociedad que el año anterior declaró ingresos brutos de 40.000 UVT y patrimonio bruto de 60.000 UVT.",
+      "prompt": "¿Qué debe advertir el gestor?",
+      "options": [
+        { "id": "a", "text": "Procede, porque sirve para cualquier contribuyente con inexactitud." },
+        { "id": "b", "text": "No procede: supera los topes; debe seguirse el proceso ordinario." },
+        { "id": "c", "text": "Procede solo si la sociedad lo solicita por escrito previamente." }
+      ],
+      "answer": "b",
+      "explain": "La liquidación provisional solo procede para quien declaró ingresos brutos de hasta 15.000 UVT o patrimonio bruto de hasta 30.000 UVT; en ningún caso puede superarse ese tope (art. 764, par. 1).",
+      "optionWhy": {
+        "a": "La ley la limita a contribuyentes bajo los topes del parágrafo 1 del art. 764.",
+        "c": "No depende de una solicitud del contribuyente; depende de los topes."
+      }
+    },
+    {
+      "id": "fisc-q-026", "type": "pjs", "difficulty": 2, "source": "ET art. 720",
+      "case": "Una liquidación oficial de revisión se notificó el 10 de febrero de 2026. El apoderado pregunta hasta cuándo puede presentar el recurso de reconsideración.",
+      "prompt": "¿Cuál es el último día?",
+      "options": [
+        { "id": "a", "text": "El 10 de marzo de 2026." },
+        { "id": "b", "text": "El 10 de abril de 2026." },
+        { "id": "c", "text": "El 10 de junio de 2026." }
+      ],
+      "answer": "b",
+      "explain": "El recurso de reconsideración se interpone dentro de los 2 meses siguientes a la notificación del acto (art. 720): 10 de abril de 2026.",
+      "optionWhy": {
+        "a": "Un mes no es el término del recurso de reconsideración.",
+        "c": "Cuatro meses es el término para acudir directamente a lo contencioso (per saltum)."
+      }
+    },
+    {
+      "id": "fisc-q-027", "type": "pjs", "difficulty": 3, "source": "ET art. 720, parágrafo",
+      "case": "Una empresa respondió en debida forma el requerimiento especial. Aun así, se le notificó liquidación de revisión. Su abogado prefiere no presentar recurso ante la DIAN.",
+      "prompt": "¿Qué alternativa le da la ley y en qué plazo?",
+      "options": [
+        { "id": "a", "text": "Revocatoria directa ante la DIAN, dentro de dos meses." },
+        { "id": "b", "text": "Demanda directa ante lo contencioso, dentro de cuatro meses." },
+        { "id": "c", "text": "Ninguna: el recurso de reconsideración es obligatorio." }
+      ],
+      "answer": "b",
+      "explain": "Si se atendió en debida forma el requerimiento especial, puede prescindirse del recurso y acudir directamente a lo contencioso administrativo dentro de los 4 meses siguientes a la notificación de la liquidación (art. 720, par.).",
+      "optionWhy": {
+        "a": "La alternativa que prevé el parágrafo del art. 720 es la demanda directa, no la revocatoria.",
+        "c": "El parágrafo del art. 720 permite el salto a lo contencioso en este supuesto."
+      }
+    },
+    {
+      "id": "fisc-q-028", "type": "pjs", "difficulty": 2, "source": "ET arts. 732 y 734",
+      "case": "Un recurso de reconsideración se interpuso en debida forma hace un año y dos semanas. No hubo inspección tributaria y la DIAN aún no lo ha resuelto.",
+      "prompt": "¿Cuál es la consecuencia?",
+      "options": [
+        { "id": "a", "text": "Se entiende fallado a favor del recurrente (silencio positivo)." },
+        { "id": "b", "text": "Se entiende negado y queda abierta la vía contenciosa." },
+        { "id": "c", "text": "La DIAN conserva el plazo mientras no prescriba la acción." }
+      ],
+      "answer": "a",
+      "explain": "La DIAN tiene 1 año para resolver (art. 732). Si no lo hace, el recurso se entiende fallado a favor del recurrente y así debe declararse (art. 734).",
+      "optionWhy": {
+        "b": "En esta materia el silencio es positivo, no negativo (art. 734).",
+        "c": "El término de 1 año es perentorio; solo se suspende por inspección tributaria (art. 733)."
+      }
+    },
+    {
+      "id": "fisc-q-029", "type": "pjs", "difficulty": 2, "source": "ET art. 722",
+      "case": "Llega un recurso de reconsideración firmado por un contador que dice actuar como agente oficioso del contribuyente. No es abogado.",
+      "prompt": "¿Cómo debe tratarse el recurso?",
+      "options": [
+        { "id": "a", "text": "Admitirlo si el contribuyente ratifica dentro de dos meses." },
+        { "id": "b", "text": "Admitirlo, porque el contador conoce la contabilidad." },
+        { "id": "c", "text": "No cumple requisitos: solo abogados son agentes oficiosos." }
+      ],
+      "answer": "c",
+      "explain": "Para efectos del recurso, únicamente los abogados pueden actuar como agentes oficiosos (art. 722, lit. c).",
+      "optionWhy": {
+        "a": "La ratificación en 2 meses aplica al agente oficioso que es abogado.",
+        "b": "La ley no habilita a contadores como agentes oficiosos."
+      }
+    },
+    {
+      "id": "fisc-q-030", "type": "pjs", "difficulty": 2, "source": "Ley 2586/2026 art. 5",
+      "case": "En control posterior, usted detecta indicios de que un importador declaró una subpartida con un arancel menor al que corresponde. La infracción tiene sanción de multa.",
+      "prompt": "¿Con qué actuación puede invitar al importador a corregir antes de abrir proceso?",
+      "options": [
+        { "id": "a", "text": "Emplazamiento para corregir del Estatuto Tributario, con un mes." },
+        { "id": "b", "text": "Gestión persuasiva, para corregir o allanarse dentro del mes." },
+        { "id": "c", "text": "Requerimiento Especial Aduanero, con quince días hábiles." }
+      ],
+      "answer": "b",
+      "explain": "Ante indicios de inexactitud en la declaración aduanera o de una infracción con sanción monetaria, la DIAN puede invitar al usuario a corregir o allanarse dentro del mes siguiente (Ley 2586, art. 5).",
+      "optionWhy": {
+        "a": "El emplazamiento del art. 685 del ET es para declaraciones tributarias, no aduaneras.",
+        "c": "El REA ya inicia formalmente el proceso (art. 66); no es una invitación previa."
+      }
+    },
+    {
+      "id": "fisc-q-031", "type": "pjs", "difficulty": 2, "source": "Ley 2586/2026 art. 70",
+      "case": "Se notificó electrónicamente un Requerimiento Especial Aduanero a una agencia de aduanas. El representante pregunta cuánto tiempo tiene para responder.",
+      "prompt": "¿Qué plazo general debe indicarle el gestor?",
+      "options": [
+        { "id": "a", "text": "Quince días hábiles desde la notificación." },
+        { "id": "b", "text": "Tres meses calendario desde la notificación." },
+        { "id": "c", "text": "Un mes calendario desde la notificación." }
+      ],
+      "answer": "a",
+      "explain": "La respuesta al REA se presenta dentro de los 15 días hábiles siguientes a su notificación (Ley 2586, art. 70).",
+      "optionWhy": {
+        "b": "Tres meses es el plazo del requerimiento especial tributario (ET art. 707).",
+        "c": "Un mes es el plazo de la gestión persuasiva (art. 5), no del REA."
+      }
+    },
+    {
+      "id": "fisc-q-032", "type": "pjs", "difficulty": 3, "source": "Ley 2586/2026 art. 67",
+      "case": "Tras un cruce de información, el 2 de octubre de 2026 usted firmó el informe de posibles inconsistencias de una declaración de importación. Su coordinador pregunta cuándo debe expedirse el Requerimiento Especial Aduanero.",
+      "prompt": "¿Qué responde el gestor?",
+      "options": [
+        { "id": "a", "text": "Dentro de 70 días hábiles contados desde la declaración." },
+        { "id": "b", "text": "Dentro de 3 años contados desde la declaración." },
+        { "id": "c", "text": "Dentro de 30 días hábiles contados desde el informe." }
+      ],
+      "answer": "c",
+      "explain": "El REA se expide a más tardar dentro de los 30 días hábiles siguientes a la fecha en que se estableció la presunta infracción o inexactitud. Esa fecha es la del informe de posibles inconsistencias (Ley 2586, art. 67).",
+      "optionWhy": {
+        "a": "Setenta días hábiles es el término para la decisión de fondo (art. 72).",
+        "b": "Tres años es una regla del requerimiento especial tributario (ET art. 705)."
+      }
+    },
+    {
+      "id": "fisc-q-033", "type": "pjs", "difficulty": 3, "source": "Ley 2586/2026 art. 72",
+      "case": "Venció el término para responder un REA. El investigado respondió sin pedir pruebas y la DIAN no decretará pruebas de oficio.",
+      "prompt": "¿Desde cuándo y por cuánto tiempo corre el plazo para la decisión de fondo?",
+      "options": [
+        { "id": "a", "text": "70 días hábiles desde el día siguiente al vencimiento para responder." },
+        { "id": "b", "text": "5 meses desde el día siguiente a la notificación del REA." },
+        { "id": "c", "text": "6 meses desde el día siguiente al vencimiento para responder." }
+      ],
+      "answer": "a",
+      "explain": "Sin pruebas que decretar, los 70 días hábiles para decidir de fondo se cuentan desde el día siguiente al vencimiento del término para responder el REA (Ley 2586, art. 72, num. 1).",
+      "optionWhy": {
+        "b": "Cinco meses es el término para decidir el recurso de reconsideración (art. 94).",
+        "c": "Seis meses es el término tributario para la liquidación de revisión (ET art. 710)."
+      }
+    },
+    {
+      "id": "fisc-q-034", "type": "pjs", "difficulty": 2, "source": "Ley 2586/2026 arts. 88 y 94",
+      "case": "Se notificó a un importador una resolución que le impone una multa aduanera. Quiere controvertirla en sede administrativa.",
+      "prompt": "¿Qué recurso y plazo debe informarle el gestor?",
+      "options": [
+        { "id": "a", "text": "Reconsideración, dentro de los dos meses siguientes." },
+        { "id": "b", "text": "Reposición y apelación, dentro de los diez días siguientes." },
+        { "id": "c", "text": "Reconsideración, dentro de los quince días hábiles siguientes." }
+      ],
+      "answer": "c",
+      "explain": "Contra liquidaciones oficiales, decomisos y sanciones aduaneras procede el recurso de reconsideración, dentro de los 15 días hábiles siguientes a la notificación (Ley 2586, art. 88). La DIAN tiene 5 meses para decidirlo (art. 94).",
+      "optionWhy": {
+        "a": "Dos meses es el término del recurso tributario (ET art. 720).",
+        "b": "La Ley 2586 prevé reconsideración, no reposición y apelación, contra estos actos."
+      }
+    },
+    {
+      "id": "fisc-q-035", "type": "pjs", "difficulty": 3, "source": "Ley 2586/2026 arts. 94 y 96",
+      "case": "Un recurso de reconsideración aduanero fue recibido junto con el expediente por el área competente hace cinco meses y una semana. No hubo periodo probatorio ni auto inadmisorio, y no se ha notificado decisión.",
+      "prompt": "¿Qué consecuencia jurídica se produce?",
+      "options": [
+        { "id": "a", "text": "Silencio administrativo positivo, que se declara de oficio o a petición." },
+        { "id": "b", "text": "Silencio negativo: el recurso se entiende resuelto en contra." },
+        { "id": "c", "text": "Ninguna, porque la DIAN tiene un año para resolver el recurso." }
+      ],
+      "answer": "a",
+      "explain": "El término para decidir el recurso es de 5 meses (art. 94). Vencido sin notificar la decisión, ocurre el silencio administrativo positivo, que se declara de oficio o a petición de parte (art. 96).",
+      "optionWhy": {
+        "b": "La Ley 2586 prevé silencio positivo por incumplimiento de términos (art. 96).",
+        "c": "El año es el término del recurso tributario (ET art. 732), no del aduanero."
+      }
+    },
+    {
+      "id": "fisc-q-036", "type": "pjs", "difficulty": 1, "source": "Decreto 1165/2019 arts. 578 y 579",
+      "case": "Con la información de los documentos de viaje de un buque que aún no ha presentado declaraciones aduaneras, su grupo selecciona contenedores de alto riesgo para revisarlos.",
+      "prompt": "¿Qué momento del control aduanero se está ejerciendo?",
+      "options": [
+        { "id": "a", "text": "Control simultáneo, durante la nacionalización." },
+        { "id": "b", "text": "Control posterior o de fiscalización." },
+        { "id": "c", "text": "Control anterior o previo." }
+      ],
+      "answer": "c",
+      "explain": "El control previo se ejerce antes de la presentación de la declaración aduanera, con base en la información de los documentos de viaje (D. 1165, arts. 578 y 579).",
+      "optionWhy": {
+        "a": "El simultáneo empieza con la presentación de la declaración aduanera.",
+        "b": "El posterior se ejerce después de la nacionalización o del fin del régimen."
+      }
+    },
+    {
+      "id": "fisc-q-037", "type": "pjs", "difficulty": 2, "source": "Ley 2586/2026 arts. 7, 8 y 9",
+      "case": "En control posterior se aprehendió mercancía sin documentos que acrediten su legal introducción. El importador quiere interponer un recurso contra el acta de aprehensión.",
+      "prompt": "¿Qué debe explicarle el gestor?",
+      "options": [
+        { "id": "a", "text": "Procede reconsideración en quince días hábiles contra el acta." },
+        { "id": "b", "text": "Es un acto de trámite sin recurso; existe un Comité de Revisión." },
+        { "id": "c", "text": "Procede reposición ante el funcionario dentro de cinco días." }
+      ],
+      "answer": "b",
+      "explain": "El acto que adopta una medida cautelar es de trámite y contra él no procede recurso, sin perjuicio de activar el Comité de Revisión de Aprehensiones (Ley 2586, arts. 8 y 9).",
+      "optionWhy": {
+        "a": "La reconsideración procede contra decisiones de fondo como el decomiso (art. 88), no contra la medida cautelar.",
+        "c": "El art. 9 dice que contra este acto no procede recurso alguno."
+      }
+    },
+    {
+      "id": "fisc-q-038", "type": "pjs", "difficulty": 3, "source": "Ley 2586/2026 art. 112",
+      "case": "Una importación se inició en marzo de 2026, en vigencia del Decreto Ley 920 de 2023 y antes de la Ley 2586. En 2026 se detecta una infracción en esa operación.",
+      "prompt": "¿Qué régimen de infracciones y sanciones debe aplicar el gestor?",
+      "options": [
+        { "id": "a", "text": "Siempre la Ley 2586, por ser la norma vigente al detectarse." },
+        { "id": "b", "text": "El vigente al iniciar la operación, salvo que la nueva sea más favorable." },
+        { "id": "c", "text": "Siempre el Decreto Ley 920, sin considerar la favorabilidad." }
+      ],
+      "answer": "b",
+      "explain": "Si la operación se inició en vigencia del Decreto Ley 920 de 2023, se aplica el régimen vigente al momento de su inicio, sin perjuicio del principio de favorabilidad (Ley 2586, art. 112).",
+      "optionWhy": {
+        "a": "La transición mira el inicio de la operación, no la fecha de detección.",
+        "c": "El art. 112 conserva expresamente el principio de favorabilidad."
+      }
+    },
+    {
+      "id": "fisc-q-039", "type": "open", "difficulty": 2, "source": "ET arts. 685, 703 y 707",
+      "prompt": "Explique en 2–3 líneas la diferencia entre el emplazamiento para corregir y el requerimiento especial.",
+      "modelAnswer": "El emplazamiento para corregir es una invitación ante indicios de inexactitud: se puede corregir en el mes siguiente y no responder no genera sanción. El requerimiento especial es el requisito previo obligatorio de la liquidación de revisión: propone y cuantifica las modificaciones y se responde en 3 meses.",
+      "keyPoints": [
+        "Emplazamiento: invitación por indicios de inexactitud (art. 685)",
+        "Emplazamiento: un mes para corregir; no responder no genera sanción",
+        "Requerimiento especial: requisito previo de la liquidación de revisión (art. 703)",
+        "Requerimiento: cuantifica y se responde en 3 meses (arts. 704 y 707)"
+      ],
+      "keywords": ["indicios", "un mes", "sin sancion", "requisito previo", "liquidacion de revision", "tres meses", "cuantificacion"],
+      "minKeywords": 4
+    },
+    {
+      "id": "fisc-q-040", "type": "open", "difficulty": 3, "source": "ET arts. 685, 703, 707, 720; Ley 2586/2026 arts. 5, 66, 70, 88",
+      "prompt": "Compare en 3–4 líneas el procedimiento tributario y el aduanero: acto de invitación, acto que propone la modificación, plazo de respuesta y plazo del recurso.",
+      "modelAnswer": "En lo tributario, la invitación es el emplazamiento para corregir (1 mes); la propuesta es el requerimiento especial, que se responde en 3 meses; la reconsideración se interpone en 2 meses. En lo aduanero, la invitación es la gestión persuasiva (1 mes); la propuesta es el Requerimiento Especial Aduanero, que se responde en 15 días hábiles; la reconsideración se interpone en 15 días hábiles.",
+      "keyPoints": [
+        "Emplazamiento para corregir ↔ gestión persuasiva (ambos 1 mes)",
+        "Requerimiento especial (3 meses) ↔ REA (15 días hábiles)",
+        "Reconsideración tributaria: 2 meses",
+        "Reconsideración aduanera: 15 días hábiles"
+      ],
+      "keywords": ["emplazamiento", "gestion persuasiva", "requerimiento especial aduanero", "tres meses", "quince dias habiles", "dos meses", "reconsideracion"],
+      "minKeywords": 4
+    },
+    {
+      "id": "fisc-q-041", "type": "mcq", "difficulty": 1, "source": "ET art. 684",
+      "prompt": "¿Cuál de estas actuaciones es una facultad de fiscalización expresamente prevista en el art. 684 del ET?",
+      "options": [
+        { "id": "a", "text": "Modificar la declaración sin enviar requerimiento previo" },
+        { "id": "b", "text": "Citar a terceros para que rindan informes o interrogatorios" },
+        { "id": "c", "text": "Declarar la firmeza anticipada de cualquier declaración" },
+        { "id": "d", "text": "Imponer sanciones sin acto administrativo que las sustente" }
+      ],
+      "answer": "b",
+      "explain": "El art. 684, lit. c, permite citar o requerir al contribuyente o a terceros para que rindan informes o contesten interrogatorios.",
+      "optionWhy": {
+        "a": "La liquidación de revisión exige requerimiento especial previo (arts. 703 y 730).",
+        "c": "La firmeza la fija la ley (arts. 689-3 y 714), no una decisión discrecional.",
+        "d": "Las sanciones se imponen mediante liquidaciones oficiales o resoluciones (art. 637)."
+      }
+    },
+    {
+      "id": "fisc-q-042", "type": "mcq", "difficulty": 1, "source": "ET art. 685",
+      "prompt": "¿Dentro de qué plazo puede el contribuyente corregir después de notificado un emplazamiento para corregir?",
+      "options": [
+        { "id": "a", "text": "Quince días hábiles" },
+        { "id": "b", "text": "Tres meses" },
+        { "id": "c", "text": "El mes siguiente" },
+        { "id": "d", "text": "Dos meses" }
+      ],
+      "answer": "c",
+      "explain": "El art. 685 da el mes siguiente a la notificación para corregir, liquidando la sanción de corrección.",
+      "optionWhy": {
+        "a": "Quince días hábiles es el plazo de respuesta del REA aduanero.",
+        "b": "Tres meses es el plazo para responder el requerimiento especial.",
+        "d": "Dos meses es el plazo del recurso de reconsideración tributario."
+      }
+    },
+    {
+      "id": "fisc-q-043", "type": "mcq", "difficulty": 1, "source": "ET art. 732",
+      "prompt": "¿Cuánto tiempo tiene la DIAN para resolver un recurso de reconsideración tributario?",
+      "options": [
+        { "id": "a", "text": "Cinco meses desde su recepción" },
+        { "id": "b", "text": "Seis meses desde su interposición" },
+        { "id": "c", "text": "Dos meses desde su interposición" },
+        { "id": "d", "text": "Un año desde su interposición" }
+      ],
+      "answer": "d",
+      "explain": "La DIAN tiene 1 año, contado desde la interposición en debida forma (art. 732).",
+      "optionWhy": {
+        "a": "Cinco meses es el término del recurso aduanero (Ley 2586, art. 94).",
+        "b": "Seis meses es el término para notificar la liquidación de revisión (art. 710).",
+        "c": "Dos meses es el plazo para interponer el recurso, no para resolverlo."
+      }
+    },
+    {
+      "id": "fisc-q-044", "type": "truefalse", "difficulty": 1, "source": "ET art. 685",
+      "statement": "Si el contribuyente no responde el emplazamiento para corregir, la DIAN le impone una sanción por esa omisión.",
+      "answer": false,
+      "explain": "Falso. La no respuesta al emplazamiento para corregir no ocasiona sanción alguna (art. 685)."
+    },
+    {
+      "id": "fisc-q-045", "type": "truefalse", "difficulty": 1, "source": "ET art. 711",
+      "statement": "La liquidación de revisión puede incluir hechos que no se mencionaron en el requerimiento especial ni en su ampliación.",
+      "answer": false,
+      "explain": "Falso. Debe contraerse a la declaración y a los hechos del requerimiento especial o de su ampliación (art. 711)."
+    },
+    {
+      "id": "fisc-q-046", "type": "order", "difficulty": 2, "source": "ET arts. 685, 703, 707, 710 y 720",
+      "prompt": "Ordene las etapas del proceso de revisión de una declaración tributaria.",
+      "items": [
+        "Emplazamiento para corregir (opcional)",
+        "Notificación del requerimiento especial",
+        "Respuesta del contribuyente (3 meses)",
+        "Liquidación oficial de revisión",
+        "Recurso de reconsideración (2 meses)"
+      ],
+      "explain": "El emplazamiento es facultativo (art. 685). El requerimiento especial es requisito previo de la revisión (art. 703); se responde en 3 meses (art. 707); luego viene la liquidación (art. 710), que se recurre en 2 meses (art. 720)."
+    },
+    {
+      "id": "fisc-q-047", "type": "match", "difficulty": 1, "source": "ET arts. 685, 707, 710, 715, 717 y 720",
+      "prompt": "Relacione cada actuación con su plazo.",
+      "pairs": [
+        { "left": "Corregir tras el emplazamiento", "right": "1 mes" },
+        { "left": "Responder el requerimiento especial", "right": "3 meses" },
+        { "left": "Notificar la liquidación de revisión", "right": "6 meses" },
+        { "left": "Proferir la liquidación de aforo", "right": "5 años" },
+        { "left": "Interponer la reconsideración", "right": "2 meses" }
+      ],
+      "explain": "Arts. 685 (1 mes), 707 (3 meses), 710 (6 meses desde el vencimiento de la respuesta), 717 (5 años desde el vencimiento para declarar) y 720 (2 meses)."
+    },
+    {
+      "id": "fisc-q-048", "type": "cloze", "difficulty": 1, "source": "ET art. 699",
+      "text": "La liquidación de corrección aritmética debe proferirse dentro de los {{dos}} años siguientes a la fecha de presentación de la declaración.",
+      "alternatives": { "dos": ["2"] },
+      "explain": "Art. 699: dos años desde la presentación, sin perjuicio de la facultad de revisión."
+    },
+    {
+      "id": "fisc-q-049", "type": "truefalse", "difficulty": 1, "source": "Ley 2586/2026 art. 9",
+      "statement": "Contra el acto que adopta una medida cautelar aduanera, como la aprehensión, no procede recurso alguno.",
+      "answer": true,
+      "explain": "Verdadero. Es un acto de trámite sin recurso, sin perjuicio del Comité de Revisión de Aprehensiones (Ley 2586, art. 9)."
+    },
+    {
+      "id": "fisc-q-050", "type": "open", "difficulty": 2, "source": "ET art. 722",
+      "prompt": "Enumere los requisitos del recurso de reconsideración tributario.",
+      "modelAnswer": "Debe formularse por escrito, con expresión concreta de los motivos de inconformidad; interponerse dentro de la oportunidad legal (2 meses); y presentarse directamente por el contribuyente o por apoderado o representante que acredite personería. Solo un abogado puede actuar como agente oficioso, y el interesado debe ratificar en 2 meses.",
+      "keyPoints": [
+        "Por escrito, con motivos concretos de inconformidad",
+        "Dentro de la oportunidad legal",
+        "Directamente o acreditando la personería del apoderado",
+        "Agente oficioso: solo abogados; ratificación en 2 meses"
+      ],
+      "keywords": ["escrito", "motivos", "oportunidad", "personeria", "apoderado", "abogado", "ratificar"],
+      "minKeywords": 4
+    },
+    {
+      "id": "fisc-q-051", "type": "open", "difficulty": 3, "source": "ET arts. 705, 707, 708 y 710",
+      "prompt": "Explique la secuencia de términos del proceso de revisión: notificar el requerimiento, responderlo, ampliarlo y notificar la liquidación de revisión.",
+      "modelAnswer": "El requerimiento especial se notifica dentro de los 3 años siguientes al vencimiento del plazo para declarar. Se responde en 3 meses. Dentro de los 3 meses siguientes al vencimiento de ese plazo puede ampliarse una sola vez, con respuesta de 3 a 6 meses. La liquidación de revisión se notifica dentro de los 6 meses siguientes al vencimiento del término para responder el requerimiento o la ampliación.",
+      "keyPoints": [
+        "Notificar el requerimiento: 3 años (art. 705)",
+        "Responder: 3 meses (art. 707)",
+        "Ampliación: una vez, en 3 meses; respuesta de 3 a 6 meses (art. 708)",
+        "Liquidación de revisión: 6 meses tras vencer la respuesta (art. 710)"
+      ],
+      "keywords": ["tres anos", "tres meses", "ampliacion", "una sola vez", "seis meses", "liquidacion de revision"],
+      "minKeywords": 4
+    },
+    {
+      "id": "fisc-q-052", "type": "match", "difficulty": 2, "source": "ET arts. 685, 703, 710, 720; Ley 2586/2026 arts. 5, 56, 66, 88",
+      "prompt": "Relacione cada figura tributaria con su equivalente aduanero.",
+      "pairs": [
+        { "left": "Emplazamiento para corregir", "right": "Gestión persuasiva" },
+        { "left": "Requerimiento especial", "right": "Requerimiento Especial Aduanero" },
+        { "left": "Liquidación oficial de revisión", "right": "Liquidación oficial aduanera" },
+        { "left": "Reconsideración en 2 meses", "right": "Reconsideración en 15 días hábiles" }
+      ],
+      "explain": "La lógica es la misma (invitar, proponer, liquidar, recurrir), pero los plazos aduaneros son en días hábiles y más cortos."
+    },
+    {
+      "id": "fisc-q-053", "type": "open", "difficulty": 2, "source": "ET arts. 715, 716, 643 y 717",
+      "prompt": "Explique qué es la liquidación de aforo y qué pasos deben agotarse antes de proferirla.",
+      "modelAnswer": "Es el acto con el que la DIAN determina la obligación tributaria de quien estaba obligado a declarar y no lo hizo. Antes debe emplazarlo para declarar en un mes y, si no declara, imponerle la sanción por no declarar. El aforo se profiere dentro de los 5 años siguientes al vencimiento del plazo para declarar.",
+      "keyPoints": [
+        "Determina la obligación de quien no declaró",
+        "Primero: emplazamiento previo por no declarar (1 mes)",
+        "Luego: sanción por no declarar (art. 643)",
+        "Término: 5 años desde el vencimiento del plazo (art. 717)"
+      ],
+      "keywords": ["omiso", "no declaro", "emplazamiento", "un mes", "sancion por no declarar", "cinco anos"],
+      "minKeywords": 3
+    }
+  ]
+}

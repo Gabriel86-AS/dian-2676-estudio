@@ -1,9 +1,9 @@
 {
   "units": [
-    { "id": "fiscalizacion", "file": "units/fiscalizacion.json", "title": "Fiscalización y liquidación tributaria y aduanera", "area": "funcional", "priority": 1, "pending": true },
-    { "id": "sanciones", "file": "units/sanciones.json", "title": "Imposición de sanciones", "area": "funcional", "priority": 1, "pending": true },
-    { "id": "obligaciones", "file": "units/obligaciones.json", "title": "Obligaciones formales y sustanciales en materia tributaria", "area": "funcional", "priority": 1, "pending": true },
-    { "id": "liquidacion", "file": "units/liquidacion.json", "title": "Liquidación de impuestos nacionales", "area": "funcional", "priority": 2, "pending": true },
+    { "id": "fiscalizacion", "file": "units/fiscalizacion.json", "title": "Fiscalización y liquidación tributaria y aduanera", "area": "funcional", "priority": 1 },
+    { "id": "sanciones", "file": "units/sanciones.json", "title": "Imposición de sanciones", "area": "funcional", "priority": 1 },
+    { "id": "obligaciones", "file": "units/obligaciones.json", "title": "Obligaciones formales y sustanciales en materia tributaria", "area": "funcional", "priority": 1 },
+    { "id": "liquidacion", "file": "units/liquidacion.json", "title": "Liquidación de impuestos nacionales", "area": "funcional", "priority": 2 },
     { "id": "estructura", "file": "units/estructura.json", "title": "Estructura organizacional de la DIAN", "area": "funcional", "priority": 2, "pending": true },
     { "id": "misionalidad", "file": "units/misionalidad.json", "title": "Misionalidad de la DIAN", "area": "funcional", "priority": 2, "pending": true },
     { "id": "gestion-documental", "file": "units/gestion-documental.json", "title": "Gestión documental y trazabilidad de expedientes", "area": "funcional", "priority": 2, "pending": true },

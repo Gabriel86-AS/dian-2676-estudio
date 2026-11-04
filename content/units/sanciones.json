@@ -1,0 +1,884 @@
+{
+  "id": "sanciones",
+  "title": "Imposición de sanciones",
+  "area": "funcional",
+  "priority": 1,
+  "summary": "Sanciones tributarias del ET (mínima, intereses, extemporaneidad, no declarar, corrección, inexactitud, información, facturación y clausura), sus reducciones por gradualidad y aceptación, y el régimen sancionatorio aduanero de la Ley 2586 de 2026. Incluye cálculos paso a paso con la UVT 2026.",
+  "sources": ["ET arts. 634–657", "Ley 2586/2026 arts. 14, 17–23, 26 y 29", "UVT 2026 = $52.374 (Res. DIAN 238/2025)"],
+  "lessons": [
+    {
+      "id": "sanc-01",
+      "title": "Reglas generales: mínima, intereses y prescripción",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "sanc-c-001",
+          "type": "concept",
+          "source": "ET arts. 634, 635, 637 y 639",
+          "title": "Lo básico del régimen sancionatorio",
+          "body": "- **Dónde se imponen:** en resolución independiente o en las liquidaciones oficiales (art. 637).\n- **Sanción mínima:** **10 UVT**, incluso para sanciones **reducidas** (art. 639). No aplica a los intereses de mora.\n- **Intereses moratorios:** por **cada día calendario** de retardo en el pago (art. 634), a la tasa de usura de crédito de consumo **menos 2 puntos** (art. 635).\n\n| UVT 2026 | 10 UVT |\n|---|---|\n| $52.374 | $523.740 |",
+          "example": "Si una sanción, ya reducida, da $300.000, se paga la mínima: $523.740."
+        },
+        {
+          "id": "sanc-c-002",
+          "type": "concept",
+          "source": "ET art. 638",
+          "title": "¿Hasta cuándo se pueden imponer sanciones?",
+          "body": "- **En liquidación oficial:** en el mismo término que existe para practicar esa liquidación.\n- **En resolución independiente:** el **pliego de cargos** debe formularse dentro de los **2 años** siguientes a la presentación de la declaración de renta (o de ingresos y patrimonio) del periodo de la irregularidad.\n- **Excepciones de 5 años:** sanción por no declarar, intereses de mora y las de los arts. 659, 659-1 y 660.\n- Vencida la respuesta al pliego de cargos, la DIAN tiene **6 meses** para imponer la sanción."
+        },
+        { "ref": "sanc-q-040" },
+        { "ref": "sanc-q-001" },
+        { "ref": "sanc-q-002" },
+        { "ref": "sanc-q-003" },
+        { "ref": "sanc-q-043" },
+        { "ref": "sanc-q-004" }
+      ]
+    },
+    {
+      "id": "sanc-02",
+      "title": "Gradualidad, reincidencia y favorabilidad",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "sanc-c-003",
+          "type": "concept",
+          "source": "ET art. 640",
+          "title": "Reducciones del artículo 640",
+          "body": "**Si la sanción la liquida el contribuyente** y la DIAN aún no ha proferido pliego de cargos, requerimiento especial o emplazamiento previo por no declarar:\n\n| No cometió la misma conducta en… | La sanción queda en |\n|---|---|\n| los 2 años anteriores | 50 % |\n| el año anterior | 75 % |\n\n**Si la propone o determina la DIAN**, y la sanción se acepta y la infracción se subsana:\n\n| No fue sancionado en firme por la misma conducta en… | La sanción queda en |\n|---|---|\n| los 4 años anteriores | 50 % |\n| los 2 años anteriores | 75 % |"
+        },
+        {
+          "id": "sanc-c-004",
+          "type": "concept",
+          "source": "ET art. 640, parágrafos 1, 2 y 5",
+          "title": "Lesividad, reincidencia y favorabilidad",
+          "body": "- **Lesividad:** existe siempre que el contribuyente incumple sus obligaciones; el funcionario debe motivarla en el acto.\n- **Reincidencia:** nueva infracción del mismo tipo dentro de los **2 años** siguientes a la firmeza del acto que impuso la sanción. La sanción **aumenta 100 %**. No aplica a la del art. 652 ni a las que liquida el propio contribuyente.\n- **Favorabilidad:** se aplica aunque la ley favorable sea posterior."
+        },
+        { "ref": "sanc-q-005" },
+        { "ref": "sanc-q-006" },
+        { "ref": "sanc-q-007" },
+        { "ref": "sanc-q-008" },
+        { "ref": "sanc-q-044" },
+        { "ref": "sanc-q-036" }
+      ]
+    },
+    {
+      "id": "sanc-03",
+      "title": "Extemporaneidad, no declarar y corrección",
+      "minutes": 10,
+      "steps": [
+        {
+          "id": "sanc-c-005",
+          "type": "concept",
+          "source": "ET arts. 641 y 642",
+          "title": "Extemporaneidad",
+          "body": "Se cobra **por cada mes o fracción de mes** de retardo:\n\n| Caso | Con impuesto a cargo | Tope |\n|---|---|---|\n| Antes del emplazamiento (art. 641) | 5 % del impuesto o retención | 100 % |\n| Después del emplazamiento (art. 642) | 10 % del impuesto o retención | 200 % |\n\n**Sin impuesto a cargo (art. 641):** 0,5 % de los ingresos brutos por mes, sin exceder el menor entre el 5 % de esos ingresos, el doble del saldo a favor o 2.500 UVT si no hay saldo a favor. Después del emplazamiento (art. 642) se duplica: 1 %, con topes del 10 %, cuatro veces el saldo a favor o 5.000 UVT.",
+          "example": "Impuesto de $20.000.000 presentado 2 meses y 10 días tarde: 3 fracciones × 5 % = 15 % → $3.000.000."
+        },
+        {
+          "id": "sanc-c-006",
+          "type": "concept",
+          "source": "ET arts. 643 y 644",
+          "title": "No declarar y corrección",
+          "body": "**No declarar (art. 643):**\n- Renta: **20 %** de las consignaciones o ingresos brutos (o de los ingresos de la última declaración), el mayor.\n- IVA o impuesto al consumo: **10 %** de esas bases.\n- Retenciones: **10 %** de cheques o costos y gastos, o **100 %** de las retenciones de la última declaración, el mayor.\n- Si declara dentro del término para recurrir la sanción, esta baja al **50 %**, pero no puede ser inferior a la extemporaneidad posterior al emplazamiento.\n\n**Corrección voluntaria (art. 644):**\n\n| Momento | Sanción sobre el mayor valor |\n|---|---|\n| Antes del emplazamiento o del auto de inspección | 10 % |\n| Después de ellos y antes del requerimiento o pliego | 20 % |"
+        },
+        { "ref": "sanc-q-009" },
+        { "ref": "sanc-q-010" },
+        { "ref": "sanc-q-011" },
+        { "ref": "sanc-q-012" },
+        { "ref": "sanc-q-013" },
+        { "ref": "sanc-q-014" },
+        { "ref": "sanc-q-037" }
+      ]
+    },
+    {
+      "id": "sanc-04",
+      "title": "Inexactitud, información, facturación y clausura",
+      "minutes": 9,
+      "steps": [
+        {
+          "id": "sanc-c-007",
+          "type": "concept",
+          "source": "ET arts. 647, 648, 709 y 713",
+          "title": "Inexactitud",
+          "body": "**Conductas (art. 647):** omitir ingresos; no declarar retenciones; incluir costos, deducciones, descuentos o pasivos **inexistentes o inexactos**; usar datos falsos; compras a **proveedores ficticios o insolventes**. Siempre que se derive menor impuesto o mayor saldo a favor.\n\n**No hay inexactitud** si la diferencia viene de una **interpretación razonable del derecho**, con hechos y cifras completos y verdaderos.\n\n**Sanción (art. 648):** **100 %** de la diferencia entre lo liquidado por la DIAN y lo declarado; **200 %** si se omiten activos o se incluyen pasivos inexistentes; **160 %** con proveedores ficticios o abuso tributario.\n\nSe reduce a la **cuarta parte** (art. 709) o a la **mitad** (art. 713) según cuándo se acepten los hechos."
+        },
+        {
+          "id": "sanc-c-008",
+          "type": "concept",
+          "source": "ET arts. 651, 652 y 657",
+          "title": "Información, facturas y cierre",
+          "body": "**No enviar información o enviarla con errores (art. 651):** multa de hasta **7.500 UVT**: 1 % de lo no suministrado, 0,7 % de lo erróneo y 0,5 % de lo extemporáneo. El traslado de cargos se responde en **1 mes**. Se reduce al **50 %** si se subsana antes de notificarse la sanción, o al **70 %** si se subsana en los 2 meses siguientes.\n\n**Facturas sin requisitos (art. 652):** 1 % de las operaciones, máximo **950 UVT**; traslado de cargos de **10 días**.\n\n**Clausura (art. 657):** **3 días** por no facturar estando obligado; **30 días** cuando se aprehende mercancía del inventario por violación del régimen aduanero (sellos «CERRADO POR EVASIÓN Y CONTRABANDO»)."
+        },
+        { "ref": "sanc-q-015" },
+        { "ref": "sanc-q-016" },
+        { "ref": "sanc-q-017" },
+        { "ref": "sanc-q-018" },
+        { "ref": "sanc-q-019" },
+        { "ref": "sanc-q-020" },
+        { "ref": "sanc-q-041" }
+      ]
+    },
+    {
+      "id": "sanc-05",
+      "title": "Régimen sancionatorio aduanero (Ley 2586 de 2026)",
+      "minutes": 10,
+      "steps": [
+        {
+          "id": "sanc-c-009",
+          "type": "concept",
+          "source": "Ley 2586/2026 art. 14",
+          "title": "Clases de infracciones y sanciones",
+          "body": "Sanciones: **amonestación** (registrada en el INFAD), **multa**, **suspensión** y **cancelación**.\n\n| Infracción | Multa en UVT | Multa en % |\n|---|---|---|\n| Leve | 50 a 199 | 1 % a 9 % |\n| Grave | 200 a 999 | 10 % a 69 % |\n| Gravísima | 1.000 a 4.000 | 70 % a 100 % |\n\nLas gravísimas también pueden sancionarse con **cancelación** o **suspensión**. Las sanciones no eximen del pago de los tributos aduaneros."
+        },
+        {
+          "id": "sanc-c-010",
+          "type": "concept",
+          "source": "Ley 2586/2026 arts. 17, 19, 20 y 21",
+          "title": "Gradualidad, allanamiento y caducidad",
+          "body": "**Gradualidad (art. 17):** si un mismo hecho genera varias infracciones, se aplica la más grave; si todas son multas, la más alta **+ 20 %**, sin superar la suma de todas.\n\n**Allanamiento (art. 19):** la multa queda en:\n\n| Momento del reconocimiento escrito | Multa |\n|---|---|\n| Voluntario y sin intervención, antes del REA (no gravísimas) | Sin sanción |\n| Antes de notificarse el REA | 20 % |\n| Después del REA y antes de la decisión de fondo | 40 % |\n| En el término para recurrir la decisión | 60 % |\n\nHay que adjuntar el recibo de pago.\n\n**Caducidad (art. 20):** **3 años** desde el hecho u omisión para expedir y notificar el acto sancionatorio. **Prescripción** de la sanción: **5 años** desde su ejecutoria (art. 21)."
+        },
+        { "ref": "sanc-q-021" },
+        { "ref": "sanc-q-022" },
+        { "ref": "sanc-q-023" },
+        { "ref": "sanc-q-024" },
+        { "ref": "sanc-q-045" },
+        { "ref": "sanc-q-047" },
+        { "ref": "sanc-q-039" }
+      ]
+    }
+  ],
+  "flashcards": [
+    { "id": "sanc-fc-001", "front": "Valor de la sanción mínima", "back": "10 UVT (en 2026: $523.740), incluso para sanciones reducidas.", "source": "ET art. 639" },
+    { "id": "sanc-fc-002", "front": "¿La sanción mínima aplica a los intereses de mora?", "back": "No.", "source": "ET art. 639" },
+    { "id": "sanc-fc-003", "front": "¿Cómo se causan los intereses moratorios?", "back": "Por cada día calendario de retardo en el pago.", "source": "ET art. 634" },
+    { "id": "sanc-fc-004", "front": "Tasa del interés moratorio tributario", "back": "Tasa de usura de crédito de consumo menos 2 puntos, liquidada diariamente.", "source": "ET art. 635" },
+    { "id": "sanc-fc-005", "front": "¿En qué actos se imponen sanciones?", "back": "En resolución independiente o en las liquidaciones oficiales.", "source": "ET art. 637" },
+    { "id": "sanc-fc-006", "front": "Plazo para el pliego de cargos (sanción en resolución independiente)", "back": "2 años desde la presentación de la declaración de renta del periodo de la irregularidad.", "source": "ET art. 638" },
+    { "id": "sanc-fc-007", "front": "Sanciones que prescriben en 5 años", "back": "No declarar, intereses de mora y las de los arts. 659, 659-1 y 660.", "source": "ET art. 638" },
+    { "id": "sanc-fc-008", "front": "Plazo para imponer la sanción tras la respuesta al pliego de cargos", "back": "6 meses.", "source": "ET art. 638" },
+    { "id": "sanc-fc-009", "front": "Art. 640: reducción al 50 % de la sanción que liquida el contribuyente", "back": "Si no cometió la misma conducta en los 2 años anteriores y no hay pliego, requerimiento ni emplazamiento.", "source": "ET art. 640" },
+    { "id": "sanc-fc-010", "front": "Art. 640: reducción al 75 % de la sanción que liquida el contribuyente", "back": "Si no cometió la misma conducta en el año anterior y no hay pliego, requerimiento ni emplazamiento.", "source": "ET art. 640" },
+    { "id": "sanc-fc-011", "front": "Reincidencia tributaria: definición y efecto", "back": "Nueva infracción del mismo tipo en los 2 años siguientes a la firmeza de la sanción; aumenta 100 %.", "source": "ET art. 640, par. 2" },
+    { "id": "sanc-fc-012", "front": "Favorabilidad en sanciones tributarias", "back": "Aplica aun cuando la ley favorable sea posterior.", "source": "ET art. 640, par. 5" },
+    { "id": "sanc-fc-013", "front": "Extemporaneidad antes del emplazamiento (con impuesto)", "back": "5 % del impuesto por mes o fracción, máximo 100 %.", "source": "ET art. 641" },
+    { "id": "sanc-fc-014", "front": "Extemporaneidad después del emplazamiento (con impuesto)", "back": "10 % del impuesto por mes o fracción, máximo 200 %.", "source": "ET art. 642" },
+    { "id": "sanc-fc-015", "front": "Extemporaneidad sin impuesto a cargo (antes del emplazamiento)", "back": "0,5 % de los ingresos brutos por mes o fracción, con topes (5 % de ingresos, doble del saldo a favor o 2.500 UVT).", "source": "ET art. 641" },
+    { "id": "sanc-fc-016", "front": "Sanción por no declarar renta", "back": "20 % de las consignaciones o ingresos brutos determinados, o de los ingresos de la última declaración: el mayor.", "source": "ET art. 643" },
+    { "id": "sanc-fc-017", "front": "Sanción por no declarar IVA", "back": "10 % de las consignaciones o ingresos brutos determinados, o de los de la última declaración: el mayor.", "source": "ET art. 643" },
+    { "id": "sanc-fc-018", "front": "Declarar dentro del término del recurso contra la sanción por no declarar", "back": "La sanción se reduce al 50 %, sin ser inferior a la extemporaneidad posterior al emplazamiento.", "source": "ET art. 643, par. 2" },
+    { "id": "sanc-fc-019", "front": "Sanción por corrección antes del emplazamiento", "back": "10 % del mayor valor a pagar o menor saldo a favor.", "source": "ET art. 644" },
+    { "id": "sanc-fc-020", "front": "Sanción por corrección después del emplazamiento", "back": "20 % del mayor valor a pagar o menor saldo a favor, si es antes del requerimiento especial o pliego de cargos.", "source": "ET art. 644" },
+    { "id": "sanc-fc-021", "front": "Sanción general por inexactitud", "back": "100 % de la diferencia entre el saldo determinado por la DIAN y el declarado.", "source": "ET art. 648" },
+    { "id": "sanc-fc-022", "front": "Inexactitud por omitir activos o incluir pasivos inexistentes", "back": "200 % del mayor impuesto determinado.", "source": "ET art. 648" },
+    { "id": "sanc-fc-023", "front": "¿Cuándo no hay inexactitud aunque se pague menos?", "back": "Cuando hay interpretación razonable del derecho y los hechos y cifras son completos y verdaderos.", "source": "ET art. 647, par. 2" },
+    { "id": "sanc-fc-024", "front": "Tope de la sanción por no enviar información", "back": "7.500 UVT.", "source": "ET art. 651" },
+    { "id": "sanc-fc-025", "front": "Sanción por facturar sin requisitos (lits. a, h, i del art. 617)", "back": "1 % de las operaciones facturadas, máximo 950 UVT.", "source": "ET art. 652" },
+    { "id": "sanc-fc-026", "front": "Clausura por no expedir factura estando obligado", "back": "3 días, con sellos «CERRADO POR LA DIAN».", "source": "ET art. 657" },
+    { "id": "sanc-fc-027", "front": "Rangos de multa de las infracciones aduaneras graves", "back": "200 a 999 UVT, o 10 % a 69 %.", "source": "Ley 2586/2026 art. 14" },
+    { "id": "sanc-fc-028", "front": "Allanamiento aduanero después del REA y antes de la decisión de fondo", "back": "La multa se reduce al 40 %.", "source": "Ley 2586/2026 art. 19" },
+    { "id": "sanc-fc-029", "front": "Caducidad de la acción sancionatoria aduanera", "back": "3 años desde la comisión del hecho u omisión.", "source": "Ley 2586/2026 art. 20" },
+    { "id": "sanc-fc-030", "front": "Multa cuando no se puede aprehender la mercancía", "back": "100 % del valor en aduanas (o del avalúo), al importador y al poseedor o tenedor.", "source": "Ley 2586/2026 art. 29" }
+  ],
+  "questions": [
+    {
+      "id": "sanc-q-001", "type": "pjs", "difficulty": 2, "source": "ET art. 639",
+      "case": "Usted revisa una declaración en la que el contribuyente liquidó una sanción por extemporaneidad de $380.000 después de aplicar la reducción del art. 640. La UVT de 2026 es $52.374.",
+      "prompt": "¿Qué valor de sanción debía liquidar?",
+      "options": [
+        { "id": "a", "text": "$380.000, porque es la sanción ya reducida." },
+        { "id": "b", "text": "$523.740, que es la sanción mínima de 10 UVT." },
+        { "id": "c", "text": "$760.000, porque la reducción no procedía." }
+      ],
+      "answer": "b",
+      "explain": "La sanción mínima es 10 UVT, incluso para sanciones reducidas (art. 639): 10 × $52.374 = $523.740. Como $380.000 es menor, se liquida la mínima.",
+      "optionWhy": {
+        "a": "El art. 639 aplica la mínima también a las sanciones reducidas.",
+        "c": "Nada en el caso indica que la reducción no procediera; el problema es el mínimo."
+      }
+    },
+    {
+      "id": "sanc-q-002", "type": "pjs", "difficulty": 1, "source": "ET art. 634",
+      "case": "Un contribuyente presentó a tiempo su declaración de IVA, pero pagó el saldo 12 días después del vencimiento. Pregunta si debe algo más.",
+      "prompt": "¿Qué debe explicarle el gestor?",
+      "options": [
+        { "id": "a", "text": "Debe pagar intereses moratorios por cada día calendario de retardo." },
+        { "id": "b", "text": "Debe pagar la sanción por extemporaneidad del 5 % por un mes." },
+        { "id": "c", "text": "No debe nada, porque la declaración se presentó a tiempo." }
+      ],
+      "answer": "a",
+      "explain": "Quien no paga oportunamente sus impuestos debe liquidar y pagar intereses moratorios por cada día calendario de retardo (art. 634).",
+      "optionWhy": {
+        "b": "La extemporaneidad (art. 641) castiga presentar tarde la declaración; aquí se presentó a tiempo.",
+        "c": "Pagar tarde genera intereses aunque la declaración haya sido oportuna."
+      }
+    },
+    {
+      "id": "sanc-q-003", "type": "pjs", "difficulty": 2, "source": "ET art. 638",
+      "case": "Una sociedad no atendió en 2023 un requerimiento de información. Su declaración de renta de 2023 se presentó el 10 de mayo de 2024. Usted debe decidir si aún puede formular el pliego de cargos para sancionarla en resolución independiente.",
+      "prompt": "¿Hasta cuándo puede formularse el pliego de cargos?",
+      "options": [
+        { "id": "a", "text": "Hasta el 10 de mayo de 2029, por la regla de cinco años." },
+        { "id": "b", "text": "Hasta el 10 de mayo de 2027, por la regla general de tres años." },
+        { "id": "c", "text": "Hasta el 10 de mayo de 2026, dos años tras la declaración de renta." }
+      ],
+      "answer": "c",
+      "explain": "Si la sanción se impone en resolución independiente, el pliego de cargos debe formularse dentro de los 2 años siguientes a la presentación de la declaración de renta del periodo de la irregularidad (art. 638).",
+      "optionWhy": {
+        "a": "Cinco años aplican solo a no declarar, intereses y las de los arts. 659, 659-1 y 660.",
+        "b": "Tres años es el término de firmeza (art. 714), no el del pliego de cargos."
+      }
+    },
+    {
+      "id": "sanc-q-004", "type": "pjs", "difficulty": 2, "source": "ET art. 638",
+      "case": "La respuesta a un pliego de cargos venció el 15 de enero de 2026. No hay pruebas por practicar. Su jefe le pregunta de cuánto tiempo dispone la DIAN para imponer la sanción.",
+      "prompt": "¿Qué plazo debe indicar?",
+      "options": [
+        { "id": "a", "text": "Seis meses desde el vencimiento de la respuesta." },
+        { "id": "b", "text": "Un año desde el vencimiento de la respuesta." },
+        { "id": "c", "text": "Dos meses desde el vencimiento de la respuesta." }
+      ],
+      "answer": "a",
+      "explain": "Vencido el término de respuesta del pliego de cargos, la DIAN tiene 6 meses para aplicar la sanción (art. 638).",
+      "optionWhy": {
+        "b": "Un año es el término para resolver el recurso de reconsideración (art. 732).",
+        "c": "Dos meses es el término para interponer el recurso (art. 720)."
+      }
+    },
+    {
+      "id": "sanc-q-005", "type": "pjs", "difficulty": 2, "source": "ET arts. 640 y 641",
+      "case": "Un contribuyente presenta tarde su declaración de retención y liquida la sanción por extemporaneidad. No ha cometido esa misma conducta en los dos años anteriores y la DIAN no le ha enviado pliego, requerimiento ni emplazamiento.",
+      "prompt": "¿Cómo debe liquidar la sanción?",
+      "options": [
+        { "id": "a", "text": "Al 75 % del monto legal." },
+        { "id": "b", "text": "Al 100 % del monto legal." },
+        { "id": "c", "text": "Al 50 % del monto legal." }
+      ],
+      "answer": "c",
+      "explain": "Cuando la liquida el contribuyente, la sanción se reduce al 50 % si no cometió la misma conducta en los 2 años anteriores y no hay pliego, requerimiento ni emplazamiento (art. 640, num. 1).",
+      "optionWhy": {
+        "a": "El 75 % aplica cuando solo se cumple el año anterior sin la conducta (num. 2).",
+        "b": "Se cumplen las condiciones de reducción del art. 640."
+      }
+    },
+    {
+      "id": "sanc-q-006", "type": "pjs", "difficulty": 3, "source": "ET arts. 639, 640 y 641",
+      "case": "Una persona presenta su declaración de IVA un mes tarde, con impuesto a cargo de $4.000.000. Cumple los requisitos para reducir la sanción al 50 % (art. 640). UVT 2026: $52.374.",
+      "prompt": "¿Cuánto debe pagar por sanción de extemporaneidad?",
+      "options": [
+        { "id": "a", "text": "$100.000, la mitad del 5 % del impuesto." },
+        { "id": "b", "text": "$523.740, la sanción mínima de 10 UVT." },
+        { "id": "c", "text": "$200.000, el 5 % del impuesto sin reducir." }
+      ],
+      "answer": "b",
+      "explain": "5 % × 1 mes × $4.000.000 = $200.000. Reducida al 50 %: $100.000. Pero la sanción mínima (10 UVT = $523.740) aplica también a las reducidas (art. 639). Paga $523.740.",
+      "optionWhy": {
+        "a": "El cálculo es correcto, pero queda por debajo de la sanción mínima del art. 639.",
+        "c": "Además de olvidar la reducción, también está por debajo de la mínima."
+      }
+    },
+    {
+      "id": "sanc-q-007", "type": "pjs", "difficulty": 3, "source": "ET art. 640, parágrafo 2",
+      "case": "A una empresa se le impuso en firme, el 1 de marzo de 2025, una sanción por no enviar información (art. 651). El 10 de enero de 2026 vuelve a no enviar información requerida, y la DIAN la sancionará.",
+      "prompt": "¿Qué efecto tiene el antecedente sobre la nueva sanción?",
+      "options": [
+        { "id": "a", "text": "Hay reincidencia y la sanción aumenta un 100 %." },
+        { "id": "b", "text": "Hay reincidencia y la sanción aumenta un 30 %." },
+        { "id": "c", "text": "No hay reincidencia: solo cuenta si son tres faltas." }
+      ],
+      "answer": "a",
+      "explain": "Hay reincidencia cuando se comete una nueva infracción del mismo tipo dentro de los 2 años siguientes a la firmeza de la sanción. La sanción aumenta 100 % (art. 640, par. 2).",
+      "optionWhy": {
+        "b": "El 30 % es el incremento del art. 701 por sanciones no liquidadas, no el de reincidencia.",
+        "c": "La ley exige una sola sanción en firme previa del mismo tipo, no tres."
+      }
+    },
+    {
+      "id": "sanc-q-008", "type": "pjs", "difficulty": 2, "source": "ET art. 640, parágrafo 5",
+      "case": "Durante la discusión de una sanción, entra en vigencia una ley que reduce el porcentaje de esa sanción. El contribuyente pide que se aplique la nueva regla.",
+      "prompt": "¿Qué debe responder el gestor?",
+      "options": [
+        { "id": "a", "text": "No procede: se aplica la ley vigente cuando ocurrió la conducta." },
+        { "id": "b", "text": "Procede: la favorabilidad aplica aunque la ley sea posterior." },
+        { "id": "c", "text": "Procede solo si el contribuyente renuncia a los recursos." }
+      ],
+      "answer": "b",
+      "explain": "El principio de favorabilidad aplica en el régimen sancionatorio tributario aun cuando la ley permisiva o favorable sea posterior (art. 640, par. 5).",
+      "optionWhy": {
+        "a": "El parágrafo 5 del art. 640 permite aplicar la ley favorable posterior.",
+        "c": "La favorabilidad no está condicionada a renunciar a los recursos."
+      }
+    },
+    {
+      "id": "sanc-q-009", "type": "pjs", "difficulty": 2, "source": "ET art. 641",
+      "case": "Una sociedad presentó su declaración de renta 2 meses y 10 días después del vencimiento, sin emplazamiento previo. El impuesto a cargo es de $20.000.000. No aplica ninguna reducción.",
+      "prompt": "¿Cuál es la sanción por extemporaneidad?",
+      "options": [
+        { "id": "a", "text": "$2.000.000 (5 % por 2 meses)." },
+        { "id": "b", "text": "$6.000.000 (10 % por 3 meses)." },
+        { "id": "c", "text": "$3.000.000 (5 % por 3 meses)." }
+      ],
+      "answer": "c",
+      "explain": "Es 5 % por cada mes o fracción de mes (art. 641). 2 meses y 10 días son 3 fracciones: 3 × 5 % = 15 % × $20.000.000 = $3.000.000.",
+      "optionWhy": {
+        "a": "Los 10 días cuentan como una fracción de mes adicional.",
+        "b": "El 10 % mensual aplica después del emplazamiento (art. 642); aquí no lo hubo."
+      }
+    },
+    {
+      "id": "sanc-q-010", "type": "pjs", "difficulty": 2, "source": "ET art. 642",
+      "case": "Tras recibir el emplazamiento previo por no declarar, un responsable presenta su declaración de IVA con 2 meses de retardo. El impuesto a cargo es de $10.000.000. No aplica reducción.",
+      "prompt": "¿Qué sanción debe liquidar?",
+      "options": [
+        { "id": "a", "text": "$2.000.000 por extemporaneidad posterior al emplazamiento." },
+        { "id": "b", "text": "$1.000.000 por extemporaneidad antes del emplazamiento." },
+        { "id": "c", "text": "$1.000.000 por no declarar, el 10 % de los ingresos." }
+      ],
+      "answer": "a",
+      "explain": "Después del emplazamiento la extemporaneidad es del 10 % por mes o fracción (art. 642): 10 % × 2 × $10.000.000 = $2.000.000.",
+      "optionWhy": {
+        "b": "El 5 % mensual (art. 641) es para quien declara antes del emplazamiento.",
+        "c": "La sanción por no declarar aplica si no declara; aquí sí declaró."
+      }
+    },
+    {
+      "id": "sanc-q-011", "type": "pjs", "difficulty": 3, "source": "ET art. 641",
+      "case": "Una sociedad sin impuesto a cargo ni saldo a favor presentó su declaración 2 meses tarde, antes de cualquier emplazamiento. Sus ingresos brutos del periodo fueron $200.000.000. No aplica reducción.",
+      "prompt": "¿Cuál es la sanción por extemporaneidad?",
+      "options": [
+        { "id": "a", "text": "$10.000.000 (5 % de los ingresos brutos)." },
+        { "id": "b", "text": "$2.000.000 (0,5 % mensual por 2 meses)." },
+        { "id": "c", "text": "$4.000.000 (1 % mensual por 2 meses)." }
+      ],
+      "answer": "b",
+      "explain": "Sin impuesto a cargo, la sanción es 0,5 % de los ingresos brutos por mes o fracción (art. 641): 0,5 % × 2 × $200.000.000 = $2.000.000. Está por debajo de los topes (5 % de los ingresos = $10.000.000; 2.500 UVT).",
+      "optionWhy": {
+        "a": "El 5 % de los ingresos es el tope máximo, no la sanción.",
+        "c": "El 1 % mensual aplica después del emplazamiento (art. 642)."
+      }
+    },
+    {
+      "id": "sanc-q-012", "type": "pjs", "difficulty": 3, "source": "ET art. 643",
+      "case": "Una persona no declaró renta pese al emplazamiento. La DIAN determinó consignaciones bancarias por $500.000.000 en el periodo; su última declaración de renta registró ingresos brutos de $300.000.000.",
+      "prompt": "¿Cuál es la sanción por no declarar?",
+      "options": [
+        { "id": "a", "text": "$60.000.000, el 20 % de los ingresos de la última declaración." },
+        { "id": "b", "text": "$50.000.000, el 10 % de las consignaciones bancarias." },
+        { "id": "c", "text": "$100.000.000, el 20 % de las consignaciones bancarias." }
+      ],
+      "answer": "c",
+      "explain": "En renta es el 20 % de las consignaciones o ingresos determinados, o el 20 % de los ingresos de la última declaración, el que fuere superior (art. 643, num. 1): 20 % × $500.000.000 = $100.000.000 > $60.000.000.",
+      "optionWhy": {
+        "a": "La ley ordena tomar el mayor de los dos valores, y este es el menor.",
+        "b": "El 10 % es la tarifa para IVA e impuesto al consumo, no para renta."
+      }
+    },
+    {
+      "id": "sanc-q-013", "type": "pjs", "difficulty": 3, "source": "ET art. 643, parágrafo 2",
+      "case": "Se impuso a un contribuyente una sanción por no declarar de $100.000.000. Dentro del término para interponer el recurso, decide presentar la declaración.",
+      "prompt": "¿Qué sanción debe liquidar al declarar?",
+      "options": [
+        { "id": "a", "text": "$50.000.000, si no es inferior a la extemporaneidad aplicable." },
+        { "id": "b", "text": "$25.000.000, la cuarta parte de la sanción impuesta." },
+        { "id": "c", "text": "$100.000.000, porque la sanción ya fue impuesta." }
+      ],
+      "answer": "a",
+      "explain": "Si declara dentro del término para recurrir, la sanción por no declarar se reduce al 50 % ($50.000.000). En todo caso no puede ser inferior a la extemporaneidad posterior al emplazamiento (art. 643, par. 2).",
+      "optionWhy": {
+        "b": "La cuarta parte es la reducción de la inexactitud del art. 709.",
+        "c": "La ley prevé una reducción aunque la sanción ya se haya impuesto."
+      }
+    },
+    {
+      "id": "sanc-q-014", "type": "pjs", "difficulty": 2, "source": "ET art. 644",
+      "case": "Después de notificado un emplazamiento para corregir, y antes de cualquier requerimiento especial, un contribuyente corrige su declaración. El mayor valor a pagar es de $8.000.000. No aplica reducción.",
+      "prompt": "¿Qué sanción por corrección debe liquidar?",
+      "options": [
+        { "id": "a", "text": "$800.000, el 10 % del mayor valor a pagar." },
+        { "id": "b", "text": "$1.600.000, el 20 % del mayor valor a pagar." },
+        { "id": "c", "text": "$8.000.000, el 100 % del mayor valor a pagar." }
+      ],
+      "answer": "b",
+      "explain": "Si se corrige después del emplazamiento para corregir y antes del requerimiento especial, la sanción es del 20 % del mayor valor (art. 644, num. 2): 20 % × $8.000.000 = $1.600.000.",
+      "optionWhy": {
+        "a": "El 10 % aplica si se corrige antes del emplazamiento o del auto de inspección.",
+        "c": "El 100 % corresponde a la inexactitud determinada por la DIAN (art. 648)."
+      }
+    },
+    {
+      "id": "sanc-q-015", "type": "pjs", "difficulty": 2, "source": "ET art. 647",
+      "case": "Una sociedad incluyó como costo una compra a un proveedor que la DIAN había declarado ficticio. Su declaración de renta arrojó así un menor impuesto.",
+      "prompt": "¿Cómo debe calificar el gestor esta conducta?",
+      "options": [
+        { "id": "a", "text": "Es un error aritmético que se corrige de oficio." },
+        { "id": "b", "text": "No es sancionable si la factura cumple requisitos." },
+        { "id": "c", "text": "Es inexactitud sancionable según el art. 647." }
+      ],
+      "answer": "c",
+      "explain": "Las compras o gastos a quienes la DIAN declaró proveedores ficticios o insolventes constituyen inexactitud sancionable (art. 647, num. 5).",
+      "optionWhy": {
+        "a": "No es un error de operación (art. 697); es un costo improcedente.",
+        "b": "La ley sanciona la compra al proveedor ficticio, aunque la factura parezca formalmente correcta."
+      }
+    },
+    {
+      "id": "sanc-q-016", "type": "pjs", "difficulty": 2, "source": "ET art. 647, parágrafo 2",
+      "case": "Un contribuyente declaró completos y verdaderos sus hechos y cifras, pero aplicó una exención con base en una interpretación de la norma que la DIAN no comparte. La interpretación es razonable.",
+      "prompt": "¿Procede la sanción por inexactitud?",
+      "options": [
+        { "id": "a", "text": "No: la diferencia viene de una interpretación razonable del derecho." },
+        { "id": "b", "text": "Sí, porque toda diferencia de menor impuesto es inexactitud." },
+        { "id": "c", "text": "Sí, aunque reducida a la cuarta parte por buena fe." }
+      ],
+      "answer": "a",
+      "explain": "No hay inexactitud cuando el menor valor a pagar se deriva de una interpretación razonable del derecho aplicable, siempre que los hechos y cifras sean completos y verdaderos (art. 647, par. 2).",
+      "optionWhy": {
+        "b": "El parágrafo 2 del art. 647 excluye expresamente este caso.",
+        "c": "La cuarta parte (art. 709) depende de aceptar hechos, no de la buena fe."
+      }
+    },
+    {
+      "id": "sanc-q-017", "type": "pjs", "difficulty": 3, "source": "ET arts. 648 y 709",
+      "case": "La DIAN propone en el requerimiento especial un mayor impuesto de $30.000.000 y la sanción por inexactitud del 100 %. Al responder, el contribuyente acepta todos los hechos y corrige.",
+      "prompt": "¿Qué sanción por inexactitud debe incluir en su corrección?",
+      "options": [
+        { "id": "a", "text": "$15.000.000, la mitad de la sanción propuesta." },
+        { "id": "b", "text": "$7.500.000, la cuarta parte de la sanción propuesta." },
+        { "id": "c", "text": "$30.000.000, la sanción completa del art. 648." }
+      ],
+      "answer": "b",
+      "explain": "La sanción es el 100 % de la diferencia: $30.000.000 (art. 648). Al aceptar al responder el requerimiento, se reduce a la cuarta parte (art. 709): $7.500.000.",
+      "optionWhy": {
+        "a": "La mitad (art. 713) aplica al aceptar los hechos de la liquidación de revisión.",
+        "c": "El art. 648, par. 1, permite reducirla con los arts. 709 y 713."
+      }
+    },
+    {
+      "id": "sanc-q-018", "type": "pjs", "difficulty": 2, "source": "ET art. 648",
+      "case": "En una investigación se demuestra que el contribuyente omitió activos en su declaración de renta, lo que generó un mayor impuesto a cargo de $12.000.000.",
+      "prompt": "¿Qué sanción por inexactitud corresponde?",
+      "options": [
+        { "id": "a", "text": "$12.000.000, el 100 % del mayor impuesto." },
+        { "id": "b", "text": "$19.200.000, el 160 % del mayor impuesto." },
+        { "id": "c", "text": "$24.000.000, el 200 % del mayor impuesto." }
+      ],
+      "answer": "c",
+      "explain": "Cuando se omiten activos o se incluyen pasivos inexistentes, la sanción es del 200 % del mayor impuesto determinado (art. 648, num. 1): 2 × $12.000.000 = $24.000.000.",
+      "optionWhy": {
+        "a": "El 100 % es la regla general; la omisión de activos tiene una tarifa agravada.",
+        "b": "El 160 % es para proveedores ficticios o abuso en materia tributaria."
+      }
+    },
+    {
+      "id": "sanc-q-019", "type": "pjs", "difficulty": 2, "source": "ET art. 651",
+      "case": "Se impuso a una empresa una sanción por no enviar información exógena. Dentro de los dos meses siguientes a la notificación, la empresa envía la información y presenta memorial de aceptación con el pago.",
+      "prompt": "¿A cuánto se reduce la multa?",
+      "options": [
+        { "id": "a", "text": "Al 50 % de la suma determinada." },
+        { "id": "b", "text": "Al 70 % de la suma determinada." },
+        { "id": "c", "text": "Al 25 % de la suma determinada." }
+      ],
+      "answer": "b",
+      "explain": "La sanción se reduce al 70 % si la omisión se subsana dentro de los 2 meses siguientes a la notificación de la sanción, con memorial de aceptación y pago (art. 651).",
+      "optionWhy": {
+        "a": "El 50 % aplica si se subsana antes de que se notifique la sanción.",
+        "c": "El art. 651 no prevé una reducción al 25 %."
+      }
+    },
+    {
+      "id": "sanc-q-020", "type": "pjs", "difficulty": 2, "source": "ET art. 657",
+      "case": "En una visita de control a un almacén se comprueba que vende sin expedir factura, estando obligado a hacerlo.",
+      "prompt": "¿Qué sanción de clausura puede imponerse?",
+      "options": [
+        { "id": "a", "text": "Cierre por tres días con sellos «CERRADO POR LA DIAN»." },
+        { "id": "b", "text": "Cierre por treinta días con sellos de evasión y contrabando." },
+        { "id": "c", "text": "Cierre indefinido hasta que empiece a facturar." }
+      ],
+      "answer": "a",
+      "explain": "Procede la clausura por 3 días cuando no se expide factura o documento equivalente estando obligado (art. 657, num. 1).",
+      "optionWhy": {
+        "b": "Los 30 días aplican cuando se aprehende mercancía del inventario por violación del régimen aduanero.",
+        "c": "La ley fija un término de cierre; no es indefinido."
+      }
+    },
+    {
+      "id": "sanc-q-021", "type": "pjs", "difficulty": 1, "source": "Ley 2586/2026 art. 14",
+      "case": "Un usuario aduanero cometió una infracción calificada como leve en la Ley 2586.",
+      "prompt": "¿Qué sanciones pueden imponérsele?",
+      "options": [
+        { "id": "a", "text": "Cancelación de la autorización o multa de 1.000 UVT." },
+        { "id": "b", "text": "Suspensión de la habilitación o multa de 200 UVT." },
+        { "id": "c", "text": "Amonestación o multa de 50 a 199 UVT (o 1 % a 9 %)." }
+      ],
+      "answer": "c",
+      "explain": "Las infracciones leves se sancionan con amonestación o con multas de 50 a 199 UVT, o del 1 % al 9 % (art. 14).",
+      "optionWhy": {
+        "a": "Cancelación y multas desde 1.000 UVT son para infracciones gravísimas.",
+        "b": "Las multas desde 200 UVT son de infracciones graves."
+      }
+    },
+    {
+      "id": "sanc-q-022", "type": "pjs", "difficulty": 3, "source": "Ley 2586/2026 art. 17",
+      "case": "Con un mismo hecho, un importador incurre en dos infracciones sancionadas con multa: una de 300 UVT y otra de 200 UVT.",
+      "prompt": "¿Qué multa debe aplicarse?",
+      "options": [
+        { "id": "a", "text": "500 UVT, la suma de ambas multas." },
+        { "id": "b", "text": "360 UVT, la más alta incrementada en 20 %." },
+        { "id": "c", "text": "300 UVT, solo la multa más alta." }
+      ],
+      "answer": "b",
+      "explain": "Si todas las infracciones del mismo hecho se sancionan con multa, se impone la más alta incrementada en 20 %, sin superar la suma de todas (art. 17, num. 1): 300 × 1,2 = 360 UVT, menos que 500.",
+      "optionWhy": {
+        "a": "La ley no suma las multas; la suma solo es el tope.",
+        "c": "La multa más alta debe incrementarse en 20 %."
+      }
+    },
+    {
+      "id": "sanc-q-023", "type": "pjs", "difficulty": 2, "source": "Ley 2586/2026 art. 19",
+      "case": "A un usuario se le notificó el Requerimiento Especial Aduanero por una infracción con multa de 100 UVT. Antes de la decisión de fondo quiere allanarse.",
+      "prompt": "¿Cuánto debe pagar por la multa al allanarse?",
+      "options": [
+        { "id": "a", "text": "40 UVT, el 40 % de la multa." },
+        { "id": "b", "text": "20 UVT, el 20 % de la multa." },
+        { "id": "c", "text": "60 UVT, el 60 % de la multa." }
+      ],
+      "answer": "a",
+      "explain": "Si reconoce por escrito la infracción después de notificado el REA y antes de la decisión de fondo, la multa se reduce al 40 % (art. 19, num. 3). Debe anexar el recibo de pago.",
+      "optionWhy": {
+        "b": "El 20 % aplica si se reconoce antes de notificarse el REA.",
+        "c": "El 60 % aplica en el término para recurrir la decisión de fondo."
+      }
+    },
+    {
+      "id": "sanc-q-024", "type": "pjs", "difficulty": 2, "source": "Ley 2586/2026 art. 20",
+      "case": "Un hecho constitutivo de infracción aduanera ocurrió el 4 de agosto de 2023. Hoy es 20 de agosto de 2026 y la resolución sancionatoria aún no se ha notificado.",
+      "prompt": "¿Qué debe advertir el gestor?",
+      "options": [
+        { "id": "a", "text": "Aún hay plazo, porque la acción caduca en cinco años." },
+        { "id": "b", "text": "La acción caducó: el acto debía notificarse en tres años." },
+        { "id": "c", "text": "Aún hay plazo si el REA se notificó dentro de tres años." }
+      ],
+      "answer": "b",
+      "explain": "La facultad sancionatoria aduanera caduca en 3 años desde la comisión del hecho, término dentro del cual el acto sancionatorio debe expedirse y notificarse (art. 20). Venció el 4 de agosto de 2026.",
+      "optionWhy": {
+        "a": "Cinco años es el término de prescripción para hacer efectiva la sanción ya impuesta (art. 21).",
+        "c": "No basta el REA: el acto que impone la sanción debe estar notificado en los 3 años."
+      }
+    },
+    {
+      "id": "sanc-q-025", "type": "pjs", "difficulty": 2, "source": "Ley 2586/2026 art. 22",
+      "case": "En una declaración de importación se encuentra un error de transcripción que no afecta los tributos, las restricciones legales ni el control aduanero, y no es un error de serial ni de descripción.",
+      "prompt": "¿Cómo debe tratarlo el gestor?",
+      "options": [
+        { "id": "a", "text": "Como infracción leve sancionable con amonestación." },
+        { "id": "b", "text": "Como causal de aprehensión de la mercancía." },
+        { "id": "c", "text": "Como error formal no sancionable." }
+      ],
+      "answer": "c",
+      "explain": "Son errores formales no sancionables los de las declaraciones que no afectan tributos, restricciones ni el control aduanero, salvo los de serial o descripción (art. 22, num. 1).",
+      "optionWhy": {
+        "a": "La ley excluye expresamente la sanción para estos errores.",
+        "b": "No hay causal de aprehensión: la mercancía está declarada y el error es formal."
+      }
+    },
+    {
+      "id": "sanc-q-026", "type": "pjs", "difficulty": 2, "source": "Ley 2586/2026 art. 23",
+      "case": "Una agencia no cumplió una obligación aduanera en plazo porque un derrumbe, imprevisible e irresistible, bloqueó la única vía al puerto. Lo prueba con documentos oficiales.",
+      "prompt": "¿Qué debe concluir el gestor?",
+      "options": [
+        { "id": "a", "text": "Hay infracción, pero se reduce la multa al 20 %." },
+        { "id": "b", "text": "No hay responsabilidad: es fuerza mayor demostrada." },
+        { "id": "c", "text": "Hay infracción, salvo que la agencia sea OEA." }
+      ],
+      "answer": "b",
+      "explain": "No hay responsabilidad administrativa aduanera cuando la infracción ocurre por fuerza mayor o caso fortuito debidamente demostrados (art. 23).",
+      "optionWhy": {
+        "a": "El 20 % es una reducción por allanamiento (art. 19); aquí no hay responsabilidad.",
+        "c": "La exoneración no depende de la calidad de OEA."
+      }
+    },
+    {
+      "id": "sanc-q-027", "type": "pjs", "difficulty": 3, "source": "Ley 2586/2026 art. 29",
+      "case": "Se ordenó la aprehensión de una mercancía, pero el importador no la puso a disposición y no probó su legal introducción. Usted ya adelantó el procedimiento formal y le pidió las pruebas.",
+      "prompt": "¿Qué sanción procede?",
+      "options": [
+        { "id": "a", "text": "Multa del 100 % del valor en aduanas al importador y al tenedor." },
+        { "id": "b", "text": "Multa de 50 UVT por infracción leve al importador." },
+        { "id": "c", "text": "Ninguna, porque sin mercancía no hay decomiso posible." }
+      ],
+      "answer": "a",
+      "explain": "Cuando no es posible aprehender la mercancía y no se probó su legal introducción, procede una multa del 100 % del valor en aduanas (o del avalúo), al importador y al poseedor o tenedor (art. 29).",
+      "optionWhy": {
+        "b": "La ley prevé una sanción específica del 100 % del valor, no una multa leve.",
+        "c": "El art. 29 existe precisamente para cuando no se puede aprehender."
+      }
+    },
+    {
+      "id": "sanc-q-028", "type": "pjs", "difficulty": 1, "source": "ET art. 637",
+      "case": "Un compañero cree que las sanciones tributarias solo pueden imponerse en una resolución separada.",
+      "prompt": "¿Qué le aclara el gestor?",
+      "options": [
+        { "id": "a", "text": "También pueden imponerse en las liquidaciones oficiales." },
+        { "id": "b", "text": "Solo pueden imponerse en el auto de apertura." },
+        { "id": "c", "text": "Solo pueden imponerse en el fallo del recurso." }
+      ],
+      "answer": "a",
+      "explain": "Las sanciones pueden imponerse mediante resolución independiente o en las respectivas liquidaciones oficiales (art. 637).",
+      "optionWhy": {
+        "b": "El art. 637 no menciona autos de apertura como actos sancionatorios.",
+        "c": "El fallo del recurso resuelve sobre un acto; no es donde se imponen."
+      }
+    },
+    {
+      "id": "sanc-q-029", "type": "pjs", "difficulty": 1, "source": "ET art. 652",
+      "case": "Una empresa expide facturas sin algunos requisitos de los literales a), h) e i) del art. 617. El valor de esas operaciones fue de $40.000.000.",
+      "prompt": "¿Cuál es la sanción y su tope?",
+      "options": [
+        { "id": "a", "text": "5 % de las operaciones, máximo 2.500 UVT." },
+        { "id": "b", "text": "1 % de las operaciones, máximo 950 UVT." },
+        { "id": "c", "text": "10 % de las operaciones, sin tope legal." }
+      ],
+      "answer": "b",
+      "explain": "Es el 1 % del valor de las operaciones facturadas sin requisitos, sin exceder 950 UVT (art. 652): 1 % × $40.000.000 = $400.000. Como es menor que la mínima, se liquidan 10 UVT (art. 639).",
+      "optionWhy": {
+        "a": "El 5 % y 2.500 UVT son referencias de la extemporaneidad (art. 641).",
+        "c": "El art. 652 fija 1 % y un tope de 950 UVT."
+      }
+    },
+    {
+      "id": "sanc-q-030", "type": "pjs", "difficulty": 1, "source": "ET art. 651",
+      "case": "Al proyectar el pliego de cargos por no enviar información, su compañero pregunta cuánto tiempo tendrá la empresa para responder el traslado.",
+      "prompt": "¿Qué plazo debe indicar?",
+      "options": [
+        { "id": "a", "text": "Diez días." },
+        { "id": "b", "text": "Tres meses." },
+        { "id": "c", "text": "Un mes." }
+      ],
+      "answer": "c",
+      "explain": "Cuando la sanción del art. 651 se impone en resolución independiente, se da traslado de cargos por un término de 1 mes para responder.",
+      "optionWhy": {
+        "a": "Diez días es el traslado de la sanción por facturar sin requisitos (art. 652).",
+        "b": "Tres meses es el plazo para responder el requerimiento especial (art. 707)."
+      }
+    },
+    {
+      "id": "sanc-q-031", "type": "pjs", "difficulty": 2, "source": "ET art. 640",
+      "case": "La DIAN propone una sanción en un pliego de cargos. El contribuyente no fue sancionado en firme por la misma conducta en los cuatro años anteriores, acepta la sanción y subsana la infracción.",
+      "prompt": "¿A cuánto se reduce la sanción?",
+      "options": [
+        { "id": "a", "text": "Al 75 % del monto previsto en la ley." },
+        { "id": "b", "text": "Al 50 % del monto previsto en la ley." },
+        { "id": "c", "text": "A la cuarta parte del monto propuesto." }
+      ],
+      "answer": "b",
+      "explain": "Cuando la sanción la propone la DIAN, se reduce al 50 % si no hubo sanción en firme por la misma conducta en los 4 años anteriores y la sanción se acepta con la infracción subsanada (art. 640, num. 3).",
+      "optionWhy": {
+        "a": "El 75 % aplica si solo se cumplen los 2 años anteriores (num. 4).",
+        "c": "La cuarta parte es la reducción de la inexactitud del art. 709."
+      }
+    },
+    {
+      "id": "sanc-q-032", "type": "pjs", "difficulty": 3, "source": "ET arts. 640 y 644",
+      "case": "Antes de cualquier emplazamiento, una sociedad corrige su declaración: el mayor valor a pagar es de $30.000.000. En el año anterior no cometió esa conducta, pero sí la cometió hace 18 meses.",
+      "prompt": "¿Qué sanción por corrección debe liquidar?",
+      "options": [
+        { "id": "a", "text": "$2.250.000: 10 % reducido al 75 %." },
+        { "id": "b", "text": "$1.500.000: 10 % reducido al 50 %." },
+        { "id": "c", "text": "$3.000.000: 10 % sin ninguna reducción." }
+      ],
+      "answer": "a",
+      "explain": "Corrección antes del emplazamiento: 10 % × $30.000.000 = $3.000.000 (art. 644). Como no cometió la conducta en el último año, pero sí en los 2 años anteriores, la sanción queda al 75 % (art. 640, num. 2): $2.250.000.",
+      "optionWhy": {
+        "b": "El 50 % exige no haber cometido la conducta en los 2 años anteriores, y la cometió hace 18 meses.",
+        "c": "Sí aplica la reducción al 75 %, porque no hubo la misma conducta en el último año."
+      }
+    },
+    {
+      "id": "sanc-q-033", "type": "pjs", "difficulty": 3, "source": "Ley 2586/2026 art. 17",
+      "case": "Un usuario aduanero fue sancionado en firme con amonestación dos veces por la misma infracción leve en los últimos tres años fiscales. Ahora se le expide un REA por esa misma infracción por tercera vez.",
+      "prompt": "¿Qué sanción procede por esta tercera infracción?",
+      "options": [
+        { "id": "a", "text": "Una nueva amonestación registrada en el INFAD." },
+        { "id": "b", "text": "Cancelación de su autorización o habilitación." },
+        { "id": "c", "text": "Una multa de 100 UVT." }
+      ],
+      "answer": "c",
+      "explain": "Si en los 3 años fiscales anteriores al REA se incurre más de dos veces en la misma infracción leve sancionada con amonestación en firme, para la tercera procede multa de 100 UVT (art. 17, num. 3).",
+      "optionWhy": {
+        "a": "La ley gradúa la tercera vez con multa, no con otra amonestación.",
+        "b": "La cancelación es para infracciones gravísimas."
+      }
+    },
+    {
+      "id": "sanc-q-034", "type": "pjs", "difficulty": 1, "source": "Ley 2586/2026 art. 21",
+      "case": "Una multa aduanera quedó ejecutoriada el 1 de julio de 2022 y aún no se ha cobrado. Hoy es 1 de noviembre de 2026.",
+      "prompt": "¿Puede la DIAN todavía hacer efectiva la sanción?",
+      "options": [
+        { "id": "a", "text": "No; prescribió a los tres años de su ejecutoria." },
+        { "id": "b", "text": "Sí; prescribe a los cinco años de su ejecutoria." },
+        { "id": "c", "text": "No; caducó a los tres años de la infracción." }
+      ],
+      "answer": "b",
+      "explain": "La facultad para hacer efectivas las sanciones aduaneras prescribe en 5 años desde la ejecutoria del acto que las impone (art. 21): hasta el 1 de julio de 2027.",
+      "optionWhy": {
+        "a": "La prescripción de la sanción es de 5 años, no de 3.",
+        "c": "La caducidad de 3 años (art. 20) limita la imposición de la sanción, no su cobro."
+      }
+    },
+    {
+      "id": "sanc-q-035", "type": "open", "difficulty": 2, "source": "ET arts. 709, 713 y 764-3",
+      "prompt": "Explique en 2–3 líneas las tres reducciones por aceptar: cuarta parte, mitad y 40 %.",
+      "modelAnswer": "La sanción por inexactitud se reduce a la cuarta parte si se aceptan los hechos al responder el requerimiento especial o su ampliación (art. 709), y a la mitad si se aceptan dentro del término para recurrir la liquidación de revisión (art. 713). En la liquidación provisional aceptada y pagada dentro del mes, las sanciones se reducen en un 40 % (art. 764-3).",
+      "keyPoints": [
+        "Cuarta parte: aceptar al responder el requerimiento o la ampliación (709)",
+        "Mitad: aceptar en el término del recurso contra la liquidación de revisión (713)",
+        "40 %: liquidación provisional aceptada y pagada en el mes (764-3)"
+      ],
+      "keywords": ["cuarta parte", "mitad", "requerimiento", "liquidacion de revision", "40", "liquidacion provisional"],
+      "minKeywords": 4
+    },
+    {
+      "id": "sanc-q-036", "type": "open", "difficulty": 3, "source": "ET art. 640",
+      "prompt": "Explique cómo cambia la reducción del art. 640 según quién liquide la sanción (el contribuyente o la DIAN).",
+      "modelAnswer": "Si la liquida el contribuyente, se reduce al 50 % cuando no cometió la misma conducta en los 2 años anteriores, o al 75 % si no la cometió en el año anterior, siempre que no haya pliego, requerimiento ni emplazamiento. Si la propone la DIAN, se reduce al 50 % sin sanción en firme por la misma conducta en 4 años, o al 75 % en 2 años, siempre que la acepte y subsane.",
+      "keyPoints": [
+        "Contribuyente: 50 % (2 años) o 75 % (1 año) sin la misma conducta",
+        "Contribuyente: solo si no hay pliego, requerimiento ni emplazamiento",
+        "DIAN: 50 % (4 años) o 75 % (2 años) sin sanción en firme",
+        "DIAN: requiere aceptar la sanción y subsanar"
+      ],
+      "keywords": ["50", "75", "dos anos", "cuatro anos", "acepte", "subsane", "pliego"],
+      "minKeywords": 4
+    },
+    {
+      "id": "sanc-q-037", "type": "open", "difficulty": 2, "source": "ET arts. 641 y 642",
+      "prompt": "Explique la diferencia entre la extemporaneidad del art. 641 y la del art. 642 cuando hay impuesto a cargo.",
+      "modelAnswer": "El art. 641 aplica a quien declara tarde por su cuenta: 5 % del impuesto por mes o fracción, sin exceder el 100 %. El art. 642 aplica a quien declara después del emplazamiento previo por no declarar (o del auto de inspección): 10 % por mes o fracción, sin exceder el 200 %.",
+      "keyPoints": [
+        "641: antes del emplazamiento, 5 % por mes o fracción",
+        "641: tope del 100 % del impuesto",
+        "642: después del emplazamiento, 10 % por mes o fracción",
+        "642: tope del 200 % del impuesto"
+      ],
+      "keywords": ["cinco por ciento", "diez por ciento", "emplazamiento", "mes o fraccion", "100", "200"],
+      "minKeywords": 3
+    },
+    {
+      "id": "sanc-q-038", "type": "open", "difficulty": 3, "source": "ET arts. 639, 640 y 641",
+      "prompt": "Calcule y explique: impuesto a cargo de $6.000.000, declaración presentada 1 mes y 5 días tarde, sin emplazamiento y con derecho a reducción al 50 %. UVT 2026: $52.374.",
+      "modelAnswer": "Hay 2 fracciones de mes: 2 × 5 % = 10 % de $6.000.000 = $600.000 (art. 641). Reducida al 50 % queda en $300.000 (art. 640). Como es menor que la sanción mínima de 10 UVT ($523.740), que aplica también a las sanciones reducidas, se paga $523.740 (art. 639).",
+      "keyPoints": [
+        "1 mes y 5 días son 2 fracciones: 10 %",
+        "$600.000 antes de la reducción",
+        "Reducción al 50 %: $300.000",
+        "Se aplica la mínima de 10 UVT: $523.740"
+      ],
+      "keywords": ["fraccion", "600.000", "300.000", "minima", "10 uvt", "523.740"],
+      "minKeywords": 3
+    },
+    {
+      "id": "sanc-q-039", "type": "open", "difficulty": 2, "source": "Ley 2586/2026 art. 19",
+      "prompt": "Enumere los cuatro niveles de reducción por allanamiento en la Ley 2586 y qué debe anexar el infractor.",
+      "modelAnswer": "Sin sanción si reconoce voluntariamente y sin intervención aduanera antes del REA (no aplica a gravísimas); 20 % si reconoce antes de notificarse el REA; 40 % después del REA y antes de la decisión de fondo; 60 % dentro del término para recurrir la decisión. Debe anexar el recibo oficial de pago de tributos, intereses y sanción reducida.",
+      "keyPoints": [
+        "Sin sanción: voluntario, sin intervención, antes del REA (no gravísimas)",
+        "20 %: antes de notificarse el REA",
+        "40 %: después del REA y antes de la decisión de fondo",
+        "60 %: en el término del recurso",
+        "Anexar recibo de pago"
+      ],
+      "keywords": ["sin sancion", "20", "40", "60", "requerimiento especial aduanero", "recibo de pago"],
+      "minKeywords": 4
+    },
+    {
+      "id": "sanc-q-040", "type": "mcq", "difficulty": 1, "source": "ET art. 639",
+      "prompt": "¿Cuál es el valor de la sanción mínima tributaria?",
+      "options": [
+        { "id": "a", "text": "5 UVT" },
+        { "id": "b", "text": "10 UVT" },
+        { "id": "c", "text": "20 UVT" },
+        { "id": "d", "text": "50 UVT" }
+      ],
+      "answer": "b",
+      "explain": "La sanción mínima equivale a 10 UVT, incluso para las sanciones reducidas (art. 639).",
+      "optionWhy": {
+        "a": "El art. 639 fija 10 UVT, no 5.",
+        "c": "El art. 639 fija 10 UVT, no 20.",
+        "d": "50 UVT es el piso de las multas aduaneras leves (Ley 2586, art. 14)."
+      }
+    },
+    {
+      "id": "sanc-q-041", "type": "match", "difficulty": 2, "source": "ET arts. 641, 642, 644 y 648",
+      "prompt": "Relacione cada sanción con su porcentaje base.",
+      "pairs": [
+        { "left": "Extemporaneidad antes del emplazamiento", "right": "5 % por mes o fracción" },
+        { "left": "Extemporaneidad después del emplazamiento", "right": "10 % por mes o fracción" },
+        { "left": "Corrección antes del emplazamiento", "right": "10 % del mayor valor" },
+        { "left": "Corrección después del emplazamiento", "right": "20 % del mayor valor" },
+        { "left": "Inexactitud (regla general)", "right": "100 % de la diferencia" }
+      ],
+      "explain": "Arts. 641 (5 %), 642 (10 %), 644 (10 % y 20 %) y 648 (100 %)."
+    },
+    {
+      "id": "sanc-q-042", "type": "mcq", "difficulty": 1, "source": "ET art. 635",
+      "prompt": "¿Cómo se determina la tasa de interés moratorio tributario?",
+      "options": [
+        { "id": "a", "text": "Tasa de usura de consumo menos dos puntos" },
+        { "id": "b", "text": "Tasa de usura de consumo más dos puntos" },
+        { "id": "c", "text": "La tasa de intervención del Banco de la República" },
+        { "id": "d", "text": "Un porcentaje fijo anual que señala el Congreso" }
+      ],
+      "answer": "a",
+      "explain": "Se liquida diariamente a la tasa equivalente a la de usura para crédito de consumo, menos 2 puntos (art. 635).",
+      "optionWhy": {
+        "b": "Son dos puntos menos, no más.",
+        "c": "La referencia es la tasa de usura que certifica la Superintendencia Financiera.",
+        "d": "La tasa no es fija; depende de la usura vigente."
+      }
+    },
+    {
+      "id": "sanc-q-043", "type": "truefalse", "difficulty": 1, "source": "ET art. 639",
+      "statement": "La sanción mínima de 10 UVT no se aplica cuando la sanción ha sido reducida por gradualidad.",
+      "answer": false,
+      "explain": "Falso. El art. 639 aplica el mínimo a cualquier sanción, «incluidas las sanciones reducidas»."
+    },
+    {
+      "id": "sanc-q-044", "type": "truefalse", "difficulty": 1, "source": "ET art. 640, parágrafo 2",
+      "statement": "Hay reincidencia si se comete una nueva infracción del mismo tipo dentro de los 2 años siguientes a la firmeza del acto que impuso la sanción.",
+      "answer": true,
+      "explain": "Verdadero. En ese caso la sanción aumenta 100 % (art. 640, par. 2)."
+    },
+    {
+      "id": "sanc-q-045", "type": "order", "difficulty": 2, "source": "Ley 2586/2026 art. 19",
+      "prompt": "Ordene los momentos de allanamiento aduanero, del que deja la multa más baja al que la deja más alta.",
+      "items": [
+        "Reconocimiento voluntario sin intervención, antes del REA (sin sanción)",
+        "Reconocimiento antes de notificarse el REA (20 %)",
+        "Después del REA y antes de la decisión de fondo (40 %)",
+        "Dentro del término para recurrir la decisión (60 %)"
+      ],
+      "explain": "Cuanto antes se reconoce la infracción, menor es la multa (art. 19)."
+    },
+    {
+      "id": "sanc-q-046", "type": "cloze", "difficulty": 1, "source": "ET art. 641",
+      "text": "La sanción por extemporaneidad antes del emplazamiento es del {{5}} % del impuesto por cada mes o fracción de mes, sin exceder el {{100}} % del impuesto.",
+      "alternatives": { "5": ["cinco"], "100": ["cien"] },
+      "explain": "Art. 641: 5 % por mes o fracción, con tope del 100 %."
+    },
+    {
+      "id": "sanc-q-047", "type": "match", "difficulty": 1, "source": "Ley 2586/2026 art. 14",
+      "prompt": "Relacione cada clase de infracción aduanera con su rango de multa en UVT.",
+      "pairs": [
+        { "left": "Leve", "right": "50 a 199 UVT" },
+        { "left": "Grave", "right": "200 a 999 UVT" },
+        { "left": "Gravísima", "right": "1.000 a 4.000 UVT" }
+      ],
+      "explain": "Art. 14 de la Ley 2586 de 2026. También hay rangos porcentuales: 1–9 %, 10–69 % y 70–100 %."
+    },
+    {
+      "id": "sanc-q-048", "type": "truefalse", "difficulty": 1, "source": "Ley 2586/2026 art. 20",
+      "statement": "La facultad de la DIAN para imponer sanciones aduaneras caduca en 3 años contados desde la comisión del hecho u omisión.",
+      "answer": true,
+      "explain": "Verdadero. En ese término el acto sancionatorio debe expedirse y notificarse (art. 20)."
+    }
+  ]
+}

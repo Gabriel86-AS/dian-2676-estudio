@@ -1,0 +1,584 @@
+{
+  "id": "obligaciones",
+  "title": "Obligaciones formales y sustanciales en materia tributaria",
+  "area": "funcional",
+  "priority": 1,
+  "summary": "Quién debe cumplir los deberes tributarios y cómo: RUT y NIT, clases de declaraciones, declaraciones que se tienen por no presentadas, firmas, correcciones, no declarantes, facturación, información y conservación de documentos.",
+  "sources": ["ET arts. 555–633", "UVT 2026 = $52.374 (Res. DIAN 238/2025)"],
+  "lessons": [
+    {
+      "id": "oblig-01",
+      "title": "Sujetos, representantes y RUT",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "oblig-c-001",
+          "type": "concept",
+          "source": "ET arts. 555, 571, 572 y 573",
+          "title": "Deberes materiales y formales",
+          "body": "El ET distingue los **deberes materiales** (pagar el tributo) de los **deberes formales** (declarar, inscribirse, facturar, informar, conservar) (art. 555).\n\n- Los contribuyentes cumplen los deberes formales **personalmente o por medio de sus representantes** (art. 571). Los **menores adultos** pueden comparecer directamente (art. 555).\n- Deben cumplir los deberes de sus representados, entre otros: los **padres** por sus hijos menores, los **tutores y curadores**, los **representantes legales** de las personas jurídicas y los **albaceas** (art. 572). El representante legal puede delegar en funcionarios de la empresa, informándolo a la DIAN.\n- Quien debe cumplir deberes de terceros y los omite responde **subsidiariamente** por las consecuencias (art. 573)."
+        },
+        {
+          "id": "oblig-c-002",
+          "type": "concept",
+          "source": "ET arts. 555-1, 555-2 y 612",
+          "title": "RUT, NIT y dirección",
+          "body": "- El **RUT** es el mecanismo **único** para identificar, ubicar y clasificar a los sujetos de obligaciones administradas por la DIAN: declarantes de renta, responsables de IVA, agentes retenedores, usuarios aduaneros y demás (art. 555-2).\n- El **NIT** es el código de identificación de los inscritos en el RUT.\n- La inscripción debe hacerse **antes de iniciar la actividad económica**.\n- Las cámaras de comercio piden el NIT del matriculado dentro de los **2 días calendario** siguientes a la matrícula (art. 555-1).\n- Si cambia la dirección, hay **3 meses** para informarla (art. 612)."
+        },
+        { "ref": "oblig-q-001" },
+        { "ref": "oblig-q-002" },
+        { "ref": "oblig-q-003" },
+        { "ref": "oblig-q-004" },
+        { "ref": "oblig-q-026" },
+        { "ref": "oblig-q-029" }
+      ]
+    },
+    {
+      "id": "oblig-02",
+      "title": "Declaraciones: clases, contenido y validez",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "oblig-c-003",
+          "type": "concept",
+          "source": "ET arts. 574, 579, 600 y 601",
+          "title": "Qué se declara y cada cuánto",
+          "body": "| Declaración | Periodicidad |\n|---|---|\n| Renta y complementarios | Anual |\n| Retención en la fuente | Mensual |\n| Activos en el exterior | Anual |\n| IVA | Bimestral o cuatrimestral |\n\n**IVA (art. 600):** es **bimestral** para grandes contribuyentes y para quienes a 31 de diciembre del año anterior tuvieron ingresos brutos **≥ 92.000 UVT**. Para los demás es **cuatrimestral**.\n\nLos responsables de IVA (incluidos los exportadores) declaran; no lo hacen en los periodos **sin operaciones** (art. 601). Los lugares y plazos los fija el **Gobierno nacional** (art. 579)."
+        },
+        {
+          "id": "oblig-c-004",
+          "type": "concept",
+          "source": "ET arts. 580, 580-1, 581 y 596",
+          "title": "Declaraciones que no cuentan",
+          "body": "**Se tienen por no presentadas (art. 580):**\n\n- Si no se presentan en los **lugares** señalados.\n- Si **no se identifica** al declarante o se hace mal.\n- Si faltan los **factores para identificar las bases gravables**.\n- Si falta la **firma** del obligado, o la del contador o revisor fiscal cuando es obligatoria.\n\n**Retención sin pago total:** no produce efecto legal alguno, **sin necesidad de acto administrativo** (art. 580-1). La excepción es tener un saldo a favor previo igual o superior a **2 veces** la retención y pedir su compensación.\n\n**Firma del contador:** la necesitan los obligados a llevar contabilidad con patrimonio o ingresos brutos **> 100.000 UVT** (art. 596). Esa firma certifica que los libros están en debida forma (art. 581)."
+        },
+        { "ref": "oblig-q-005" },
+        { "ref": "oblig-q-006" },
+        { "ref": "oblig-q-007" },
+        { "ref": "oblig-q-008" },
+        { "ref": "oblig-q-009" },
+        { "ref": "oblig-q-027" }
+      ]
+    },
+    {
+      "id": "oblig-03",
+      "title": "Correcciones y no declarantes",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "oblig-c-005",
+          "type": "concept",
+          "source": "ET arts. 588 y 589",
+          "title": "Corregir la declaración",
+          "body": "| Corrección que… | Plazo | Notas |\n|---|---|---|\n| **Aumenta** el impuesto o disminuye el saldo a favor (art. 588) | 3 años desde el vencimiento | Antes del requerimiento especial o pliego de cargos; con sanción de corrección |\n| **Disminuye** el valor a pagar o aumenta el saldo a favor (art. 589) | 1 año desde el vencimiento | La revisión se cuenta desde la corrección |\n\nToda declaración posterior a la inicial se considera **corrección**. Si el mayor valor viene de una **diferencia de criterio** con la DIAN y los hechos son completos y verdaderos, **no hay sanción de corrección**."
+        },
+        {
+          "id": "oblig-c-006",
+          "type": "concept",
+          "source": "ET arts. 592 y 594-3",
+          "title": "Personas naturales no obligadas a declarar renta",
+          "body": "No declaran las personas naturales **no responsables de IVA** que cumplan **todos** estos topes en el año (arts. 592 y 594-3):\n\n| Concepto | Tope | En 2026 |\n|---|---|---|\n| Ingresos brutos | < 1.400 UVT | $73.323.600 |\n| Patrimonio bruto a 31 dic. | ≤ 4.500 UVT | $235.683.000 |\n| Consumos con tarjeta de crédito | ≤ 1.400 UVT | $73.323.600 |\n| Compras y consumos | ≤ 1.400 UVT | $73.323.600 |\n| Consignaciones, depósitos e inversiones | ≤ 1.400 UVT | $73.323.600 |\n\nTampoco declaran, entre otros, los extranjeros sin residencia cuyos ingresos tuvieron toda la retención (art. 592)."
+        },
+        { "ref": "oblig-q-010" },
+        { "ref": "oblig-q-011" },
+        { "ref": "oblig-q-012" },
+        { "ref": "oblig-q-013" },
+        { "ref": "oblig-q-014" },
+        { "ref": "oblig-q-030" }
+      ]
+    },
+    {
+      "id": "oblig-04",
+      "title": "Facturar, informar y conservar",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "oblig-c-007",
+          "type": "concept",
+          "source": "ET arts. 615, 617 y 618",
+          "title": "La factura",
+          "body": "**Quién factura (art. 615):** los comerciantes, quienes ejercen profesiones liberales y quienes venden productos agrícolas o ganaderos, sean o no contribuyentes. Deben conservar copia.\n\n**Requisitos (art. 617), entre otros:** a) denominarse **factura de venta**; b) nombre y NIT del vendedor; c) nombre y NIT del adquirente, con el IVA discriminado; d) **numeración consecutiva**; e) fecha; f) descripción; g) valor total; h) nombre y NIT del impresor; i) calidad de retenedor de IVA.\n\n**El comprador** está obligado a **exigir** la factura y a exhibirla cuando la DIAN se lo pida (art. 618)."
+        },
+        {
+          "id": "oblig-c-008",
+          "type": "concept",
+          "source": "ET arts. 614, 631 y 632",
+          "title": "Informar y conservar",
+          "body": "- **Cese de actividades de IVA:** se informa dentro de los **30 días** siguientes. Mientras no se informe, se debe seguir declarando (art. 614).\n- **Información para cruces (exógena):** la DIAN puede pedirla a contribuyentes y no contribuyentes (art. 631).\n- **Conservación:** mínimo **5 años**, contados desde el **1 de enero del año siguiente** a la elaboración, expedición o recibo del documento. Incluye libros, comprobantes y pruebas de costos, deducciones y retenciones (art. 632)."
+        },
+        { "ref": "oblig-q-015" },
+        { "ref": "oblig-q-016" },
+        { "ref": "oblig-q-017" },
+        { "ref": "oblig-q-018" },
+        { "ref": "oblig-q-019" },
+        { "ref": "oblig-q-031" },
+        { "ref": "oblig-q-024" }
+      ]
+    }
+  ],
+  "flashcards": [
+    { "id": "oblig-fc-001", "front": "¿Pueden los menores adultos cumplir por sí mismos sus deberes tributarios?", "back": "Sí, pueden comparecer directamente y cumplir sus deberes formales y materiales.", "source": "ET art. 555" },
+    { "id": "oblig-fc-002", "front": "¿Quién cumple los deberes formales de una sociedad?", "back": "Sus gerentes, administradores o representantes legales (pueden delegar en funcionarios, informando a la DIAN).", "source": "ET art. 572" },
+    { "id": "oblig-fc-003", "front": "¿Cómo responde quien omite cumplir deberes formales de un tercero?", "back": "Subsidiariamente, por las consecuencias de su omisión.", "source": "ET art. 573" },
+    { "id": "oblig-fc-004", "front": "¿Qué es el RUT?", "back": "El mecanismo único para identificar, ubicar y clasificar a los sujetos de obligaciones administradas por la DIAN.", "source": "ET art. 555-2" },
+    { "id": "oblig-fc-005", "front": "¿Cuándo debe inscribirse en el RUT?", "back": "En forma previa al inicio de la actividad económica.", "source": "ET art. 555-2, par. 2" },
+    { "id": "oblig-fc-006", "front": "Plazo para informar un cambio de dirección", "back": "3 meses desde el cambio.", "source": "ET art. 612" },
+    { "id": "oblig-fc-007", "front": "Periodicidad de la declaración de retención en la fuente", "back": "Mensual.", "source": "ET art. 574" },
+    { "id": "oblig-fc-008", "front": "¿Quiénes declaran IVA bimestralmente?", "back": "Grandes contribuyentes y quienes tuvieron ingresos brutos ≥ 92.000 UVT a 31 de diciembre del año anterior.", "source": "ET art. 600" },
+    { "id": "oblig-fc-009", "front": "Periodos cuatrimestrales de IVA", "back": "Enero–abril, mayo–agosto y septiembre–diciembre.", "source": "ET art. 600" },
+    { "id": "oblig-fc-010", "front": "Cuatro causales de declaración no presentada", "back": "Lugar no señalado, sin identificación, sin factores de las bases gravables, sin firma obligatoria.", "source": "ET art. 580" },
+    { "id": "oblig-fc-011", "front": "Efecto de la declaración de retención presentada sin pago total", "back": "No produce efecto legal alguno, sin necesidad de acto administrativo.", "source": "ET art. 580-1" },
+    { "id": "oblig-fc-012", "front": "Excepción a la ineficacia de la retención sin pago", "back": "Saldo a favor previo igual o superior a 2 veces la retención a cargo, con solicitud de compensación.", "source": "ET art. 580-1" },
+    { "id": "oblig-fc-013", "front": "¿Cuándo firma contador la declaración de renta (sin revisor fiscal)?", "back": "Si el patrimonio bruto o los ingresos brutos superan 100.000 UVT.", "source": "ET art. 596" },
+    { "id": "oblig-fc-014", "front": "Plazo para corregir aumentando el impuesto", "back": "3 años desde el vencimiento del plazo para declarar, antes del requerimiento especial o pliego de cargos.", "source": "ET art. 588" },
+    { "id": "oblig-fc-015", "front": "Plazo para corregir disminuyendo el impuesto", "back": "1 año desde el vencimiento del plazo para declarar.", "source": "ET art. 589" },
+    { "id": "oblig-fc-016", "front": "Topes de ingresos y patrimonio para no declarar renta (persona natural)", "back": "Ingresos brutos < 1.400 UVT y patrimonio bruto ≤ 4.500 UVT.", "source": "ET art. 592" },
+    { "id": "oblig-fc-017", "front": "Topes adicionales para no declarar renta", "back": "Tarjeta de crédito, compras y consumos, y consignaciones: cada uno ≤ 1.400 UVT.", "source": "ET art. 594-3" },
+    { "id": "oblig-fc-018", "front": "¿Quiénes deben expedir factura?", "back": "Comerciantes, profesionales liberales y quienes venden productos agrícolas o ganaderos.", "source": "ET art. 615" },
+    { "id": "oblig-fc-019", "front": "Plazo para informar el cese de actividades de IVA", "back": "30 días siguientes al cese.", "source": "ET art. 614" },
+    { "id": "oblig-fc-020", "front": "¿Por cuánto tiempo se conservan los soportes tributarios?", "back": "Mínimo 5 años desde el 1 de enero del año siguiente a su elaboración, expedición o recibo.", "source": "ET art. 632" }
+  ],
+  "questions": [
+    {
+      "id": "oblig-q-001", "type": "pjs", "difficulty": 1, "source": "ET art. 555-2",
+      "case": "Una ciudadana que va a abrir una panadería le pregunta en la ventanilla cuándo debe inscribirse en el RUT.",
+      "prompt": "¿Qué debe responderle el gestor?",
+      "options": [
+        { "id": "a", "text": "Dentro del mes siguiente a la primera venta." },
+        { "id": "b", "text": "Antes de iniciar la actividad económica." },
+        { "id": "c", "text": "Cuando presente su primera declaración de renta." }
+      ],
+      "answer": "b",
+      "explain": "La inscripción en el RUT debe hacerse en forma previa al inicio de la actividad económica (art. 555-2, par. 2).",
+      "optionWhy": {
+        "a": "La ley exige inscribirse antes de empezar, no después de vender.",
+        "c": "Esperar a la declaración de renta deja la actividad sin inscripción."
+      }
+    },
+    {
+      "id": "oblig-q-002", "type": "pjs", "difficulty": 2, "source": "ET art. 572",
+      "case": "El gerente de una sociedad quiere que la jefe de contabilidad firme y presente las declaraciones tributarias en su lugar.",
+      "prompt": "¿Qué debe indicarle el gestor?",
+      "options": [
+        { "id": "a", "text": "Puede delegarlo en un funcionario de la empresa, informándolo a la DIAN." },
+        { "id": "b", "text": "No puede delegarlo; solo el representante legal puede declarar." },
+        { "id": "c", "text": "Puede delegarlo sin más trámite, porque es un asunto interno." }
+      ],
+      "answer": "a",
+      "explain": "Los representantes legales cumplen los deberes formales de las personas jurídicas. Esta responsabilidad puede delegarse en funcionarios de la empresa, informándolo a la DIAN (art. 572, lit. c).",
+      "optionWhy": {
+        "b": "El art. 572 permite expresamente la delegación.",
+        "c": "La delegación exige informar a la DIAN."
+      }
+    },
+    {
+      "id": "oblig-q-003", "type": "pjs", "difficulty": 2, "source": "ET art. 573",
+      "case": "El tutor de una persona incapaz no presentó la declaración de renta que esta debía presentar, y se generaron sanciones e intereses.",
+      "prompt": "¿Cómo responde el tutor frente a la DIAN?",
+      "options": [
+        { "id": "a", "text": "No responde; solo responde el representado." },
+        { "id": "b", "text": "Responde solidariamente desde el primer día." },
+        { "id": "c", "text": "Responde subsidiariamente por las consecuencias de su omisión." }
+      ],
+      "answer": "c",
+      "explain": "Los obligados a cumplir deberes formales de terceros responden subsidiariamente cuando omiten cumplirlos, por las consecuencias derivadas de su omisión (art. 573).",
+      "optionWhy": {
+        "a": "El art. 573 sí hace responder al representante que omite el deber.",
+        "b": "La responsabilidad prevista es subsidiaria, no solidaria."
+      }
+    },
+    {
+      "id": "oblig-q-004", "type": "pjs", "difficulty": 1, "source": "ET art. 612",
+      "case": "Un contribuyente cambió la dirección de su negocio hace dos meses y no lo ha informado. Pregunta si ya está en mora.",
+      "prompt": "¿Qué debe responderle el gestor?",
+      "options": [
+        { "id": "a", "text": "Aún está a tiempo: tiene tres meses desde el cambio." },
+        { "id": "b", "text": "Ya está en mora: debía informarlo en quince días." },
+        { "id": "c", "text": "No debe informarlo hasta su próxima declaración." }
+      ],
+      "answer": "a",
+      "explain": "Cuando hay cambio de dirección, el término para informarlo es de 3 meses desde el cambio (art. 612).",
+      "optionWhy": {
+        "b": "El art. 612 da 3 meses, no 15 días.",
+        "c": "La ley fija un término propio de 3 meses; no espera a la declaración."
+      }
+    },
+    {
+      "id": "oblig-q-005", "type": "pjs", "difficulty": 2, "source": "ET art. 580",
+      "case": "Una sociedad obligada a tener revisor fiscal presentó su declaración de renta firmada solo por el representante legal.",
+      "prompt": "¿Cómo debe tratar el gestor esa declaración?",
+      "options": [
+        { "id": "a", "text": "Como inexacta, con sanción del 100 % de la diferencia." },
+        { "id": "b", "text": "Como no presentada, por faltar la firma obligatoria." },
+        { "id": "c", "text": "Como válida, porque la firmó el representante legal." }
+      ],
+      "answer": "b",
+      "explain": "La declaración se tiene por no presentada cuando se omite la firma del contador o revisor fiscal existiendo la obligación legal (art. 580, lit. d).",
+      "optionWhy": {
+        "a": "La inexactitud (art. 647) es sobre el contenido, no sobre la falta de firma.",
+        "c": "La firma del representante no suple la del revisor fiscal cuando esta es obligatoria."
+      }
+    },
+    {
+      "id": "oblig-q-006", "type": "pjs", "difficulty": 2, "source": "ET art. 580-1",
+      "case": "Un agente retenedor presentó a tiempo su declaración de retención de marzo, pero sin pagar. No tiene saldos a favor.",
+      "prompt": "¿Qué efecto tiene esa declaración?",
+      "options": [
+        { "id": "a", "text": "Es válida y solo genera intereses por el pago tardío." },
+        { "id": "b", "text": "Es válida hasta que la DIAN la declare ineficaz por acto." },
+        { "id": "c", "text": "No produce efecto legal alguno, sin necesidad de acto." }
+      ],
+      "answer": "c",
+      "explain": "Las declaraciones de retención presentadas sin pago total no producen efecto legal alguno, sin necesidad de acto administrativo que así lo declare (art. 580-1).",
+      "optionWhy": {
+        "a": "En retención en la fuente, el pago total es condición de eficacia.",
+        "b": "La ineficacia opera de pleno derecho, sin acto administrativo."
+      }
+    },
+    {
+      "id": "oblig-q-007", "type": "pjs", "difficulty": 3, "source": "ET art. 580-1",
+      "case": "Un agente retenedor presentó sin pago su declaración de retención por $10.000.000. Antes de presentarla ya tenía un saldo a favor en renta de $25.000.000, y pidió compensarlo con esa retención.",
+      "prompt": "¿Es eficaz su declaración de retención?",
+      "options": [
+        { "id": "a", "text": "Sí, porque el saldo a favor supera dos veces la retención." },
+        { "id": "b", "text": "No, porque toda retención sin pago es ineficaz." },
+        { "id": "c", "text": "Sí, siempre que pague los intereses de mora." }
+      ],
+      "answer": "a",
+      "explain": "La ineficacia no aplica si el agente tiene un saldo a favor previo igual o superior a 2 veces la retención, susceptible de compensar, y pide la compensación (art. 580-1): $25.000.000 ≥ 2 × $10.000.000.",
+      "optionWhy": {
+        "b": "El art. 580-1 prevé expresamente esta excepción.",
+        "c": "La eficacia depende del saldo a favor y la compensación, no de pagar intereses."
+      }
+    },
+    {
+      "id": "oblig-q-008", "type": "pjs", "difficulty": 2, "source": "ET art. 600",
+      "case": "Una persona natural responsable de IVA tuvo ingresos brutos de 50.000 UVT a 31 de diciembre de 2025. No es gran contribuyente.",
+      "prompt": "¿Con qué periodicidad declara IVA en 2026?",
+      "options": [
+        { "id": "a", "text": "Bimestral." },
+        { "id": "b", "text": "Cuatrimestral." },
+        { "id": "c", "text": "Mensual." }
+      ],
+      "answer": "b",
+      "explain": "Declaran cuatrimestralmente los responsables con ingresos brutos inferiores a 92.000 UVT a 31 de diciembre del año anterior (art. 600, num. 2).",
+      "optionWhy": {
+        "a": "La periodicidad bimestral es para grandes contribuyentes o ingresos ≥ 92.000 UVT.",
+        "c": "Mensual es la declaración de retención en la fuente, no la de IVA."
+      }
+    },
+    {
+      "id": "oblig-q-009", "type": "pjs", "difficulty": 3, "source": "ET arts. 581 y 596",
+      "case": "Una sociedad obligada a llevar contabilidad, sin revisor fiscal, tuvo en 2025 ingresos brutos de 120.000 UVT. Presentó su renta sin firma de contador.",
+      "prompt": "¿Qué debe advertir el gestor?",
+      "options": [
+        { "id": "a", "text": "Está bien, porque la firma del contador es opcional." },
+        { "id": "b", "text": "Solo la necesitaba si su patrimonio superaba 100.000 UVT." },
+        { "id": "c", "text": "Requería firma de contador: sus ingresos superan 100.000 UVT." }
+      ],
+      "answer": "c",
+      "explain": "Los obligados a llevar contabilidad firman con contador público cuando el patrimonio bruto o los ingresos brutos superan 100.000 UVT (art. 596). Sin esa firma obligatoria, la declaración se tiene por no presentada (art. 580).",
+      "optionWhy": {
+        "a": "Es obligatoria cuando se supera el tope del art. 596.",
+        "b": "Basta con superar el tope en patrimonio o en ingresos."
+      }
+    },
+    {
+      "id": "oblig-q-010", "type": "pjs", "difficulty": 2, "source": "ET art. 588",
+      "case": "El plazo para declarar renta de una sociedad venció el 10 de mayo de 2024. El 2 de octubre de 2026 la sociedad quiere corregir para incluir ingresos omitidos. No ha recibido requerimiento especial ni pliego.",
+      "prompt": "¿Puede corregir por su cuenta?",
+      "options": [
+        { "id": "a", "text": "No; el plazo para corregir es de un año desde el vencimiento." },
+        { "id": "b", "text": "Sí; está dentro de los tres años y antes del requerimiento." },
+        { "id": "c", "text": "Solo si la DIAN le envía un emplazamiento para corregir." }
+      ],
+      "answer": "b",
+      "explain": "Las correcciones que aumentan el impuesto pueden hacerse dentro de los 3 años siguientes al vencimiento del plazo para declarar, antes de notificarse requerimiento especial o pliego de cargos, liquidando la sanción por corrección (art. 588).",
+      "optionWhy": {
+        "a": "Un año es el plazo de las correcciones que disminuyen el valor a pagar (art. 589).",
+        "c": "La corrección voluntaria no exige emplazamiento previo."
+      }
+    },
+    {
+      "id": "oblig-q-011", "type": "pjs", "difficulty": 2, "source": "ET art. 589",
+      "case": "Una contribuyente se dio cuenta de que omitió una deducción y quiere corregir para pagar menos. El plazo para declarar venció hace 14 meses.",
+      "prompt": "¿Qué le indica el gestor?",
+      "options": [
+        { "id": "a", "text": "Puede corregir: tiene tres años desde el vencimiento." },
+        { "id": "b", "text": "Puede corregir, pero con sanción del 10 %." },
+        { "id": "c", "text": "Ya no puede: el plazo es de un año desde el vencimiento." }
+      ],
+      "answer": "c",
+      "explain": "Las correcciones que disminuyen el valor a pagar o aumentan el saldo a favor deben presentarse dentro del año siguiente al vencimiento del término para declarar (art. 589). Ya pasaron 14 meses.",
+      "optionWhy": {
+        "a": "Los 3 años aplican a las correcciones que aumentan el impuesto (art. 588).",
+        "b": "La sanción por corrección (art. 644) no aplica a esta corrección y, además, el plazo venció."
+      }
+    },
+    {
+      "id": "oblig-q-012", "type": "pjs", "difficulty": 3, "source": "ET art. 588",
+      "case": "Una empresa corrige su declaración para pagar más, porque cambió su interpretación sobre una norma y ahora coincide con la de la DIAN. Los hechos y cifras que declaró eran completos y verdaderos.",
+      "prompt": "¿Debe liquidar sanción por corrección?",
+      "options": [
+        { "id": "a", "text": "Sí, el 10 % del mayor valor, por corregir de forma voluntaria." },
+        { "id": "b", "text": "No, porque el error viene de una diferencia de criterio." },
+        { "id": "c", "text": "Sí, el 20 % del mayor valor, por corregir después de declarar." }
+      ],
+      "answer": "b",
+      "explain": "Si el mayor valor proviene de diferencias de criterio sobre la interpretación del derecho y los hechos son completos y verdaderos, no se aplica la sanción de corrección (art. 588).",
+      "optionWhy": {
+        "a": "El art. 588 excluye la sanción en este supuesto.",
+        "c": "El 20 % es para correcciones después del emplazamiento; además, aquí no hay sanción."
+      }
+    },
+    {
+      "id": "oblig-q-013", "type": "pjs", "difficulty": 3, "source": "ET arts. 592 y 594-3",
+      "case": "Un trabajador independiente, no responsable de IVA, tuvo en 2026 ingresos brutos de $60.000.000, patrimonio de $150.000.000, compras por $40.000.000 y consignaciones bancarias por $80.000.000. UVT 2026: $52.374.",
+      "prompt": "¿Está obligado a declarar renta por 2026?",
+      "options": [
+        { "id": "a", "text": "No, porque sus ingresos son menores a 1.400 UVT." },
+        { "id": "b", "text": "Sí, porque su patrimonio supera 1.400 UVT." },
+        { "id": "c", "text": "Sí, porque sus consignaciones superan 1.400 UVT." }
+      ],
+      "answer": "c",
+      "explain": "1.400 UVT = $73.323.600; 4.500 UVT = $235.683.000. Ingresos ($60 millones) y patrimonio ($150 millones) están bajo sus topes. Pero las consignaciones ($80 millones) superan 1.400 UVT, así que no cumple el art. 594-3 y debe declarar.",
+      "optionWhy": {
+        "a": "No basta el tope de ingresos; deben cumplirse todos los topes de los arts. 592 y 594-3.",
+        "b": "El tope de patrimonio es 4.500 UVT ($235.683.000), no 1.400 UVT."
+      }
+    },
+    {
+      "id": "oblig-q-014", "type": "pjs", "difficulty": 1, "source": "ET art. 588",
+      "case": "Una sociedad presentó su declaración inicial y, tres meses después, presentó otra por el mismo periodo con cifras distintas.",
+      "prompt": "¿Cómo se considera la segunda declaración?",
+      "options": [
+        { "id": "a", "text": "Como una corrección de la declaración inicial." },
+        { "id": "b", "text": "Como una declaración duplicada sin efectos." },
+        { "id": "c", "text": "Como una nueva declaración que anula la primera." }
+      ],
+      "answer": "a",
+      "explain": "Toda declaración presentada después de la inicial se considera una corrección de la inicial o de la última corrección (art. 588).",
+      "optionWhy": {
+        "b": "La ley le da efecto: es una corrección.",
+        "c": "No anula la primera; la corrige."
+      }
+    },
+    {
+      "id": "oblig-q-015", "type": "pjs", "difficulty": 1, "source": "ET art. 615",
+      "case": "Una médica que ejerce de forma independiente pregunta si debe expedir factura, ya que cree que solo los comerciantes facturan.",
+      "prompt": "¿Qué debe responderle el gestor?",
+      "options": [
+        { "id": "a", "text": "No, porque la obligación es solo de los comerciantes." },
+        { "id": "b", "text": "Sí, quienes ejercen profesiones liberales deben facturar." },
+        { "id": "c", "text": "Solo si es responsable de IVA en el periodo." }
+      ],
+      "answer": "b",
+      "explain": "Deben expedir factura los comerciantes, quienes ejercen profesiones liberales o prestan servicios inherentes a ellas y quienes enajenan productos agrícolas o ganaderos (art. 615).",
+      "optionWhy": {
+        "a": "El art. 615 incluye expresamente las profesiones liberales.",
+        "c": "La obligación es independiente de ser o no contribuyente o responsable."
+      }
+    },
+    {
+      "id": "oblig-q-016", "type": "pjs", "difficulty": 2, "source": "ET arts. 617 y 652",
+      "case": "En una visita, usted encuentra facturas que no llevan la expresión «factura de venta» ni indican la calidad de retenedor de IVA del vendedor.",
+      "prompt": "¿Qué requisitos del art. 617 se incumplen?",
+      "options": [
+        { "id": "a", "text": "Los literales c) y g): datos del adquirente y valor total." },
+        { "id": "b", "text": "Los literales d) y e): numeración consecutiva y fecha." },
+        { "id": "c", "text": "Los literales a) e i): denominación y calidad de retenedor." }
+      ],
+      "answer": "c",
+      "explain": "El literal a) exige denominarla «factura de venta» y el i) indicar la calidad de retenedor de IVA (art. 617). Su omisión se sanciona según el art. 652.",
+      "optionWhy": {
+        "a": "Los literales c) y g) se refieren al adquirente y al valor total, que no se mencionan en el caso.",
+        "b": "Los literales d) y e) son la numeración y la fecha."
+      }
+    },
+    {
+      "id": "oblig-q-017", "type": "pjs", "difficulty": 2, "source": "ET art. 614",
+      "case": "Un responsable de IVA cerró su negocio en marzo, pero nunca informó el cese. La DIAN le pregunta por qué no declaró el periodo siguiente.",
+      "prompt": "¿Qué debe explicarle el gestor?",
+      "options": [
+        { "id": "a", "text": "Mientras no informe el cese, sigue obligado a declarar IVA." },
+        { "id": "b", "text": "Al cerrar el negocio, cesa de inmediato su obligación." },
+        { "id": "c", "text": "Solo debe declarar si tuvo ingresos después del cierre." }
+      ],
+      "answer": "a",
+      "explain": "El cese se informa dentro de los 30 días siguientes. Mientras no se informe, el responsable sigue obligado a presentar la declaración de IVA (art. 614).",
+      "optionWhy": {
+        "b": "La obligación se mantiene hasta que se informe el cese.",
+        "c": "El art. 614 no condiciona la obligación a tener ingresos; la condiciona a informar el cese."
+      }
+    },
+    {
+      "id": "oblig-q-018", "type": "pjs", "difficulty": 3, "source": "ET art. 632",
+      "case": "En una fiscalización de 2026, la DIAN pide a una sociedad los soportes de unos costos registrados en facturas recibidas en marzo de 2021. La sociedad dice que ya los destruyó porque «pasaron cinco años».",
+      "prompt": "¿Tiene razón la sociedad?",
+      "options": [
+        { "id": "a", "text": "Sí; el plazo de 5 años se cuenta desde la fecha de recibo." },
+        { "id": "b", "text": "No; el deber dura mientras no prescriba la sanción." },
+        { "id": "c", "text": "No; los 5 años corren desde el 1 de enero de 2022." }
+      ],
+      "answer": "c",
+      "explain": "Los documentos se conservan mínimo 5 años contados desde el 1 de enero del año siguiente a su recibo (art. 632). Para marzo de 2021, el término va hasta el 1 de enero de 2027.",
+      "optionWhy": {
+        "a": "Los 5 años no se cuentan desde la fecha de recibo, sino desde el 1 de enero siguiente.",
+        "b": "El art. 632 fija un término mínimo propio de 5 años."
+      }
+    },
+    {
+      "id": "oblig-q-019", "type": "pjs", "difficulty": 1, "source": "ET art. 618",
+      "case": "En un operativo, un funcionario comisionado pide a un comprador que muestre la factura del televisor que acaba de comprar.",
+      "prompt": "¿Está obligado el comprador a exhibirla?",
+      "options": [
+        { "id": "a", "text": "No, la obligación de facturar es solo del vendedor." },
+        { "id": "b", "text": "Sí, los adquirentes deben exigirla y exhibirla." },
+        { "id": "c", "text": "Solo si la compra supera las 100 UVT." }
+      ],
+      "answer": "b",
+      "explain": "Los adquirentes de bienes o servicios están obligados a exigir la factura y a exhibirla cuando los funcionarios comisionados lo pidan (art. 618).",
+      "optionWhy": {
+        "a": "El art. 618 impone deberes también al comprador.",
+        "c": "El art. 618 no fija un monto mínimo."
+      }
+    },
+    {
+      "id": "oblig-q-020", "type": "open", "difficulty": 2, "source": "ET art. 580",
+      "prompt": "Enumere las causales por las cuales una declaración tributaria se tiene por no presentada.",
+      "modelAnswer": "No presentarla en los lugares señalados; no suministrar la identificación del declarante o hacerlo en forma equivocada; no incluir los factores necesarios para identificar las bases gravables; y no presentarla firmada por quien debe declarar, o sin la firma del contador o revisor fiscal cuando es obligatoria.",
+      "keyPoints": [
+        "Lugar no señalado",
+        "Sin identificación o con identificación equivocada",
+        "Sin factores para identificar las bases gravables",
+        "Sin la firma obligatoria (declarante, contador o revisor fiscal)"
+      ],
+      "keywords": ["lugares", "identificacion", "bases gravables", "firma", "contador", "revisor fiscal"],
+      "minKeywords": 4
+    },
+    {
+      "id": "oblig-q-021", "type": "open", "difficulty": 2, "source": "ET arts. 588 y 589",
+      "prompt": "Compare en 2–3 líneas las correcciones que aumentan el impuesto y las que lo disminuyen.",
+      "modelAnswer": "Las que aumentan el impuesto o disminuyen el saldo a favor se presentan dentro de los 3 años siguientes al vencimiento, antes del requerimiento especial o pliego de cargos, y con sanción por corrección (art. 588). Las que disminuyen el valor a pagar o aumentan el saldo a favor se presentan dentro del año siguiente al vencimiento, y la revisión se cuenta desde la corrección (art. 589).",
+      "keyPoints": [
+        "Aumentan: 3 años, antes del requerimiento o pliego (588)",
+        "Aumentan: se liquida sanción por corrección",
+        "Disminuyen: 1 año desde el vencimiento (589)",
+        "Disminuyen: la revisión se cuenta desde la corrección"
+      ],
+      "keywords": ["tres anos", "un ano", "requerimiento", "sancion", "revision", "saldo a favor"],
+      "minKeywords": 4
+    },
+    {
+      "id": "oblig-q-022", "type": "open", "difficulty": 3, "source": "ET arts. 592 y 594-3",
+      "prompt": "Explique qué topes debe cumplir una persona natural no responsable de IVA para no declarar renta, y calcule el de ingresos en pesos de 2026.",
+      "modelAnswer": "Debe tener ingresos brutos inferiores a 1.400 UVT y patrimonio bruto que no exceda 4.500 UVT. Además, ni los consumos con tarjeta de crédito, ni las compras y consumos, ni las consignaciones, depósitos o inversiones pueden superar 1.400 UVT cada uno. Con la UVT 2026 ($52.374), 1.400 UVT equivalen a $73.323.600.",
+      "keyPoints": [
+        "Ingresos brutos < 1.400 UVT",
+        "Patrimonio bruto ≤ 4.500 UVT",
+        "Tarjeta, compras y consignaciones ≤ 1.400 UVT cada uno",
+        "1.400 × $52.374 = $73.323.600"
+      ],
+      "keywords": ["1.400", "4.500", "ingresos", "patrimonio", "consignaciones", "tarjeta", "73.323.600"],
+      "minKeywords": 4
+    },
+    {
+      "id": "oblig-q-023", "type": "mcq", "difficulty": 1, "source": "ET art. 574",
+      "prompt": "¿Con qué periodicidad se presenta la declaración de retención en la fuente?",
+      "options": [
+        { "id": "a", "text": "Anual" },
+        { "id": "b", "text": "Bimestral" },
+        { "id": "c", "text": "Cuatrimestral" },
+        { "id": "d", "text": "Mensual" }
+      ],
+      "answer": "d",
+      "explain": "La declaración de retención en la fuente es mensual (art. 574, num. 3).",
+      "optionWhy": {
+        "a": "Anual es la declaración de renta y la de activos en el exterior.",
+        "b": "Bimestral es una de las periodicidades de IVA.",
+        "c": "Cuatrimestral es la otra periodicidad de IVA."
+      }
+    },
+    {
+      "id": "oblig-q-024", "type": "mcq", "difficulty": 1, "source": "ET art. 632",
+      "prompt": "¿Por cuánto tiempo mínimo deben conservarse los documentos que soportan las declaraciones?",
+      "options": [
+        { "id": "a", "text": "3 años desde la presentación de la declaración" },
+        { "id": "b", "text": "5 años desde el 1 de enero del año siguiente" },
+        { "id": "c", "text": "10 años desde la fecha de su expedición" },
+        { "id": "d", "text": "2 años desde el vencimiento del plazo" }
+      ],
+      "answer": "b",
+      "explain": "Mínimo 5 años, contados desde el 1 de enero del año siguiente al de su elaboración, expedición o recibo (art. 632).",
+      "optionWhy": {
+        "a": "Tres años es el término general de firmeza (art. 714), no el de conservación.",
+        "c": "El art. 632 fija 5 años, no 10.",
+        "d": "El art. 632 no fija dos años."
+      }
+    },
+    {
+      "id": "oblig-q-025", "type": "mcq", "difficulty": 1, "source": "ET art. 555-1",
+      "prompt": "Asignada la matrícula mercantil, ¿en qué plazo debe la cámara de comercio solicitar el NIT del matriculado?",
+      "options": [
+        { "id": "a", "text": "2 días calendario" },
+        { "id": "b", "text": "10 días hábiles" },
+        { "id": "c", "text": "1 mes" },
+        { "id": "d", "text": "3 meses" }
+      ],
+      "answer": "a",
+      "explain": "Las cámaras de comercio deben solicitar el NIT a más tardar dentro de los 2 días calendario siguientes a la matrícula (art. 555-1).",
+      "optionWhy": {
+        "b": "El art. 555-1 fija 2 días calendario.",
+        "c": "Un mes no es el término del art. 555-1.",
+        "d": "Tres meses es el plazo para informar el cambio de dirección (art. 612)."
+      }
+    },
+    {
+      "id": "oblig-q-026", "type": "truefalse", "difficulty": 1, "source": "ET art. 555-2",
+      "statement": "El NIT es el código de identificación de los inscritos en el RUT.",
+      "answer": true,
+      "explain": "Verdadero. El NIT constituye el código de identificación de los inscritos en el RUT (art. 555-2, par. 1)."
+    },
+    {
+      "id": "oblig-q-027", "type": "truefalse", "difficulty": 1, "source": "ET art. 601",
+      "statement": "Un responsable de IVA debe presentar declaración de IVA aun en los periodos en que no realizó operaciones.",
+      "answer": false,
+      "explain": "Falso. Los responsables no están obligados a declarar IVA en los periodos en que no hayan efectuado operaciones (art. 601)."
+    },
+    {
+      "id": "oblig-q-028", "type": "truefalse", "difficulty": 1, "source": "ET art. 589",
+      "statement": "Si se corrige una declaración para disminuir el valor a pagar, el término de revisión se cuenta desde la fecha de la corrección.",
+      "answer": true,
+      "explain": "Verdadero. La corrección del art. 589 no impide la revisión, que se cuenta a partir de la fecha de la corrección."
+    },
+    {
+      "id": "oblig-q-029", "type": "match", "difficulty": 2, "source": "ET art. 572",
+      "prompt": "Relacione cada representado con quien debe cumplir sus deberes formales.",
+      "pairs": [
+        { "left": "Hijos menores", "right": "Los padres" },
+        { "left": "Incapaces", "right": "Tutores y curadores" },
+        { "left": "Personas jurídicas", "right": "Representantes legales" },
+        { "left": "Sucesiones", "right": "Albaceas con administración de bienes" }
+      ],
+      "explain": "Art. 572, literales a) a d)."
+    },
+    {
+      "id": "oblig-q-030", "type": "match", "difficulty": 2, "source": "ET arts. 588, 589, 612, 614 y 632",
+      "prompt": "Relacione cada deber con su plazo.",
+      "pairs": [
+        { "left": "Corregir aumentando el impuesto", "right": "3 años" },
+        { "left": "Corregir disminuyendo el impuesto", "right": "1 año" },
+        { "left": "Informar cambio de dirección", "right": "3 meses" },
+        { "left": "Informar cese de actividades de IVA", "right": "30 días" },
+        { "left": "Conservar soportes", "right": "5 años" }
+      ],
+      "explain": "Arts. 588, 589, 612, 614 y 632."
+    },
+    {
+      "id": "oblig-q-031", "type": "cloze", "difficulty": 1, "source": "ET art. 600",
+      "text": "Declaran IVA en forma bimestral los grandes contribuyentes y quienes tuvieron ingresos brutos iguales o superiores a {{92.000}} UVT a 31 de diciembre del año anterior.",
+      "alternatives": { "92.000": ["92000", "92 000"] },
+      "explain": "Art. 600, num. 1. Los demás declaran cuatrimestralmente."
+    }
+  ]
+}
