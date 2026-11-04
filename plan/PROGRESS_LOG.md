@@ -128,3 +128,12 @@ Sitio en vivo: https://gabriel86-as.github.io/dian-2676-estudio/ · Repo: https:
 - Simulacros regenerados; `sw.js` → `dian2676-v2`; meta description → Gestor III, OPEC 236739.
 - Pruebas: validate sin errores; progress 14/14; simulacro 9/9; E2E qa-site 32/32, simulacro-basico 15/15, simulacro-examen 10/10.
 - Pendiente: `procedimiento-administrativo`, `contratacion`, niveles de `comportamentales`.
+
+## 2026-11-04 — Fase 9: unidad procedimiento-administrativo (CPACA)
+- Fuente nueva: Ley 1437/2011 desde la Secretaría del Senado (3 páginas, arts. 1–123, texto vigente con los arts. 13–33 de la Ley 1755/2015), compilada en `dian_material/12_CPACA_Ley1437_Ley1755.txt` y legible con `node tools/art.mjs 12 <art>`. Registrada en el README del paquete.
+- Nueva unidad `procedimiento-administrativo` (prefijo `proc`, prioridad 1): 6 lecciones (principios y deberes; derecho de petición; reserva y expediente; publicación, comunicación y notificación; recursos; silencio, firmeza y revocación directa), 30 tarjetas, 61 preguntas (31 PJS = 51 %, 3 abiertas; dificultad 23/56/21 %). Cubre los Títulos I, II y III caps. I y V–VIII que pide la ficha, más el art. 56 (notificación electrónica) y el cap. IX (revocación directa).
+- Todas las cifras verificadas contra el texto: 15/10/30 días (art. 14), doble del plazo (par.), 10 días y 1 mes (art. 17), 5 días (art. 21), 10 días entre autoridades (art. 30), 3/10/5 días del impedimento (art. 12), 40 horas (art. 7), 5 días de citación y aviso (arts. 68–69), 10 días para recursos y 5 para queja (arts. 74, 76), 30 días de pruebas (art. 79), 3 meses y 2 meses de silencio (arts. 83, 86), 5 años de pérdida de ejecutoriedad (art. 91), 15 días de la excepción (art. 92), 2 meses para la revocación (art. 95).
+- Simulacros regenerados; `sw.js` → `dian2676-v3`.
+- `tests/e2e/simulacro-basico.mjs`: el desglose por unidad ahora lee solo `table.tbl` (antes contaba las filas de una tabla Markdown dentro de un caso de «Para repasar», `raz-q-001`, que entró al simulacro básico al regenerarlo).
+- Pruebas: validate sin errores; progress 14/14; simulacro 9/9; E2E qa-site 33/33, simulacro-basico 15/15, simulacro-examen 10/10.
+- Pendiente: `contratacion` (conseguir Ley 80, Ley 1150 y D1082), niveles de `comportamentales`.

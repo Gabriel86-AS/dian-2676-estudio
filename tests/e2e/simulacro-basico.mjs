@@ -76,7 +76,7 @@ try {
   await ev(`window.confirm = () => true; document.querySelector('[data-act="submit"]').click(); true`);
   await until(`!!document.querySelector('.score-n')`);
   const res = await ev(`({ score: document.querySelector('.score-n').textContent, label: document.querySelector('.score-l').textContent,
-    rows: [...document.querySelectorAll('.results tbody tr')].map(r => r.children[1].textContent),
+    rows: [...document.querySelectorAll('.results table.tbl tbody tr')].map(r => r.children[1].textContent),
     missed: document.querySelectorAll('.results .missed').length,
     saved: JSON.parse(localStorage.getItem('dian2676:v1')).tests.at(-1), session: localStorage.getItem('dian2676:simulacro'),
     mistakes: Object.values(JSON.parse(localStorage.getItem('dian2676:v1')).items).filter(x => x.inMistakes).length })`);

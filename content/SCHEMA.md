@@ -22,7 +22,7 @@ Plantilla completa con un ítem de cada tipo: `content/units/_ejemplo.json` (no 
 5. `pjs` imita el formato oficial: caso + enunciado + **3 opciones A–C**, una sola correcta. Las incorrectas suelen ser acciones de otra etapa del procedimiento.
 6. Texto en español de Colombia. No copiar texto de sitios de preparación; las normas y documentos oficiales sí pueden citarse.
 
-Prefijos por unidad: `fisc` fiscalizacion · `sanc` sanciones · `oblig` obligaciones · `liq` liquidacion · `estr` estructura · `mis` misionalidad · `gdoc` gestion-documental · `laft` lavado · `camb` cambiaria · `aud` auditoria · `raz` razonamiento · `comp` comportamentales · `integ` integridad · `merc` disposicion-mercancias.
+Prefijos por unidad: `fisc` fiscalizacion · `sanc` sanciones · `oblig` obligaciones · `liq` liquidacion · `estr` estructura · `mis` misionalidad · `gdoc` gestion-documental · `laft` lavado · `camb` cambiaria · `aud` auditoria · `raz` razonamiento · `comp` comportamentales · `integ` integridad · `merc` disposicion-mercancias · `proc` procedimiento-administrativo.
 
 ## Manifiesto
 
