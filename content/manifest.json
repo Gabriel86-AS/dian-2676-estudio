@@ -2,6 +2,7 @@
   "units": [
     { "id": "disposicion-mercancias", "file": "units/disposicion-mercancias.json", "title": "Custodia y disposición de mercancías aprehendidas, decomisadas o abandonadas", "area": "funcional", "priority": 1 },
     { "id": "procedimiento-administrativo", "file": "units/procedimiento-administrativo.json", "title": "Procedimiento administrativo (CPACA): peticiones, notificaciones y recursos", "area": "funcional", "priority": 1 },
+    { "id": "contratacion", "file": "units/contratacion.json", "title": "Contratación estatal: planeación, selección, supervisión y liquidación", "area": "funcional", "priority": 1 },
     { "id": "gestion-documental", "file": "units/gestion-documental.json", "title": "Gestión documental y trazabilidad de expedientes", "area": "funcional", "priority": 1 },
     { "id": "fiscalizacion", "file": "units/fiscalizacion.json", "title": "Fiscalización y liquidación tributaria y aduanera", "area": "funcional", "priority": 2 },
     { "id": "sanciones", "file": "units/sanciones.json", "title": "Imposición de sanciones", "area": "funcional", "priority": 2 },

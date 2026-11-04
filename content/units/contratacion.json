@@ -1,0 +1,1593 @@
+{
+  "id": "contratacion",
+  "title": "Contratación estatal: planeación, selección, supervisión y liquidación",
+  "area": "funcional",
+  "priority": 1,
+  "summary": "Funciones F1 y F4 de la ficha AF-LF-3005: plan anual de adquisiciones, estudios previos, modalidades de selección, publicación en el SECOP, garantías, supervisión e interventoría, potestades excepcionales y liquidación de los contratos (Ley 80 de 1993, Ley 1150 de 2007, Decreto 1082 de 2015 y Ley 1474 de 2011).",
+  "sources": [
+    "Ley 80/1993 arts. 3–5, 14–18, 23–26, 32, 39–43, 53 y 60",
+    "Ley 1150/2007 arts. 2, 5, 7, 8, 11 y 17",
+    "Decreto 1082/2015 arts. 2.2.1.1.1.4.1–2.2.1.2.3.1.7 (sistema de compras públicas)",
+    "Ley 1474/2011 arts. 83 y 84"
+  ],
+  "lessons": [
+    {
+      "id": "contr-01",
+      "title": "Fines, principios y selección objetiva",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "contr-c-001",
+          "type": "concept",
+          "source": "Ley 80/1993 arts. 3, 4, 5 y 23",
+          "title": "Para qué contrata el Estado",
+          "body": "Al contratar, la entidad busca **cumplir los fines estatales**, la prestación **continua y eficiente** de los servicios públicos y los derechos de los administrados. El contratista, además de su utilidad, **colabora** con esos fines y cumple una **función social** (art. 3).\n\n- **Deberes de la entidad** (art. 4): exigir la **ejecución idónea y oportuna** del objeto, cobrar sanciones y garantías, pedir la revisión de precios si se rompe el equilibrio en su contra y hacer **revisiones periódicas**, por lo menos **cada 6 meses** durante la vigencia de las garantías.\n- **Derechos del contratista** (art. 5): recibir a tiempo la remuneración y que se le restablezca el **equilibrio económico** ante hechos imprevistos que no le sean imputables. Debe **acatar las órdenes** de la entidad y obrar con lealtad y buena fe.\n- **Principios** (art. 23): **transparencia, economía y responsabilidad**, más los de la función administrativa."
+        },
+        {
+          "id": "contr-c-002",
+          "type": "concept",
+          "source": "Ley 80/1993 arts. 24, 25 y 26; Ley 1150/2007 art. 5",
+          "title": "Transparencia, economía, responsabilidad y selección objetiva",
+          "body": "| Principio | Ejemplos |\n|---|---|\n| **Transparencia** (art. 24) | Los interesados pueden **conocer y controvertir** informes y decisiones; las actuaciones son **públicas** y los expedientes están abiertos al público. |\n| **Economía** (art. 25) | Solo las etapas **estrictamente necesarias**, con términos **preclusivos**; los procesos se abren cuando hay **disponibilidad presupuestal**; la conveniencia del objeto se analiza **antes** de iniciar el proceso. |\n| **Responsabilidad** (art. 26) | Los servidores vigilan la correcta ejecución y responden por sus acciones y omisiones; también responden si abren procesos **sin pliegos, estudios o diseños** o con pliegos **ambiguos**. La dirección de la contratación es del **jefe de la entidad**, que no puede trasladarla a comités. |\n\n**Selección objetiva** (Ley 1150 art. 5): se escoge el **ofrecimiento más favorable** para la entidad, sin motivaciones subjetivas. La capacidad jurídica, la experiencia y la capacidad financiera y de organización son **requisitos habilitantes**: se **verifican** pero **no otorgan puntaje**."
+        },
+        {
+          "ref": "contr-q-001"
+        },
+        {
+          "ref": "contr-q-002"
+        },
+        {
+          "ref": "contr-q-003"
+        },
+        {
+          "ref": "contr-q-004"
+        },
+        {
+          "ref": "contr-q-005"
+        },
+        {
+          "ref": "contr-q-006"
+        },
+        {
+          "ref": "contr-q-007"
+        }
+      ]
+    },
+    {
+      "id": "contr-02",
+      "title": "Planeación: plan anual y estudios previos",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "contr-c-003",
+          "type": "concept",
+          "source": "Decreto 1082/2015 arts. 2.2.1.1.1.4.1–2.2.1.1.1.4.4 y 2.2.1.1.1.6.1",
+          "title": "Plan Anual de Adquisiciones y análisis del sector",
+          "body": "**Plan Anual de Adquisiciones (PAA)** (art. 2.2.1.1.1.4.1): lista de los bienes, obras y servicios que la entidad pretende adquirir **durante el año**. Indica como mínimo la **necesidad** y, si se conoce, el bien o servicio con el **Clasificador de Bienes y Servicios**, el **valor estimado**, el **tipo de recursos**, la **modalidad de selección** y la **fecha aproximada** de inicio del proceso. Debe promover la división en **lotes** que faciliten la participación de las **Mipymes**.\n\n- **No obliga** a adquirir lo que enumera (art. 2.2.1.1.1.4.2).\n- Se **publica** con sus actualizaciones en la **página web** y en el **SECOP** (art. 2.2.1.1.1.4.3).\n- Se **actualiza** por lo menos **una vez durante su vigencia**, y además cuando cambian cronogramas, valores, modalidad u origen de los recursos, o para incluir o excluir bienes, obras o servicios (art. 2.2.1.1.1.4.4).\n\n**Análisis del sector** (art. 2.2.1.1.1.6.1): en la **planeación**, la entidad analiza el sector del objeto a contratar desde las perspectivas **legal, comercial, financiera, organizacional, técnica y de riesgo**, y deja constancia en los documentos del proceso."
+        },
+        {
+          "id": "contr-c-004",
+          "type": "concept",
+          "source": "Decreto 1082/2015 arts. 2.2.1.1.2.1.1 y 2.2.1.2.1.5.1; Ley 80/1993 art. 25 nums. 6 y 7",
+          "title": "Estudios y documentos previos",
+          "body": "Son el **soporte** del proyecto de pliegos, de los pliegos y del contrato, y están a disposición del público durante el proceso (art. 2.2.1.1.2.1.1). Contienen como mínimo:\n\n1. La **descripción de la necesidad**.\n2. El **objeto** con sus especificaciones, autorizaciones, permisos y licencias.\n3. La **modalidad de selección** y su justificación jurídica.\n4. El **valor estimado** y su justificación.\n5. Los **criterios** para seleccionar la oferta más favorable.\n6. El **análisis de riesgo** y la forma de mitigarlo.\n7. Las **garantías** que se exigirán.\n8. Si el proceso está cobijado por un **acuerdo comercial**.\n\nPara la **mínima cuantía** hay estudios previos simplificados (art. 2.2.1.2.1.5.1): necesidad, objeto con el Clasificador, condiciones técnicas, valor estimado, **plazo** y **certificado de disponibilidad presupuestal**.\n\nPor el principio de **economía**, los procesos se abren cuando existen las **partidas o disponibilidades presupuestales** (Ley 80 art. 25 num. 6)."
+        },
+        {
+          "ref": "contr-q-008"
+        },
+        {
+          "ref": "contr-q-009"
+        },
+        {
+          "ref": "contr-q-010"
+        },
+        {
+          "ref": "contr-q-011"
+        },
+        {
+          "ref": "contr-q-012"
+        },
+        {
+          "ref": "contr-q-013"
+        },
+        {
+          "ref": "contr-q-014"
+        }
+      ]
+    },
+    {
+      "id": "contr-03",
+      "title": "Modalidades de selección",
+      "minutes": 9,
+      "steps": [
+        {
+          "id": "contr-c-005",
+          "type": "concept",
+          "source": "Ley 1150/2007 art. 2",
+          "title": "Cinco modalidades",
+          "body": "| Modalidad | Cuándo procede |\n|---|---|\n| **Licitación pública** | **Regla general**, salvo las excepciones de la ley. Puede usar subasta inversa. |\n| **Selección abreviada** | Procesos simplificados, entre otros: bienes y servicios de **características técnicas uniformes** y común utilización (subasta inversa, acuerdo marco de precios o bolsa de productos); **menor cuantía**; licitación **declarada desierta** (iniciar dentro de **4 meses**); **enajenación de bienes del Estado**. |\n| **Concurso de méritos** | Selección de **consultores** o proyectos. |\n| **Contratación directa** | Solo en las causales de ley: **urgencia manifiesta**, empréstitos, **interadministrativos**, actividades científicas y tecnológicas, **no hay pluralidad de oferentes**, **servicios profesionales y de apoyo a la gestión**, **arrendamiento o adquisición de inmuebles**, entre otras. |\n| **Mínima cuantía** | Valor que **no excede el 10 % de la menor cuantía** de la entidad, **sin importar el objeto**. |\n\nLa **menor cuantía** depende del presupuesto anual de la entidad en SMMLV: va de **hasta 280** (presupuesto inferior a 120.000 SMMLV) a **hasta 1.000 SMMLV** (presupuesto de 1.200.000 SMMLV o más)."
+        },
+        {
+          "id": "contr-c-006",
+          "type": "concept",
+          "source": "Ley 1150/2007 art. 2 num. 5; Decreto 1082/2015 arts. 2.2.1.2.1.4.1, 2.2.1.2.1.4.2, 2.2.1.2.1.4.9 y 2.2.1.2.1.5.2",
+          "title": "Mínima cuantía y contratación directa",
+          "body": "**Mínima cuantía** (Ley 1150 art. 2 num. 5; D1082 art. 2.2.1.2.1.5.2):\n- Invitación publicada por **no menos de 1 día hábil**, con objeto, presupuesto y condiciones técnicas.\n- Plazo para ofertar de **no menos de 1 día hábil**.\n- Se escoge la oferta de **menor precio** que cumpla las condiciones.\n- La **comunicación de aceptación más la oferta** constituyen el **contrato**; con base en ello se hace el **registro presupuestal**.\n- La verifica quien designe el ordenador del gasto, **sin comité plural** (art. 2.2.1.1.2.2.3). Las garantías son **opcionales** (art. 2.2.1.2.1.5.5).\n\n**Contratación directa**:\n- Se justifica en un **acto administrativo** con la causal, el objeto, el presupuesto y dónde consultar los estudios previos (art. 2.2.1.2.1.4.1). **No hace falta** ese acto para **servicios profesionales y de apoyo a la gestión**.\n- En la **urgencia manifiesta**, el acto que la declara **hace las veces** de acto de justificación y no se exigen estudios previos (art. 2.2.1.2.1.4.2).\n- **Servicios profesionales y de apoyo a la gestión** (art. 2.2.1.2.1.4.9): con la persona natural o jurídica idónea, sin necesidad de **varias ofertas**; el ordenador del gasto deja constancia escrita."
+        },
+        {
+          "id": "contr-c-007",
+          "type": "concept",
+          "source": "Ley 80/1993 arts. 32 num. 3, 41, 42 y 43",
+          "title": "Urgencia manifiesta y prestación de servicios",
+          "body": "**Urgencia manifiesta** (art. 42): cuando la **continuidad del servicio** exige bienes, servicios u obras en el **inmediato futuro**, en estados de excepción, calamidad, fuerza mayor o desastre, o situaciones similares que impiden acudir a los procedimientos de selección. Se **declara por acto administrativo motivado**.\n- Si la urgencia no permite firmar contrato escrito, se prescinde de él, pero queda **constancia escrita** de la autorización (art. 41).\n- **Control** (art. 43): inmediatamente después, los contratos, el acto y el expediente se envían al **órgano de control fiscal**, que se pronuncia en **2 meses**. El uso indebido es **causal de mala conducta**.\n\n**Prestación de servicios** (art. 32 num. 3): para actividades de **administración o funcionamiento** de la entidad. Con personas naturales, solo si la actividad **no puede hacerse con personal de planta** o requiere **conocimientos especializados**. **No genera relación laboral** ni prestaciones sociales y dura el **término estrictamente indispensable**."
+        },
+        {
+          "ref": "contr-q-015"
+        },
+        {
+          "ref": "contr-q-016"
+        },
+        {
+          "ref": "contr-q-017"
+        },
+        {
+          "ref": "contr-q-018"
+        },
+        {
+          "ref": "contr-q-019"
+        },
+        {
+          "ref": "contr-q-020"
+        },
+        {
+          "ref": "contr-q-021"
+        }
+      ]
+    },
+    {
+      "id": "contr-04",
+      "title": "Proceso de selección y perfeccionamiento",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "contr-c-008",
+          "type": "concept",
+          "source": "Ley 1150/2007 art. 8; Decreto 1082/2015 arts. 2.2.1.1.1.7.1, 2.2.1.1.2.1.4, 2.2.1.1.2.1.5, 2.2.1.1.2.2.3 y 2.2.1.1.2.2.6",
+          "title": "Del proyecto de pliegos a la adjudicación",
+          "body": "- **SECOP** (art. 2.2.1.1.1.7.1): los documentos y actos del proceso se publican **dentro de los 3 días** siguientes a su expedición. De las ofertas, se publica la del **adjudicatario**.\n- **Proyecto de pliegos** (Ley 1150 art. 8): se publica junto con los **estudios previos** para recibir observaciones. Publicarlo **no obliga** a abrir el proceso, y **no exige disponibilidad presupuestal**. La entidad publica por qué **acoge o rechaza** las observaciones.\n- **Observaciones** (art. 2.2.1.1.2.1.4): **10 días hábiles** en licitación; **5 días hábiles** en selección abreviada y concurso de méritos.\n- **Apertura** (art. 2.2.1.1.2.1.5): por **acto administrativo de carácter general** con objeto, modalidad, cronograma, dónde consultar pliegos y estudios, **convocatoria a veedurías** y **certificado de disponibilidad presupuestal**.\n- **Comité evaluador** (art. 2.2.1.1.2.2.3): servidores o particulares contratados, que evalúan **solo con las reglas del pliego**. Es **asesor**, pero responde por su labor; si la entidad no acoge su recomendación, **debe justificarlo**. Sus miembros están sujetos a inhabilidades, incompatibilidades y conflicto de intereses.\n- **Oferta única** (art. 2.2.1.1.2.2.6): se puede adjudicar si cumple los requisitos habilitantes y el pliego."
+        },
+        {
+          "id": "contr-c-009",
+          "type": "concept",
+          "source": "Ley 80/1993 arts. 39, 40 y 41",
+          "title": "Forma, perfeccionamiento y ejecución",
+          "body": "- **Forma** (art. 39): **por escrito**; no requieren escritura pública, salvo los que impliquen **mutación del dominio** o gravámenes y servidumbres sobre **inmuebles**.\n- **Perfeccionamiento** (art. 41): cuando hay **acuerdo sobre el objeto y la contraprestación** y se **eleva a escrito**.\n- **Requisitos de ejecución** (art. 41): **aprobación de la garantía** y **disponibilidades presupuestales**. El contratista acredita estar al día en **seguridad social y parafiscales**, también para **cada pago**.\n- Los contratos son **intuito personae**: no se ceden sin **autorización previa y escrita** de la entidad (art. 41).\n- **Anticipo o pago anticipado**: hasta el **50 %** del valor del contrato. **Adiciones**: no más del **50 % del valor inicial**, expresado en SMMLV (art. 40 par.)."
+        },
+        {
+          "ref": "contr-q-022"
+        },
+        {
+          "ref": "contr-q-023"
+        },
+        {
+          "ref": "contr-q-024"
+        },
+        {
+          "ref": "contr-q-025"
+        },
+        {
+          "ref": "contr-q-026"
+        },
+        {
+          "ref": "contr-q-027"
+        },
+        {
+          "ref": "contr-q-028"
+        },
+        {
+          "ref": "contr-q-029"
+        }
+      ]
+    },
+    {
+      "id": "contr-05",
+      "title": "Ejecución: supervisión, garantías, potestades y liquidación",
+      "minutes": 9,
+      "steps": [
+        {
+          "id": "contr-c-010",
+          "type": "concept",
+          "source": "Ley 1474/2011 arts. 83 y 84; Ley 80/1993 arts. 32 nums. 1 y 2, y 53",
+          "title": "Supervisión e interventoría",
+          "body": "La entidad debe **vigilar permanentemente** la ejecución por medio de un **supervisor** o un **interventor** (Ley 1474 art. 83).\n\n| | Supervisión | Interventoría |\n|---|---|---|\n| Quién | La **misma entidad** (puede apoyarse en contratistas de prestación de servicios) | Persona natural o jurídica **contratada** |\n| Cuándo | Cuando **no** se requieren conocimientos especializados | Cuando se requiere **conocimiento especializado** o la complejidad o extensión lo justifican |\n| Alcance | Técnico, administrativo, financiero, contable y jurídico | **Técnico** (puede ampliarse a lo demás si se justifica) |\n\n- Por regla general **no concurren** sobre un mismo contrato; la entidad puede dividir la vigilancia. El contrato de interventoría lo **supervisa la entidad**.\n- En los contratos que **superan la menor cuantía**, los estudios previos se pronuncian sobre la **necesidad de interventoría** (par. 1).\n- Supervisores e interventores pueden **pedir informes, aclaraciones y explicaciones**, y deben **informar** a la entidad de hechos de **corrupción**, riesgos de incumplimiento o incumplimientos (art. 84).\n- Las **órdenes del interventor** se dan **por escrito**, nunca verbalmente (Ley 80 art. 32 num. 2). Los interventores responden **civil, fiscal, penal y disciplinariamente** (Ley 80 art. 53)."
+        },
+        {
+          "id": "contr-c-011",
+          "type": "concept",
+          "source": "Ley 1150/2007 arts. 7 y 17; Decreto 1082/2015 arts. 2.2.1.2.3.1.2 y 2.2.1.2.3.1.7",
+          "title": "Garantías, multas y cláusula penal",
+          "body": "- **Garantías** (Ley 1150 art. 7): el **proponente** garantiza la **seriedad de la oferta**; el **contratista**, el **cumplimiento**. Clases: **póliza de seguro**, **patrimonio autónomo** o **garantía bancaria** (D1082 art. 2.2.1.2.3.1.2). Las pólizas **no expiran** por falta de pago de la prima ni por revocatoria unilateral.\n- **No son obligatorias** en empréstitos, interadministrativos, seguros y contratos **inferiores al 10 % de la menor cuantía** (ahí la entidad decide).\n- **Amparos de cumplimiento** (D1082 art. 2.2.1.2.3.1.7): buen manejo del **anticipo**; devolución del **pago anticipado**; **cumplimiento** (incluye multas y cláusula penal); **salarios y prestaciones**; **estabilidad y calidad de la obra**; **calidad del servicio**; **calidad y funcionamiento de los bienes**.\n- **Multas** (Ley 1150 art. 17): conminan al contratista a cumplir; exigen **audiencia** previa del afectado (debido proceso) y solo proceden **mientras esté pendiente** la ejecución. La entidad también puede **declarar el incumplimiento** para hacer efectiva la **cláusula penal**, y cobrarlas directamente (compensación, garantía o **jurisdicción coactiva**)."
+        },
+        {
+          "id": "contr-c-012",
+          "type": "concept",
+          "source": "Ley 80/1993 arts. 14–18 y 60; Ley 1150/2007 art. 11",
+          "title": "Potestades excepcionales y liquidación",
+          "body": "**Potestades excepcionales** (art. 14): **interpretación**, **modificación** y **terminación unilaterales**, y **caducidad**. Se entienden pactadas, aunque no estén escritas, en contratos de **obra**, servicios públicos, monopolio estatal, explotación y concesión de bienes del Estado y alimentación escolar; **pueden pactarse** en **suministro** y **prestación de servicios**. Contra los actos de interpretación, modificación y terminación unilaterales procede **reposición**.\n- **Modificación unilateral** (art. 16): si altera el valor en **20 % o más**, el contratista puede **renunciar** a seguir.\n- **Terminación unilateral** (art. 17): por exigencias del servicio u orden público; **muerte o incapacidad** del contratista o disolución de la persona jurídica; interdicción o quiebra; cesación de pagos o embargos que afecten gravemente el contrato.\n- **Caducidad** (art. 18): por **incumplimiento grave y directo** que pueda paralizar el contrato. Se termina y liquida en el estado en que esté; **no hay indemnización** y es **siniestro de incumplimiento**.\n\n**Liquidación** (Ley 80 art. 60; Ley 1150 art. 11): obligatoria en contratos de **tracto sucesivo** y los que la requieran; **no obligatoria** en **prestación de servicios profesionales y de apoyo a la gestión**.\n1. **De mutuo acuerdo**: en el plazo del pliego o, si no hay, dentro de los **4 meses** siguientes al vencimiento del plazo de ejecución.\n2. **Unilateral**: si el contratista no se presenta o no hay acuerdo, dentro de los **2 meses** siguientes.\n3. Si no se hizo: **en cualquier tiempo dentro de los 2 años** siguientes, de mutuo acuerdo o unilateralmente.\n\nEl contratista puede dejar **salvedades** en la liquidación de mutuo acuerdo."
+        },
+        {
+          "ref": "contr-q-030"
+        },
+        {
+          "ref": "contr-q-031"
+        },
+        {
+          "ref": "contr-q-032"
+        },
+        {
+          "ref": "contr-q-033"
+        },
+        {
+          "ref": "contr-q-034"
+        },
+        {
+          "ref": "contr-q-036"
+        },
+        {
+          "ref": "contr-q-038"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "contr-fc-001",
+      "front": "Tres principios de la contratación estatal (Ley 80)",
+      "back": "Transparencia, economía y responsabilidad.",
+      "source": "Ley 80/1993 art. 23"
+    },
+    {
+      "id": "contr-fc-002",
+      "front": "¿Cada cuánto revisa la entidad obras, bienes o servicios durante la vigencia de las garantías?",
+      "back": "Por lo menos una vez cada 6 meses.",
+      "source": "Ley 80/1993 art. 4 num. 4"
+    },
+    {
+      "id": "contr-fc-003",
+      "front": "¿Dan puntaje los requisitos habilitantes?",
+      "back": "No. Capacidad jurídica, experiencia y capacidad financiera y de organización se verifican, pero no otorgan puntaje.",
+      "source": "Ley 1150/2007 art. 5 num. 1"
+    },
+    {
+      "id": "contr-fc-004",
+      "front": "¿Puede el jefe de la entidad trasladar la responsabilidad de la contratación a un comité?",
+      "back": "No. La dirección y manejo de la actividad contractual es suya.",
+      "source": "Ley 80/1993 art. 26 num. 5"
+    },
+    {
+      "id": "contr-fc-005",
+      "front": "Plan Anual de Adquisiciones: ¿obliga a comprar lo que enumera?",
+      "back": "No.",
+      "source": "Decreto 1082/2015 art. 2.2.1.1.1.4.2"
+    },
+    {
+      "id": "contr-fc-006",
+      "front": "¿Dónde se publica el Plan Anual de Adquisiciones?",
+      "back": "En la página web de la entidad y en el SECOP, con sus actualizaciones.",
+      "source": "Decreto 1082/2015 art. 2.2.1.1.1.4.3"
+    },
+    {
+      "id": "contr-fc-007",
+      "front": "Actualización mínima del Plan Anual de Adquisiciones",
+      "back": "Por lo menos una vez durante su vigencia.",
+      "source": "Decreto 1082/2015 art. 2.2.1.1.1.4.4"
+    },
+    {
+      "id": "contr-fc-008",
+      "front": "Perspectivas del análisis del sector",
+      "back": "Legal, comercial, financiera, organizacional, técnica y de riesgo.",
+      "source": "Decreto 1082/2015 art. 2.2.1.1.1.6.1"
+    },
+    {
+      "id": "contr-fc-009",
+      "front": "Modalidad de selección por regla general",
+      "back": "Licitación pública.",
+      "source": "Ley 1150/2007 art. 2 num. 1"
+    },
+    {
+      "id": "contr-fc-010",
+      "front": "¿Qué es la mínima cuantía?",
+      "back": "Contratación que no excede el 10 % de la menor cuantía de la entidad, sin importar el objeto.",
+      "source": "Ley 1150/2007 art. 2 num. 5"
+    },
+    {
+      "id": "contr-fc-011",
+      "front": "Mínima cuantía: criterio de selección",
+      "back": "La oferta de menor precio que cumpla las condiciones exigidas.",
+      "source": "Ley 1150/2007 art. 2 num. 5 lit. c"
+    },
+    {
+      "id": "contr-fc-012",
+      "front": "Mínima cuantía: ¿qué constituye el contrato?",
+      "back": "La comunicación de aceptación junto con la oferta.",
+      "source": "Ley 1150/2007 art. 2 num. 5 lit. d"
+    },
+    {
+      "id": "contr-fc-013",
+      "front": "Licitación declarada desierta",
+      "back": "Procede selección abreviada, que debe iniciarse dentro de los 4 meses siguientes.",
+      "source": "Ley 1150/2007 art. 2 num. 2 lit. d"
+    },
+    {
+      "id": "contr-fc-014",
+      "front": "Modalidad para seleccionar consultores",
+      "back": "Concurso de méritos.",
+      "source": "Ley 1150/2007 art. 2 num. 3"
+    },
+    {
+      "id": "contr-fc-015",
+      "front": "Urgencia manifiesta: ¿qué hace las veces de acto de justificación?",
+      "back": "El acto administrativo que declara la urgencia; no se exigen estudios previos.",
+      "source": "Decreto 1082/2015 art. 2.2.1.2.1.4.2"
+    },
+    {
+      "id": "contr-fc-016",
+      "front": "Control de la contratación de urgencia",
+      "back": "Se envía de inmediato al órgano de control fiscal, que se pronuncia en 2 meses.",
+      "source": "Ley 80/1993 art. 43"
+    },
+    {
+      "id": "contr-fc-017",
+      "front": "Plazo para publicar en el SECOP documentos y actos del proceso",
+      "back": "Dentro de los 3 días siguientes a su expedición.",
+      "source": "Decreto 1082/2015 art. 2.2.1.1.1.7.1"
+    },
+    {
+      "id": "contr-fc-018",
+      "front": "Plazo de observaciones al proyecto de pliegos",
+      "back": "10 días hábiles en licitación; 5 días hábiles en selección abreviada y concurso de méritos.",
+      "source": "Decreto 1082/2015 art. 2.2.1.1.2.1.4"
+    },
+    {
+      "id": "contr-fc-019",
+      "front": "¿Cuándo se perfecciona el contrato estatal?",
+      "back": "Con acuerdo sobre objeto y contraprestación, elevado a escrito.",
+      "source": "Ley 80/1993 art. 41"
+    },
+    {
+      "id": "contr-fc-020",
+      "front": "Requisitos de ejecución del contrato",
+      "back": "Aprobación de la garantía y disponibilidad presupuestal; estar al día en seguridad social y parafiscales.",
+      "source": "Ley 80/1993 art. 41"
+    },
+    {
+      "id": "contr-fc-021",
+      "front": "Tope de anticipos y de adiciones",
+      "back": "Anticipo: hasta 50 % del valor. Adiciones: no más del 50 % del valor inicial en SMMLV.",
+      "source": "Ley 80/1993 art. 40 par."
+    },
+    {
+      "id": "contr-fc-022",
+      "front": "Supervisión vs. interventoría",
+      "back": "Supervisión: la ejerce la entidad cuando no se requieren conocimientos especializados. Interventoría: un tercero contratado, cuando sí se requieren o lo justifica la complejidad.",
+      "source": "Ley 1474/2011 art. 83"
+    },
+    {
+      "id": "contr-fc-023",
+      "front": "¿Cómo da sus órdenes el interventor?",
+      "back": "Siempre por escrito; nunca verbalmente.",
+      "source": "Ley 80/1993 art. 32 num. 2"
+    },
+    {
+      "id": "contr-fc-024",
+      "front": "Clases de garantías",
+      "back": "Póliza de seguro, patrimonio autónomo y garantía bancaria.",
+      "source": "Decreto 1082/2015 art. 2.2.1.2.3.1.2"
+    },
+    {
+      "id": "contr-fc-025",
+      "front": "Requisito previo para imponer multas",
+      "back": "Audiencia del afectado con un procedimiento mínimo que garantice el debido proceso.",
+      "source": "Ley 1150/2007 art. 17"
+    },
+    {
+      "id": "contr-fc-026",
+      "front": "Modificación unilateral que el contratista puede rechazar",
+      "back": "La que altera el valor del contrato en 20 % o más: puede renunciar a seguir.",
+      "source": "Ley 80/1993 art. 16"
+    },
+    {
+      "id": "contr-fc-027",
+      "front": "Efectos de la caducidad",
+      "back": "Termina el contrato, se liquida en el estado en que esté, sin indemnización; es siniestro de incumplimiento.",
+      "source": "Ley 80/1993 art. 18"
+    },
+    {
+      "id": "contr-fc-028",
+      "front": "Plazos de liquidación sin término pactado",
+      "back": "Mutuo acuerdo: 4 meses. Unilateral: 2 meses más. Luego, en cualquier tiempo dentro de 2 años.",
+      "source": "Ley 1150/2007 art. 11"
+    }
+  ],
+  "questions": [
+    {
+      "id": "contr-q-001",
+      "type": "mcq",
+      "difficulty": 1,
+      "source": "Ley 80/1993 art. 23",
+      "prompt": "¿Cuáles son los principios que la Ley 80 de 1993 señala para las actuaciones contractuales?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Legalidad, igualdad y celeridad"
+        },
+        {
+          "id": "b",
+          "text": "Publicidad, eficacia y moralidad"
+        },
+        {
+          "id": "c",
+          "text": "Planeación, igualdad y eficiencia"
+        },
+        {
+          "id": "d",
+          "text": "Transparencia, economía y responsabilidad"
+        }
+      ],
+      "answer": "d",
+      "explain": "El art. 23 nombra transparencia, economía y responsabilidad, además de los postulados de la función administrativa.",
+      "optionWhy": {
+        "a": "Son principios generales, pero no los tres que nombra el art. 23.",
+        "b": "Son principios de la función administrativa (CPACA art. 3), no los tres del art. 23.",
+        "c": "La planeación se deriva de la economía, pero no está enunciada así en el art. 23."
+      }
+    },
+    {
+      "id": "contr-q-002",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Ley 1150/2007 art. 5 num. 1",
+      "case": "Al preparar el pliego para el servicio de vigilancia de una bodega, un compañero propone dar 30 puntos al proponente con mayor patrimonio.",
+      "prompt": "Al gestor le corresponde advertir que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "La capacidad financiera se verifica como requisito habilitante, sin puntaje."
+        },
+        {
+          "id": "b",
+          "text": "Es válido si el pliego explica bien la ponderación del patrimonio."
+        },
+        {
+          "id": "c",
+          "text": "El patrimonio solo puede pesar hasta la mitad del puntaje total."
+        }
+      ],
+      "answer": "a",
+      "explain": "La capacidad jurídica, la experiencia y la capacidad financiera y de organización son requisitos habilitantes: se verifican y no otorgan puntaje (Ley 1150 art. 5 num. 1).",
+      "optionWhy": {
+        "b": "La ponderación precisa aplica a los factores técnicos y económicos de escogencia, no a los habilitantes.",
+        "c": "La ley no fija ese tope; simplemente excluye los habilitantes del puntaje."
+      }
+    },
+    {
+      "id": "contr-q-003",
+      "type": "truefalse",
+      "difficulty": 1,
+      "source": "Ley 80/1993 art. 26 num. 5",
+      "statement": "El jefe de la entidad puede trasladar al comité de contratación la responsabilidad por la dirección de los procesos de selección.",
+      "answer": false,
+      "explain": "Falso. La responsabilidad de la dirección y manejo de la actividad contractual es del jefe o representante de la entidad, que no puede trasladarla a juntas, comités asesores ni organismos de control (art. 26 num. 5)."
+    },
+    {
+      "id": "contr-q-004",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Ley 80/1993 art. 4 num. 4",
+      "case": "Un contrato de suministro de estanterías para el recinto de almacenamiento terminó. La garantía de calidad de los bienes sigue vigente por dos años.",
+      "prompt": "Al gestor le corresponde proponer:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Cerrar el seguimiento, porque el contrato ya terminó."
+        },
+        {
+          "id": "b",
+          "text": "Revisar los bienes al menos cada 6 meses mientras dure la garantía."
+        },
+        {
+          "id": "c",
+          "text": "Revisarlos solo si alguien reporta un daño en las estanterías."
+        }
+      ],
+      "answer": "b",
+      "explain": "La entidad hace revisiones periódicas de los bienes suministrados, por lo menos una vez cada 6 meses durante la vigencia de las garantías, y promueve acciones contra el contratista y su garante si no cumplen (art. 4 num. 4).",
+      "optionWhy": {
+        "a": "El deber de revisión sigue mientras estén vigentes las garantías.",
+        "c": "La ley exige revisiones periódicas, no solo reactivas."
+      }
+    },
+    {
+      "id": "contr-q-005",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Ley 80/1993 art. 24 num. 2",
+      "case": "Se publicó el informe de evaluación de una selección abreviada. Un proponente pide conocer el informe y presentar objeciones antes de la adjudicación.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Negarlo, porque el informe es un documento interno del comité."
+        },
+        {
+          "id": "b",
+          "text": "Entregarlo solo después de adjudicar, para no retrasar el proceso."
+        },
+        {
+          "id": "c",
+          "text": "Permitirle conocerlo y presentar observaciones en la etapa prevista."
+        }
+      ],
+      "answer": "c",
+      "explain": "Por transparencia, los interesados pueden conocer y controvertir los informes, conceptos y decisiones, en etapas que permitan presentar observaciones (art. 24 num. 2).",
+      "optionWhy": {
+        "a": "Las actuaciones contractuales son públicas (art. 24 num. 3).",
+        "b": "Entregarlo después impide controvertirlo, que es lo que protege el art. 24."
+      }
+    },
+    {
+      "id": "contr-q-006",
+      "type": "mcq",
+      "difficulty": 2,
+      "source": "Ley 80/1993 art. 26 num. 3",
+      "prompt": "Según el principio de responsabilidad, la entidad y sus servidores responden cuando:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Declaran desierto un proceso por falta de ofertas válidas"
+        },
+        {
+          "id": "b",
+          "text": "Abren un proceso con pliegos ambiguos o sin estudios"
+        },
+        {
+          "id": "c",
+          "text": "Adjudican a la única oferta que cumple el pliego"
+        },
+        {
+          "id": "d",
+          "text": "Rechazan observaciones motivando sus razones"
+        }
+      ],
+      "answer": "b",
+      "explain": "El art. 26 num. 3 hace responsables a quienes abren procesos sin pliegos, estudios o diseños previos, o con pliegos incompletos, ambiguos o confusos.",
+      "optionWhy": {
+        "a": "Declarar desierto un proceso por falta de ofertas válidas no es una conducta reprochable.",
+        "c": "La oferta única puede adjudicarse si cumple (D1082 art. 2.2.1.1.2.2.6).",
+        "d": "Rechazar observaciones de forma motivada es lo que exige la ley (Ley 1150 art. 8)."
+      }
+    },
+    {
+      "id": "contr-q-007",
+      "type": "pjs",
+      "difficulty": 3,
+      "source": "Ley 80/1993 art. 5 num. 1",
+      "case": "Durante un contrato de mantenimiento de vehículos, un hecho imprevisto y ajeno al contratista encarece los repuestos y le genera pérdidas. El contratista lo solicita por escrito.",
+      "prompt": "Al gestor le corresponde proponer:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Estudiar el restablecimiento del equilibrio a un punto de no pérdida."
+        },
+        {
+          "id": "b",
+          "text": "Negarlo, porque el precio pactado no puede modificarse en ningún caso."
+        },
+        {
+          "id": "c",
+          "text": "Declarar la caducidad, porque el contratista no podrá seguir ejecutando."
+        }
+      ],
+      "answer": "a",
+      "explain": "El contratista tiene derecho, previa solicitud, a que se le restablezca el equilibrio económico a un punto de no pérdida ante situaciones imprevistas que no le sean imputables (art. 5 num. 1).",
+      "optionWhy": {
+        "b": "La ley protege el valor intrínseco de la remuneración y prevé el restablecimiento.",
+        "c": "La caducidad exige un incumplimiento grave del contratista (art. 18), no un hecho imprevisto ajeno a él."
+      }
+    },
+    {
+      "id": "contr-q-008",
+      "type": "mcq",
+      "difficulty": 1,
+      "source": "Decreto 1082/2015 art. 2.2.1.1.1.4.2",
+      "prompt": "Sobre el Plan Anual de Adquisiciones es correcto afirmar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "No obliga a adelantar los procesos que enumera"
+        },
+        {
+          "id": "b",
+          "text": "Obliga a contratar todo lo que contiene en el año"
+        },
+        {
+          "id": "c",
+          "text": "Solo puede modificarse al cierre de la vigencia"
+        },
+        {
+          "id": "d",
+          "text": "Se publica únicamente en la intranet de la entidad"
+        }
+      ],
+      "answer": "a",
+      "explain": "El PAA no obliga a las entidades a efectuar los procesos de adquisición que enumera (art. 2.2.1.1.1.4.2).",
+      "optionWhy": {
+        "b": "Es lo contrario de lo que dice el art. 2.2.1.1.1.4.2.",
+        "c": "Se actualiza durante la vigencia cuando hay ajustes (art. 2.2.1.1.1.4.4).",
+        "d": "Se publica en la página web y en el SECOP (art. 2.2.1.1.1.4.3)."
+      }
+    },
+    {
+      "id": "contr-q-009",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Decreto 1082/2015 arts. 2.2.1.1.1.4.3 y 2.2.1.1.1.4.4",
+      "case": "En junio, la dependencia necesita contratar el traslado de mercancías a un nuevo recinto, que no estaba en el Plan Anual de Adquisiciones.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Esperar al plan del año siguiente para incluir la necesidad."
+        },
+        {
+          "id": "b",
+          "text": "Contratar sin tocar el plan, pues el plan no es obligatorio."
+        },
+        {
+          "id": "c",
+          "text": "Actualizar el plan para incluir el servicio y publicar el cambio."
+        }
+      ],
+      "answer": "c",
+      "explain": "El PAA se actualiza para incluir nuevas obras, bienes o servicios, y las actualizaciones se publican en la página web y el SECOP (arts. 2.2.1.1.1.4.3 y 2.2.1.1.1.4.4).",
+      "optionWhy": {
+        "a": "La ley permite actualizar el plan durante la vigencia.",
+        "b": "Que el plan no obligue a comprar no exime de actualizarlo cuando cambian las necesidades."
+      }
+    },
+    {
+      "id": "contr-q-010",
+      "type": "order",
+      "difficulty": 2,
+      "source": "Decreto 1082/2015 arts. 2.2.1.1.1.4.1, 2.2.1.1.1.6.1, 2.2.1.1.2.1.1, 2.2.1.1.2.1.4 y 2.2.1.1.2.1.5",
+      "prompt": "Ordena las actuaciones de un proceso de licitación desde la planeación.",
+      "items": [
+        "Incluir la necesidad en el Plan Anual de Adquisiciones",
+        "Análisis del sector",
+        "Estudios y documentos previos",
+        "Publicación del proyecto de pliegos y observaciones",
+        "Acto administrativo de apertura",
+        "Evaluación de ofertas y adjudicación"
+      ],
+      "explain": "Primero se planea (PAA, análisis del sector y estudios previos), luego se publica el proyecto de pliegos con los estudios previos para observaciones, se abre el proceso y, por último, se evalúa y adjudica."
+    },
+    {
+      "id": "contr-q-011",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Decreto 1082/2015 art. 2.2.1.1.2.1.1",
+      "case": "Le piden revisar los estudios previos para contratar el mantenimiento del parque automotor. El borrador tiene la necesidad, el objeto, el valor y la modalidad, pero no dice qué puede salir mal ni cómo cubrirlo.",
+      "prompt": "Al gestor le corresponde pedir que se incluya:",
+      "options": [
+        {
+          "id": "a",
+          "text": "El acta de inicio firmada por el futuro supervisor."
+        },
+        {
+          "id": "b",
+          "text": "El análisis de riesgo y las garantías que se exigirán."
+        },
+        {
+          "id": "c",
+          "text": "La póliza de cumplimiento del futuro contratista."
+        }
+      ],
+      "answer": "b",
+      "explain": "Los estudios previos deben incluir el análisis de riesgo y la forma de mitigarlo, y las garantías que la entidad exigirá (art. 2.2.1.1.2.1.1 nums. 6 y 7).",
+      "optionWhy": {
+        "a": "El acta de inicio es de la etapa de ejecución, no de los estudios previos.",
+        "c": "La póliza la aporta el contratista después de firmar; en los estudios solo se definen las garantías exigidas."
+      }
+    },
+    {
+      "id": "contr-q-012",
+      "type": "match",
+      "difficulty": 2,
+      "source": "Decreto 1082/2015 arts. 2.2.1.1.1.4.1, 2.2.1.1.1.6.1, 2.2.1.1.2.1.1 y 2.2.1.1.2.1.5",
+      "prompt": "Relaciona cada documento con lo que debe contener.",
+      "pairs": [
+        {
+          "left": "Plan Anual de Adquisiciones",
+          "right": "Necesidad, valor estimado, tipo de recursos, modalidad y fecha aproximada"
+        },
+        {
+          "left": "Análisis del sector",
+          "right": "Perspectiva legal, comercial, financiera, organizacional, técnica y de riesgo"
+        },
+        {
+          "left": "Estudios previos",
+          "right": "Necesidad, objeto, modalidad, valor, criterios de selección, riesgos y garantías"
+        },
+        {
+          "left": "Acto de apertura",
+          "right": "Objeto, modalidad, cronograma, convocatoria a veedurías y CDP"
+        }
+      ],
+      "explain": "Contenido mínimo de cada documento según el Decreto 1082."
+    },
+    {
+      "id": "contr-q-013",
+      "type": "truefalse",
+      "difficulty": 1,
+      "source": "Ley 80/1993 art. 25 num. 6",
+      "statement": "Por el principio de economía, las entidades inician procesos de contratación cuando existen las partidas o disponibilidades presupuestales.",
+      "answer": true,
+      "explain": "Verdadero. El art. 25 num. 6 lo exige. La excepción es el proyecto de pliegos, que puede publicarse sin disponibilidad presupuestal (Ley 1150 art. 8 par.)."
+    },
+    {
+      "id": "contr-q-014",
+      "type": "open",
+      "difficulty": 2,
+      "source": "Decreto 1082/2015 art. 2.2.1.1.2.1.1",
+      "prompt": "Enumera al menos cinco elementos que deben contener los estudios y documentos previos.",
+      "modelAnswer": "Descripción de la necesidad; objeto con especificaciones, permisos y licencias; modalidad de selección y su justificación; valor estimado y su justificación; criterios para seleccionar la oferta más favorable; análisis de riesgo y forma de mitigarlo; garantías exigidas; y si hay acuerdo comercial aplicable.",
+      "keyPoints": [
+        "Necesidad",
+        "Objeto y especificaciones",
+        "Modalidad y justificación",
+        "Valor estimado",
+        "Criterios de selección",
+        "Riesgos y garantías"
+      ],
+      "keywords": [
+        "necesidad",
+        "objeto",
+        "modalidad",
+        "valor",
+        "criterios",
+        "riesgo",
+        "garantias",
+        "acuerdo comercial"
+      ],
+      "minKeywords": 5
+    },
+    {
+      "id": "contr-q-015",
+      "type": "mcq",
+      "difficulty": 1,
+      "source": "Ley 1150/2007 art. 2 num. 1",
+      "prompt": "Por regla general, la escogencia del contratista se hace mediante:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Selección abreviada"
+        },
+        {
+          "id": "b",
+          "text": "Contratación directa"
+        },
+        {
+          "id": "c",
+          "text": "Licitación pública"
+        },
+        {
+          "id": "d",
+          "text": "Concurso de méritos"
+        }
+      ],
+      "answer": "c",
+      "explain": "La licitación pública es la regla general; las demás modalidades son excepciones (art. 2 num. 1).",
+      "optionWhy": {
+        "a": "Es excepción para objetos, cuantías o circunstancias específicas.",
+        "b": "Solo procede en las causales taxativas de la ley.",
+        "d": "Es para consultores o proyectos."
+      }
+    },
+    {
+      "id": "contr-q-016",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Ley 1150/2007 art. 2 num. 2 lit. a",
+      "case": "La dependencia necesita comprar resmas de papel y tóner de especificaciones estándar, que todas las entidades usan.",
+      "prompt": "Al gestor le corresponde proponer la modalidad de:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Concurso de méritos, por la calidad de los bienes."
+        },
+        {
+          "id": "b",
+          "text": "Selección abreviada para bienes de características uniformes."
+        },
+        {
+          "id": "c",
+          "text": "Contratación directa, por ser bienes de uso diario."
+        }
+      ],
+      "answer": "b",
+      "explain": "Los bienes de características técnicas uniformes y de común utilización se adquieren por selección abreviada, con subasta inversa, acuerdo marco de precios o bolsa de productos (art. 2 num. 2 lit. a). Si el valor no supera el 10 % de la menor cuantía, se usaría mínima cuantía.",
+      "optionWhy": {
+        "a": "El concurso de méritos es para consultores o proyectos.",
+        "c": "Ser bienes de uso diario no es causal de contratación directa."
+      }
+    },
+    {
+      "id": "contr-q-017",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Ley 1150/2007 art. 2 num. 5; Decreto 1082/2015 art. 2.2.1.2.1.5.2",
+      "case": "Se necesita reparar una puerta de la bodega. El valor estimado es inferior al 10 % de la menor cuantía de la entidad.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Publicar una invitación por al menos 1 día hábil y elegir el menor precio."
+        },
+        {
+          "id": "b",
+          "text": "Hacer licitación pública, porque es una obra sobre un inmueble."
+        },
+        {
+          "id": "c",
+          "text": "Contratar directamente con el proveedor de confianza de la entidad."
+        }
+      ],
+      "answer": "a",
+      "explain": "Si el valor no excede el 10 % de la menor cuantía, se usa mínima cuantía sin importar el objeto: invitación por no menos de 1 día hábil y selección de la oferta de menor precio que cumpla (Ley 1150 art. 2 num. 5).",
+      "optionWhy": {
+        "b": "La mínima cuantía aplica «independientemente de su objeto».",
+        "c": "No hay causal de contratación directa; además se violaría la selección objetiva."
+      }
+    },
+    {
+      "id": "contr-q-018",
+      "type": "mcq",
+      "difficulty": 2,
+      "source": "Ley 1150/2007 art. 2 num. 2 lit. d",
+      "prompt": "Si una licitación pública se declara desierta, la entidad puede:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Contratar directamente con cualquier oferente"
+        },
+        {
+          "id": "b",
+          "text": "Archivar la necesidad hasta el año siguiente"
+        },
+        {
+          "id": "c",
+          "text": "Adjudicar a la oferta que más se acercó"
+        },
+        {
+          "id": "d",
+          "text": "Iniciar selección abreviada dentro de 4 meses"
+        }
+      ],
+      "answer": "d",
+      "explain": "La contratación cuya licitación se declaró desierta es causal de selección abreviada, que debe iniciarse dentro de los 4 meses siguientes (art. 2 num. 2 lit. d).",
+      "optionWhy": {
+        "a": "La declaratoria de desierta no es causal de contratación directa.",
+        "b": "La ley da una vía para continuar.",
+        "c": "Una oferta que no cumple no puede adjudicarse."
+      }
+    },
+    {
+      "id": "contr-q-019",
+      "type": "pjs",
+      "difficulty": 3,
+      "source": "Ley 80/1993 arts. 42 y 43; Decreto 1082/2015 art. 2.2.1.2.1.4.2",
+      "case": "Una inundación daña el techo del recinto donde se custodian mercancías aprehendidas. Hay que repararlo de inmediato para evitar pérdidas.",
+      "prompt": "Al gestor le corresponde proponer:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abrir una licitación pública con plazos reducidos."
+        },
+        {
+          "id": "b",
+          "text": "Declarar la urgencia manifiesta, contratar y enviar todo al control fiscal."
+        },
+        {
+          "id": "c",
+          "text": "Contratar verbalmente sin dejar ningún soporte escrito."
+        }
+      ],
+      "answer": "b",
+      "explain": "La calamidad que exige actuar de inmediato permite declarar la urgencia manifiesta por acto motivado (art. 42), que sirve de justificación sin estudios previos (D1082 art. 2.2.1.2.1.4.2). Luego se envía todo al órgano de control fiscal, que se pronuncia en 2 meses (art. 43).",
+      "optionWhy": {
+        "a": "La ley no permite acortar los términos de la licitación por urgencia; para eso existe la urgencia manifiesta.",
+        "c": "Aun sin contrato escrito debe quedar constancia escrita de la autorización (art. 41)."
+      }
+    },
+    {
+      "id": "contr-q-020",
+      "type": "truefalse",
+      "difficulty": 1,
+      "source": "Ley 80/1993 art. 32 num. 3",
+      "statement": "Los contratos de prestación de servicios generan relación laboral si se prolongan más de un año.",
+      "answer": false,
+      "explain": "Falso. En ningún caso generan relación laboral ni prestaciones sociales, y se celebran por el término estrictamente indispensable (art. 32 num. 3)."
+    },
+    {
+      "id": "contr-q-021",
+      "type": "match",
+      "difficulty": 2,
+      "source": "Ley 1150/2007 art. 2",
+      "prompt": "Relaciona cada necesidad con la modalidad de selección.",
+      "pairs": [
+        {
+          "left": "Estudios técnicos de un consultor",
+          "right": "Concurso de méritos"
+        },
+        {
+          "left": "Arrendamiento de un inmueble para una seccional",
+          "right": "Contratación directa"
+        },
+        {
+          "left": "Bienes de características técnicas uniformes",
+          "right": "Selección abreviada"
+        },
+        {
+          "left": "Compra que no supera el 10 % de la menor cuantía",
+          "right": "Mínima cuantía"
+        },
+        {
+          "left": "Obra de gran valor sin causal especial",
+          "right": "Licitación pública"
+        }
+      ],
+      "explain": "Art. 2 de la Ley 1150: concurso para consultores (num. 3); arrendamiento de inmuebles es causal de directa (num. 4 lit. i); bienes uniformes van por selección abreviada (num. 2 lit. a); mínima cuantía (num. 5); licitación como regla general (num. 1)."
+    },
+    {
+      "id": "contr-q-022",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Decreto 1082/2015 art. 2.2.1.1.1.7.1",
+      "case": "El ordenador del gasto firmó el acto de adjudicación de una selección abreviada.",
+      "prompt": "Al gestor le corresponde publicarlo en el SECOP:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Al liquidar el contrato, junto con los demás documentos."
+        },
+        {
+          "id": "b",
+          "text": "Cuando el contratista entregue la garantía de cumplimiento."
+        },
+        {
+          "id": "c",
+          "text": "Dentro de los 3 días siguientes a su expedición."
+        }
+      ],
+      "answer": "c",
+      "explain": "Los documentos y actos administrativos del proceso se publican en el SECOP dentro de los 3 días siguientes a su expedición (art. 2.2.1.1.1.7.1).",
+      "optionWhy": {
+        "a": "La publicación es oportuna, no al final del contrato.",
+        "b": "La publicación no depende de la garantía."
+      }
+    },
+    {
+      "id": "contr-q-023",
+      "type": "mcq",
+      "difficulty": 2,
+      "source": "Decreto 1082/2015 art. 2.2.1.1.2.1.4",
+      "prompt": "En una licitación pública, ¿durante cuánto tiempo pueden los interesados comentar el proyecto de pliegos?",
+      "options": [
+        {
+          "id": "a",
+          "text": "5 días hábiles desde su publicación"
+        },
+        {
+          "id": "b",
+          "text": "10 días hábiles desde su publicación"
+        },
+        {
+          "id": "c",
+          "text": "1 día hábil desde su publicación"
+        },
+        {
+          "id": "d",
+          "text": "3 días desde su publicación"
+        }
+      ],
+      "answer": "b",
+      "explain": "El art. 2.2.1.1.2.1.4 da 10 días hábiles en la licitación pública.",
+      "optionWhy": {
+        "a": "5 días hábiles es para selección abreviada y concurso de méritos.",
+        "c": "1 día hábil es el mínimo de la invitación en mínima cuantía.",
+        "d": "3 días es el plazo para publicar documentos en el SECOP."
+      }
+    },
+    {
+      "id": "contr-q-024",
+      "type": "pjs",
+      "difficulty": 3,
+      "source": "Ley 1150/2007 art. 8",
+      "case": "La dependencia quiere publicar el proyecto de pliegos de una licitación, pero el certificado de disponibilidad presupuestal aún no se ha expedido. Un compañero dice que, si lo publica, queda obligada a abrir el proceso.",
+      "prompt": "Al gestor le corresponde aclarar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Puede publicarse sin CDP y no obliga a abrir el proceso."
+        },
+        {
+          "id": "b",
+          "text": "No puede publicarse sin CDP, y publicarlo obliga a abrir."
+        },
+        {
+          "id": "c",
+          "text": "Puede publicarse sin CDP, pero obliga a abrir el proceso."
+        }
+      ],
+      "answer": "a",
+      "explain": "No es obligatorio contar con disponibilidad presupuestal para publicar el proyecto de pliegos, y su publicación no genera obligación de abrir el proceso (art. 8 y par.). El CDP sí se exige en el acto de apertura (D1082 art. 2.2.1.1.2.1.5).",
+      "optionWhy": {
+        "b": "Las dos afirmaciones contradicen el art. 8.",
+        "c": "El art. 8 dice que publicar el proyecto no obliga a abrir."
+      }
+    },
+    {
+      "id": "contr-q-025",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Decreto 1082/2015 art. 2.2.1.1.2.2.3",
+      "case": "El comité evaluador recomendó adjudicar a la oferta A. El ordenador del gasto considera que la oferta B cumple mejor el pliego.",
+      "prompt": "Al gestor le corresponde advertir que el ordenador:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Debe seguir siempre la recomendación del comité evaluador."
+        },
+        {
+          "id": "b",
+          "text": "Puede apartarse, pero debe justificar su decisión."
+        },
+        {
+          "id": "c",
+          "text": "Puede apartarse sin explicación, porque el comité es asesor."
+        }
+      ],
+      "answer": "b",
+      "explain": "El comité es asesor; si la entidad no acoge su recomendación, debe justificar su decisión (art. 2.2.1.1.2.2.3).",
+      "optionWhy": {
+        "a": "La recomendación no es obligatoria.",
+        "c": "El decreto exige justificar el apartamiento."
+      }
+    },
+    {
+      "id": "contr-q-026",
+      "type": "truefalse",
+      "difficulty": 1,
+      "source": "Decreto 1082/2015 art. 2.2.1.1.2.2.6",
+      "statement": "Si en un proceso de selección solo se presenta una oferta, la entidad debe declararlo desierto.",
+      "answer": false,
+      "explain": "Falso. Puede adjudicar con oferta única si cumple los requisitos habilitantes y el pliego, salvo reglas especiales (art. 2.2.1.1.2.2.6)."
+    },
+    {
+      "id": "contr-q-027",
+      "type": "mcq",
+      "difficulty": 1,
+      "source": "Ley 80/1993 art. 41",
+      "prompt": "El contrato estatal se perfecciona cuando:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Se aprueba la garantía del contratista"
+        },
+        {
+          "id": "b",
+          "text": "Se expide el registro presupuestal"
+        },
+        {
+          "id": "c",
+          "text": "Se firma el acta de inicio de ejecución"
+        },
+        {
+          "id": "d",
+          "text": "Hay acuerdo en objeto y precio, por escrito"
+        }
+      ],
+      "answer": "d",
+      "explain": "Se perfecciona con el acuerdo sobre el objeto y la contraprestación elevado a escrito (art. 41).",
+      "optionWhy": {
+        "a": "La aprobación de la garantía es requisito de ejecución, no de perfeccionamiento.",
+        "b": "La disponibilidad presupuestal también es requisito de ejecución.",
+        "c": "El acta de inicio es posterior al perfeccionamiento."
+      }
+    },
+    {
+      "id": "contr-q-028",
+      "type": "pjs",
+      "difficulty": 3,
+      "source": "Ley 80/1993 art. 41",
+      "case": "Un contrato ya firmado está listo para iniciar. El contratista entregó la póliza, pero aún no ha sido aprobada, y quiere empezar mañana.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Autorizar el inicio, porque el contrato ya está perfeccionado."
+        },
+        {
+          "id": "b",
+          "text": "Autorizar el inicio y aprobar la póliza con el primer pago."
+        },
+        {
+          "id": "c",
+          "text": "Esperar la aprobación de la garantía antes de iniciar."
+        }
+      ],
+      "answer": "c",
+      "explain": "Para la ejecución se requiere la aprobación de la garantía y la disponibilidad presupuestal (art. 41). Estar perfeccionado no basta para ejecutar.",
+      "optionWhy": {
+        "a": "Perfeccionamiento y ejecución tienen requisitos distintos.",
+        "b": "La aprobación de la garantía es previa a la ejecución, no al pago."
+      }
+    },
+    {
+      "id": "contr-q-029",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Ley 80/1993 art. 40 par.",
+      "case": "Un contrato de vigilancia se firmó por 1.000 SMMLV. La dependencia quiere adicionarlo en 600 SMMLV.",
+      "prompt": "Al gestor le corresponde advertir que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es posible, si el contratista acepta la adición por escrito."
+        },
+        {
+          "id": "b",
+          "text": "No es posible: la adición supera el 50 % del valor inicial."
+        },
+        {
+          "id": "c",
+          "text": "Es posible, si se amplía en la misma proporción la garantía."
+        }
+      ],
+      "answer": "b",
+      "explain": "Los contratos no pueden adicionarse en más del 50 % de su valor inicial expresado en SMMLV (art. 40 par.). 600 es el 60 % de 1.000.",
+      "optionWhy": {
+        "a": "El acuerdo de las partes no supera el límite legal.",
+        "c": "Ampliar la garantía no habilita una adición por encima del 50 %."
+      }
+    },
+    {
+      "id": "contr-q-030",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Ley 1474/2011 art. 83",
+      "case": "Se contrató el aseo de una seccional. El seguimiento no requiere conocimientos especializados.",
+      "prompt": "Al gestor le corresponde proponer que la vigilancia se haga mediante:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Supervisión, a cargo de un servidor de la entidad."
+        },
+        {
+          "id": "b",
+          "text": "Interventoría, contratada con una firma externa."
+        },
+        {
+          "id": "c",
+          "text": "Supervisión e interventoría al mismo tiempo."
+        }
+      ],
+      "answer": "a",
+      "explain": "La supervisión la ejerce la misma entidad cuando no se requieren conocimientos especializados; la interventoría es para cuando sí se requieren o la complejidad lo justifica (art. 83).",
+      "optionWhy": {
+        "b": "No se justifica una interventoría si el seguimiento no es especializado.",
+        "c": "Por regla general no concurren sobre un mismo contrato."
+      }
+    },
+    {
+      "id": "contr-q-031",
+      "type": "pjs",
+      "difficulty": 3,
+      "source": "Ley 1474/2011 art. 84",
+      "case": "Usted supervisa un contrato de suministro. Detecta que el contratista entregó menos unidades de las facturadas y que un funcionario del almacén firmó el recibido completo.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Pedir al contratista que complete las unidades y no informar más."
+        },
+        {
+          "id": "b",
+          "text": "Informar a la entidad los hechos, que pueden constituir corrupción."
+        },
+        {
+          "id": "c",
+          "text": "Certificar el recibido, pues ya lo firmó el funcionario del almacén."
+        }
+      ],
+      "answer": "b",
+      "explain": "El supervisor debe mantener informada a la entidad de hechos que puedan constituir actos de corrupción o pongan en riesgo el cumplimiento del contrato (art. 84). Puede además pedir informes y explicaciones al contratista.",
+      "optionWhy": {
+        "a": "Corregir el faltante no elimina el deber de informar los posibles hechos de corrupción.",
+        "c": "Certificar como recibido lo que no se entregó viola el deber del supervisor."
+      }
+    },
+    {
+      "id": "contr-q-032",
+      "type": "truefalse",
+      "difficulty": 1,
+      "source": "Ley 80/1993 art. 32 num. 2",
+      "statement": "El interventor de una obra puede dar órdenes verbales al contratista cuando son urgentes.",
+      "answer": false,
+      "explain": "Falso. Ninguna orden del interventor de una obra podrá darse verbalmente; debe entregarlas por escrito (art. 32 num. 2)."
+    },
+    {
+      "id": "contr-q-033",
+      "type": "mcq",
+      "difficulty": 2,
+      "source": "Decreto 1082/2015 art. 2.2.1.2.3.1.2",
+      "prompt": "¿Cuáles son las clases de garantías que puede otorgar un contratista?",
+      "options": [
+        {
+          "id": "a",
+          "text": "Garantía bancaria, prenda y fianza personal"
+        },
+        {
+          "id": "b",
+          "text": "Pagaré, letra de cambio y cheque de gerencia"
+        },
+        {
+          "id": "c",
+          "text": "Póliza, hipoteca y depósito en efectivo"
+        },
+        {
+          "id": "d",
+          "text": "Póliza, patrimonio autónomo y garantía bancaria"
+        }
+      ],
+      "answer": "d",
+      "explain": "El art. 2.2.1.2.3.1.2 reconoce el contrato de seguro (póliza), el patrimonio autónomo y la garantía bancaria.",
+      "optionWhy": {
+        "a": "Prenda y fianza personal no están en la lista.",
+        "b": "Los títulos valores no son clases de garantía en el decreto.",
+        "c": "Hipoteca y depósito no están en la lista."
+      }
+    },
+    {
+      "id": "contr-q-034",
+      "type": "pjs",
+      "difficulty": 3,
+      "source": "Ley 1150/2007 art. 17",
+      "case": "Un contratista de mantenimiento lleva tres semanas de retraso y el contrato aún está en ejecución. El contrato pactó multas. El jefe quiere imponerlas hoy mismo por oficio.",
+      "prompt": "Al gestor le corresponde advertir que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Puede imponerse por oficio, porque la multa está pactada."
+        },
+        {
+          "id": "b",
+          "text": "Solo puede imponerse cuando el contrato ya haya terminado."
+        },
+        {
+          "id": "c",
+          "text": "Debe hacerse una audiencia previa del contratista."
+        }
+      ],
+      "answer": "c",
+      "explain": "La multa busca conminar al contratista a cumplir; debe estar precedida de audiencia del afectado que garantice el debido proceso, y procede solo mientras esté pendiente la ejecución (art. 17).",
+      "optionWhy": {
+        "a": "Que esté pactada no elimina el debido proceso.",
+        "b": "Es al revés: la multa procede solo mientras la ejecución esté pendiente."
+      }
+    },
+    {
+      "id": "contr-q-035",
+      "type": "mcq",
+      "difficulty": 2,
+      "source": "Ley 80/1993 art. 16",
+      "prompt": "Si una modificación unilateral altera el valor del contrato en 20 % o más del inicial, el contratista puede:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Exigir una indemnización por el doble"
+        },
+        {
+          "id": "b",
+          "text": "Pedir la caducidad del contrato"
+        },
+        {
+          "id": "c",
+          "text": "Renunciar a seguir con la ejecución"
+        },
+        {
+          "id": "d",
+          "text": "Suspender la obra sin aviso a la entidad"
+        }
+      ],
+      "answer": "c",
+      "explain": "El art. 16 permite al contratista renunciar a la continuación; la entidad ordena la liquidación y asegura la terminación del objeto.",
+      "optionWhy": {
+        "a": "La ley no prevé esa indemnización.",
+        "b": "La caducidad es una potestad de la entidad por incumplimiento del contratista (art. 18).",
+        "d": "La ley no autoriza suspender sin aviso."
+      }
+    },
+    {
+      "id": "contr-q-036",
+      "type": "pjs",
+      "difficulty": 3,
+      "source": "Ley 80/1993 art. 18",
+      "case": "El contratista de un servicio con cláusulas excepcionales pactadas abandonó la ejecución hace un mes. El incumplimiento es grave y directo y amenaza con paralizar el servicio.",
+      "prompt": "Al gestor le corresponde proponer:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Declarar la caducidad, terminar el contrato y liquidarlo sin indemnización."
+        },
+        {
+          "id": "b",
+          "text": "Terminar el contrato por mutuo acuerdo y pagarle lo pendiente."
+        },
+        {
+          "id": "c",
+          "text": "Modificar el contrato para reducir su objeto a lo ya ejecutado."
+        }
+      ],
+      "answer": "a",
+      "explain": "La caducidad procede por un incumplimiento grave y directo que puede paralizar el contrato: se declara por acto motivado, se termina y liquida en el estado en que esté, sin indemnización, y es siniestro de incumplimiento (art. 18).",
+      "optionWhy": {
+        "b": "El mutuo acuerdo desconoce el incumplimiento y sus consecuencias.",
+        "c": "La modificación es para evitar la paralización del servicio, no para premiar un abandono."
+      }
+    },
+    {
+      "id": "contr-q-037",
+      "type": "mcq",
+      "difficulty": 2,
+      "source": "Ley 80/1993 art. 17",
+      "prompt": "¿Cuál de estos hechos permite la terminación unilateral del contrato?",
+      "options": [
+        {
+          "id": "a",
+          "text": "El cambio del supervisor del contrato"
+        },
+        {
+          "id": "b",
+          "text": "La muerte del contratista persona natural"
+        },
+        {
+          "id": "c",
+          "text": "Un retraso leve en una entrega parcial"
+        },
+        {
+          "id": "d",
+          "text": "El cambio de domicilio del contratista"
+        }
+      ],
+      "answer": "b",
+      "explain": "El art. 17 num. 2 incluye la muerte o incapacidad física permanente del contratista persona natural, o la disolución de la persona jurídica.",
+      "optionWhy": {
+        "a": "El cambio de supervisor no es causal.",
+        "c": "Un retraso leve no es causal; un incumplimiento grave podría llevar a caducidad (art. 18).",
+        "d": "El cambio de domicilio no es causal."
+      }
+    },
+    {
+      "id": "contr-q-038",
+      "type": "pjs",
+      "difficulty": 3,
+      "source": "Ley 1150/2007 art. 11",
+      "case": "Un contrato de suministro terminó el 31 de marzo. El pliego no fijó plazo para liquidar. El contratista no se presentó a la liquidación aunque fue convocado.",
+      "prompt": "Al gestor le corresponde proponer:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Liquidar unilateralmente dentro de los 2 meses siguientes a los 4 meses."
+        },
+        {
+          "id": "b",
+          "text": "Esperar a que el contratista se presente, sin límite de tiempo."
+        },
+        {
+          "id": "c",
+          "text": "Archivar el expediente sin liquidar, porque el contrato ya terminó."
+        }
+      ],
+      "answer": "a",
+      "explain": "Sin término pactado, la liquidación de mutuo acuerdo se hace dentro de los 4 meses siguientes al vencimiento del plazo de ejecución. Si el contratista no se presenta, la entidad liquida unilateralmente dentro de los 2 meses siguientes (art. 11). Si aun así no se liquida, queda la posibilidad de hacerlo dentro de los 2 años siguientes.",
+      "optionWhy": {
+        "b": "La ley fija plazos y da a la entidad la facultad de liquidar unilateralmente.",
+        "c": "Un contrato de tracto sucesivo debe liquidarse (Ley 80 art. 60)."
+      }
+    },
+    {
+      "id": "contr-q-039",
+      "type": "cloze",
+      "difficulty": 1,
+      "source": "Ley 80/1993 art. 40 par.",
+      "text": "En los contratos estatales, el anticipo o pago anticipado no puede exceder del {{50}} % del valor del contrato.",
+      "alternatives": {
+        "50": [
+          "cincuenta"
+        ]
+      }
+    },
+    {
+      "id": "contr-q-040",
+      "type": "truefalse",
+      "difficulty": 2,
+      "source": "Ley 80/1993 art. 60",
+      "statement": "La liquidación es obligatoria en los contratos de prestación de servicios profesionales y de apoyo a la gestión.",
+      "answer": false,
+      "explain": "Falso. El art. 60 dice que la liquidación no es obligatoria en estos contratos."
+    },
+    {
+      "id": "contr-q-041",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Ley 1150/2007 art. 2 num. 4 lit. h; Decreto 1082/2015 arts. 2.2.1.2.1.4.1 y 2.2.1.2.1.4.9",
+      "case": "La dependencia necesita un abogado que apoye por seis meses la revisión de actos de disposición de mercancías, y no hay personal de planta suficiente para hacerlo.",
+      "prompt": "Al gestor le corresponde proponer:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Abrir un concurso de méritos con lista de precalificados."
+        },
+        {
+          "id": "b",
+          "text": "Contratar directamente a una persona idónea, verificando su experiencia."
+        },
+        {
+          "id": "c",
+          "text": "Pedir tres cotizaciones y escoger la de menor precio."
+        }
+      ],
+      "answer": "b",
+      "explain": "Los servicios profesionales y de apoyo a la gestión son causal de contratación directa (Ley 1150 art. 2 num. 4 lit. h). Se contrata con quien esté en capacidad de ejecutar el objeto, verificando idoneidad o experiencia, sin necesidad de varias ofertas (D1082 art. 2.2.1.2.1.4.9).",
+      "optionWhy": {
+        "a": "El concurso de méritos es para consultoría, distinta de los servicios profesionales.",
+        "c": "No se exige obtener varias ofertas; el criterio es la idoneidad, no el menor precio."
+      }
+    },
+    {
+      "id": "contr-q-042",
+      "type": "open",
+      "difficulty": 2,
+      "source": "Ley 1474/2011 arts. 83 y 84",
+      "prompt": "Explica la diferencia entre supervisión e interventoría y qué deberes comparten.",
+      "modelAnswer": "La supervisión la ejerce la misma entidad cuando no se requieren conocimientos especializados, con seguimiento técnico, administrativo, financiero, contable y jurídico. La interventoría la hace una persona contratada cuando se requiere conocimiento especializado o la complejidad lo justifica, y es principalmente técnica. Por regla general no concurren. Ambos pueden pedir informes y aclaraciones y deben informar a la entidad hechos de corrupción o riesgos de incumplimiento.",
+      "keyPoints": [
+        "Supervisión: la entidad, sin conocimiento especializado",
+        "Interventoría: tercero contratado, conocimiento especializado",
+        "No concurren por regla general",
+        "Pedir informes y explicaciones",
+        "Informar corrupción o incumplimiento"
+      ],
+      "keywords": [
+        "entidad",
+        "especializado",
+        "contratada",
+        "tecnico",
+        "informes",
+        "corrupcion",
+        "incumplimiento"
+      ],
+      "minKeywords": 4
+    },
+    {
+      "id": "contr-q-043",
+      "type": "open",
+      "difficulty": 3,
+      "source": "Ley 80/1993 art. 60; Ley 1150/2007 art. 11",
+      "prompt": "Explica cuándo y en qué plazos se liquida un contrato estatal si el pliego no fijó término.",
+      "modelAnswer": "Se liquidan los contratos de tracto sucesivo y los que lo requieran (no es obligatoria en servicios profesionales y de apoyo a la gestión). De mutuo acuerdo, dentro de los 4 meses siguientes al vencimiento del plazo de ejecución o a la terminación. Si el contratista no se presenta o no hay acuerdo, la entidad liquida unilateralmente dentro de los 2 meses siguientes. Si no se hizo, se puede liquidar en cualquier tiempo dentro de los 2 años siguientes. El contratista puede dejar salvedades.",
+      "keyPoints": [
+        "Tracto sucesivo; no obligatoria en servicios profesionales",
+        "Mutuo acuerdo: 4 meses",
+        "Unilateral: 2 meses más",
+        "Luego: hasta 2 años",
+        "Salvedades del contratista"
+      ],
+      "keywords": [
+        "4 meses",
+        "2 meses",
+        "2 anos",
+        "mutuo acuerdo",
+        "unilateral",
+        "salvedades",
+        "tracto sucesivo"
+      ],
+      "minKeywords": 4
+    },
+    {
+      "id": "contr-q-044",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Ley 80/1993 art. 41",
+      "case": "El contratista que presta el servicio de transporte de mercancías pide ceder el contrato a otra empresa del mismo grupo, que ya aceptó.",
+      "prompt": "Al gestor le corresponde informar que la cesión:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Procede con la sola aceptación de la empresa que recibe el contrato."
+        },
+        {
+          "id": "b",
+          "text": "Está prohibida en todos los casos, sin importar lo que diga la entidad."
+        },
+        {
+          "id": "c",
+          "text": "Solo procede con autorización previa y escrita de la entidad."
+        }
+      ],
+      "answer": "c",
+      "explain": "Los contratos estatales son intuito personae: una vez celebrados no pueden cederse sin previa autorización escrita de la entidad contratante (art. 41).",
+      "optionWhy": {
+        "a": "La aceptación del cesionario no reemplaza la autorización de la entidad.",
+        "b": "La ley permite la cesión con autorización previa y escrita."
+      }
+    },
+    {
+      "id": "contr-q-045",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Decreto 1082/2015 art. 2.2.1.1.2.2.3",
+      "case": "En un proceso de mínima cuantía para comprar extintores, un compañero propone conformar un comité evaluador de tres servidores.",
+      "prompt": "Al gestor le corresponde aclarar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "Es obligatorio un comité plural en todos los procesos."
+        },
+        {
+          "id": "b",
+          "text": "La evaluación debe hacerla la oficina de control interno."
+        },
+        {
+          "id": "c",
+          "text": "Basta quien designe el ordenador, sin comité plural."
+        }
+      ],
+      "answer": "c",
+      "explain": "En la mínima cuantía, la verificación y evaluación la adelanta quien designe el ordenador del gasto, sin que se requiera un comité plural (art. 2.2.1.1.2.2.3).",
+      "optionWhy": {
+        "a": "El comité es facultativo en licitación, selección abreviada y concurso, y no se exige en mínima cuantía.",
+        "b": "Control interno no evalúa ofertas."
+      }
+    },
+    {
+      "id": "contr-q-046",
+      "type": "pjs",
+      "difficulty": 2,
+      "source": "Ley 1150/2007 art. 7; Decreto 1082/2015 art. 2.2.1.2.1.5.5",
+      "case": "Se prepara la invitación de mínima cuantía para comprar botiquines con pago contra entrega. Un compañero insiste en que la ley obliga a pedir póliza de cumplimiento.",
+      "prompt": "Al gestor le corresponde aclarar que:",
+      "options": [
+        {
+          "id": "a",
+          "text": "La póliza es obligatoria en todo contrato estatal."
+        },
+        {
+          "id": "b",
+          "text": "Está prohibido pedir garantías en la mínima cuantía."
+        },
+        {
+          "id": "c",
+          "text": "La entidad decide si la exige, según la necesidad."
+        }
+      ],
+      "answer": "c",
+      "explain": "Las garantías no son obligatorias en contratos inferiores al 10 % de la menor cuantía; la entidad determina si las exige (Ley 1150 art. 7). En mínima cuantía es libre de exigirlas o no (D1082 art. 2.2.1.2.1.5.5).",
+      "optionWhy": {
+        "a": "La ley exceptúa, entre otros, los contratos de mínima cuantía.",
+        "b": "No está prohibido: la entidad puede exigirlas si lo considera necesario."
+      }
+    }
+  ]
+}

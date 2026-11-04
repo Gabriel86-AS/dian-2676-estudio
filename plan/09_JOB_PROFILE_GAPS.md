@@ -21,7 +21,7 @@ Added 2026-11-04. **The user's instruction: the ficha PDF `manual_de_funciones-g
 | Ficha item | Site coverage | Source in pack? |
 |---|---|---|
 | CPACA: notificación, comunicación, publicación, recursos; PQRSF / derecho de petición | **Done**: unit `procedimiento-administrativo` | **Yes** (added 2026-11-04): `12_CPACA_Ley1437_Ley1755.txt` |
-| Contratación pública, plan anual de adquisiciones, supervisión | None | No: get Ley 80/1993, Ley 1150/2007, D1082/2015 |
+| Contratación pública, plan anual de adquisiciones, supervisión | **Done**: unit `contratacion` | **Yes** (added 2026-11-04): `13_`–`16_` (Ley 80, Ley 1150, D1082, Ley 1474 arts. 82–84) |
 | Custodia y disposición de mercancías aprehendidas, decomisadas, abandonadas | Partial (`sanciones`, `fiscalizacion`) | **Yes**: `src/d1165_2019.txt` from art. 736 (Formas de disposición); abandono legal |
 | Comportamentales N4/N3 + Innovación, Solución de problemas | Partial (Gestor I levels) | **Yes**: `11_competencias_Res065_integridad.txt` (Innovación ~l.654, Solución de problemas ~l.759) |
 | Constitución, principios función pública, Buen Gobierno, Ley de transparencia (Ley 1712/2014) | Partial | Partial (`00_GOA_datos_clave.md` cites Ley 1712 arts. 3, 7) |
@@ -32,7 +32,7 @@ Added 2026-11-04. **The user's instruction: the ficha PDF `manual_de_funciones-g
 ## Tasks (in order: functional test first, it is eliminatory and 65 %)
 1. ✅ **Done 2026-11-04** (5 lessons, 22 cards, 34 questions, prefix `merc`; priorities updated in the manifest). **New unit `disposicion-mercancias`** (functions F7–F10, 3 of the 11): D1165 arts. 736 ff. (formas de disposición), abandono legal, aprehensión/decomiso links to `sanciones`, custodia, inspección y clasificación, informes. Source in pack. 3–4 lessons, 15 cards, 20 questions (≥ 50 % PJS).
 2. ✅ **Done 2026-11-04** (6 lessons, 30 cards, 61 questions, 31 PJS, prefix `proc`; source `12_CPACA_Ley1437_Ley1755.txt` from the Senado). **New unit `procedimiento-administrativo`** (F2, F4; básicas CPACA, recursos, PQRSF): Ley 1437 + Ley 1755: principios (art. 3), derecho de petición y plazos, notificación personal / por aviso / electrónica, comunicación y publicación, recursos (reposición, apelación, queja), firmeza. Download official texts first; verify every article number.
-3. **New unit `contratacion`** (F1, F4): Ley 80, Ley 1150, D1082: principios, etapas, modalidades de selección, plan anual de adquisiciones, estudios previos, supervisión vs interventoría.
+3. ✅ **Done 2026-11-04** (5 lessons, 28 cards, 46 questions, 23 PJS, prefix `contr`; sources `13_`–`16_` from Senado and Función Pública). **New unit `contratacion`** (F1, F4): Ley 80, Ley 1150, D1082: principios, etapas, modalidades de selección, plan anual de adquisiciones, estudios previos, supervisión vs interventoría.
 4. **Update `comportamentales`** to the ficha's levels: Comportamiento ético N4, Adaptabilidad N4, new Innovación N3 and Solución de problemas N4 (Res. 065). Fix the "Gestor I" intro text and `index.html` meta description.
 5. Mark existing units outside the ficha (`cambiaria`, `auditoria`, `lavado`, `liquidacion`, `obligaciones`) as lower priority in the home screen copy; keep them available.
 6. Add the new units to the random simulacro pool and build one fixed simulacro weighted to the ficha's functions.

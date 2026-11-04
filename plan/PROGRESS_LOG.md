@@ -137,3 +137,12 @@ Sitio en vivo: https://gabriel86-as.github.io/dian-2676-estudio/ · Repo: https:
 - `tests/e2e/simulacro-basico.mjs`: el desglose por unidad ahora lee solo `table.tbl` (antes contaba las filas de una tabla Markdown dentro de un caso de «Para repasar», `raz-q-001`, que entró al simulacro básico al regenerarlo).
 - Pruebas: validate sin errores; progress 14/14; simulacro 9/9; E2E qa-site 33/33, simulacro-basico 15/15, simulacro-examen 10/10.
 - Pendiente: `contratacion` (conseguir Ley 80, Ley 1150 y D1082), niveles de `comportamentales`.
+
+## 2026-11-04 — Fase 9: unidad contratacion
+- Fuentes nuevas: Ley 80/1993 y Ley 1150/2007 (Secretaría del Senado); Decreto 1082/2015 y Ley 1474/2011 (Función Pública; el Senado no publica el D1082 y no respondió para la 1474). Compiladas en `dian_material/13_`–`16_`. `tools/art.mjs` ahora acepta números de artículo con puntos (`2.2.1.1.1.4.1`); las búsquedas existentes (689-3, 705, 3o.) siguen funcionando.
+- Nueva unidad `contratacion` (prefijo `contr`, prioridad 1): 5 lecciones (fines y principios; plan anual y estudios previos; modalidades de selección; proceso y perfeccionamiento; supervisión, garantías, potestades y liquidación), 28 tarjetas, 46 preguntas (23 PJS = 50 %, 3 abiertas; dificultad 22/59/20 %).
+- Cifras verificadas contra el texto: revisiones cada 6 meses (Ley 80 art. 4), 20 % de modificación unilateral (art. 16), control fiscal en 2 meses (art. 43), anticipo y adiciones 50 % (art. 40 par.); licitación desierta → selección abreviada en 4 meses, mínima cuantía = 10 % de la menor cuantía, menor cuantía 280–1.000 SMMLV (Ley 1150 art. 2); liquidación 4 meses / 2 meses / 2 años (art. 11); SECOP 3 días, observaciones 10 / 5 días hábiles, invitación de mínima cuantía ≥ 1 día hábil (D1082).
+- Se omitió a propósito: la fecha de publicación del plan anual (no está en el D1082) y la falta disciplinaria del art. 84 par. 1 de la Ley 1474 (modifica la Ley 734, derogada).
+- Simulacros regenerados; `sw.js` → `dian2676-v4`.
+- Pruebas: validate sin errores; progress 14/14; simulacro 9/9; E2E qa-site 34/34, simulacro-basico 15/15, simulacro-examen 10/10.
+- Pendiente: niveles de `comportamentales` (tarea 4), textos de prioridad en inicio (tarea 5) y simulacro ponderado por la ficha (tarea 6).
