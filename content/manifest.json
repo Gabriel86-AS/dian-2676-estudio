@@ -5,7 +5,7 @@
     { "id": "obligaciones", "file": "units/obligaciones.json", "title": "Obligaciones formales y sustanciales en materia tributaria", "area": "funcional", "priority": 1 },
     { "id": "liquidacion", "file": "units/liquidacion.json", "title": "Liquidación de impuestos nacionales", "area": "funcional", "priority": 2 },
     { "id": "estructura", "file": "units/estructura.json", "title": "Estructura organizacional de la DIAN", "area": "funcional", "priority": 2 },
-    { "id": "misionalidad", "file": "units/misionalidad.json", "title": "Misionalidad de la DIAN", "area": "funcional", "priority": 2, "pending": true },
+    { "id": "misionalidad", "file": "units/misionalidad.json", "title": "Misionalidad de la DIAN", "area": "funcional", "priority": 2 },
     { "id": "gestion-documental", "file": "units/gestion-documental.json", "title": "Gestión documental y trazabilidad de expedientes", "area": "funcional", "priority": 2, "pending": true },
     { "id": "lavado", "file": "units/lavado.json", "title": "Lavado de activos, FT, ROS y denuncias", "area": "funcional", "priority": 2, "pending": true },
     { "id": "cambiaria", "file": "units/cambiaria.json", "title": "Normativa cambiaria", "area": "funcional", "priority": 3, "pending": true },
