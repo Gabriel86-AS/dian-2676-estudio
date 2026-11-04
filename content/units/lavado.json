@@ -1,0 +1,549 @@
+{
+  "id": "lavado",
+  "title": "Lavado de activos, FT, ROS y denuncias",
+  "area": "funcional",
+  "priority": 2,
+  "summary": "Lavado de activos y financiación del terrorismo, el contrabando como delito asociado, señales de alerta, operaciones inusuales y sospechosas, el ROS a la UIAF (sin certeza, reservado, sin avisar al reportado), su diferencia con la denuncia penal, beneficiarios finales y el canal interno de la DIAN.",
+  "sources": ["Circular Externa DIAN 170 de 2002", "Código Penal arts. 323 y 345 (citados en la Circular 170 y la Política DIAN)", "ET arts. 631-5 y 631-6", "Res. DIAN 210 de 2025 art. 1", "D1742/2020 art. 33", "Política LA/FT/FP DIAN (15-sep-2026, post-corte)"],
+  "lessons": [
+    {
+      "id": "laft-01",
+      "title": "Lavado de activos y financiación del terrorismo",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "laft-c-001",
+          "type": "concept",
+          "source": "Código Penal arts. 323 y 345, citados en la Circular DIAN 170/2002 (num. 4.1) y la Política LA/FT/FP DIAN",
+          "title": "Dos delitos distintos",
+          "body": "- **Lavado de activos (CP art. 323):** adquirir, resguardar, invertir, transportar, transformar, custodiar o administrar bienes de origen ilícito, o **darles apariencia de legalidad**, ocultar o encubrir su origen. En palabras de la UIAF: hacer que el «dinero sucio» parezca limpio.\n- **Financiación del terrorismo (CP art. 345):** proveer, recolectar, entregar, administrar o guardar fondos o bienes para **apoyar** a grupos armados al margen de la ley, grupos terroristas o actividades terroristas. **El dinero puede ser lícito**: lo que importa es su destino.\n\n**Agravante:** las penas del lavado se aumentan **de una tercera parte a la mitad** si se usan **operaciones de cambio o de comercio exterior**, si se introducen mercancías al país o si se introducen mercancías de **contrabando** (art. 323, citado en la Circ. 170)."
+        },
+        {
+          "id": "laft-c-002",
+          "type": "concept",
+          "source": "Circular DIAN 170/2002 num. 3 y 4.1",
+          "title": "Contrabando y delitos asociados",
+          "body": "La Circular 170 señala como **delitos asociados al lavado a través del comercio exterior**: contrabando (CP art. 319), favorecimiento de contrabando (art. 320), defraudación a las rentas de aduana (art. 321), testaferrato (art. 326), tráfico de armas, tráfico de estupefacientes y enriquecimiento ilícito.\n\n**Roles:**\n- La **DIAN** instruye a sus controlados (usuarios aduaneros y cambiarios) y supervisa su cumplimiento.\n- La **UIAF**, adscrita al Ministerio de Hacienda, **recolecta, sistematiza y analiza** los reportes de operaciones sospechosas.\n- Las empresas de comercio exterior y los profesionales de cambio deben tener un **SIPLA** (sistema de prevención del lavado)."
+        },
+        { "ref": "laft-q-001" },
+        { "ref": "laft-q-002" },
+        { "ref": "laft-q-022" },
+        { "ref": "laft-q-019" },
+        { "ref": "laft-q-006" },
+        { "ref": "laft-q-027" }
+      ]
+    },
+    {
+      "id": "laft-02",
+      "title": "Señales de alerta y operaciones sospechosas",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "laft-c-003",
+          "type": "concept",
+          "source": "Circular DIAN 170/2002 num. 4.2, 4.3 y Anexo; Res. DIAN 210/2025 art. 1",
+          "title": "Alerta → inusual → sospechosa",
+          "body": "- **Señal de alerta:** información, conducta o actividad que llama la atención porque puede indicar una operación inusual o sospechosa. **Por sí sola no prueba nada**: hay que estudiar cada operación (Circ. 170 num. 4.3).\n- **Operación inusual:** su cuantía o características **no guardan relación** con la actividad normal del cliente.\n- **Operación sospechosa:** además de salirse de lo normal, **no ha podido justificarse razonablemente** (Res. 210/2025).\n- **Operación intentada:** quien la intenta desiste, o los controles impiden realizarla (Res. 210/2025).\n\n**Ejemplos de alerta (Anexo Circ. 170):** importaciones por valores superiores al **capital** de una empresa recién creada; importador **sin trayectoria** en el producto; **precios ostensiblemente bajos**; **sub- o sobrefacturación**; dificultades para la **inspección física**; pago de una importación a **un tercero distinto del proveedor** sin causa."
+        },
+        { "ref": "laft-q-007" },
+        { "ref": "laft-q-020" },
+        { "ref": "laft-q-029" },
+        { "ref": "laft-q-010" },
+        { "ref": "laft-q-013" },
+        { "ref": "laft-q-014" },
+        { "ref": "laft-q-023" },
+        { "ref": "laft-q-018" }
+      ]
+    },
+    {
+      "id": "laft-03",
+      "title": "ROS a la UIAF y denuncia penal",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "laft-c-004",
+          "type": "concept",
+          "source": "Circular DIAN 170/2002 num. 5.5, 6, 6.1 y 6.2; instrucciones del formato ROS",
+          "title": "Reglas del ROS",
+          "body": "**Quién reporta:** depósitos, agencias de aduanas, sociedades portuarias, usuarios de zonas francas, transportadores, mensajería, profesionales de cambio y demás auxiliares de la función aduanera (num. 6).\n\n**Reglas (num. 6.1):**\n- Se envía a la **UIAF** **inmediatamente** se detecta la operación.\n- **No se requiere certeza** de que haya delito: basta que la operación sea inusual o sospechosa.\n- **Prohibido avisar** al usuario reportado que fue reportado.\n- **No se anexan** soportes: se guardan y la UIAF los pide si los necesita; se conserva copia del reporte.\n\n**ROS ≠ denuncia (num. 6.2):** el ROS **no exime del deber de denunciar** ante la autoridad penal las conductas punibles conocidas (CPP art. 27).\n\n**Reserva comercial (num. 5.5):** no es oponible a solicitudes específicas de autoridades judiciales, tributarias, aduaneras, cambiarias y de la UIAF."
+        },
+        { "ref": "laft-q-003" },
+        { "ref": "laft-q-021" },
+        { "ref": "laft-q-011" },
+        { "ref": "laft-q-004" },
+        { "ref": "laft-q-012" },
+        { "ref": "laft-q-005" },
+        { "ref": "laft-q-009" },
+        { "ref": "laft-q-024" }
+      ]
+    },
+    {
+      "id": "laft-04",
+      "title": "Conocer al cliente, beneficiario final y canal interno DIAN",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "laft-c-005",
+          "type": "concept",
+          "source": "Circular DIAN 170/2002 num. 4.4, 5.2–5.4 y 7; ET arts. 631-5 y 631-6",
+          "title": "Conocimiento del cliente y beneficiario final",
+          "body": "- **Conocimiento del cliente:** saber quién es, qué hace y de dónde vienen sus recursos; los datos deben **verificarse, documentarse y actualizarse** (num. 5.2).\n- **Conocimiento del mercado:** conocer lo usual del sector para detectar lo anormal (num. 5.3).\n- Los profesionales de cambio registran en formulario las transacciones en efectivo **≥ US$500** (num. 5.4).\n- **Empleado de cumplimiento:** verifica el cumplimiento y es enlace con la DIAN (num. 4.4).\n- **Principios:** conocimiento del cliente y del mercado, ROS, **conservación de documentos** y atención oportuna de requerimientos (num. 7).\n- **Beneficiario final (ET 631-5):** persona natural que posee o controla, directa o indirectamente, a una persona jurídica; entre otros, quien tenga **5 % o más** del capital o de los votos.\n- **RUB (ET 631-6):** hace parte del **RUT** y lo administra la **DIAN**."
+        },
+        {
+          "id": "laft-c-006",
+          "type": "concept",
+          "source": "Política LA/FT/FP DIAN (15-sep-2026) num. 5; D1742/2020 art. 33",
+          "title": "¿Y si el servidor de la DIAN detecta algo?",
+          "body": "La Política LA/FT/FP de la DIAN (posterior al corte del 19-jun-2026; su contenido coincide con normas anteriores) pide a servidores y contratistas:\n\n- **Reportar** señales de alerta, operaciones inusuales o sospechas a la **Subdirección de Apoyo en la Lucha contra el Delito Aduanero y Fiscal**, por los canales institucionales (num. 5 lit. e). Esa subdirección ya tenía la función de recibir y direccionar denuncias por lavado (D1742 art. 33).\n- **Guardar reserva** sobre reportes, denuncias e investigaciones (lit. f).\n- Aplicar **debida diligencia** y abstenerse de facilitar o encubrir conductas de LA/FT/FP (lit. c y d)."
+        },
+        { "ref": "laft-q-017" },
+        { "ref": "laft-q-016" },
+        { "ref": "laft-q-030" },
+        { "ref": "laft-q-015" },
+        { "ref": "laft-q-008" },
+        { "ref": "laft-q-025" },
+        { "ref": "laft-q-026" }
+      ]
+    }
+  ],
+  "flashcards": [
+    { "id": "laft-fc-001", "front": "Lavado de activos (idea central)", "back": "Dar apariencia de legalidad, ocultar o encubrir bienes de origen ilícito, o adquirirlos, invertirlos, transportarlos o administrarlos.", "source": "CP art. 323 (Circ. DIAN 170/2002 num. 4.1)" },
+    { "id": "laft-fc-002", "front": "Financiación del terrorismo", "back": "Proveer, recolectar, entregar o administrar fondos o bienes para apoyar a grupos armados ilegales, terroristas o actividades terroristas (el dinero puede ser lícito).", "source": "CP art. 345 (Política LA/FT/FP DIAN)" },
+    { "id": "laft-fc-003", "front": "Agravante del lavado relacionado con comercio exterior", "back": "La pena aumenta de una tercera parte a la mitad si se usan operaciones de cambio o comercio exterior, o se introducen mercancías (incluido contrabando).", "source": "CP art. 323 (Circ. DIAN 170/2002 num. 4.1)" },
+    { "id": "laft-fc-004", "front": "Delitos asociados al lavado por comercio exterior (Circ. 170)", "back": "Contrabando, favorecimiento de contrabando, defraudación a las rentas de aduana, testaferrato, tráfico de armas y de estupefacientes, enriquecimiento ilícito.", "source": "Circ. DIAN 170/2002 num. 4.1" },
+    { "id": "laft-fc-005", "front": "¿Qué hace la UIAF?", "back": "Recolecta, sistematiza y analiza la información de quienes deben reportar operaciones sospechosas. Está adscrita al Ministerio de Hacienda.", "source": "Circ. DIAN 170/2002 num. 3" },
+    { "id": "laft-fc-006", "front": "Señal de alerta", "back": "Información, conducta o actividad que llama la atención y puede indicar una operación inusual o sospechosa. Sola no prueba que haya delito.", "source": "Circ. DIAN 170/2002 num. 4.3" },
+    { "id": "laft-fc-007", "front": "Operación inusual", "back": "Su cuantía o características no guardan relación con la actividad económica normal del cliente.", "source": "Res. DIAN 210/2025 art. 1" },
+    { "id": "laft-fc-008", "front": "Operación sospechosa", "back": "Se sale de las prácticas normales del sector y no ha podido justificarse razonablemente.", "source": "Res. DIAN 210/2025 art. 1" },
+    { "id": "laft-fc-009", "front": "Operación intentada", "back": "La persona quiso hacer una operación sospechosa pero desistió, o los controles impidieron realizarla. También se reporta.", "source": "Res. DIAN 210/2025 art. 1" },
+    { "id": "laft-fc-010", "front": "ROS: ¿a quién y cuándo?", "back": "A la UIAF, inmediatamente se detecta la operación sospechosa.", "source": "Circ. DIAN 170/2002 num. 6.1" },
+    { "id": "laft-fc-011", "front": "¿El ROS exige certeza del delito?", "back": "No. Basta que la operación sea inusual o sospechosa o encaje en los criterios de riesgo.", "source": "Circ. DIAN 170/2002 num. 6.1" },
+    { "id": "laft-fc-012", "front": "¿Se puede avisar al cliente que fue reportado?", "back": "No. Está expresamente prohibido informar al usuario reportado sobre las alertas o el ROS.", "source": "Circ. DIAN 170/2002 num. 6.1" },
+    { "id": "laft-fc-013", "front": "¿El ROS reemplaza la denuncia penal?", "back": "No. El ROS no exime del deber de denunciar las conductas punibles conocidas (CPP art. 27).", "source": "Circ. DIAN 170/2002 num. 6.2" },
+    { "id": "laft-fc-014", "front": "¿Se anexan soportes al ROS?", "back": "No. Se guardan; la UIAF los pide si los necesita. Se conserva copia del reporte.", "source": "Circ. DIAN 170/2002, instrucciones del formato ROS" },
+    { "id": "laft-fc-015", "front": "¿Es oponible la reserva comercial a la DIAN o a la UIAF?", "back": "No, frente a solicitudes específicas dentro de investigaciones de su competencia.", "source": "Circ. DIAN 170/2002 num. 5.5" },
+    { "id": "laft-fc-016", "front": "Principios de prevención para los empleados (Circ. 170)", "back": "Conocimiento del cliente, conocimiento del mercado, ROS, conservación de documentos y atención oportuna de requerimientos.", "source": "Circ. DIAN 170/2002 num. 7" },
+    { "id": "laft-fc-017", "front": "Umbral de registro de efectivo para profesionales de cambio", "back": "Transacciones en efectivo de US$500 o más (o su equivalente) se registran en formulario.", "source": "Circ. DIAN 170/2002 num. 5.4" },
+    { "id": "laft-fc-018", "front": "Beneficiario final de una persona jurídica (umbral)", "back": "Entre otros, la persona natural con 5 % o más del capital o de los derechos de voto, o que se beneficie del 5 % o más de activos o utilidades.", "source": "ET art. 631-5" },
+    { "id": "laft-fc-019", "front": "¿Qué es el RUB y quién lo administra?", "back": "Registro Único de Beneficiarios Finales; hace parte integral del RUT y lo administra la DIAN.", "source": "ET art. 631-6" },
+    { "id": "laft-fc-020", "front": "Servidor DIAN que detecta una señal de alerta LA/FT: ¿a quién reporta?", "back": "A la Subdirección de Apoyo en la Lucha contra el Delito Aduanero y Fiscal, por los canales institucionales, y guarda reserva.", "source": "Política LA/FT/FP DIAN num. 5 (post-corte); D1742/2020 art. 33", "tags": ["post-corte"] }
+  ],
+  "questions": [
+    {
+      "id": "laft-q-001", "type": "mcq", "difficulty": 1, "source": "CP art. 323 (Circ. DIAN 170/2002 num. 4.1)",
+      "prompt": "¿Qué caracteriza el delito de lavado de activos?",
+      "options": [
+        { "id": "a", "text": "No declarar ingresos para pagar menos impuestos" },
+        { "id": "b", "text": "Dar apariencia de legalidad a bienes de origen ilícito" },
+        { "id": "c", "text": "Entregar fondos lícitos a un grupo armado ilegal" },
+        { "id": "d", "text": "Introducir mercancía al país sin pasar por la aduana" }
+      ],
+      "answer": "b",
+      "explain": "El art. 323 del CP castiga, entre otras conductas, dar a bienes de origen ilícito apariencia de legalidad u ocultar o encubrir su origen.",
+      "optionWhy": {
+        "a": "Eso describe evasión, no lavado.",
+        "c": "Eso es financiación del terrorismo (art. 345).",
+        "d": "Eso es contrabando (art. 319), un delito asociado."
+      }
+    },
+    {
+      "id": "laft-q-002", "type": "mcq", "difficulty": 1, "source": "CP art. 345 (Política LA/FT/FP DIAN, definiciones)",
+      "prompt": "En la financiación del terrorismo, lo que define el delito es:",
+      "options": [
+        { "id": "a", "text": "El destino de los fondos: apoyar a grupos o actos terroristas" },
+        { "id": "b", "text": "El origen ilícito de los recursos que se entregan" },
+        { "id": "c", "text": "El uso de operaciones de comercio exterior" },
+        { "id": "d", "text": "Que el dinero supere un monto mínimo en UVT" }
+      ],
+      "answer": "a",
+      "explain": "El art. 345 castiga proveer, recolectar o administrar fondos o bienes para apoyar a grupos armados ilegales o terroristas. Los recursos pueden ser lícitos.",
+      "optionWhy": {
+        "b": "El origen ilícito es propio del lavado; en FT los fondos pueden ser lícitos.",
+        "c": "El comercio exterior es un agravante del lavado, no un elemento de la FT.",
+        "d": "La norma no fija un monto mínimo."
+      }
+    },
+    {
+      "id": "laft-q-003", "type": "truefalse", "difficulty": 1, "source": "Circ. DIAN 170/2002 num. 6.1",
+      "statement": "Para enviar un ROS, la empresa debe tener certeza de que la operación proviene de un delito.",
+      "answer": false,
+      "explain": "Falso. No se requiere certeza: basta que la operación sea inusual o sospechosa o encaje en los criterios de riesgo."
+    },
+    {
+      "id": "laft-q-004", "type": "pjs", "difficulty": 2, "source": "Circ. DIAN 170/2002 num. 6.1",
+      "case": "Un gestor que hace seguimiento a una agencia de aduanas conversa con su empleada de cumplimiento. Ella cuenta que un cliente reportado a la UIAF llamó a preguntar si «tenía algún problema» y quiere saber qué responderle.",
+      "prompt": "El gestor debe indicarle que:",
+      "options": [
+        { "id": "a", "text": "Le confirme el reporte para que el cliente pueda aclarar las operaciones." },
+        { "id": "b", "text": "Le pida pasar por la DIAN para que allí le expliquen el reporte." },
+        { "id": "c", "text": "No informe al cliente sobre el reporte, pues está prohibido revelarlo." }
+      ],
+      "answer": "c",
+      "explain": "La Circular 170 prohíbe expresamente informar sobre las alertas u operaciones sospechosas a los usuarios reportados a la UIAF.",
+      "optionWhy": {
+        "a": "Revelar el reporte está prohibido y puede frustrar la investigación.",
+        "b": "Remitirlo a la DIAN para hablar del reporte también lo revela."
+      }
+    },
+    {
+      "id": "laft-q-005", "type": "pjs", "difficulty": 3, "source": "Circ. DIAN 170/2002 num. 6.2",
+      "case": "Una sociedad portuaria envió un ROS a la UIAF. Además, su gerente vio directamente a un cliente ocultar armas dentro de un contenedor. El gerente cree que con el ROS ya cumplió.",
+      "prompt": "Respecto de las armas, la empresa debe:",
+      "options": [
+        { "id": "a", "text": "Esperar a que la UIAF analice el ROS y decida si traslada el caso." },
+        { "id": "b", "text": "Denunciar el hecho ante la autoridad penal: el ROS no exime de denunciar." },
+        { "id": "c", "text": "Ampliar el ROS con fotos del contenedor y no hacer nada más." }
+      ],
+      "answer": "b",
+      "explain": "El ROS no exime del deber de denunciar las conductas punibles de las que se tenga conocimiento (Circ. 170 num. 6.2; CPP art. 27).",
+      "optionWhy": {
+        "a": "El deber de denuncia es propio y no depende del análisis de la UIAF.",
+        "c": "Al ROS no se anexan soportes, y ampliarlo no reemplaza la denuncia."
+      }
+    },
+    {
+      "id": "laft-q-006", "type": "pjs", "difficulty": 2, "source": "CP art. 323 (Circ. DIAN 170/2002 num. 4.1)",
+      "case": "En una capacitación, un compañero afirma que lavar dinero mediante importaciones ficticias «tiene la misma pena que cualquier lavado».",
+      "prompt": "La aclaración correcta es:",
+      "options": [
+        { "id": "a", "text": "Que la pena se aumenta de una tercera parte a la mitad por usar comercio exterior." },
+        { "id": "b", "text": "Que el uso del comercio exterior solo genera una sanción aduanera adicional." },
+        { "id": "c", "text": "Que el uso del comercio exterior convierte el delito en contrabando." }
+      ],
+      "answer": "a",
+      "explain": "El art. 323 aumenta la pena de una tercera parte a la mitad cuando se usan operaciones de cambio o de comercio exterior, o se introducen mercancías al país.",
+      "optionWhy": {
+        "b": "Además de lo aduanero, la ley penal agrava la pena del lavado.",
+        "c": "El lavado no se transforma en contrabando; son delitos distintos que pueden concurrir."
+      }
+    },
+    {
+      "id": "laft-q-007", "type": "pjs", "difficulty": 2, "source": "Circ. DIAN 170/2002 num. 4.3 y Anexo",
+      "case": "Al revisar un importador, el gestor ve que trae bienes de una zona franca extranjera. Esa situación aparece en la lista de señales de alerta de la Circular 170, pero sus pagos y su historial son coherentes con su actividad.",
+      "prompt": "El gestor debe:",
+      "options": [
+        { "id": "a", "text": "Tratar la operación como sospechosa, porque figura en la lista de señales." },
+        { "id": "b", "text": "Archivar la alerta sin dejar registro, porque el importador es conocido." },
+        { "id": "c", "text": "Analizar la operación junto con otros elementos antes de calificarla." }
+      ],
+      "answer": "c",
+      "explain": "Que una operación figure en la lista de señales no significa por sí sola que esté vinculada con actividades ilícitas; hay que estudiar cada caso (num. 4.3).",
+      "optionWhy": {
+        "a": "La lista es enunciativa; una señal sola no convierte la operación en sospechosa.",
+        "b": "La señal debe analizarse y documentarse, no descartarse sin estudio."
+      }
+    },
+    {
+      "id": "laft-q-008", "type": "pjs", "difficulty": 2, "source": "Política LA/FT/FP DIAN num. 5 lit. e y f (post-corte); D1742/2020 art. 33", "tags": ["post-corte"],
+      "case": "Durante una auditoría tributaria, un gestor de la DIAN detecta transferencias circulares entre empresas de papel que parecen ocultar el origen de los fondos.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        { "id": "a", "text": "Reportarlo por el canal interno a la Subdirección de Apoyo en la Lucha contra el Delito Aduanero y Fiscal." },
+        { "id": "b", "text": "Comentarlo con el contribuyente para que explique los movimientos antes de informar a nadie." },
+        { "id": "c", "text": "Limitarse a la determinación del impuesto, pues el lavado no es un asunto de la DIAN." }
+      ],
+      "answer": "a",
+      "explain": "La política pide reportar las señales de alerta y sospechas de LA/FT/FP a la Subdirección de Apoyo en la Lucha contra el Delito Aduanero y Fiscal, que recibe y direcciona estas denuncias (D1742 art. 33), y guardar reserva.",
+      "optionWhy": {
+        "b": "Alertar al investigado rompe la reserva y puede frustrar la acción.",
+        "c": "La DIAN sí participa en la prevención y detección del lavado."
+      }
+    },
+    {
+      "id": "laft-q-009", "type": "pjs", "difficulty": 3, "source": "Circ. DIAN 170/2002 num. 5.5",
+      "case": "En una investigación aduanera, el gestor pide a un depósito la información comercial de un cliente. El depósito se niega alegando «reserva comercial».",
+      "prompt": "La respuesta correcta del gestor es:",
+      "options": [
+        { "id": "a", "text": "Aceptar la negativa y pedir una orden judicial para obtener la información." },
+        { "id": "b", "text": "Explicar que la reserva comercial no es oponible a su solicitud específica." },
+        { "id": "c", "text": "Pedir la información a la UIAF, que sí puede levantar la reserva comercial." }
+      ],
+      "answer": "b",
+      "explain": "La reserva comercial no es oponible a las solicitudes específicas de las autoridades judiciales, tributarias, aduaneras o cambiarias y de la UIAF dentro de sus investigaciones (num. 5.5).",
+      "optionWhy": {
+        "a": "No se necesita orden judicial: la DIAN puede pedirla directamente.",
+        "c": "La DIAN tiene la facultad propia; no debe intermediar la UIAF."
+      }
+    },
+    {
+      "id": "laft-q-010", "type": "pjs", "difficulty": 2, "source": "Circ. DIAN 170/2002 num. 5.2 y Anexo (señales aduaneras)",
+      "case": "Una sociedad creada hace tres meses, con capital de $20 millones, empieza a importar mercancía por $2.000 millones mensuales a través de una agencia de aduanas.",
+      "prompt": "Para la agencia de aduanas, esta situación es:",
+      "options": [
+        { "id": "a", "text": "Una señal de alerta que exige conocer mejor al cliente y evaluar un ROS." },
+        { "id": "b", "text": "Una operación normal, porque las importaciones están bien declaradas." },
+        { "id": "c", "text": "Un delito probado que debe denunciarse sin más análisis." }
+      ],
+      "answer": "a",
+      "explain": "Importar por valores superiores al capital, sobre todo en empresas recién creadas, es una señal de alerta; la agencia debe profundizar el conocimiento del cliente y reportar si resulta sospechosa.",
+      "optionWhy": {
+        "b": "Las formalidades en orden no eliminan la incoherencia entre capital y operaciones.",
+        "c": "Una señal no prueba el delito; primero se analiza."
+      }
+    },
+    {
+      "id": "laft-q-011", "type": "pjs", "difficulty": 3, "source": "Circ. DIAN 170/2002 num. 3 y 6.1",
+      "case": "El empleado de cumplimiento de un usuario de zona franca detectó una operación sospechosa y pregunta al gestor de la DIAN a dónde debe enviar el reporte.",
+      "prompt": "El gestor debe orientarlo a enviarlo:",
+      "options": [
+        { "id": "a", "text": "A la Fiscalía, que es la autoridad que investiga el lavado de activos." },
+        { "id": "b", "text": "A la DIAN, que supervisa a los usuarios aduaneros y decide si reporta." },
+        { "id": "c", "text": "A la UIAF, de forma inmediata y en el formato establecido." }
+      ],
+      "answer": "c",
+      "explain": "El ROS se envía inmediatamente a la UIAF, que recolecta y analiza esa información (num. 3 y 6.1).",
+      "optionWhy": {
+        "a": "La Fiscalía recibe denuncias penales; el ROS va a la UIAF.",
+        "b": "La DIAN supervisa el SIPLA, pero no es destinataria del ROS."
+      }
+    },
+    {
+      "id": "laft-q-012", "type": "pjs", "difficulty": 1, "source": "Circ. DIAN 170/2002, instrucciones del formato ROS",
+      "case": "Una agencia de aduanas va a enviar un ROS y pregunta si debe anexar las facturas y extractos que motivaron la sospecha.",
+      "prompt": "La respuesta correcta es:",
+      "options": [
+        { "id": "a", "text": "Sí, porque sin soportes la UIAF no puede tramitar el reporte." },
+        { "id": "b", "text": "No; se conservan y la UIAF los pide si los necesita." },
+        { "id": "c", "text": "Solo si el valor de la operación supera US$10.000." }
+      ],
+      "answer": "b",
+      "explain": "Los soportes no se envían con el reporte; serán solicitados por la UIAF en caso de ser necesario. Se guarda copia del ROS.",
+      "optionWhy": {
+        "a": "La circular indica expresamente no anexar documentos.",
+        "c": "La circular no fija un monto para anexar soportes."
+      }
+    },
+    {
+      "id": "laft-q-013", "type": "pjs", "difficulty": 3, "source": "Res. DIAN 210/2025 art. 1",
+      "case": "Un profesional de cambio atiende a un cliente que vende divisas por un monto muy superior a lo habitual. El cliente presenta de inmediato la factura de exportación que soporta el ingreso y es coherente con su actividad.",
+      "prompt": "¿Cómo se califica la operación?",
+      "options": [
+        { "id": "a", "text": "Inusual, pero no sospechosa, porque se justificó razonablemente." },
+        { "id": "b", "text": "Sospechosa, porque el monto supera lo habitual del cliente." },
+        { "id": "c", "text": "Intentada, porque el cliente tuvo que justificar la operación." }
+      ],
+      "answer": "a",
+      "explain": "Es inusual porque se sale de lo normal del cliente; no es sospechosa porque fue razonablemente justificada (Res. 210/2025 art. 1).",
+      "optionWhy": {
+        "b": "Salirse de lo habitual la hace inusual; para ser sospechosa además no debe poder justificarse.",
+        "c": "Intentada es la que no se perfecciona; esta sí se realizó."
+      }
+    },
+    {
+      "id": "laft-q-014", "type": "pjs", "difficulty": 3, "source": "Res. DIAN 210/2025 art. 1; Guía ALA/CFT DIAN (ROS de operaciones intentadas)",
+      "case": "En una casa de cambio, un cliente quiere cambiar USD 30.000 en efectivo. Cuando le piden identificarse y explicar el origen del dinero, se retira sin hacer la operación.",
+      "prompt": "La casa de cambio debe:",
+      "options": [
+        { "id": "a", "text": "No hacer nada, porque la operación no se realizó." },
+        { "id": "b", "text": "Registrar la operación como inusual y esperar si vuelve." },
+        { "id": "c", "text": "Reportarla a la UIAF como operación intentada." }
+      ],
+      "answer": "c",
+      "explain": "Es una operación intentada: el cliente desistió por los controles. Las operaciones intentadas y sospechosas se reportan de inmediato a la UIAF.",
+      "optionWhy": {
+        "a": "Que no se perfeccione no impide reportarla; la ley prevé el reporte de operaciones intentadas.",
+        "b": "Esperar a que vuelva desconoce el deber de reporte inmediato."
+      }
+    },
+    {
+      "id": "laft-q-015", "type": "pjs", "difficulty": 3, "source": "ET arts. 631-5 y 631-6",
+      "case": "En una fiscalización, el gestor quiere saber qué personas naturales controlan realmente a una sociedad cuyos socios son otras sociedades extranjeras.",
+      "prompt": "La fuente de información adecuada es:",
+      "options": [
+        { "id": "a", "text": "El RUB, que hace parte del RUT y administra la DIAN." },
+        { "id": "b", "text": "El certificado de cámara de comercio de la sociedad." },
+        { "id": "c", "text": "La UIAF, que es la única que conoce a los beneficiarios." }
+      ],
+      "answer": "a",
+      "explain": "El Registro Único de Beneficiarios Finales (RUB), parte integral del RUT y administrado por la DIAN, reúne a las personas naturales que poseen o controlan a la sociedad (ET 631-5 y 631-6).",
+      "optionWhy": {
+        "b": "El certificado muestra socios y representantes, no necesariamente al beneficiario final persona natural.",
+        "c": "La DIAN administra el RUB; no depende de la UIAF para esa información."
+      }
+    },
+    {
+      "id": "laft-q-016", "type": "pjs", "difficulty": 1, "source": "Circ. DIAN 170/2002 num. 4.4",
+      "case": "Una nueva sociedad de intermediación aduanera pregunta quién será su enlace con la DIAN en temas de prevención de lavado.",
+      "prompt": "Según la Circular 170, ese enlace es:",
+      "options": [
+        { "id": "a", "text": "El revisor fiscal, que certifica los estados financieros." },
+        { "id": "b", "text": "El empleado de cumplimiento designado por la empresa." },
+        { "id": "c", "text": "El representante legal, sin posibilidad de delegar." }
+      ],
+      "answer": "b",
+      "explain": "El empleado de cumplimiento verifica el cumplimiento de la circular y es el enlace directo con las subdirecciones de la DIAN (num. 4.4).",
+      "optionWhy": {
+        "a": "El revisor fiscal tiene deberes de colaboración, pero no es el enlace definido.",
+        "c": "La circular asigna el rol al empleado de cumplimiento."
+      }
+    },
+    {
+      "id": "laft-q-017", "type": "mcq", "difficulty": 2, "source": "Circ. DIAN 170/2002 num. 6",
+      "prompt": "¿Quiénes deben reportar operaciones sospechosas según la Circular DIAN 170/2002?",
+      "options": [
+        { "id": "a", "text": "Solo los bancos y entidades vigiladas por la Superfinanciera" },
+        { "id": "b", "text": "Todos los contribuyentes declarantes de renta" },
+        { "id": "c", "text": "Los auxiliares de la función aduanera y los profesionales de cambio" },
+        { "id": "d", "text": "Únicamente los grandes contribuyentes importadores" }
+      ],
+      "answer": "c",
+      "explain": "Depósitos, agencias de aduanas, sociedades portuarias, usuarios de zonas francas, transportadores, mensajería, profesionales de cambio y demás auxiliares de la función aduanera.",
+      "optionWhy": {
+        "a": "Los bancos reportan bajo las reglas de la Superfinanciera, no de la Circular 170.",
+        "b": "La circular no obliga a todos los declarantes de renta.",
+        "d": "No se limita a grandes contribuyentes."
+      }
+    },
+    {
+      "id": "laft-q-018", "type": "match", "difficulty": 2, "source": "Circ. DIAN 170/2002 num. 4.3; Res. DIAN 210/2025 art. 1; ET art. 631-5",
+      "prompt": "Relaciona cada concepto con su definición.",
+      "pairs": [
+        { "left": "Señal de alerta", "right": "Hecho que llama la atención y puede indicar algo irregular" },
+        { "left": "Operación inusual", "right": "No guarda relación con la actividad normal del cliente" },
+        { "left": "Operación sospechosa", "right": "Inusual y sin justificación razonable" },
+        { "left": "Beneficiario final", "right": "Persona natural que posee o controla al cliente" }
+      ],
+      "explain": "Conceptos básicos del sistema de prevención del LA/FT."
+    },
+    {
+      "id": "laft-q-019", "type": "mcq", "difficulty": 1, "source": "Circ. DIAN 170/2002 num. 3",
+      "prompt": "La Unidad de Información y Análisis Financiero (UIAF):",
+      "options": [
+        { "id": "a", "text": "Juzga y condena a los responsables del lavado de activos" },
+        { "id": "b", "text": "Recolecta y analiza los reportes de operaciones sospechosas" },
+        { "id": "c", "text": "Es una dependencia de la DIAN encargada del control cambiario" },
+        { "id": "d", "text": "Expide las licencias de los profesionales de cambio" }
+      ],
+      "answer": "b",
+      "explain": "La UIAF, adscrita al Ministerio de Hacienda, recolecta, sistematiza y analiza la información de quienes reportan operaciones sospechosas.",
+      "optionWhy": {
+        "a": "Juzgar corresponde a los jueces; la UIAF hace inteligencia financiera.",
+        "c": "No es dependencia de la DIAN; está adscrita al Ministerio de Hacienda.",
+        "d": "El registro de profesionales de cambio lo maneja la DIAN (D1742 art. 3 num. 7)."
+      }
+    },
+    {
+      "id": "laft-q-020", "type": "truefalse", "difficulty": 1, "source": "Circ. DIAN 170/2002 num. 4.3",
+      "statement": "Si una operación aparece en la lista de señales de alerta, por ese solo hecho está vinculada a actividades ilícitas.",
+      "answer": false,
+      "explain": "Falso. La lista es enunciativa; hay que estudiar cada operación para ver si es inusual o sospechosa."
+    },
+    {
+      "id": "laft-q-021", "type": "cloze", "difficulty": 1, "source": "Circ. DIAN 170/2002 num. 6.1",
+      "text": "El reporte de operación sospechosa se envía a la {{UIAF}} de forma {{inmediata}}, sin necesidad de tener certeza del delito.",
+      "alternatives": { "UIAF": ["unidad de informacion y analisis financiero"], "inmediata": ["inmediatamente"] }
+    },
+    {
+      "id": "laft-q-022", "type": "mcq", "difficulty": 2, "source": "Circ. DIAN 170/2002 num. 4.1",
+      "prompt": "Según la Circular 170, ¿cuál de estos es un delito asociado al lavado de activos a través del comercio exterior?",
+      "options": [
+        { "id": "a", "text": "Prevaricato por acción" },
+        { "id": "b", "text": "Abuso de autoridad" },
+        { "id": "c", "text": "Injuria por vías de hecho" },
+        { "id": "d", "text": "Contrabando" }
+      ],
+      "answer": "d",
+      "explain": "La circular menciona contrabando, favorecimiento de contrabando, defraudación a las rentas de aduana, testaferrato, tráfico de armas y de estupefacientes y enriquecimiento ilícito.",
+      "optionWhy": {
+        "a": "Es un delito contra la administración pública, no listado como asociado al comercio exterior.",
+        "b": "No aparece en la lista de la circular.",
+        "c": "Es un delito contra la integridad moral, ajeno al comercio exterior."
+      }
+    },
+    {
+      "id": "laft-q-023", "type": "pjs", "difficulty": 3, "source": "Circ. DIAN 170/2002 Anexo (señales cambiarias)",
+      "case": "Al revisar los pagos de un importador, el gestor ve que el giro que cancela la importación se hizo a favor de una persona distinta del proveedor del exterior, sin ninguna relación que lo explique.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        { "id": "a", "text": "Registrarlo como señal de alerta cambiaria y profundizar el análisis del caso." },
+        { "id": "b", "text": "Dar por cumplida la obligación, porque la importación sí fue pagada." },
+        { "id": "c", "text": "Imponer de inmediato una sanción cambiaria por pago a un tercero." }
+      ],
+      "answer": "a",
+      "explain": "El pago a persona diferente del proveedor sin relación de causalidad es una señal de alerta cambiaria; requiere análisis, no conclusión automática.",
+      "optionWhy": {
+        "b": "Que se pagara no elimina la anomalía sobre el beneficiario del pago.",
+        "c": "Una señal no basta para sancionar; se necesita el procedimiento y las pruebas."
+      }
+    },
+    {
+      "id": "laft-q-024", "type": "open", "difficulty": 2, "source": "Circ. DIAN 170/2002 num. 6.1 y 6.2",
+      "prompt": "Explica en 2–3 líneas la diferencia entre el ROS y la denuncia penal.",
+      "modelAnswer": "El ROS se envía a la UIAF de inmediato cuando una operación es inusual o sospechosa, sin necesidad de certeza, y es reservado: no se avisa al reportado. La denuncia penal se presenta ante la autoridad penal (Fiscalía) cuando se conoce una conducta punible. El ROS no exime de denunciar.",
+      "keyPoints": ["ROS: a la UIAF, inmediato, sin certeza", "ROS reservado: no se avisa al reportado", "Denuncia: ante la autoridad penal por una conducta punible conocida", "El ROS no exime del deber de denunciar"],
+      "keywords": ["uiaf", "certeza", "reserva", "fiscalia", "denuncia", "conducta punible", "no exime"],
+      "minKeywords": 4
+    },
+    {
+      "id": "laft-q-025", "type": "open", "difficulty": 2, "source": "Circ. DIAN 170/2002 num. 5.2, 5.3 y 7",
+      "prompt": "Enumera los principios de prevención del lavado que la Circular 170 pide observar a los empleados de las empresas obligadas.",
+      "modelAnswer": "Conocimiento del cliente (quién es, qué hace, origen de sus recursos), conocimiento del mercado (qué es normal en el sector), reporte de operaciones sospechosas a la UIAF, conservación de documentos y atención oportuna de los requerimientos de las autoridades.",
+      "keyPoints": ["Conocimiento del cliente", "Conocimiento del mercado", "Reporte de operación sospechosa", "Conservación de documentos", "Atención de requerimientos"],
+      "keywords": ["cliente", "mercado", "reporte", "sospechosa", "conservacion", "documentos", "requerimientos"],
+      "minKeywords": 4
+    },
+    {
+      "id": "laft-q-026", "type": "open", "difficulty": 3, "source": "Política LA/FT/FP DIAN num. 5 (post-corte); D1742/2020 art. 33", "tags": ["post-corte"],
+      "prompt": "Como servidor de la DIAN, ¿qué haces si en tu trabajo detectas una señal de alerta de lavado? Menciona a quién reportas y qué deberes debes cumplir.",
+      "modelAnswer": "Reporto la situación por los canales institucionales a la Subdirección de Apoyo en la Lucha contra el Delito Aduanero y Fiscal, siguiendo el procedimiento. Guardo reserva sobre el reporte y no aviso al investigado. Aplico debida diligencia, documento lo encontrado y coopero con las áreas responsables.",
+      "keyPoints": ["Reportar a la Subdirección de Apoyo en la Lucha contra el Delito Aduanero y Fiscal", "Usar los canales institucionales", "Guardar reserva y no alertar al investigado", "Debida diligencia y cooperación"],
+      "keywords": ["subdireccion de apoyo", "delito aduanero", "canales", "reserva", "debida diligencia", "reportar"],
+      "minKeywords": 3
+    },
+    {
+      "id": "laft-q-027", "type": "truefalse", "difficulty": 1, "source": "Circ. DIAN 170/2002 num. 3 y 5",
+      "statement": "Las empresas de comercio exterior y los profesionales de cambio destinatarios de la Circular 170 deben implementar un sistema de prevención del lavado (SIPLA).",
+      "answer": true,
+      "explain": "Verdadero. Deben implementar un Sistema Integral para la Prevención de Lavado de Activos (SIPLA) con controles apropiados y suficientes."
+    },
+    {
+      "id": "laft-q-028", "type": "mcq", "difficulty": 3, "source": "ET art. 631-5",
+      "prompt": "Una persona natural tiene el 7 % de las acciones de una sociedad, sin cargo directivo. Según el ET, frente a esa sociedad es:",
+      "options": [
+        { "id": "a", "text": "Beneficiaria final, por tener 5 % o más del capital" },
+        { "id": "b", "text": "Solo accionista, porque no ejerce control administrativo" },
+        { "id": "c", "text": "Beneficiaria final solo si supera el 25 % del capital" },
+        { "id": "d", "text": "Contraparte, sujeta solo a consulta en listas" }
+      ],
+      "answer": "a",
+      "explain": "El art. 631-5 considera beneficiario final, entre otros, a la persona natural titular directa o indirecta del 5 % o más del capital o de los derechos de voto.",
+      "optionWhy": {
+        "b": "El umbral del 5 % basta, sin necesidad de un cargo directivo.",
+        "c": "El umbral del ET es 5 %, no 25 %.",
+        "d": "La condición de beneficiario final no depende de ser contraparte."
+      }
+    },
+    {
+      "id": "laft-q-029", "type": "pjs", "difficulty": 1, "source": "Circ. DIAN 170/2002 Anexo (señales aduaneras)",
+      "case": "En la revisión de una importación, el gestor encuentra una factura con precios muy por debajo de los del mercado para el mismo producto.",
+      "prompt": "Este hallazgo es:",
+      "options": [
+        { "id": "a", "text": "Una práctica comercial normal que no merece atención." },
+        { "id": "b", "text": "Una señal de alerta (posible subfacturación) que debe analizarse." },
+        { "id": "c", "text": "Prueba suficiente de lavado de activos." }
+      ],
+      "answer": "b",
+      "explain": "Las facturas con precios ostensiblemente bajos y la subfacturación figuran como señales de alerta aduaneras; deben analizarse con otros elementos.",
+      "optionWhy": {
+        "a": "La circular la señala expresamente como alerta.",
+        "c": "Una señal sola no prueba el delito."
+      }
+    },
+    {
+      "id": "laft-q-030", "type": "pjs", "difficulty": 2, "source": "Circ. DIAN 170/2002 num. 5.4",
+      "case": "En una visita de control a un profesional de compra y venta de divisas, el gestor revisa una venta de US$700 en efectivo de la que no quedó ningún registro del cliente.",
+      "prompt": "El gestor debe concluir que:",
+      "options": [
+        { "id": "a", "text": "Se incumplió: el efectivo desde US$500 debe registrarse en formulario." },
+        { "id": "b", "text": "No hay incumplimiento, porque el registro aplica desde US$10.000." },
+        { "id": "c", "text": "No hay incumplimiento, porque solo se registran las compras de divisas." }
+      ],
+      "answer": "a",
+      "explain": "Todo profesional de cambio debe dejar constancia en formulario de las transacciones en efectivo de US$500 o más (num. 5.4).",
+      "optionWhy": {
+        "b": "El umbral de registro es US$500.",
+        "c": "La norma habla de transacciones en efectivo, sin limitarse a compras."
+      }
+    }
+  ]
+}
