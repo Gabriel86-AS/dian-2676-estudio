@@ -66,3 +66,48 @@ Sitio en vivo: https://gabriel86-as.github.io/dian-2676-estudio/ · Repo: https:
 - `content/resources.json`: enlaces oficiales (GOA, protocolo, Acuerdo 21, Res. 065) y videos y simulacros externos verificados en el README del paquete. Los marcados `simulacro: true` salen también en la página Simulacros. No se copia ninguna pregunta externa.
 - Pruebas: `node tests/simulacro.test.js` (9/9: truncamiento, 21/30 = 70,00 aprueba, 20/30 = 66,66 no aprueba, desglose = blueprint). E2E en Edge headless a 390 px (`tests/e2e/simulacro-basico.mjs`, 15/15): completa `test-basico-1` con respuestas hechas a mano (21 bien, 3 mal, 6 vacías), recarga a mitad y reanuda en la pregunta 15 con la marca, cambia a hoja completa, entrega → 70,00 Aprobado, 9 ítems en Mis errores, historial en Progreso, sin errores de consola. `tests/e2e/simulacro-examen.mjs` (10/10): modo examen sin pausa, reloj de 5 h, sección Likert con reflexión y nota, solo puntúan las 60 funcionales, simulacro aleatorio de 10 con 15 min y oferta de «Continuar simulacro».
 - Desviación: el plan pedía el video LbYvlyMjCow, pero no está en la lista verificada del README y no se incluyó.
+
+## 2026-11-04 — Fase 8 (auditoría de hechos, QA y lanzamiento)
+**En vivo:** https://gabriel86-as.github.io/dian-2676-estudio/
+
+**Auditoría de hechos**
+- Verificados contra el texto del paquete: ET 685 (1 mes), 705 (3 años), 707 (3 meses), 710 (6 meses), 714 (3 años), 717 (5 años), 640 (50 % con 2 años o 4 años si la propone la DIAN; 75 % con 1 año o 2 años; reincidencia 2 años), 641 (5 % por mes, tope 100 %), 642 (10 %, tope 200 %), 648 (100 %), 651 (hasta 7.500 UVT; 1 / 0,7 / 0,5 %), 720 (per saltum 4 meses) y 588 (3 años). Ley 2586: arts. 14 (leves, graves y gravísimas), 17 num. 3 (tercera amonestación → 100 UVT), 20 (caducidad 3 años) y 21 (prescripción 5 años). UVT 2026 = $52.374 y todas las conversiones (10, 950, 1.400, 4.500, 15.000 y 92.000 UVT) son correctas.
+- `tools/fact-scan.mjs` revisa todas las frases de alto riesgo del contenido: sin contradicciones.
+- `tools/audit-sample.mjs` tomó una muestra fija del 15 % por unidad (103 ítems). Los 55 con artículo citado pasan la comparación automática de cifras. De los 48 con fuentes no articuladas (PEI, AGN, Circular 170, guía de auditoría, Res. 065, PTEP, Icfes) se revisaron a mano, con grep, los de cifras o listas (seis lineamientos y estrategia RE, principios de la visión, Templanza, 60 días hábiles de publicación, hoja de control sin foliar, agravante de 1/3 a la mitad, ROS inmediato). Errores encontrados: 0. Se corrigió un fallo del propio script con artículos guionados (689-3, 555-1, 580-1).
+- El plan pedía `scripts/audit_sample.py`; se hizo en Node (`tools/audit-sample.mjs`) para usar `tools/art.mjs`.
+
+**Cambios**
+- Los ítems con la etiqueta `post-corte` muestran el aviso «Norma posterior al corte (19-jun-2026)» en lecciones, tarjetas y simulacros (21 ítems).
+- «Ocultar autoinforme» ahora oculta solo las lecciones de práctica Likert (y la parte Likert de la simulación); las unidades y sus lecciones puntuadas siguen visibles. «Practicar preguntas» ya no mezcla afirmaciones Likert.
+- Se quitó la unidad demo `_ejemplo`. Inicio tiene la tarjeta «Cómo usar» (abierta mientras no se haya hecho ninguna lección).
+- Recursos agrupados (oficiales, normas, simulacros externos, videos). Se añadieron el índice del ET y el micrositio de renta de la DIAN (ambos verificados en el README del paquete).
+- Accesibilidad: las opciones corregidas muestran ✓ / ✗ y texto para lector de pantalla (antes solo color); los enlaces externos anuncian que abren otra pestaña.
+- Service worker (`sw.js`, red primero con respaldo en caché; precarga las 13 unidades y los 7 simulacros) para estudiar sin conexión.
+- `README.md` del repositorio.
+
+**QA** (`tests/e2e/qa-site.mjs`, 31/31): 21 páginas sin desbordes horizontales a 375, 768 y 1280 px en claro y oscuro; una lección completa por cada una de las 13 unidades, alternando claro y oscuro; mazo de tarjetas; Mis errores; aviso post-corte; ajuste de autoinforme; sin conexión (recarga, lección de otra unidad y simulacro); sin errores de consola. También: `simulacro-basico.mjs` 15/15, `simulacro-examen.mjs` 10/10, `progress.test.js` 14/14, `simulacro.test.js` 9/9, validador sin errores. JS total: 107 KB (< 150 KB).
+
+**Contenido final**
+
+| Unidad | Lecciones | Tarjetas | Preguntas puntuables | Likert |
+|---|---|---|---|---|
+| fiscalizacion | 7 | 30 | 53 | 0 |
+| sanciones | 5 | 30 | 48 | 0 |
+| obligaciones | 4 | 20 | 31 | 0 |
+| liquidacion | 4 | 20 | 28 | 0 |
+| estructura | 4 | 20 | 28 | 0 |
+| misionalidad | 4 | 20 | 30 | 0 |
+| gestion-documental | 4 | 20 | 30 | 0 |
+| lavado | 4 | 20 | 30 | 0 |
+| cambiaria | 4 | 20 | 30 | 0 |
+| auditoria | 4 | 22 | 36 | 0 |
+| razonamiento | 4 | 16 | 26 | 0 |
+| comportamentales | 9 | 9 | 30 | 30 |
+| integridad | 4 | 9 | 20 | 20 |
+
+**Vacíos conocidos**
+- `liquidacion` no tiene tarifas de renta, IVA ni retención (el paquete solo trae el Libro V del ET).
+- `auditoria` no cubre el texto de las NIA (no está en el paquete).
+- Niveles de competencia de Gestor I tomados del plan; confirmar en la ficha de SIMO.
+- Código de Integridad propio de la DIAN (CG-TAH-0002) no es público; se usa el código general de Función Pública.
+- La prueba en un celular real y la descarga del archivo de exportación en el teléfono quedan a cargo de la candidata o el candidato (la QA se hizo con emulación móvil en Edge headless).

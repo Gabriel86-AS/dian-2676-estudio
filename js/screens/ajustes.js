@@ -22,7 +22,7 @@ export function renderAjustes(view) {
     <section class="card">
       <h2>Preferencias</h2>
       <label class="switch"><input type="checkbox" data-set="hideLikert" ${s.hideLikert ? 'checked' : ''}>
-        <span>Ocultar unidades de autoinforme (comportamentales e integridad)</span></label>
+        <span>Ocultar la práctica de autoinforme (afirmaciones Likert sin puntaje). Las lecciones puntuadas de comportamentales e integridad siguen visibles.</span></label>
       <fieldset class="seg">
         <legend>Tamaño de letra</legend>
         <label><input type="radio" name="font" value="normal" ${s.fontSize !== 'large' ? 'checked' : ''}> Normal</label>

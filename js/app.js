@@ -4,7 +4,7 @@ import { esc, shuffle } from './util.js';
 import { playLesson } from './engine/player.js';
 import { playDeck } from './engine/flashcards.js';
 import { initProgress, getState, isPersistent } from './progress/store.js';
-import { allUnitStats, dueItems, visibleEntry } from './progress/stats.js';
+import { allUnitStats, dueItems, visibleEntry, isLikertLesson } from './progress/stats.js';
 import { loadData } from './screens/data.js';
 import { renderRepaso, renderSession } from './screens/repaso.js';
 import { renderProgreso } from './screens/progreso.js';
@@ -78,6 +78,16 @@ async function home() {
       <p class="small">Competencias funcionales: eliminatoria, mínimo 70/100.</p>
     </section>
     <div id="due-chip"></div>
+    <details class="card how-to" ${getState().lessons && Object.keys(getState().lessons).length ? '' : 'open'}>
+      <summary><h2>Cómo usar este sitio</h2></summary>
+      <ol>
+        <li>Haz primero las lecciones de <strong>prioridad 1</strong> (fiscalización, sanciones, obligaciones).</li>
+        <li>Cada día, repasa <a href="#/repaso">tus errores</a> y las tarjetas que tocan.</li>
+        <li><strong>Jueves:</strong> un <a href="#/simulacros">simulacro intermedio</a>. <strong>Viernes:</strong> la simulación del examen.</li>
+        <li><strong>Sábado:</strong> solo repaso de errores y tarjetas. Descansa.</li>
+      </ol>
+      <p class="small muted">Tu progreso se guarda en este navegador. Puedes exportarlo en <a href="#/ajustes">Ajustes</a>.</p>
+    </details>
     <h2 class="section-title">Unidades</h2>
     <div class="unit-grid" id="units"><p class="muted">Cargando unidades…</p></div>`;
 
@@ -145,8 +155,9 @@ async function requireUnit(id) {
 async function unitPage(id) {
   const unit = await requireUnit(id);
   if (!unit) return;
-  const lessons = unit.lessons || [];
-  const nQ = unit.questions?.length || 0;
+  const hideLikert = getState().settings?.hideLikert;
+  const lessons = (unit.lessons || []).filter((l) => !(hideLikert && isLikertLesson(unit, l)));
+  const nQ = (unit.questions || []).filter((q) => q.type !== 'likert').length;
   const nC = deckCards(unit).length;
   const done = getState().lessons;
   view.innerHTML = `
@@ -183,7 +194,7 @@ async function lessonPage(unitId, lessonId) {
 async function practicePage(unitId) {
   const unit = await requireUnit(unitId);
   if (!unit) return;
-  const picks = shuffle(unit.questions || []).slice(0, PRACTICE_SIZE);
+  const picks = shuffle((unit.questions || []).filter((q) => q.type !== 'likert')).slice(0, PRACTICE_SIZE);
   const lesson = { id: 'practica', virtual: true, title: `Práctica · ${unit.title}`, steps: picks.map((q) => ({ ref: q.id })) };
   onLeave(playLesson({ unit, lesson, el: view, backHref: `#/unidad/${unit.id}` }));
 }
@@ -206,10 +217,18 @@ async function recursos() {
   view.innerHTML = '<h1>Recursos</h1><p class="muted">Cargando…</p>';
   let data = { videos: [], links: [] };
   try { data = await loadJSON('content/resources.json'); } catch { /* sin recursos aún */ }
-  const items = [...(data.links || []), ...(data.videos || [])];
-  view.innerHTML = `<h1>Recursos</h1>${items.length
-    ? items.map((r) => `<div class="card"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.note ? `<p class="small muted">${esc(r.note)}</p>` : ''}</div>`).join('')
-    : '<div class="card"><p class="muted">Pronto encontrarás aquí videos y enlaces oficiales.</p></div>'}`;
+  const links = data.links || [];
+  const groups = [
+    ['Documentos oficiales del concurso', links.filter((r) => r.group === 'oficiales')],
+    ['Normas y fuentes', links.filter((r) => r.group === 'normas')],
+    ['Simulacros externos (no oficiales)', links.filter((r) => r.group === 'simulacros')],
+    ['Videos', data.videos || []],
+  ].filter(([, list]) => list.length);
+  const li = (r) => `<li><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}<span class="sr-only"> (se abre en otra pestaña)</span></a>${r.note ? `<p class="small muted">${esc(r.note)}</p>` : ''}</li>`;
+  view.innerHTML = `<h1>Recursos</h1>
+    <p class="muted">Enlaces verificados el 3-nov-2026. Se abren en otra pestaña.</p>
+    ${groups.length ? groups.map(([title, list]) => `<section class="card"><h2>${esc(title)}</h2><ul class="res-list">${list.map(li).join('')}</ul></section>`).join('')
+      : '<div class="card"><p class="muted">Pronto encontrarás aquí videos y enlaces oficiales.</p></div>'}`;
 }
 
 function notFound() {
@@ -218,3 +237,8 @@ function notFound() {
 
 window.addEventListener('hashchange', router);
 router();
+
+// Uso sin conexión: registra el service worker (solo en http/https).
+if ('serviceWorker' in navigator && location.protocol.startsWith('http')) {
+  window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch((err) => console.warn('Sin modo offline:', err?.message)));
+}

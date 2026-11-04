@@ -1,6 +1,6 @@
 // Reproductor de lecciones: un paso por pantalla, sin vidas ni temporizadores.
 // Un ítem fallado se repite una vez al final ("Repasemos esta").
-import { esc, formatTime } from '../util.js';
+import { esc, formatTime, postCorte } from '../util.js';
 import { inline, md } from './md.js';
 import { renderers, isScored } from './items/index.js';
 import { LETTERS } from './items/choice.js';
@@ -94,7 +94,7 @@ export function playLesson({ unit, lesson, el, backHref }) {
     state = 'answer';
     banner.hidden = true;
     banner.className = 'banner';
-    stepEl.innerHTML = `${retry ? '<p class="retry-tag">Repasemos esta</p>' : ''}<div class="item item-${esc(item.type)}"></div>`;
+    stepEl.innerHTML = `${retry ? '<p class="retry-tag">Repasemos esta</p>' : ''}${postCorte(item)}<div class="item item-${esc(item.type)}"></div>`;
     current = renderers[item.type].render(item, stepEl.querySelector('.item'), ctx);
     main.hidden = false;
     main.textContent = current.checkLabel || 'Comprobar';

@@ -3,7 +3,6 @@ import { isDue } from './scheduler.js';
 
 export const MASTERY_BOX = 3;
 const PRIORITY_WEIGHT = { 1: 3, 2: 2, 3: 1 };
-export const LIKERT_AREAS = new Set(['comportamental', 'integridad']);
 
 export function unitStats(entry, unit, index, state, now = new Date()) {
   const ids = [...index.values()].filter((x) => x.unitId === entry.id);
@@ -80,8 +79,17 @@ export function dueItems(index, state, now = new Date()) {
       || (Date.parse(state.items[a.item.id].due) - Date.parse(state.items[b.item.id].due)));
 }
 
-export function visibleEntry(entry, settings) {
-  return !(settings?.hideLikert && LIKERT_AREAS.has(entry.area));
+// Las unidades siempre se ven: «ocultar autoinforme» solo oculta la práctica Likert (sin puntaje),
+// no las lecciones puntuadas de comportamentales e integridad.
+export function visibleEntry() {
+  return true;
+}
+
+/** Lección compuesta solo por afirmaciones Likert (práctica de autoinforme). */
+export function isLikertLesson(unit, lesson) {
+  const types = new Map((unit.questions || []).map((q) => [q.id, q.type]));
+  const steps = lesson.steps || [];
+  return steps.length > 0 && steps.every((s) => (s.ref ? types.get(s.ref) : s.type) === 'likert');
 }
 
 export const pct = (x) => (x == null ? '—' : `${Math.round(x * 100)} %`);

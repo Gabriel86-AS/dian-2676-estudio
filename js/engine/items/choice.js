@@ -26,8 +26,12 @@ export function choiceGroup(container, options, { onSelect, label = 'Opciones', 
       btns.forEach((b) => {
         b.disabled = true;
         if (correctId == null) return;
-        if (b.dataset.id === String(correctId)) b.classList.add('is-correct');
-        else if (b.dataset.id === chosen) b.classList.add('is-wrong');
+        const mark = (cls, icon, text) => {
+          b.classList.add(cls);
+          b.insertAdjacentHTML('beforeend', `<span class="opt-mark" aria-hidden="true">${icon}</span><span class="sr-only"> (${text})</span>`);
+        };
+        if (b.dataset.id === String(correctId)) mark('is-correct', '✓', b.dataset.id === chosen ? 'tu respuesta, correcta' : 'respuesta correcta');
+        else if (b.dataset.id === chosen) mark('is-wrong', '✗', 'tu respuesta, incorrecta');
       });
     },
   };

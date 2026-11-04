@@ -1,6 +1,6 @@
 // Mazo de tarjetas (#/tarjetas/:unit). Las que no sabías vuelven al final.
 // La programación espaciada llega en la fase 3; aquí solo hay una pila "otra vez" en memoria.
-import { esc, shuffle } from '../util.js';
+import { esc, shuffle, postCorte } from '../util.js';
 import { cardHTML, flipCard } from './items/flashcard.js';
 import { emit } from './events.js';
 
@@ -25,7 +25,7 @@ export function playDeck({ unit, cards, el, backHref }) {
           <a class="close" href="${esc(backHref)}" aria-label="Salir de las tarjetas">✕</a>
           <span class="deck-count">Quedan ${queue.length}</span>
         </div>
-        <div class="step">${cardHTML(card)}
+        <div class="step">${postCorte(card)}${cardHTML(card)}
           <p class="small muted deck-hint">Toca la tarjeta o pulsa Espacio para voltearla. Después desliza → si la sabías, ← para repasarla.</p>
         </div>
         <div class="player-foot">

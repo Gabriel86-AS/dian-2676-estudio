@@ -1,6 +1,6 @@
 // Simulacros: lista, simulacro aleatorio, ejecución tipo examen (sin retroalimentación hasta entregar),
 // resultados y reanudación tras recargar.
-import { esc, shuffle, formatTime } from '../util.js';
+import { esc, shuffle, formatTime, postCorte } from '../util.js';
 import { inline, md } from '../engine/md.js';
 import { loadJSON } from '../content.js';
 import { choiceGroup } from '../engine/items/choice.js';
@@ -230,6 +230,7 @@ function run(view, s, data) {
       <article class="card rn-q" data-id="${esc(id)}" id="q-${i + 1}">
         <div class="rn-q-head"><span class="rn-num">Pregunta ${i + 1}</span>
           <button type="button" class="link rn-flag" data-flag="${esc(id)}" aria-pressed="${flagged(id)}">${flagged(id) ? '⚑ Marcada' : '⚐ Marcar para revisar'}</button></div>
+        ${postCorte(it)}
         ${it.type === 'likert'
           ? `<p class="statement">${inline(it.statement)}</p>`
           : `${it.type === 'pjs' ? `<div class="case"><span class="box-lbl">Caso</span>${md(it.case)}</div>` : ''}

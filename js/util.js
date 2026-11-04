@@ -4,6 +4,11 @@ export function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 }
 
+// Aviso para ítems basados en documentos posteriores al corte normativo de la convocatoria.
+export const postCorte = (item) => (item?.tags?.includes('post-corte')
+  ? '<p class="post-corte" title="Este contenido se apoya en un documento expedido después del 19 de junio de 2026, fecha de corte de la GOA.">ⓘ Norma posterior al corte (19-jun-2026)</p>'
+  : '');
+
 // Minúsculas, sin tildes ni puntuación, espacios simples.
 export function normalize(s) {
   return String(s ?? '')
