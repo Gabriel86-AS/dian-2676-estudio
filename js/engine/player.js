@@ -73,9 +73,14 @@ export function play({ unitId, lessonId, title, steps, container, backHref }) {
     const total = scored.length, ms = Date.now() - t0;
     emit('dian:lessonComplete', { unitId, lessonId, correctFirstTry: good, total, ms });
     const missedList = [...missed.values()];
+    const lik = [...first.values()].filter(r => r.type === 'likert');
+    const L = ['Totalmente en desacuerdo', 'En desacuerdo', 'De acuerdo', 'Totalmente de acuerdo'];
+    const dist = [1, 2, 3, 4].map(n => lik.filter(r => r.given === String(n)).length);
+    const reflect = lik.length ? `<h2>Tu reflexión</h2><div class="card">${dist.map((c, i) => `<p>${L[i]}: <b>${c}</b></p>`).join('')}${dist[3] / lik.length > 0.8 ? '<p class="muted">Más del 80 % de tus respuestas fueron "Totalmente de acuerdo". La prueba real incluye subescalas de control para respuestas exageradamente favorables; lo mejor es responder de forma honesta y coherente.</p>' : '<p class="muted">No hay respuestas correctas ni incorrectas. Lo mejor es responder de forma honesta y coherente.</p>'}</div>` : '';
     body.innerHTML = `<div class="end"><h1>¡Lección completada!</h1>
       <div class="stats"><div class="card"><b>${total ? Math.round((good / total) * 100) : 100}%</b><small>acierto al primer intento</small></div><div class="card"><b>${good}/${total}</b><small>correctas</small></div><div class="card"><b>${fmtMs(ms)}</b><small>tiempo</small></div></div>
       ${missedList.length ? `<h2>Para repasar</h2>${missedList.map(m => `<details class="card miss"><summary>${esc(m.prompt || m.statement || m.text || m.front || '')}</summary><p>${esc(m.explain || m.modelAnswer || m.back || '')}</p>${m.source ? `<p class="src">Fuente: ${esc(m.source)}</p>` : ''}</details>`).join('')}` : '<p>No hubo errores. ¡Buen trabajo!</p>'}
+      ${reflect}
       </div>`;
     main.hidden = false; main.textContent = 'Repetir lección';
     main.replaceWith(main.cloneNode(true));
