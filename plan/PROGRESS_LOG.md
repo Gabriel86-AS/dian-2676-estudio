@@ -27,3 +27,8 @@ Sitio en vivo: https://gabriel86-as.github.io/dian-2676-estudio/ · Repo: https:
 - Desviaciones: la proporción de PJS está por debajo de la meta (fiscalizacion 12/59, sanciones 14/45, obligaciones 6/25); dificultad 3 escasa en obligaciones. No se incluyó D1165 Título 13 ni umbrales del art. 592 (no verificados/vigencia). Los ítems de `obligaciones` sobre sustancial vs formal son conceptuales.
 - Pendiente: `liquidacion` (el paquete solo tiene enlaces, sin texto fuente; solo contenido conceptual verificable), más PJS y ítems de dificultad 3, quitar `_ejemplo` del manifest al final, probar flujo completo en dispositivo.
 - Siguiente: Fase 5 (`plan/05_*.md`), luego 6–8.
+
+## 2026-11-03 — Fase 5 (6 de 6 unidades, volumen por debajo del mínimo)
+- Hecho: `estructura` (D1742 arts. 1, 4–7, 28, 55, 60, 63, 76–77), `misionalidad` (PEI 2024–2026 §4.1–4.2), `gestion-documental` (Acuerdo AGN 001/2024 arts. 4.3–4.4; Ley 594 arts. 23–24), `lavado` (Circular 170/2002; C. Penal 323 y 345; definiciones de la política DIAN con etiqueta `post-corte`), `cambiaria` (D2245/2011 arts. 1–5, 11, 21, 23–26, 28, 30, 32, 37), `auditoria` (Guía Función Pública v5). Validador OK en todas.
+- Desviaciones: cada unidad tiene 19–27 preguntas y 12–16 tarjetas (mínimo del plan: 25 y 20); PJS por debajo de 50 %; la dificultad 3 es escasa. `cambiaria`: no se incluyó el reparto de competencias con Supersociedades/Superfinanciera ni R.E. 1/2018 (no verificados en el paquete). `auditoria`: las NIA no están en el paquete; el contenido sale de la guía de auditoría interna pública.
+- Siguiente: Fase 6 (`comportamentales`, `integridad`, `razonamiento`), Fase 7 (simulacros), Fase 8 (QA). Refuerzo posible: más PJS y dificultad 3 en todas las unidades; `liquidacion` sigue sin escribir.
