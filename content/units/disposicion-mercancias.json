@@ -1,0 +1,631 @@
+{
+  "id": "disposicion-mercancias",
+  "title": "Custodia y disposición de mercancías aprehendidas, decomisadas o abandonadas",
+  "area": "funcional",
+  "priority": 1,
+  "summary": "Funciones centrales de la ficha AF-LF-3005: ingreso de mercancías aprehendidas al recinto (acta y avalúo), custodia y almacenamiento, abandono legal y rescate, y las formas de disposición (venta, donación, asignación, destrucción, chatarrización, dación en pago).",
+  "sources": [
+    "Ley 2586/2026 arts. 7, 28, 40, 44, 53 y 54",
+    "Decreto 1165/2019 arts. 171, 260, 293 y 732–753 (textos modificados por los Decretos 360/2021 y 659/2024)"
+  ],
+  "lessons": [
+    {
+      "id": "merc-01",
+      "title": "Aprehensión e ingreso al recinto",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "merc-c-001",
+          "type": "concept",
+          "source": "Ley 2586/2026 arts. 7, 40 y 44",
+          "title": "La aprehensión y el acta que la soporta",
+          "body": "La **aprehensión** es una **medida cautelar**: la retención de mercancías, medios de transporte o unidades de carga **mientras la autoridad aduanera verifica** su legal introducción, permanencia y circulación (art. 7 num. 1). No es todavía el decomiso.\n\n- **Acta de aprehensión** (art. 40): con su **notificación se inicia el proceso de decomiso**. Es un acto **de trámite**, **sin recurso** en sede administrativa, y **hace las veces de documento de ingreso** de las mercancías al recinto de almacenamiento. Deja constancia de las condiciones en que se entregan al depósito.\n- Contiene, entre otros: dependencia, lugar y fecha, causales, identificación de personas y del medio de transporte, **descripción plena** de las mercancías (naturaleza, marca, referencia, serial, cantidad, peso) y **avalúo unitario y total**.\n- **Reconocimiento y avalúo** (art. 44): se hacen **en la misma diligencia**. Si la mercancía requiere análisis especializado, se fija un **avalúo provisional** y el definitivo se hace dentro de los **20 días hábiles** siguientes a la notificación del acta. Base: valor declarado o documentos soporte; si no, la **Base de Precios**.",
+          "example": "Una carga de químicos que necesita análisis de laboratorio entra al recinto con avalúo provisional; el definitivo se fija dentro de los 20 días hábiles siguientes."
+        },
+        {
+          "id": "merc-c-002",
+          "type": "concept",
+          "source": "Ley 2586/2026 arts. 28, 53 y 54",
+          "title": "Devolución y custodia del interesado",
+          "body": "- **Control posterior** (art. 28): si se detecta una causal, la DIAN envía un **requerimiento ordinario**; el interesado tiene **15 días hábiles** para desvirtuarla o, si no, debe **poner la mercancía a disposición** de la autoridad.\n- **Devolución** (art. 53): en cualquier estado, **antes de la firmeza** del decomiso, si se **desvirtúa la causal** o se **rescata** la mercancía (declaración con levante, tributos, sanciones y valor de rescate), se ordena por **acto motivado** la terminación, la **devolución inmediata** y el archivo.\n- **Custodia del interesado** (art. 54): la mercancía aprehendida puede quedar en depósito del titular cuando: 1) está a cargo de **entidades públicas**; 2) es **maquinaria industrial** en funcionamiento o instalada; 3) no puede trasladarse o requiere **condiciones especiales** que los recintos contratados no tienen; 4) son **equipos de salud** (salvo estéticos).\n- Para la maquinaria (num. 2) se exige **garantía del 100 %** del valor FOB o del avalúo. El depositario **no puede modificar, consumir, disponer ni cambiar de lugar** la mercancía sin autorización."
+        },
+        { "ref": "merc-q-001" },
+        { "ref": "merc-q-002" },
+        { "ref": "merc-q-003" },
+        { "ref": "merc-q-004" },
+        { "ref": "merc-q-005" },
+        { "ref": "merc-q-006" },
+        { "ref": "merc-q-007" }
+      ]
+    },
+    {
+      "id": "merc-02",
+      "title": "Custodia, almacenamiento y traslados",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "merc-c-003",
+          "type": "concept",
+          "source": "Decreto 1165/2019 art. 732",
+          "title": "Recintos de almacenamiento y operador logístico",
+          "body": "La DIAN asume, **directamente o a través de terceros** (operador logístico integral), la recepción, transporte, almacenamiento, guarda, custodia, conservación, **control de inventarios**, despacho y entrega de las mercancías aprehendidas, decomisadas, abandonadas, inmovilizadas o retenidas (art. 732).\n\n- Si por **razones justificadas u orden público** no pueden trasladarse, o no hay instalaciones adecuadas, quedan en **custodia de la Fuerza Pública**, informando de inmediato a la Dirección Seccional.\n- **Abandono:** cuando el depósito informa que venció el término de rescate, la Dirección Seccional debe hacer el **inventario, avalúo y traslado** en un máximo de **3 meses** contados desde el vencimiento del plazo del art. 171 o 260.\n- El término se cuenta con el **informe de abandono** que la **División de la Operación Aduanera** reporta a la **División Administrativa y Financiera** o al **GIT de Operación Logística** de la Seccional."
+        },
+        {
+          "id": "merc-c-004",
+          "type": "concept",
+          "source": "Decreto 1165/2019 arts. 733, 734 y 735",
+          "title": "Mercancías especiales, costos y traslados",
+          "body": "**Mercancías especiales** (art. 733): su almacenamiento, custodia y disposición corresponden a otras entidades, sin perjuicio del trámite aduanero de la DIAN. Ejemplos: armas, municiones y explosivos → **Ministerio de Defensa**; café → **Federación Nacional de Cafeteros / Almacafé**; hidrocarburos → **Ecopetrol**; medicamentos de uso humano y equipos hospitalarios → **Ministerio de Salud**; fauna y flora silvestre → **Ministerio de Ambiente**; patrimonio cultural → **Ministerio de Cultura**.\n\n**Costos de almacenamiento** (art. 734):\n\n| Situación | Quién paga |\n|---|---|\n| Aprehendida o con decomiso **no en firme** y **rescatada** | Quien la rescata, desde el ingreso hasta la salida |\n| Decomiso **en firme** sin rescate | La DIAN |\n| Devolución por **improcedencia** de la medida | La DIAN, solo transporte y almacenamiento hasta el vencimiento del plazo para retirarla |\n\n**Traslados** (art. 735): solo con **autorización de la DIAN**. La mercancía llega en las **mismas condiciones** (ítems, descripción, cantidad, unidad de medida) y **conserva su situación jurídica**. Si la entidad asume el traslado, la Seccional pide el **seguro de transporte** a la Subdirección Administrativa, y la dependencia de operación logística informa la **nueva ubicación** a la División de Fiscalización."
+        },
+        { "ref": "merc-q-008" },
+        { "ref": "merc-q-009" },
+        { "ref": "merc-q-010" },
+        { "ref": "merc-q-011" },
+        { "ref": "merc-q-012" },
+        { "ref": "merc-q-013" },
+        { "ref": "merc-q-014" }
+      ]
+    },
+    {
+      "id": "merc-03",
+      "title": "Abandono legal y rescate",
+      "minutes": 6,
+      "steps": [
+        {
+          "id": "merc-c-005",
+          "type": "concept",
+          "source": "Decreto 1165/2019 arts. 171 y 293",
+          "title": "Un mes en depósito, luego abandono",
+          "body": "- **Permanencia** (art. 171): la mercancía puede estar almacenada mientras se tramita el levante hasta **1 mes** desde su llegada al territorio aduanero nacional. El tránsito suspende ese término.\n- **Abandono legal** (art. 171 par. 1): vencido el mes sin levante ni reembarque, opera el abandono. El interesado puede **rescatarla dentro del mes siguiente**.\n- **Rescate** (art. 293 num. 1): se presenta **Declaración de Legalización** pagando los tributos aduaneros, el **10 % del valor en aduana** por concepto de rescate y los **gastos de almacenamiento**.\n- Las mercancías importadas por la **Nación, entidades públicas**, organismos intergubernamentales, misiones diplomáticas y por convenios de cooperación pueden rescatarse **sin pago de rescate**, pagando los tributos que correspondan."
+        },
+        {
+          "id": "merc-c-006",
+          "type": "concept",
+          "source": "Decreto 1165/2019 arts. 171 par. 2, 260 y 736",
+          "title": "Casos especiales del abandono",
+          "body": "- **Mercancía dañada, vencida, riesgosa o sin valor comercial** en abandono (art. 171 par. 2): el **depósito** la destruye **de inmediato**, previa **autorización abreviada** de la DIAN. No se traslada a los recintos del art. 732.\n- **Envíos urgentes** (art. 260): hasta **1 mes** en el depósito del intermediario; luego opera el abandono y hay **1 mes** más para legalizar. Después, la DIAN puede disponer de ella **por ser de propiedad de la Nación**.\n- **Menajes y equipajes** en abandono (art. 736): la Seccional puede **venderlos al consignatario o propietario** si paga transporte, almacenamiento y el **100 % del avalúo**. Lo mismo para paquetes postales y envíos urgentes en abandono."
+        },
+        { "ref": "merc-q-015" },
+        { "ref": "merc-q-016" },
+        { "ref": "merc-q-017" },
+        { "ref": "merc-q-018" },
+        { "ref": "merc-q-019" },
+        { "ref": "merc-q-020" }
+      ]
+    },
+    {
+      "id": "merc-04",
+      "title": "Formas de disposición",
+      "minutes": 9,
+      "steps": [
+        {
+          "id": "merc-c-007",
+          "type": "concept",
+          "source": "Decreto 1165/2019 arts. 736, 737 y 739",
+          "title": "Qué se puede disponer y cuándo",
+          "body": "**Formas** (art. 736): la DIAN dispone de las mercancías **decomisadas o abandonadas a favor de la Nación** mediante **venta, donación, asignación, destrucción y/o gestión de residuos, chatarrización y dación en pago**.\n\n- Medios de transporte **aéreo, marítimo o fluvial** y **maquinaria especializada**: pueden darse en **comodato o arrendamiento** a entidades públicas aunque su situación jurídica no esté definida; a empresas privadas solo **arrendamiento con garantía**.\n- Las **aprehendidas** (sin decomiso) solo se disponen en los casos **expresamente** previstos. El art. 737 permite disponer de ellas, **sin detener el proceso de decomiso**, cuando: 1) pueden **dañar otros bienes**; 2) son **perecederas** o tienen fecha de vencimiento; 3) requieren **condiciones especiales** de conservación que no hay; 4) tienen **restricciones** que impiden comercializarlas.\n- **Suspensión** (art. 739): la DIAN puede, **en cualquier tiempo** y por **acto administrativo motivado**, suspender el proceso de disposición si hay irregularidades o fallas."
+        },
+        {
+          "id": "merc-c-008",
+          "type": "concept",
+          "source": "Decreto 1165/2019 arts. 741–753",
+          "title": "Cada modalidad en una línea",
+          "body": "| Modalidad | Regla clave |\n|---|---|\n| **Venta** (741) | Directa por la DIAN (Estatuto de Contratación) o por intermediarios (martillos, comisionistas, bancas de inversión). Para el avalúo comercial puede aplicarse un descuento de **hasta el 20 %**. |\n| **Donación** (742) | Si afecta el comercio formal, hay restricciones, la venta fue **desierta 2 veces**, cumple **función social** o la cantidad es mínima. |\n| **Asignación** (748) | **Excepcional**: la DIAN se asigna, por **resolución motivada**, mercancías decomisadas o abandonadas que necesita para sus funciones. |\n| **Destrucción / chatarrización** (749) | Dañadas, sin valor comercial, restringidas, vencidas, riesgosas o sin otra opción; también tras **2 ventas desiertas y 2 ofrecimientos de donación** sin aceptación. Cigarrillos aprehendidos: destrucción en **máximo 15 días** tras levantar la cadena de custodia. |\n| **Dación en pago** (750) | Pagar **deudas de la DIAN** surgidas de la administración y disposición de mercancías. |\n\n**Titularidad** (752): el acto administrativo, contrato o factura es el **título de dominio** y **ampara aduaneramente** la mercancía. **Entrega** (753): en el **estado y sitio** en que se encuentre; la DIAN no responde por mantenimiento, **vicios ocultos**, calidad ni autenticidad de marcas."
+        },
+        { "ref": "merc-q-021" },
+        { "ref": "merc-q-022" },
+        { "ref": "merc-q-023" },
+        { "ref": "merc-q-024" },
+        { "ref": "merc-q-025" },
+        { "ref": "merc-q-026" },
+        { "ref": "merc-q-027" },
+        { "ref": "merc-q-028" }
+      ]
+    },
+    {
+      "id": "merc-05",
+      "title": "Repaso: del ingreso a la entrega",
+      "minutes": 6,
+      "steps": [
+        {
+          "id": "merc-c-009",
+          "type": "concept",
+          "source": "Ley 2586/2026 art. 40; Decreto 1165/2019 arts. 732, 736, 745–747 y 752–753",
+          "title": "El ciclo completo de la mercancía",
+          "body": "1. **Ingreso:** acta de aprehensión (documento de ingreso) o informe de abandono.\n2. **Custodia:** recinto del operador logístico, Fuerza Pública o depósito del interesado; inventario y avalúo.\n3. **Situación jurídica definida:** decomiso en firme o abandono sin rescate (salvo los casos del art. 737).\n4. **Disposición:** venta, donación, asignación, destrucción, chatarrización o dación en pago.\n5. **Entrega:** en el estado y sitio en que se encuentre; el acto, contrato o factura es el título de dominio.\n\n**Donación, paso a paso:** la entidad pública manifiesta interés por escrito dentro de los **5 días** siguientes a la publicación del ofrecimiento (art. 743). El acto de donación se **notifica por correo** y **no tiene recurso** (art. 746). El donatario **no puede rechazarla**, salvo inconsistencias en la entrega (art. 745). Debe **retirarla en 10 días hábiles**, de inmediato si es perecedera, con hasta 10 días hábiles adicionales por volumen o ubicación; si no, paga el almacenamiento. Las inconsistencias se manifiestan por escrito dentro de los **3 días** siguientes a la diligencia (art. 747)."
+        },
+        { "ref": "merc-q-029" },
+        { "ref": "merc-q-030" },
+        { "ref": "merc-q-031" },
+        { "ref": "merc-q-032" },
+        { "ref": "merc-q-033" },
+        { "ref": "merc-q-034" }
+      ]
+    }
+  ],
+  "flashcards": [
+    { "id": "merc-fc-001", "front": "¿Qué es la aprehensión?", "back": "Una medida cautelar: retener mercancías, medios de transporte o unidades de carga mientras se verifica su legal introducción, permanencia y circulación.", "source": "Ley 2586/2026 art. 7 num. 1" },
+    { "id": "merc-fc-002", "front": "¿Qué inicia el proceso de decomiso?", "back": "La notificación del acta de aprehensión.", "source": "Ley 2586/2026 art. 40" },
+    { "id": "merc-fc-003", "front": "¿Procede recurso contra el acta de aprehensión?", "back": "No. Es un acto de trámite y hace las veces de documento de ingreso al recinto.", "source": "Ley 2586/2026 art. 40" },
+    { "id": "merc-fc-004", "front": "Avalúo de mercancía que requiere análisis especializado", "back": "Avalúo provisional en el acta; el definitivo dentro de los 20 días hábiles siguientes a la notificación del acta.", "source": "Ley 2586/2026 art. 44" },
+    { "id": "merc-fc-005", "front": "Plazo para responder el requerimiento ordinario por causal de aprehensión (control posterior)", "back": "15 días hábiles desde el día siguiente a su notificación.", "source": "Ley 2586/2026 art. 28 num. 2" },
+    { "id": "merc-fc-006", "front": "Garantía para dejar maquinaria industrial aprehendida en custodia del interesado", "back": "100 % del valor FOB o del avalúo.", "source": "Ley 2586/2026 art. 54" },
+    { "id": "merc-fc-007", "front": "Mercancía aprehendida que no puede trasladarse por orden público", "back": "Queda en custodia de la Fuerza Pública, informando de inmediato a la Dirección Seccional.", "source": "Decreto 1165/2019 art. 732" },
+    { "id": "merc-fc-008", "front": "Plazo para inventario, avalúo y traslado de mercancía en abandono", "back": "Máximo 3 meses desde el vencimiento del plazo del art. 171 o 260.", "source": "Decreto 1165/2019 art. 732" },
+    { "id": "merc-fc-009", "front": "¿Quién almacena y dispone de armas, municiones y explosivos aprehendidos?", "back": "El Ministerio de Defensa Nacional.", "source": "Decreto 1165/2019 art. 733 num. 7" },
+    { "id": "merc-fc-010", "front": "¿Quién paga el almacenamiento si el decomiso queda en firme y no hay rescate?", "back": "La DIAN.", "source": "Decreto 1165/2019 art. 734" },
+    { "id": "merc-fc-011", "front": "Requisito para trasladar mercancías entre recintos", "back": "Autorización de la DIAN; se conserva la situación jurídica y la descripción de la mercancía.", "source": "Decreto 1165/2019 art. 735" },
+    { "id": "merc-fc-012", "front": "Término de permanencia en depósito antes del abandono legal", "back": "1 mes desde la llegada al territorio aduanero nacional.", "source": "Decreto 1165/2019 art. 171" },
+    { "id": "merc-fc-013", "front": "Valor del rescate de mercancía en abandono", "back": "10 % del valor en aduana, más tributos y gastos de almacenamiento, dentro del mes siguiente al abandono.", "source": "Decreto 1165/2019 arts. 171 par. 1 y 293 num. 1" },
+    { "id": "merc-fc-014", "front": "Formas de disposición", "back": "Venta, donación, asignación, destrucción y/o gestión de residuos, chatarrización y dación en pago.", "source": "Decreto 1165/2019 art. 736" },
+    { "id": "merc-fc-015", "front": "4 casos para disponer de mercancía solo aprehendida", "back": "Daña otros bienes; perecedera o con vencimiento; requiere condiciones especiales que no hay; restricciones que impiden comercializarla.", "source": "Decreto 1165/2019 art. 737" },
+    { "id": "merc-fc-016", "front": "¿Cómo se suspende un proceso de disposición con irregularidades?", "back": "Con acto administrativo motivado, en cualquier tiempo.", "source": "Decreto 1165/2019 art. 739" },
+    { "id": "merc-fc-017", "front": "Plazo del donatario para retirar la mercancía", "back": "10 días hábiles desde la notificación (inmediato si es perecedera); hasta 10 días hábiles más por volumen o ubicación.", "source": "Decreto 1165/2019 art. 745" },
+    { "id": "merc-fc-018", "front": "Notificación y recursos del acto de donación", "back": "Se notifica por correo y no procede recurso alguno.", "source": "Decreto 1165/2019 art. 746" },
+    { "id": "merc-fc-019", "front": "¿Qué es la asignación?", "back": "Excepcionalmente, la DIAN se asigna por resolución motivada mercancías decomisadas o abandonadas que requiere para sus funciones.", "source": "Decreto 1165/2019 art. 748" },
+    { "id": "merc-fc-020", "front": "¿Qué acredita la propiedad de la mercancía adjudicada?", "back": "El acto administrativo, contrato o factura del proceso de disposición: es título de dominio y amparo aduanero.", "source": "Decreto 1165/2019 art. 752" },
+    { "id": "merc-fc-021", "front": "Plazo para destruir cigarrillos aprehendidos", "back": "Máximo 15 días, una vez levantada la cadena de custodia (Ley 1762/2015 art. 53).", "source": "Decreto 1165/2019 art. 749 par." },
+    { "id": "merc-fc-022", "front": "¿Responde la DIAN por vicios ocultos de la mercancía vendida?", "back": "No. Se entrega en el estado y sitio en que se encuentre.", "source": "Decreto 1165/2019 art. 753" }
+  ],
+  "questions": [
+    {
+      "id": "merc-q-001", "type": "mcq", "difficulty": 1, "source": "Ley 2586/2026 art. 7 num. 1",
+      "prompt": "Según la Ley 2586 de 2026, la aprehensión es:",
+      "options": [
+        { "id": "a", "text": "La sanción de multa por una infracción aduanera" },
+        { "id": "b", "text": "El acto que transfiere la mercancía a la Nación" },
+        { "id": "c", "text": "Una retención mientras se verifica la legalidad" },
+        { "id": "d", "text": "La venta anticipada de mercancía perecedera" }
+      ],
+      "answer": "c",
+      "explain": "Es una medida cautelar: retener mercancías, medios de transporte o unidades de carga mientras se verifica su legal introducción, permanencia y circulación.",
+      "optionWhy": {
+        "a": "La aprehensión no es una sanción pecuniaria; es una medida cautelar.",
+        "b": "La propiedad pasa a la Nación con el decomiso en firme o el abandono, no con la aprehensión.",
+        "d": "La disposición anticipada de aprehendidas es un caso del art. 737 del Decreto 1165, no la definición de aprehensión."
+      }
+    },
+    {
+      "id": "merc-q-002", "type": "truefalse", "difficulty": 1, "source": "Ley 2586/2026 art. 40",
+      "statement": "Contra el acta de aprehensión procede recurso en sede administrativa.",
+      "answer": false,
+      "explain": "Falso. El acta de aprehensión es un acto de trámite sin recurso; además hace las veces de documento de ingreso al recinto."
+    },
+    {
+      "id": "merc-q-003", "type": "pjs", "difficulty": 2, "source": "Ley 2586/2026 art. 40",
+      "case": "Llega al recinto de almacenamiento un camión con mercancía aprehendida en un operativo de control. El operador logístico pide el documento que soporta el ingreso de la carga.",
+      "prompt": "El gestor debe indicar que el documento de ingreso es:",
+      "options": [
+        { "id": "a", "text": "La resolución de decomiso, una vez quede en firme." },
+        { "id": "b", "text": "El acta de aprehensión, con el avalúo de la mercancía." },
+        { "id": "c", "text": "La factura comercial que presente el tenedor." }
+      ],
+      "answer": "b",
+      "explain": "El acta de aprehensión hace las veces de documento de ingreso al recinto y en ella se deja constancia de las condiciones de entrega al depósito (art. 40); el avalúo se consigna en ella (art. 44).",
+      "optionWhy": {
+        "a": "El decomiso se decide al final del proceso; la mercancía ingresa desde la aprehensión.",
+        "c": "La factura del tenedor puede servir como prueba de valor, pero no es el documento de ingreso."
+      }
+    },
+    {
+      "id": "merc-q-004", "type": "pjs", "difficulty": 2, "source": "Ley 2586/2026 art. 44",
+      "case": "En una diligencia se aprehenden tambores de una sustancia química cuyo valor depende de un análisis de laboratorio que no puede hacerse en el sitio.",
+      "prompt": "Respecto del avalúo, procede:",
+      "options": [
+        { "id": "a", "text": "Aplazar todo avalúo hasta la resolución que decide el decomiso." },
+        { "id": "b", "text": "Tomar como definitivo el valor que informe el tenedor en el sitio." },
+        { "id": "c", "text": "Fijar un avalúo provisional y el definitivo dentro de 20 días hábiles." }
+      ],
+      "answer": "c",
+      "explain": "Si se requieren análisis especializados, se fija un avalúo provisional y el definitivo se hace dentro de los 20 días hábiles siguientes a la notificación del acta (art. 44).",
+      "optionWhy": {
+        "a": "La ley exige un avalúo desde el acta, aunque sea provisional.",
+        "b": "La base es el valor declarado, los documentos soporte o la Base de Precios, no lo que diga el tenedor."
+      }
+    },
+    {
+      "id": "merc-q-005", "type": "pjs", "difficulty": 3, "source": "Ley 2586/2026 art. 54",
+      "case": "Se aprehende una línea de producción instalada y en funcionamiento en una planta. El titular pide que la maquinaria quede en su planta mientras avanza el proceso.",
+      "prompt": "La decisión ajustada a la norma es:",
+      "options": [
+        { "id": "a", "text": "Autorizar el depósito con garantía del 100 % del valor FOB o del avalúo." },
+        { "id": "b", "text": "Negar la solicitud: toda mercancía aprehendida va al recinto contratado." },
+        { "id": "c", "text": "Autorizar el depósito sin garantía, pues la máquina no puede moverse." }
+      ],
+      "answer": "a",
+      "explain": "La maquinaria industrial en funcionamiento puede quedar en custodia del titular con garantía del 100 % del valor FOB o del avalúo; el depositario no puede modificarla, consumirla, disponer de ella ni moverla sin autorización (art. 54).",
+      "optionWhy": {
+        "b": "El art. 54 sí permite la custodia del interesado en este caso.",
+        "c": "Para la maquinaria (num. 2) la garantía es obligatoria."
+      }
+    },
+    {
+      "id": "merc-q-006", "type": "pjs", "difficulty": 2, "source": "Ley 2586/2026 art. 53",
+      "case": "Antes de que quede en firme el decomiso, el importador presenta la declaración con levante y paga tributos, sanciones y el valor de rescate de la mercancía aprehendida.",
+      "prompt": "La dependencia que conoce del caso debe:",
+      "options": [
+        { "id": "a", "text": "Esperar la resolución de decomiso para devolver la mercancía." },
+        { "id": "b", "text": "Ofrecer la mercancía en donación, pues ya fue aprehendida." },
+        { "id": "c", "text": "Ordenar por acto motivado la terminación y la devolución inmediata." }
+      ],
+      "answer": "c",
+      "explain": "Si la mercancía se rescata antes de la firmeza del decomiso, se ordena por acto motivado la terminación del proceso, la devolución inmediata y el archivo del expediente (art. 53).",
+      "optionWhy": {
+        "a": "La devolución procede en cualquier estado del proceso; no hay que esperar el fondo.",
+        "b": "La mercancía rescatada no es de la Nación; no puede donarse."
+      }
+    },
+    {
+      "id": "merc-q-007", "type": "cloze", "difficulty": 1, "source": "Ley 2586/2026 art. 28 num. 2",
+      "text": "En control posterior, el requerimiento ordinario por una causal de aprehensión se responde dentro de los {{15}} días hábiles siguientes a su notificación.",
+      "alternatives": { "15": ["quince"] }
+    },
+    {
+      "id": "merc-q-008", "type": "pjs", "difficulty": 2, "source": "Decreto 1165/2019 art. 732",
+      "case": "En una vereda se aprehende un cargamento, pero la vía de salida está bloqueada por problemas de orden público y no es posible trasladarlo al recinto.",
+      "prompt": "Lo procedente es:",
+      "options": [
+        { "id": "a", "text": "Dejarlo en custodia de la Fuerza Pública e informar a la Seccional." },
+        { "id": "b", "text": "Devolverlo al tenedor bajo acta hasta que se abra la vía." },
+        { "id": "c", "text": "Destruirlo en el sitio para evitar riesgos de pérdida." }
+      ],
+      "answer": "a",
+      "explain": "Cuando por razones justificadas o de orden público la mercancía no puede trasladarse, queda en custodia de la Fuerza Pública, informando de inmediato a la Dirección Seccional (art. 732).",
+      "optionWhy": {
+        "b": "Devolverla al tenedor equivale a levantar la medida sin fundamento.",
+        "c": "La destrucción es una forma de disposición con causales propias; no aplica a una mercancía apenas aprehendida."
+      }
+    },
+    {
+      "id": "merc-q-009", "type": "pjs", "difficulty": 2, "source": "Decreto 1165/2019 art. 732",
+      "case": "El GIT de Operación Logística recibe de la División de la Operación Aduanera el informe de una mercancía en abandono cuyo término de rescate ya venció.",
+      "prompt": "La Seccional debe hacer el inventario, avalúo y traslado:",
+      "options": [
+        { "id": "a", "text": "Dentro de 1 mes contado desde la llegada de la mercancía." },
+        { "id": "b", "text": "En máximo 3 meses desde el vencimiento del plazo del art. 171." },
+        { "id": "c", "text": "Dentro de 10 días hábiles contados desde el informe recibido." }
+      ],
+      "answer": "b",
+      "explain": "El término máximo es de 3 meses desde el vencimiento del plazo del art. 171 o 260, y se contabiliza con el informe de abandono (art. 732).",
+      "optionWhy": {
+        "a": "El mes desde la llegada es el término de permanencia antes del abandono (art. 171).",
+        "c": "Los 10 días hábiles son el plazo de retiro de una donación (art. 745)."
+      }
+    },
+    {
+      "id": "merc-q-010", "type": "match", "difficulty": 2, "source": "Decreto 1165/2019 art. 733",
+      "prompt": "Relaciona cada mercancía especial con la entidad que la almacena y dispone de ella.",
+      "pairs": [
+        { "left": "Armas, municiones y explosivos", "right": "Ministerio de Defensa Nacional" },
+        { "left": "Café", "right": "Federación Nacional de Cafeteros / Almacafé" },
+        { "left": "Hidrocarburos y derivados", "right": "Ecopetrol S.A." },
+        { "left": "Medicamentos de uso humano", "right": "Ministerio de Salud y Protección Social" },
+        { "left": "Fauna y flora silvestre", "right": "Ministerio de Ambiente y Desarrollo Sostenible" }
+      ],
+      "explain": "El art. 733 asigna estas mercancías a entidades especializadas, sin perjuicio del trámite aduanero que sigue a cargo de la DIAN."
+    },
+    {
+      "id": "merc-q-011", "type": "pjs", "difficulty": 3, "source": "Decreto 1165/2019 art. 734",
+      "case": "Un acto administrativo ordena devolver una mercancía aprehendida porque la medida fue improcedente. El interesado exige que la DIAN pague todos los gastos hasta que la retire, aunque tarde meses.",
+      "prompt": "Frente a los costos, la DIAN:",
+      "options": [
+        { "id": "a", "text": "No asume ningún costo, pues la mercancía era del interesado." },
+        { "id": "b", "text": "Asume todos los costos hasta que el interesado la retire." },
+        { "id": "c", "text": "Asume transporte y almacenamiento hasta vencer el plazo de salida." }
+      ],
+      "answer": "c",
+      "explain": "En la devolución por improcedencia, la DIAN asume únicamente transporte y almacenamiento desde el ingreso hasta el vencimiento del plazo concedido para la salida (art. 734).",
+      "optionWhy": {
+        "a": "La norma sí pone a cargo de la DIAN esos costos cuando la medida fue improcedente.",
+        "b": "La DIAN no paga más allá del plazo concedido para retirarla."
+      }
+    },
+    {
+      "id": "merc-q-012", "type": "truefalse", "difficulty": 1, "source": "Decreto 1165/2019 art. 734",
+      "statement": "Si una mercancía aprehendida se rescata antes de que el decomiso quede en firme, quien la rescata paga el almacenamiento desde el ingreso hasta la salida.",
+      "answer": true,
+      "explain": "Verdadero. Así lo dispone el art. 734; la DIAN solo asume esos costos cuando el decomiso está en firme y no hay rescate."
+    },
+    {
+      "id": "merc-q-013", "type": "pjs", "difficulty": 2, "source": "Decreto 1165/2019 art. 735",
+      "case": "Por cambio de operador logístico hay que trasladar a otra ciudad mercancías en decomiso. Un auxiliar propone registrarlas en el nuevo recinto como mercancía nueva para agilizar.",
+      "prompt": "El gestor debe:",
+      "options": [
+        { "id": "a", "text": "Trasladarlas con autorización, sin variar ítems ni situación jurídica." },
+        { "id": "b", "text": "Aceptar la propuesta y reinventariarlas con nuevos ítems al llegar." },
+        { "id": "c", "text": "Trasladarlas sin autorización, pues las mueve el mismo contratista." }
+      ],
+      "answer": "a",
+      "explain": "Los traslados requieren autorización de la DIAN; la mercancía ingresa en las mismas condiciones y conserva su situación jurídica. Luego se informa la nueva ubicación a Fiscalización (art. 735).",
+      "optionWhy": {
+        "b": "Cambiar ítems o descripción rompe la trazabilidad con el proceso administrativo.",
+        "c": "Todo traslado requiere autorización de la DIAN, sin importar quién lo ejecute."
+      }
+    },
+    {
+      "id": "merc-q-014", "type": "open", "difficulty": 2, "source": "Decreto 1165/2019 art. 734",
+      "prompt": "Explica quién paga el almacenamiento en tres casos: rescate antes de la firmeza, decomiso en firme sin rescate y devolución por improcedencia.",
+      "modelAnswer": "Si se rescata antes de la firmeza, paga quien rescata desde el ingreso hasta la salida. Con decomiso en firme sin rescate, paga la DIAN. En la devolución por improcedencia, la DIAN paga solo transporte y almacenamiento hasta el vencimiento del plazo para retirarla.",
+      "keyPoints": ["Rescate antes de firmeza → quien rescata", "Decomiso en firme sin rescate → DIAN", "Improcedencia → DIAN, solo hasta el plazo de salida"],
+      "keywords": ["rescata", "firme", "dian", "improcedencia", "plazo"],
+      "minKeywords": 3
+    },
+    {
+      "id": "merc-q-015", "type": "order", "difficulty": 2, "source": "Decreto 1165/2019 arts. 171, 293, 732 y 736",
+      "prompt": "Ordena lo que ocurre con una mercancía que nadie retira del depósito.",
+      "items": [
+        "Llega al territorio aduanero y queda almacenada",
+        "Vence el mes sin levante ni reembarque: abandono legal",
+        "Vence el mes siguiente sin rescate",
+        "Inventario, avalúo y traslado (máximo 3 meses)",
+        "Disposición: venta, donación, destrucción u otra"
+      ],
+      "explain": "Un mes de permanencia (art. 171), abandono y un mes para rescatar (arts. 171 par. 1 y 293), inventario y traslado en máximo 3 meses (art. 732) y luego disposición (art. 736)."
+    },
+    {
+      "id": "merc-q-016", "type": "pjs", "difficulty": 2, "source": "Decreto 1165/2019 arts. 171 par. 1 y 293 num. 1",
+      "case": "Una importadora quiere recuperar su mercancía, que quedó en abandono legal hace dos semanas.",
+      "prompt": "Para rescatarla debe presentar Declaración de Legalización y pagar:",
+      "options": [
+        { "id": "a", "text": "Solo los tributos aduaneros, por estar dentro del término." },
+        { "id": "b", "text": "Tributos, rescate del 10 % del valor en aduana y almacenamiento." },
+        { "id": "c", "text": "Tributos y el 100 % del avalúo como valor de rescate." }
+      ],
+      "answer": "b",
+      "explain": "El rescate de mercancía en abandono exige tributos, el 10 % del valor en aduana y los gastos de almacenamiento, dentro del mes siguiente al abandono (arts. 171 par. 1 y 293 num. 1).",
+      "optionWhy": {
+        "a": "Solo ciertas entidades públicas y misiones están exentas del valor de rescate.",
+        "c": "El 100 % del avalúo aplica a la venta de menajes y equipajes al propietario (art. 736)."
+      }
+    },
+    {
+      "id": "merc-q-017", "type": "pjs", "difficulty": 3, "source": "Decreto 1165/2019 art. 293 num. 1",
+      "case": "Un hospital público importó equipos que quedaron en abandono legal. Su representante pregunta, dentro del término, si puede recuperarlos.",
+      "prompt": "La respuesta correcta es:",
+      "options": [
+        { "id": "a", "text": "No puede: los bienes de entidades públicas pasan a donación." },
+        { "id": "b", "text": "Puede, pero paga el 10 % del valor en aduana como cualquiera." },
+        { "id": "c", "text": "Puede, con Declaración de Legalización y sin pago de rescate." }
+      ],
+      "answer": "c",
+      "explain": "Las mercancías importadas por entidades de derecho público en abandono pueden rescatarse dentro del término sin pago de rescate, pagando los tributos que correspondan (art. 293 num. 1).",
+      "optionWhy": {
+        "a": "La norma sí permite el rescate a las entidades públicas.",
+        "b": "Las entidades públicas están exentas del valor de rescate."
+      }
+    },
+    {
+      "id": "merc-q-018", "type": "pjs", "difficulty": 2, "source": "Decreto 1165/2019 art. 171 par. 2",
+      "case": "En un depósito habilitado hay alimentos en abandono legal con fecha de vencimiento expirada.",
+      "prompt": "Lo que corresponde es:",
+      "options": [
+        { "id": "a", "text": "Trasladarlos al recinto del operador logístico para avaluarlos." },
+        { "id": "b", "text": "Que el depósito los destruya ya, con autorización abreviada." },
+        { "id": "c", "text": "Ofrecerlos en donación a una entidad pública de la región." }
+      ],
+      "answer": "b",
+      "explain": "La mercancía en abandono vencida, dañada, riesgosa o sin valor comercial la destruye de inmediato el depósito, previa autorización abreviada de la DIAN; no se traslada a los recintos del art. 732 (art. 171 par. 2).",
+      "optionWhy": {
+        "a": "La norma prohíbe trasladar estas mercancías a los recintos del art. 732.",
+        "c": "Un alimento vencido no puede cumplir una función social; procede la destrucción."
+      }
+    },
+    {
+      "id": "merc-q-019", "type": "mcq", "difficulty": 1, "source": "Decreto 1165/2019 art. 171",
+      "prompt": "¿Cuánto puede permanecer la mercancía en el depósito mientras se obtiene el levante?",
+      "options": [
+        { "id": "a", "text": "1 mes desde su llegada al territorio" },
+        { "id": "b", "text": "2 meses desde su llegada al territorio" },
+        { "id": "c", "text": "3 meses desde su llegada al territorio" },
+        { "id": "d", "text": "15 días desde su llegada al territorio" }
+      ],
+      "answer": "a",
+      "explain": "El término es de 1 mes desde la llegada; el tránsito lo suspende (art. 171).",
+      "optionWhy": {
+        "b": "No hay un término de 2 meses en el art. 171.",
+        "c": "Los 3 meses son el plazo para inventario, avalúo y traslado de lo abandonado (art. 732).",
+        "d": "El art. 171 no fija 15 días."
+      }
+    },
+    {
+      "id": "merc-q-020", "type": "cloze", "difficulty": 1, "source": "Decreto 1165/2019 art. 293 num. 1",
+      "text": "Para rescatar mercancía en abandono se paga, además de los tributos, el {{10}} % del valor en aduana.",
+      "alternatives": { "10": ["diez"] }
+    },
+    {
+      "id": "merc-q-021", "type": "mcq", "difficulty": 1, "source": "Decreto 1165/2019 art. 736",
+      "prompt": "¿Cuál NO es una forma de disposición de mercancías decomisadas o abandonadas?",
+      "options": [
+        { "id": "a", "text": "La donación" },
+        { "id": "b", "text": "La dación en pago" },
+        { "id": "c", "text": "La chatarrización" },
+        { "id": "d", "text": "La permuta" }
+      ],
+      "answer": "d",
+      "explain": "Las formas son venta, donación, asignación, destrucción y/o gestión de residuos, chatarrización y dación en pago (art. 736).",
+      "optionWhy": {
+        "a": "La donación está en el art. 736 y se regula en los arts. 742–747.",
+        "b": "La dación en pago está en el art. 736 y se regula en el art. 750.",
+        "c": "La chatarrización está en el art. 736 y se regula en el art. 749."
+      }
+    },
+    {
+      "id": "merc-q-022", "type": "pjs", "difficulty": 2, "source": "Decreto 1165/2019 art. 737",
+      "case": "Ingresan al recinto 4 toneladas de frutas aprehendidas. El proceso de decomiso apenas comienza y tardará meses.",
+      "prompt": "Respecto de las frutas, procede:",
+      "options": [
+        { "id": "a", "text": "Disponer de ellas sin detener el proceso de decomiso." },
+        { "id": "b", "text": "Conservarlas hasta que el decomiso quede en firme." },
+        { "id": "c", "text": "Devolverlas al tenedor para que se encargue de ellas." }
+      ],
+      "answer": "a",
+      "explain": "Las mercancías aprehendidas perecederas pueden disponerse sin perjuicio de la continuidad del proceso de decomiso (art. 737 num. 2).",
+      "optionWhy": {
+        "b": "Esperar la firmeza haría perder la mercancía; por eso existe el art. 737.",
+        "c": "La devolución solo procede si se desvirtúa la causal o hay rescate (Ley 2586 art. 53)."
+      }
+    },
+    {
+      "id": "merc-q-023", "type": "pjs", "difficulty": 2, "source": "Decreto 1165/2019 arts. 742 num. 3 y 749",
+      "case": "El proceso de venta de un lote de electrodomésticos decomisados se declaró desierto por segunda vez.",
+      "prompt": "El siguiente paso ajustado a la norma es:",
+      "options": [
+        { "id": "a", "text": "Destruirlos de inmediato por falta de compradores." },
+        { "id": "b", "text": "Abrir una tercera venta con el mismo precio base." },
+        { "id": "c", "text": "Ofrecerlos en donación a entidades públicas." }
+      ],
+      "answer": "c",
+      "explain": "Dos ventas desiertas habilitan la donación (art. 742 num. 3). La destrucción por esa vía exige además 2 ofrecimientos de donación sin aceptación (art. 749).",
+      "optionWhy": {
+        "a": "Falta ofrecerlos en donación dos veces antes de destruirlos por esta causa.",
+        "b": "La norma prevé la donación tras dos ventas desiertas."
+      }
+    },
+    {
+      "id": "merc-q-024", "type": "pjs", "difficulty": 3, "source": "Decreto 1165/2019 art. 745",
+      "case": "Una alcaldía notificada de una donación de muebles no los retira dentro de los 10 días hábiles. El recinto sigue cobrando almacenamiento.",
+      "prompt": "Desde entonces, los gastos de almacenamiento:",
+      "options": [
+        { "id": "a", "text": "Los asume la DIAN, que debe revocar la donación." },
+        { "id": "b", "text": "Corren por cuenta de la alcaldía donataria." },
+        { "id": "c", "text": "Se dividen entre la DIAN y el operador logístico." }
+      ],
+      "answer": "b",
+      "explain": "Si el donatario no retira en el plazo, los gastos de almacenamiento, guarda, custodia y conservación corren por su cuenta; el recinto expide la matrícula a su nombre (art. 745).",
+      "optionWhy": {
+        "a": "La norma no ordena revocar la donación por no retirarla; traslada los gastos al donatario.",
+        "c": "No existe esa división; el gasto es del donatario."
+      }
+    },
+    {
+      "id": "merc-q-025", "type": "pjs", "difficulty": 2, "source": "Decreto 1165/2019 arts. 746 y 747",
+      "case": "En la diligencia de entrega de una donación, la entidad beneficiaria encuentra 40 unidades menos de las que dice el acto de donación.",
+      "prompt": "Lo que procede es:",
+      "options": [
+        { "id": "a", "text": "Que la entidad diga por escrito en 3 días si acepta lo hallado." },
+        { "id": "b", "text": "Que la entidad interponga recurso de reposición contra el acto." },
+        { "id": "c", "text": "Que la entidad reciba todo y reclame luego por la calidad." }
+      ],
+      "answer": "a",
+      "explain": "Ante inconsistencias de cantidad, peso o piezas, el beneficiario manifiesta por escrito dentro de los 3 días siguientes si acepta; la DIAN modifica o revoca el acto y tramita el faltante (art. 747).",
+      "optionWhy": {
+        "b": "Contra el acto de donación no procede recurso alguno (art. 746).",
+        "c": "Las inconsistencias se refieren a cantidad o piezas, no a calidad, y tienen un trámite propio."
+      }
+    },
+    {
+      "id": "merc-q-026", "type": "truefalse", "difficulty": 1, "source": "Decreto 1165/2019 art. 746",
+      "statement": "El acto administrativo de donación se notifica por correo y contra él no procede recurso.",
+      "answer": true,
+      "explain": "Verdadero. Así lo dispone el art. 746."
+    },
+    {
+      "id": "merc-q-027", "type": "pjs", "difficulty": 2, "source": "Decreto 1165/2019 art. 748",
+      "case": "La Seccional necesita camionetas para sus operativos de control y en el recinto hay vehículos decomisados en buen estado.",
+      "prompt": "La figura que permite usarlos es:",
+      "options": [
+        { "id": "a", "text": "La dación en pago a favor de la Dirección Seccional." },
+        { "id": "b", "text": "La compra en la próxima venta, como cualquier oferente." },
+        { "id": "c", "text": "La asignación excepcional, por resolución motivada." }
+      ],
+      "answer": "c",
+      "explain": "La DIAN puede, excepcionalmente y por resolución motivada, asignarse mercancías decomisadas o abandonadas que requiera para sus funciones (art. 748).",
+      "optionWhy": {
+        "a": "La dación en pago sirve para pagar deudas de la DIAN, no para dotarla (art. 750).",
+        "b": "La asignación existe precisamente para este caso."
+      }
+    },
+    {
+      "id": "merc-q-028", "type": "match", "difficulty": 2, "source": "Decreto 1165/2019 arts. 736, 748, 749 y 750",
+      "prompt": "Relaciona cada modalidad con su uso.",
+      "pairs": [
+        { "left": "Asignación", "right": "Mercancía que la DIAN necesita para sus funciones" },
+        { "left": "Dación en pago", "right": "Pagar deudas de la DIAN del proceso de administración y disposición" },
+        { "left": "Destrucción", "right": "Mercancía dañada, vencida o sin valor comercial" },
+        { "left": "Comodato", "right": "Aeronaves, embarcaciones y maquinaria especializada para entidades públicas" }
+      ],
+      "explain": "Asignación (art. 748), dación en pago (art. 750), destrucción (art. 749) y comodato de medios de transporte y maquinaria especializada (art. 736)."
+    },
+    {
+      "id": "merc-q-029", "type": "pjs", "difficulty": 2, "source": "Decreto 1165/2019 art. 753",
+      "case": "Un comprador de un vehículo adquirido en venta de la DIAN reclama porque el motor presenta una falla que no era visible al entregarlo.",
+      "prompt": "La respuesta de la DIAN debe ser que:",
+      "options": [
+        { "id": "a", "text": "Debe repararlo, porque vendió un bien con defectos." },
+        { "id": "b", "text": "No responde: se entregó en el estado en que se encontraba." },
+        { "id": "c", "text": "Debe devolver el precio y recibir el vehículo de vuelta." }
+      ],
+      "answer": "b",
+      "explain": "Las mercancías se entregan en el estado y sitio en que se encuentren; la DIAN no responde por mantenimiento ni vicios ocultos (art. 753).",
+      "optionWhy": {
+        "a": "La DIAN no está obligada a proveer mantenimiento ni a responder por vicios ocultos.",
+        "c": "La norma excluye esa responsabilidad de la DIAN."
+      }
+    },
+    {
+      "id": "merc-q-030", "type": "open", "difficulty": 2, "source": "Decreto 1165/2019 arts. 736 y 737",
+      "prompt": "¿Por qué la disposición de mercancías solo aprehendidas es excepcional, y en qué casos procede?",
+      "modelAnswer": "Porque aún no está definida su situación jurídica: la regla es disponer de las decomisadas o abandonadas, y de las aprehendidas solo en los casos expresos. Procede, sin detener el decomiso, cuando dañan otros bienes, son perecederas o vencen, requieren condiciones especiales que no hay o tienen restricciones que impiden comercializarlas.",
+      "keyPoints": ["Regla: decomisadas o abandonadas (art. 736)", "Aprehendidas solo en casos expresos", "Los 4 casos del art. 737", "El proceso de decomiso continúa"],
+      "keywords": ["decomisadas", "abandonadas", "perecederas", "danos", "condiciones especiales", "restricciones"],
+      "minKeywords": 3
+    },
+    {
+      "id": "merc-q-031", "type": "pjs", "difficulty": 3, "source": "Decreto 1165/2019 art. 739",
+      "case": "Durante una venta por martillo, el gestor detecta que el lote publicado no coincide con el inventario y que varios oferentes recibieron información distinta.",
+      "prompt": "La actuación correcta es:",
+      "options": [
+        { "id": "a", "text": "Suspender el proceso de disposición mediante acto motivado." },
+        { "id": "b", "text": "Terminar la venta y corregir el inventario después de adjudicar." },
+        { "id": "c", "text": "Pedir al martillo que anule la subasta mediante aviso verbal." }
+      ],
+      "answer": "a",
+      "explain": "La DIAN puede, en cualquier tiempo y por acto administrativo motivado, suspender el proceso de disposición si hay irregularidades o fallas (art. 739).",
+      "optionWhy": {
+        "b": "Adjudicar con irregularidades conocidas expone la venta y el título del comprador.",
+        "c": "La suspensión exige un acto administrativo motivado, no una instrucción verbal."
+      }
+    },
+    {
+      "id": "merc-q-032", "type": "mcq", "difficulty": 1, "source": "Decreto 1165/2019 art. 752",
+      "prompt": "¿Qué documento acredita la propiedad de una mercancía adjudicada por la DIAN?",
+      "options": [
+        { "id": "a", "text": "El acta de aprehensión de la mercancía" },
+        { "id": "b", "text": "El acto, contrato o factura de la disposición" },
+        { "id": "c", "text": "El informe de abandono de la Seccional" },
+        { "id": "d", "text": "La matrícula del recinto de almacenamiento" }
+      ],
+      "answer": "b",
+      "explain": "El acto administrativo, contrato o factura del proceso de disposición es título de dominio y ampara aduaneramente la mercancía (art. 752).",
+      "optionWhy": {
+        "a": "El acta de aprehensión es el documento de ingreso al recinto, no un título de propiedad.",
+        "c": "El informe de abandono solo cuenta el plazo de inventario y traslado (art. 732).",
+        "d": "La matrícula registra el depósito, no la propiedad."
+      }
+    },
+    {
+      "id": "merc-q-033", "type": "pjs", "difficulty": 2, "source": "Decreto 1165/2019 art. 743 num. 1",
+      "case": "La DIAN publica un ofrecimiento de donación de computadores decomisados. Una gobernación quiere recibirlos para escuelas rurales.",
+      "prompt": "La gobernación debe:",
+      "options": [
+        { "id": "a", "text": "Esperar a que la DIAN la escoja y le notifique la donación." },
+        { "id": "b", "text": "Presentar recurso para que se le adjudique el lote ofrecido." },
+        { "id": "c", "text": "Manifestar su interés por escrito dentro de 5 días, con la necesidad." }
+      ],
+      "answer": "c",
+      "explain": "La entidad interesada manifiesta su interés por escrito dentro de los 5 días siguientes a la publicación, describiendo la necesidad y las razones de su solicitud (art. 743 num. 1).",
+      "optionWhy": {
+        "a": "La donación general parte de la manifestación de interés de la entidad.",
+        "b": "No hay recurso para pedir una donación; se manifiesta interés."
+      }
+    },
+    {
+      "id": "merc-q-034", "type": "open", "difficulty": 3, "source": "Ley 2586/2026 art. 40; Decreto 1165/2019 arts. 732, 736 y 752–753",
+      "prompt": "Describe el ciclo de una mercancía desde que ingresa aprehendida al recinto hasta que se entrega a un tercero.",
+      "modelAnswer": "Ingresa con el acta de aprehensión, que es el documento de ingreso y lleva el avalúo. Queda en custodia del operador logístico con control de inventario. Cuando el decomiso queda en firme (o hay abandono sin rescate), la DIAN escoge una forma de disposición: venta, donación, asignación, destrucción, chatarrización o dación en pago. Se entrega en el estado y sitio en que esté, y el acto, contrato o factura es el título de dominio.",
+      "keyPoints": ["Acta de aprehensión = documento de ingreso", "Custodia e inventario", "Decomiso en firme o abandono", "Forma de disposición", "Entrega en el estado y sitio; título de dominio"],
+      "keywords": ["acta", "custodia", "inventario", "decomiso", "venta", "donacion", "titulo"],
+      "minKeywords": 4
+    }
+  ]
+}

@@ -121,3 +121,10 @@ Sitio en vivo: https://gabriel86-as.github.io/dian-2676-estudio/ · Repo: https:
 - La persona usuaria fijó la ficha como referencia principal. El PDF no tiene OPEC. Fase 9 reescrita con prioridades (comportamentales → disposicion-mercancias → procedimiento-administrativo → contratacion).
 - OPEC de la persona usuaria: **236739** (no 236767). Actualizados CLAUDE.md, README, overview, fase 9 y current_state. Indicadores de 236739 pendientes: búsqueda web sin resultados y SIMO público con error.
 - Segundo PDF (ficha SIMO) confirma la OPEC 236739, Gestor III, AF-LF-3005, 28 vacantes. Sin lista de indicadores: requiere el número de inscripción de la persona aspirante. Fase 9 reordenada: primero la prueba funcional (disposición de mercancías, CPACA, contratación) y al final los comportamentales.
+
+## 2026-11-04 — Fase 9: unidad disposicion-mercancias y prioridades
+- Nueva unidad `disposicion-mercancias` (prefijo `merc`): 5 lecciones, 22 tarjetas, 34 preguntas (19 PJS, 3 abiertas). Fuentes: Ley 2586/2026 arts. 7, 28, 40, 44, 53, 54; D1165 arts. 171, 260, 293, 732–753 (textos vigentes tras D360/2021 y D659/2024).
+- Prioridades según la ficha AF-LF-3005 (ver current_state). Manifiesto ordenado por prioridad; `priority` sincronizada en cada unidad.
+- Simulacros regenerados; `sw.js` → `dian2676-v2`; meta description → Gestor III, OPEC 236739.
+- Pruebas: validate sin errores; progress 14/14; simulacro 9/9; E2E qa-site 32/32, simulacro-basico 15/15, simulacro-examen 10/10.
+- Pendiente: `procedimiento-administrativo`, `contratacion`, niveles de `comportamentales`.

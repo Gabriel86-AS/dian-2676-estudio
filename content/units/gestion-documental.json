@@ -2,7 +2,7 @@
   "id": "gestion-documental",
   "title": "Gestión documental y trazabilidad de expedientes",
   "area": "funcional",
-  "priority": 2,
+  "priority": 1,
   "summary": "Ciclo vital y clases de archivo (Ley 594/2000), conformación del expediente físico, electrónico e híbrido (foliación, hoja de control, índice electrónico, cierre), transferencias, disposición final, TRD/TVD y el PINAR de la DIAN.",
   "sources": ["Ley 594 de 2000, arts. 3, 11, 21–28", "Acuerdo AGN 001 de 2024, títulos 4 y 5", "PINAR DIAN"],
   "lessons": [

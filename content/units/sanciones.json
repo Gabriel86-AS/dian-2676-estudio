@@ -2,7 +2,7 @@
   "id": "sanciones",
   "title": "Imposición de sanciones",
   "area": "funcional",
-  "priority": 1,
+  "priority": 2,
   "summary": "Sanciones tributarias del ET (mínima, intereses, extemporaneidad, no declarar, corrección, inexactitud, información, facturación y clausura), sus reducciones por gradualidad y aceptación, y el régimen sancionatorio aduanero de la Ley 2586 de 2026. Incluye cálculos paso a paso con la UVT 2026.",
   "sources": ["ET arts. 634–657", "Ley 2586/2026 arts. 14, 17–23, 26 y 29", "UVT 2026 = $52.374 (Res. DIAN 238/2025)"],
   "lessons": [

@@ -2,7 +2,7 @@
   "id": "liquidacion",
   "title": "Liquidación de impuestos nacionales",
   "area": "funcional",
-  "priority": 2,
+  "priority": 3,
   "summary": "Cómo se liquidan y pagan los impuestos nacionales según el Libro V del ET: liquidación privada y oficial, periodos, conversión de UVT, anticipo de renta, pago, imputación, intereses y responsables solidarios. Las tarifas de renta, IVA y retención (Libros I a III) no están en el paquete de fuentes y no se incluyen.",
   "sources": ["ET arts. 592–606, 634, 635, 698, 717, 764 y 792–807", "UVT 2026 = $52.374 (Res. DIAN 238/2025)"],
   "lessons": [
