@@ -118,3 +118,4 @@ Sitio en vivo: https://gabriel86-as.github.io/dian-2676-estudio/ · Repo: https:
 - Creado `plan/09_JOB_PROFILE_GAPS.md` (copiado en `plan_and_context/`), con una condición previa: confirmar con la persona usuaria si la ficha es su cargo. No se cambió contenido.
 - El paquete no trae el anexo de 466 fichas ni las fuentes de Ley 1437, Ley 80/1150 o D1082: hay que conseguirlas antes de escribir contenido.
 - Confirmado por la persona usuaria: la ficha Gestor III es su cargo. Falta confirmar la OPEC.
+- La persona usuaria fijó la ficha como referencia principal. El PDF no tiene OPEC. Fase 9 reescrita con prioridades (comportamentales → disposicion-mercancias → procedimiento-administrativo → contratacion).

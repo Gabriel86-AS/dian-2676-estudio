@@ -1,49 +1,40 @@
-# Phase 9 — Job-profile gaps (ficha de empleo, optional)
+# Phase 9 — Ficha AF-LF-3005 (Gestor III): main reference
 
-Added 2026-11-04 after the user placed `manual_de_funciones-gestor3_jiovani.pdf` (untracked, repo root). Exam is **8 Nov 2026**, so this phase is small and gated.
+Added 2026-11-04. **The user's instruction: the ficha PDF `manual_de_funciones-gestor3_jiovani.pdf` (untracked, repo root, never commit it) is the main reference for the site.** Exam is **8 Nov 2026**: build the highest-value gaps first, deploy after each unit.
 
-## What the PDF is
-- Ficha **AF-LF-3005**, **Gestor III**, código 303, grado 03, nivel Profesional, carrera administrativa. Format FT-TAH-1824 v5, vigencia desde 15/04/2024, adopted by **Res. DIAN 0067 de 11/04/2024** (MERF, 466 fichas).
+## What the ficha says (read from the PDF, 2 pages)
+- **Gestor III**, código 303, grado 03, nivel Profesional, carrera administrativa. Ficha **AF-LF-3005**, format FT-TAH-1824 v5, vigencia desde 15/04/2024, adopted by **Res. DIAN 0067 de 11/04/2024**.
 - Proceso Administrativo y Financiero; subproceso Recursos administrativos, operación logística, compras y contratos. Niveles central y seccional.
-- **Mismatch:** the site targets **Gestor I, OPEC 236767**. The pack's `src/res067_2024.txt` has the resolution body but not the 466-ficha annex, so the Gestor I ficha is still unknown (it is in SIMO).
+- Propósito: gestionar las acciones del subproceso de recursos administrativos y de logística.
+- Funciones esenciales F1–F11: F1 contratación y plan de adquisiciones; F2 notificación, comunicación y publicación de actos administrativos, mejoras a la herramienta informática; F3 inventarios y parque automotor; F4 servicios generales, etapa precontractual, seguimiento de contratos, proyección de actos; F5 instrumentos archivísticos; F6 infraestructura; F7–F9 ingreso, custodia y disposición de mercancías aprehendidas, decomisadas o abandonadas y bienes adjudicados en cobro coactivo y procesos concursales; F10 análisis de ingresos, disposición, egresos, certificación de IVA, facturación, venta; F11 funciones comunes.
+- Competencias funcionales básicas: los 6 comportamentales básicos; evasión, elusión y contrabando, Ley de transparencia; herramientas informáticas; gestión documental; MIPG; Código de Buen Gobierno y de Integridad; principios de la función pública y CPACA (Ley 1437/2011 Títulos I, II, III caps. I, V–VIII); Sistema PQRSF; políticas de servicio al ciudadano; Constitución (derechos fundamentales, principios, estructura del Estado); generalidades de los recursos administrativos.
+- Competencias funcionales: custodia y disposición de mercancías; infraestructura; servicios; contratación pública; control de ingresos, almacenamiento y registro de mercancías; gestión documental; SIIF Nación II.
+- Comportamentales específicas: **Comportamiento ético N4, Adaptabilidad N4, Innovación N3, Solución de problemas N4.**
+- The PDF has **no OPEC number**. The site was built on OPEC 236767 (Gestor I) indicators; keep those units, but the ficha now sets priorities.
 
-## Step 0 — gate (ask the user before writing content)
-**2026-11-04: the user confirmed AF-LF-3005 / Gestor III is their job (Q1 = yes). Q2 (OPEC number) still open.**
-1. Is AF-LF-3005 / Gestor III the job the user applies to, or someone else's ficha?
-2. Is the OPEC still 236767? If the OPEC changed, re-check the indicators at http://dian-2676-areandina.com.co/indicadores-dian-2667/ (needs inscription number). **Exam content follows the OPEC's indicators, not the ficha.**
-3. If the ficha is not the user's, stop here: log it and do nothing else.
+## Gap analysis (ficha vs site)
+| Ficha item | Site coverage | Source in pack? |
+|---|---|---|
+| CPACA: notificación, comunicación, publicación, recursos; PQRSF / derecho de petición | None | No: get Ley 1437/2011 and Ley 1755/2015 |
+| Contratación pública, plan anual de adquisiciones, supervisión | None | No: get Ley 80/1993, Ley 1150/2007, D1082/2015 |
+| Custodia y disposición de mercancías aprehendidas, decomisadas, abandonadas | Partial (`sanciones`, `fiscalizacion`) | **Yes**: `src/d1165_2019.txt` from art. 736 (Formas de disposición); abandono legal |
+| Comportamentales N4/N3 + Innovación, Solución de problemas | Partial (Gestor I levels) | **Yes**: `11_competencias_Res065_integridad.txt` (Innovación ~l.654, Solución de problemas ~l.759) |
+| Constitución, principios función pública, Buen Gobierno, Ley de transparencia (Ley 1712/2014) | Partial | Partial (`00_GOA_datos_clave.md` cites Ley 1712 arts. 3, 7) |
+| Gestión documental, instrumentos archivísticos | Yes | Yes |
+| MIPG, integridad | Yes | Yes |
+| Inventarios, parque automotor, infraestructura, SIIF Nación II | None | No primary sources; **skip** unless the user provides them |
 
-## Gap analysis (ficha vs site, checked 2026-11-04)
-| Ficha item | Site coverage |
-|---|---|
-| F1, F4: contratación en sus etapas, plan anual de adquisiciones; comp. funcional "Contratación Pública" | None |
-| F2: notificación, comunicación, publicación de actos administrativos; básica "Ley 1437/2011 Títulos I, II, III (Caps. I, V–VIII)"; "Generalidades de los recursos administrativos" | None (ET recursos only, in `fiscalizacion`) |
-| F3: control de inventarios y parque automotor | None |
-| F7–F10: ingreso, custodia, disposición y egreso de mercancías aprehendidas, decomisadas o abandonadas; bienes adjudicados en cobro coactivo; comp. "Administración de la custodia y disposición de mercancías", "Control de ingresos, almacenamiento y registro" | Partial (`sanciones`, `fiscalizacion` mention aprehensión/decomiso) |
-| Comp. "Operación SIIF Nación II" | None |
-| Básicas: Sistema PQRSF, políticas de servicio al ciudadano | None |
-| F5, básica/funcional: gestión documental, instrumentos archivísticos | Yes (`gestion-documental`) |
-| Básicas: Código de Integridad, Buen Gobierno, MIPG, Constitución, principios función pública | Mostly (`integridad`, `auditoria`, `misionalidad`) |
-| Comportamentales: Comportamiento ético N4, Adaptabilidad N4, Innovación N3, Solución de problemas N4 | Partial: `comportamentales` uses Gestor I levels (ético N1/N4, adaptabilidad N1–N2); Innovación and Solución de problemas absent |
+## Tasks (in order)
+1. **Update `comportamentales`** to the ficha's levels: Comportamiento ético N4, Adaptabilidad N4 (+ N3 contrast), new lessons for Innovación N3 and Solución de problemas N4, from Res. 065. Fix the intro text that says "niveles que este curso asume para Gestor I". Add Likert items for the two new competencies.
+2. **New unit `disposicion-mercancias`** (D1165 arts. 736 ff., abandono legal, aprehensión/decomiso links to `sanciones`): formas de disposición, quién decide, custodia, informes. 3 lessons, 15 cards, 20 questions (≥ 50 % PJS).
+3. **New unit `procedimiento-administrativo`** (Ley 1437 + Ley 1755): principios (art. 3), derecho de petición y plazos, notificación personal / por aviso / electrónica, comunicación y publicación, recursos (reposición, apelación, queja), firmeza. Same volume. Download official texts first; verify every article number.
+4. **New unit `contratacion`** (Ley 80, Ley 1150, D1082): principios, etapas, modalidades de selección, plan anual de adquisiciones, estudios previos, supervisión vs interventoría. Same volume.
+5. Update home/overview text and `00_OVERVIEW.md` goal line to name Gestor III / AF-LF-3005 as the reference.
+6. Add the new units to the random simulacro pool; leave the 7 fixed tests as they are unless time allows.
 
-## Sources (none are in the pack yet; get them first, never invent articles)
-- Ley 1437 de 2011 (CPACA): Títulos I–III, esp. notificaciones (arts. 65–73) and recursos (arts. 74–82). Verify article numbers against the official text before citing. The pack already cites Ley 1437 art. 5 num. 2 in `00_GOA_datos_clave.md`.
-- Contratación: Ley 80 de 1993, Ley 1150 de 2007, Decreto 1082 de 2015 (plan anual de adquisiciones, modalidades). DIAN MN-ADF-0013 Manual de Contratación is named in `11_competencias_Res065_integridad.txt` (line ~2224) but its text is not in the pack.
-- Mercancías aprehendidas: Decreto 1165 de 2019 (disposición de mercancías). Check `src/d1165_2019.txt` with `node tools/art.mjs` before looking elsewhere.
-- PQRSF: Ley 1755 de 2015 (derecho de petición, plazos).
-Save new sources under `dian_2676_recursos/dian_material/src/` (gitignored) and add them to its README map.
-
-## Tasks (only if Step 0 says the ficha is the user's)
-Priority by likely PJS weight and time left:
-1. **New unit `procedimiento-administrativo`** (Ley 1437 + Ley 1755): notificación personal / por aviso / electrónica, recursos de reposición / apelación / queja, plazos, derecho de petición. 3 lessons, 15 cards, 20 questions (≥ 50 % PJS).
-2. **New unit `contratacion`** (Ley 80, Ley 1150, D1082): etapas precontractual / contractual / poscontractual, modalidades de selección, plan anual de adquisiciones, supervisión vs interventoría. Same volume.
-3. **Extend `sanciones` or new lesson** on disposición de mercancías aprehendidas (D1165) only if the source text is in the pack.
-4. Skip SIIF and parque automotor: no exam indicator covers them and there are no primary sources in the pack.
-5. Behavioral levels: if the user's OPEC changed, re-check `comportamentales` levels against the new ficha.
-
-For each new unit: add it to `content/manifest.json` (no `pending`), follow the authoring rules in `04_CONTENT_TAX.md`, and tag items `"tags": ["ficha"]` so they can be filtered out of exam-indicator practice.
+New sources go under `dian_2676_recursos/dian_material/src/` (gitignored) and into its README map. Authoring rules: `04_CONTENT_TAX.md`. Every item cites its article; never invent articles or figures.
 
 ## Acceptance checks
-- `node tools/validate.mjs` passes; `node tools/build-tests.mjs` only if the bank should include the new units (default: **no**, since simulacros mirror the OPEC indicators).
-- Bump `VERSION` in `sw.js` if the manifest changes.
-- Log in `plan/PROGRESS_LOG.md`; update `current_state.md`.
+- `node tools/validate.mjs` passes after each unit; new units in `content/manifest.json` without `pending`.
+- `node tools/build-tests.mjs` if the bank changed; bump `VERSION` in `sw.js` when the manifest, `index.html`, `css` or `js` change.
+- Commit and push after each unit; log in `plan/PROGRESS_LOG.md`; update `current_state.md`.
