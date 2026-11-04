@@ -9,6 +9,7 @@ import { loadData } from './screens/data.js';
 import { renderRepaso, renderSession } from './screens/repaso.js';
 import { renderProgreso } from './screens/progreso.js';
 import { renderAjustes, applySettings } from './screens/ajustes.js';
+import { renderSimulacros, renderSimulacro } from './tests/runner.js';
 
 const view = document.getElementById('view');
 // 8 nov 2026, 8:00 a. m. hora de Bogotá (UTC−5).
@@ -37,8 +38,8 @@ const routes = [
   { re: /^\/repaso$/, tab: 'repaso', render: () => renderRepaso(view) },
   { re: /^\/repaso\/unidad\/([\w-]+)$/, tab: 'repaso', render: (id) => renderRepaso(view, id) },
   { re: /^\/repaso\/(errores|dia)$/, tab: 'repaso', render: async (kind) => onLeave(await renderSession(view, kind)) },
-  { re: /^\/simulacros$/, tab: 'simulacros', render: () => soon('Simulacros') },
-  { re: /^\/simulacro\/([\w-]+)$/, tab: 'simulacros', render: () => soon('Simulacro') },
+  { re: /^\/simulacros$/, tab: 'simulacros', render: () => renderSimulacros(view) },
+  { re: /^\/simulacro\/([\w-]+)$/, tab: 'simulacros', render: async (id) => onLeave(await renderSimulacro(view, id)) },
   { re: /^\/progreso$/, tab: 'progreso', render: () => renderProgreso(view) },
   { re: /^\/recursos$/, tab: 'recursos', render: recursos },
   { re: /^\/ajustes$/, tab: 'ajustes', render: () => renderAjustes(view) },
@@ -209,11 +210,6 @@ async function recursos() {
   view.innerHTML = `<h1>Recursos</h1>${items.length
     ? items.map((r) => `<div class="card"><a href="${esc(r.url)}" target="_blank" rel="noopener">${esc(r.title)}</a>${r.note ? `<p class="small muted">${esc(r.note)}</p>` : ''}</div>`).join('')
     : '<div class="card"><p class="muted">Pronto encontrarás aquí videos y enlaces oficiales.</p></div>'}`;
-}
-
-function soon(title) {
-  view.innerHTML = `<h1>${esc(title)}</h1>
-    <div class="card"><p>Esta sección estará disponible muy pronto.</p><a class="btn secondary" href="#/">Volver al inicio</a></div>`;
 }
 
 function notFound() {

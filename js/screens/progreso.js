@@ -3,9 +3,26 @@ import { esc, formatTime } from '../util.js';
 import { allUnitStats, readiness, weakest, overall, visibleEntry, pct } from '../progress/stats.js';
 import { dayKey } from '../progress/store.js';
 import { loadData } from './data.js';
+import { fmtScore } from '../tests/score.js';
 
 const PASS = 70;
 const CHART_DAYS = 14;
+
+// Tendencia de puntajes de simulacros (últimos 12), con la línea de aprobación en 70.
+function trendSVG(tests) {
+  const runs = tests.slice(-12);
+  if (runs.length < 2) return '';
+  const W = 336, H = 150, L = 26, R = 8, T = 10, B = 20;
+  const x = (i) => L + (i * (W - L - R)) / (runs.length - 1);
+  const y = (v) => T + ((100 - v) * (H - T - B)) / 100;
+  const pts = runs.map((t, i) => `${x(i).toFixed(1)},${y(t.score).toFixed(1)}`).join(' ');
+  const ticks = [0, 50, 100].map((v) => `<text x="${L - 4}" y="${y(v) + 3}" text-anchor="end">${v}</text>`).join('');
+  return `<svg class="trend" viewBox="0 0 ${W} ${H}" role="img" aria-label="Puntajes de los últimos ${runs.length} simulacros: ${runs.map((t) => fmtScore(t.score)).join(', ')}">
+    ${ticks}<line class="pass" x1="${L}" x2="${W - R}" y1="${y(PASS)}" y2="${y(PASS)}"/><text x="${W - R}" y="${y(PASS) - 4}" text-anchor="end">70</text>
+    <polyline class="line" points="${pts}"/>
+    ${runs.map((t, i) => `<circle class="dot" cx="${x(i).toFixed(1)}" cy="${y(t.score).toFixed(1)}" r="3.5"><title>${esc(t.title || t.id)}: ${fmtScore(t.score)}</title></circle>`).join('')}
+  </svg>`;
+}
 
 function chartSVG(studyDays) {
   const days = [];
@@ -83,10 +100,11 @@ export async function renderProgreso(view) {
 
     <section class="card">
       <h2>Historial de simulacros</h2>
+      ${trendSVG(state.tests)}
       ${state.tests.length ? `<div class="table-wrap"><table class="tbl">
         <thead><tr><th>Fecha</th><th>Simulacro</th><th>Puntaje</th><th>Tiempo</th></tr></thead>
         <tbody>${[...state.tests].reverse().map((t) => `<tr><td>${esc(fmtDate(t.at))}</td><td>${esc(t.title || t.id)}</td>
-          <td>${esc(Number(t.score).toFixed(1))}</td><td>${t.ms ? esc(formatTime(t.ms)) : '—'}</td></tr>`).join('')}</tbody>
+          <td>${esc(fmtScore(t.score))}</td><td>${t.ms ? esc(formatTime(t.ms)) : '—'}</td></tr>`).join('')}</tbody>
       </table></div>` : '<p class="muted">Aún no has presentado simulacros.</p>'}
     </section>`;
 }

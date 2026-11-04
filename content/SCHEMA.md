@@ -229,3 +229,22 @@ Tarjeta dentro de una lección. Las del mazo de la unidad (`flashcards[]`) usan 
   "links":  [{ "title": "Guía de orientación al aspirante (CNSC)", "url": "https://…", "note": "…" }]
 }
 ```
+
+## Simulacros (`content/tests/<id>.json` + `content/tests/index.json`)
+
+Se generan con `node tools/build-tests.mjs` (con semilla fija: siempre salen iguales). No se editan a mano.
+
+```json
+{
+  "id": "test-medio-1", "title": "Simulacro intermedio 1", "difficulty": 2, "minutes": 60, "mode": "practice",
+  "blueprint": { "fiscalizacion": 7, "sanciones": 7 },
+  "items": ["fisc-q-012", "sanc-q-003"],
+  "likert": ["comp-q-031"]
+}
+```
+- `items`: solo IDs `mcq`/`pjs` del banco de unidades funcionales. Los errores alimentan el mismo banco de Repaso.
+- `blueprint`: número de ítems por unidad. El validador comprueba que coincida con `items`.
+- `mode`: `practice` (se puede pausar) o `exam` (sin pausa; al agotarse el tiempo se entrega solo).
+- `likert`: opcional y solo en modo examen. No puntúa; al final se muestra la reflexión.
+- `index.json`: `{ "tests": [{ id, title, difficulty, minutes, mode, items, likert }] }` para la lista.
+- Recursos externos con `"simulacro": true` en `resources.json` aparecen también en la página Simulacros.

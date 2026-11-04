@@ -138,6 +138,38 @@ for (const entry of manifest.units) {
   if (choice.length && longest / choice.length > 0.35) warn(U, `la opción correcta es claramente la más larga en ${longest}/${choice.length} preguntas`);
 }
 
+// Simulacros (solo en la validación completa): IDs del banco, tipos, duplicados y blueprint.
+const TESTS = C('tests');
+if (!only.length && fs.existsSync(TESTS)) {
+  const bankAll = new Map();
+  for (const e of manifest.units) {
+    if (e.pending || !fs.existsSync(C(e.file))) continue;
+    for (const q of JSON.parse(fs.readFileSync(C(e.file), 'utf8')).questions || []) bankAll.set(q.id, { type: q.type, unit: e.id });
+  }
+  const idx = fs.existsSync(path.join(TESTS, 'index.json')) ? JSON.parse(fs.readFileSync(path.join(TESTS, 'index.json'), 'utf8')).tests : [];
+  for (const f of fs.readdirSync(TESTS).filter((x) => x.endsWith('.json') && x !== 'index.json')) {
+    const where = `tests/${f}`;
+    const t = JSON.parse(fs.readFileSync(path.join(TESTS, f), 'utf8'));
+    if (`${t.id}.json` !== f) err(where, `id "${t.id}" no coincide con el archivo`);
+    if (!['practice', 'exam'].includes(t.mode)) err(where, 'mode debe ser practice o exam');
+    if (!(t.minutes > 0)) err(where, 'minutes debe ser > 0');
+    if (!idx.some((x) => x.id === t.id && x.items === t.items.length)) err(where, 'falta en index.json o el número de ítems no coincide');
+    if (new Set(t.items).size !== t.items.length) err(where, 'ítems repetidos');
+    const count = {};
+    for (const id of t.items) {
+      const b = bankAll.get(id);
+      if (!b) { err(where, `ítem inexistente "${id}"`); continue; }
+      if (b.type !== 'mcq' && b.type !== 'pjs') err(where, `"${id}" no es mcq/pjs`);
+      count[b.unit] = (count[b.unit] || 0) + 1;
+    }
+    const bp = t.blueprint || {};
+    for (const u of new Set([...Object.keys(bp), ...Object.keys(count)])) {
+      if ((bp[u] || 0) !== (count[u] || 0)) err(where, `blueprint ${u}: ${bp[u] || 0} ≠ ${count[u] || 0} ítems`);
+    }
+    for (const id of t.likert || []) if (bankAll.get(id)?.type !== 'likert') err(where, `"${id}" no es Likert del banco`);
+  }
+}
+
 if (report.length) console.table(report);
 warns.forEach((w) => console.log('AVISO ', w));
 errors.forEach((e) => console.log('ERROR ', e));
