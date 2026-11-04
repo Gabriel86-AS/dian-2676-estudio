@@ -1,0 +1,1181 @@
+{
+  "id": "cambiaria",
+  "title": "Normativa cambiaria",
+  "area": "funcional",
+  "priority": 3,
+  "summary": "Régimen sancionatorio y procedimiento administrativo cambiario (Decreto 2245/2011): prescripción, cargos, reducciones, recursos y cobro.",
+  "sources": [
+    "Decreto 2245 de 2011 (arts. 1–5, 11, 21, 23–26, 28, 30, 32, 37)",
+    "Portal DIAN, Control Cambiario"
+  ],
+  "lessons": [
+    {
+      "id": "camb-01",
+      "title": "Régimen cambiario y competencia de la DIAN",
+      "minutes": 5,
+      "steps": [
+        {
+          "id": "camb-c-001",
+          "type": "concept",
+          "title": "Idea base",
+          "body": "La **infracción cambiaria** es una contravención administrativa; la responsabilidad es **objetiva**. El Decreto 2245/2011 aplica a las infracciones cuyo control corresponde a la DIAN. En la DIAN, la **Subdirección de Fiscalización Cambiaria** controla importaciones, exportaciones y su financiación en moneda extranjera.",
+          "source": "Decreto 2245/2011 art. 1, 2, 32"
+        },
+        {
+          "id": "camb-q-001",
+          "type": "mcq",
+          "difficulty": 1,
+          "prompt": "¿Qué es una infracción cambiaria?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Una contravención administrativa de las disposiciones del régimen cambiario vigentes al momento de la transgresión, con sanción orientada al cumplimiento de esas normas y a proteger el orden público económico."
+            },
+            {
+              "id": "B",
+              "text": "Un delito sancionado con prisión."
+            },
+            {
+              "id": "C",
+              "text": "Un incumplimiento tributario sancionado por el ET."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 2.",
+          "optionWhy": {
+            "B": "Es una contravención administrativa.",
+            "C": "Pertenece al régimen cambiario, regulado por el Decreto 2245/2011."
+          },
+          "source": "Decreto 2245/2011 art. 2"
+        },
+        {
+          "id": "camb-q-002",
+          "type": "truefalse",
+          "difficulty": 1,
+          "statement": "El Decreto 2245 de 2011 se aplica a las infracciones al régimen cambiario cuya vigilancia y control corresponde a la DIAN.",
+          "answer": true,
+          "explain": "Art. 1.",
+          "source": "Decreto 2245/2011 art. 1"
+        },
+        {
+          "id": "camb-q-003",
+          "type": "truefalse",
+          "difficulty": 2,
+          "statement": "La responsabilidad por la violación del régimen cambiario es objetiva.",
+          "answer": true,
+          "explain": "Art. 32.",
+          "source": "Decreto 2245/2011 art. 32"
+        },
+        {
+          "id": "camb-q-004",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "Según la página de control cambiario, ¿qué actividades de la Subdirección de Fiscalización Cambiaria incluyen el control del régimen en materia de importaciones y exportaciones?",
+          "options": [
+            {
+              "id": "A",
+              "text": "El recaudo del IVA de bienes importados."
+            },
+            {
+              "id": "B",
+              "text": "El control del cumplimiento del régimen cambiario en importación y exportación de bienes y servicios, gastos asociados, y financiación en moneda extranjera de esas operaciones."
+            },
+            {
+              "id": "C",
+              "text": "La regulación de la tasa de cambio."
+            }
+          ],
+          "answer": "B",
+          "explain": "Funciones de la Subdirección de Fiscalización Cambiaria (portal DIAN, Control Cambiario).",
+          "optionWhy": {
+            "A": "Es otra función de la Dirección de Impuestos.",
+            "C": "La regulación no es de la DIAN."
+          },
+          "source": "Portal DIAN, Control Cambiario (funciones de la Subdirección de Fiscalización Cambiaria)"
+        },
+        {
+          "id": "camb-q-005",
+          "type": "mcq",
+          "difficulty": 1,
+          "prompt": "¿En cuántos años debe notificarse el acto de formulación de cargos, contados desde los hechos constitutivos de infracción?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tres (3) años."
+            },
+            {
+              "id": "B",
+              "text": "Dos (2) años."
+            },
+            {
+              "id": "C",
+              "text": "Cinco (5) años."
+            }
+          ],
+          "answer": "C",
+          "explain": "Art. 5. En las infracciones continuadas se cuenta desde el último hecho.",
+          "optionWhy": {
+            "A": "Es la caducidad sancionatoria aduanera.",
+            "B": "No es el término del art. 5."
+          },
+          "source": "Decreto 2245/2011 art. 5"
+        }
+      ]
+    },
+    {
+      "id": "camb-02",
+      "title": "Procedimiento y términos",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "camb-c-002",
+          "type": "concept",
+          "title": "Línea de tiempo",
+          "body": "**Cargos** (prescripción 5 años) → **traslado 2 meses** → **pruebas** (4 meses país / 6 exterior) → **resolución** → **reconsideración** (1 mes) → resolver en **7 meses**; si no, **silencio a favor**.",
+          "source": "Decreto 2245/2011 art. 5, 11, 21, 24, 26, 28, 30"
+        },
+        {
+          "id": "camb-q-008",
+          "type": "mcq",
+          "difficulty": 1,
+          "prompt": "¿Cuánto dura el término de traslado del acto de formulación de cargos?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Quince días hábiles."
+            },
+            {
+              "id": "B",
+              "text": "Dos (2) meses contados desde el día siguiente a la notificación."
+            },
+            {
+              "id": "C",
+              "text": "Un mes."
+            }
+          ],
+          "answer": "B",
+          "explain": "Art. 21: se pone el expediente a disposición de los presuntos infractores.",
+          "optionWhy": {
+            "A": "Es otro término del régimen aduanero.",
+            "C": "Es el término del recurso de reconsideración (art. 26)."
+          },
+          "source": "Decreto 2245/2011 art. 21"
+        },
+        {
+          "id": "camb-q-010",
+          "type": "pjs",
+          "difficulty": 2,
+          "case": "Se notificó un acto de formulación de cargos a una empresa por infracciones cambiarias.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Informar que tiene dos meses de traslado para presentar descargos y consultar el expediente."
+            },
+            {
+              "id": "B",
+              "text": "Informar que tiene diez días hábiles."
+            },
+            {
+              "id": "C",
+              "text": "Informar que la sanción queda en firme de inmediato."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 21.",
+          "optionWhy": {
+            "B": "El traslado es de dos meses.",
+            "C": "Antes debe agotarse el traslado y la decisión de fondo."
+          },
+          "source": "Decreto 2245/2011 art. 21"
+        },
+        {
+          "id": "camb-q-025",
+          "type": "order",
+          "difficulty": 2,
+          "prompt": "Ordene el procedimiento administrativo sancionatorio cambiario.",
+          "items": [
+            "Formulación de cargos",
+            "Traslado (2 meses)",
+            "Período probatorio",
+            "Resolución sancionatoria",
+            "Recurso de reconsideración"
+          ],
+          "explain": "Arts. 11, 21, 24, 26 y 28 del Decreto 2245/2011.",
+          "source": "Decreto 2245/2011 art. 11, 21, 24, 26"
+        },
+        {
+          "id": "camb-q-013",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Dentro de qué término se presenta el recurso de reconsideración contra la resolución que impone la multa?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Dentro de los dos meses siguientes."
+            },
+            {
+              "id": "B",
+              "text": "Dentro de los quince días hábiles."
+            },
+            {
+              "id": "C",
+              "text": "Dentro del mes siguiente a la notificación del acto."
+            }
+          ],
+          "answer": "C",
+          "explain": "Art. 26: ante la División de Gestión Jurídica competente o la que haga sus veces.",
+          "optionWhy": {
+            "A": "Es el plazo del traslado de cargos.",
+            "B": "No es el plazo del art. 26."
+          },
+          "source": "Decreto 2245/2011 art. 26"
+        },
+        {
+          "id": "camb-q-014",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿En cuánto tiempo debe resolverse el recurso de reconsideración?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Siete (7) meses desde el día siguiente a su interposición en debida forma."
+            },
+            {
+              "id": "B",
+              "text": "Un año."
+            },
+            {
+              "id": "C",
+              "text": "Cinco meses."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 28.",
+          "optionWhy": {
+            "B": "Es el término tributario (ET art. 732).",
+            "C": "Es el término aduanero (Ley 2586 art. 94)."
+          },
+          "source": "Decreto 2245/2011 art. 28"
+        },
+        {
+          "id": "camb-q-015",
+          "type": "pjs",
+          "difficulty": 3,
+          "case": "Transcurrieron siete meses desde la interposición en debida forma del recurso de reconsideración sin que la DIAN lo resolviera ni notificara.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Considerar rechazado el recurso."
+            },
+            {
+              "id": "B",
+              "text": "Reconocer que opera el silencio administrativo a favor del recurrente."
+            },
+            {
+              "id": "C",
+              "text": "Ampliar el término por tres meses más."
+            }
+          ],
+          "answer": "B",
+          "explain": "Art. 30: se entiende fallado a favor del recurrente y la administración lo declara de oficio o a petición de parte.",
+          "optionWhy": {
+            "A": "El silencio es a favor del recurrente.",
+            "C": "La norma no prevé esa ampliación."
+          },
+          "source": "Decreto 2245/2011 art. 30"
+        },
+        {
+          "id": "camb-q-017",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Cuál es el plazo máximo para practicar pruebas en el período probatorio cambiario si se practican en el territorio nacional?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Un mes."
+            },
+            {
+              "id": "B",
+              "text": "Diez días hábiles."
+            },
+            {
+              "id": "C",
+              "text": "Cuatro (4) meses (seis si deben practicarse en el exterior)."
+            }
+          ],
+          "answer": "C",
+          "explain": "Art. 24. Contra la resolución que deniegue pruebas procede reposición dentro del mes siguiente a su notificación.",
+          "optionWhy": {
+            "A": "Es el plazo del recurso de reposición contra la negación de pruebas.",
+            "B": "No es el término del art. 24."
+          },
+          "source": "Decreto 2245/2011 art. 24"
+        },
+        {
+          "id": "camb-q-006",
+          "type": "pjs",
+          "difficulty": 3,
+          "case": "Una persona natural incurrió en varias omisiones que violan una misma norma cambiaria, ejecutadas en momentos distintos, la última hace 2 años.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Contar el término de prescripción desde la ocurrencia del último hecho, por tratarse de una infracción continuada."
+            },
+            {
+              "id": "B",
+              "text": "Contarlo desde la primera omisión."
+            },
+            {
+              "id": "C",
+              "text": "Considerar que ya prescribió por haber pasado dos años."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 5. No es infracción continuada el incumplimiento de plazos o términos legales.",
+          "optionWhy": {
+            "B": "En las infracciones continuadas se cuenta desde el último hecho.",
+            "C": "El término es de cinco años."
+          },
+          "source": "Decreto 2245/2011 art. 5"
+        }
+      ]
+    },
+    {
+      "id": "camb-03",
+      "title": "Reducción de sanción e infracciones",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "camb-c-003",
+          "type": "concept",
+          "title": "Reducción por reconocimiento",
+          "body": "**40 %** antes de la visita; **60 %** en el traslado de cargos; **75 %** en el plazo del recurso de reconsideración.",
+          "source": "Decreto 2245/2011 art. 23"
+        },
+        {
+          "id": "camb-q-011",
+          "type": "match",
+          "difficulty": 2,
+          "prompt": "Relacione cada momento de reconocimiento de la infracción con el pago de la sanción reducida.",
+          "pairs": [
+            {
+              "left": "Antes de la visita administrativa",
+              "right": "40 % del monto de la sanción"
+            },
+            {
+              "left": "Dentro del traslado de cargos",
+              "right": "60 % de la multa propuesta"
+            },
+            {
+              "left": "Dentro del plazo del recurso de reconsideración",
+              "right": "75 % de la multa impuesta"
+            }
+          ],
+          "explain": "Art. 23, numerales 1, 2 y 3.",
+          "source": "Decreto 2245/2011 art. 23"
+        },
+        {
+          "id": "camb-q-012",
+          "type": "pjs",
+          "difficulty": 3,
+          "case": "Una empresa, sin visita administrativa previa, reconoce por escrito una infracción cambiaria y demuestra el pago del 40 % de la sanción que correspondería.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Rechazarlo porque la sanción reducida no existe en cambiario."
+            },
+            {
+              "id": "B",
+              "text": "Recibir el reconocimiento como válido, siempre que lo haga el investigado o su apoderado expresamente facultado y se acredite el pago reducido."
+            },
+            {
+              "id": "C",
+              "text": "Exigir el 75 % de la multa."
+            }
+          ],
+          "answer": "B",
+          "explain": "Art. 23 num. 1 y encabezado.",
+          "optionWhy": {
+            "A": "El art. 23 prevé la sanción reducida.",
+            "C": "El 75 % aplica solo dentro del plazo del recurso de reconsideración."
+          },
+          "source": "Decreto 2245/2011 art. 23"
+        },
+        {
+          "id": "camb-q-019",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Qué sanción corresponde por pagar o recibir pagos por el mercado no cambiario por operaciones obligatoriamente canalizables?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Amonestación escrita."
+            },
+            {
+              "id": "B",
+              "text": "Multa del 100 % del monto de la operación."
+            },
+            {
+              "id": "C",
+              "text": "Multa del 10 %."
+            }
+          ],
+          "answer": "B",
+          "explain": "Art. 3 num. 2 (operaciones canalizables a través del mercado cambiario).",
+          "optionWhy": {
+            "A": "La norma prevé multa.",
+            "C": "El numeral 2 del art. 3 prevé el 100 %."
+          },
+          "source": "Decreto 2245/2011 art. 3 num. 2"
+        },
+        {
+          "id": "camb-q-020",
+          "type": "pjs",
+          "difficulty": 3,
+          "case": "Una exportadora recibió el pago de sus ventas en el exterior y lo mantuvo fuera del mercado cambiario, aunque la operación era de obligatoria canalización.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Considerar que no hay infracción porque cobró."
+            },
+            {
+              "id": "B",
+              "text": "Sancionarla con amonestación solamente."
+            },
+            {
+              "id": "C",
+              "text": "Reconocer que hay una infracción por no canalizar por el mercado cambiario una operación de obligatoria canalización."
+            }
+          ],
+          "answer": "C",
+          "explain": "Art. 3 numerales 2, 3 y 5.",
+          "optionWhy": {
+            "A": "El pago por canales no cambiarios de operaciones canalizables es infracción (art. 3 num. 2).",
+            "B": "La multa es del 100 % del monto."
+          },
+          "source": "Decreto 2245/2011 art. 3"
+        },
+        {
+          "id": "camb-q-021",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Qué sanción corresponde por canalizar a través del mercado cambiario un valor inferior al consignado en los documentos de aduana?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Multa del 100 % de la diferencia entre el valor canalizado y el consignado."
+            },
+            {
+              "id": "B",
+              "text": "Multa del 100 % del valor total de la mercancía."
+            },
+            {
+              "id": "C",
+              "text": "No hay sanción si se informa luego."
+            }
+          ],
+          "answer": "A",
+          "explain": "Art. 3 num. 4.",
+          "optionWhy": {
+            "B": "La base es la diferencia, no el total.",
+            "C": "La infracción existe por la diferencia."
+          },
+          "source": "Decreto 2245/2011 art. 3 num. 4"
+        },
+        {
+          "id": "camb-q-026",
+          "type": "open",
+          "difficulty": 2,
+          "prompt": "Explique las reducciones de la sanción por reconocimiento de la infracción cambiaria.",
+          "modelAnswer": "El reconocimiento voluntario y expreso, hecho por el investigado o su apoderado facultado, permite pagar una sanción reducida: el 40 % del monto si se reconoce antes de la visita administrativa, el 60 % de la multa propuesta si se reconoce dentro del traslado de cargos, y el 75 % de la multa impuesta si se reconoce dentro del plazo del recurso de reconsideración.",
+          "keyPoints": [
+            "40 % antes de la visita",
+            "60 % en el traslado de cargos",
+            "75 % en el plazo del recurso"
+          ],
+          "keywords": [
+            "40",
+            "60",
+            "75",
+            "reconocimiento",
+            "traslado",
+            "recurso"
+          ],
+          "minKeywords": 3,
+          "source": "Decreto 2245/2011 art. 23"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "camb-fc-001",
+      "front": "Infracción cambiaria",
+      "back": "Contravención administrativa del régimen cambiario; protege el orden público económico.",
+      "source": "Decreto 2245/2011 art. 2"
+    },
+    {
+      "id": "camb-fc-002",
+      "front": "Responsabilidad cambiaria",
+      "back": "Objetiva.",
+      "source": "Decreto 2245/2011 art. 32"
+    },
+    {
+      "id": "camb-fc-003",
+      "front": "Prescripción de la acción sancionatoria",
+      "back": "5 años para notificar el acto de formulación de cargos; en infracciones continuadas, desde el último hecho.",
+      "source": "Decreto 2245/2011 art. 5"
+    },
+    {
+      "id": "camb-fc-004",
+      "front": "Traslado de cargos",
+      "back": "2 meses desde la notificación; el expediente queda a disposición.",
+      "source": "Decreto 2245/2011 art. 21"
+    },
+    {
+      "id": "camb-fc-005",
+      "front": "Sanción reducida: antes de la visita",
+      "back": "Pago del 40 % del monto de la sanción que correspondería.",
+      "source": "Decreto 2245/2011 art. 23"
+    },
+    {
+      "id": "camb-fc-006",
+      "front": "Sanción reducida: traslado de cargos",
+      "back": "Pago del 60 % de la multa propuesta.",
+      "source": "Decreto 2245/2011 art. 23"
+    },
+    {
+      "id": "camb-fc-007",
+      "front": "Sanción reducida: recurso",
+      "back": "Pago del 75 % de la multa impuesta.",
+      "source": "Decreto 2245/2011 art. 23"
+    },
+    {
+      "id": "camb-fc-008",
+      "front": "Período probatorio cambiario",
+      "back": "Máximo 4 meses en el país y 6 en el exterior; reposición contra la negación en 1 mes.",
+      "source": "Decreto 2245/2011 art. 24"
+    },
+    {
+      "id": "camb-fc-009",
+      "front": "Recurso de reconsideración cambiario",
+      "back": "1 mes para interponerlo; 7 meses para resolverlo; silencio a favor del recurrente.",
+      "source": "Decreto 2245/2011 art. 26, 28, 30"
+    },
+    {
+      "id": "camb-fc-010",
+      "front": "Prescripción de la acción de cobro",
+      "back": "5 años.",
+      "source": "Decreto 2245/2011 art. 37"
+    },
+    {
+      "id": "camb-fc-011",
+      "front": "Canalización",
+      "back": "Pagar o recibir por el mercado no cambiario una operación canalizable: multa del 100 % del monto.",
+      "source": "Decreto 2245/2011 art. 3 num. 2"
+    },
+    {
+      "id": "camb-fc-012",
+      "front": "Valor inferior canalizado",
+      "back": "Multa del 100 % de la diferencia con el valor consignado en los documentos de aduana.",
+      "source": "Decreto 2245/2011 art. 3 num. 4"
+    }
+  ],
+  "questions": [
+    {
+      "id": "camb-q-001",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "¿Qué es una infracción cambiaria?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Una contravención administrativa de las disposiciones del régimen cambiario vigentes al momento de la transgresión, con sanción orientada al cumplimiento de esas normas y a proteger el orden público económico."
+        },
+        {
+          "id": "B",
+          "text": "Un delito sancionado con prisión."
+        },
+        {
+          "id": "C",
+          "text": "Un incumplimiento tributario sancionado por el ET."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 2.",
+      "optionWhy": {
+        "B": "Es una contravención administrativa.",
+        "C": "Pertenece al régimen cambiario, regulado por el Decreto 2245/2011."
+      },
+      "source": "Decreto 2245/2011 art. 2"
+    },
+    {
+      "id": "camb-q-002",
+      "type": "truefalse",
+      "difficulty": 1,
+      "statement": "El Decreto 2245 de 2011 se aplica a las infracciones al régimen cambiario cuya vigilancia y control corresponde a la DIAN.",
+      "answer": true,
+      "explain": "Art. 1.",
+      "source": "Decreto 2245/2011 art. 1"
+    },
+    {
+      "id": "camb-q-003",
+      "type": "truefalse",
+      "difficulty": 2,
+      "statement": "La responsabilidad por la violación del régimen cambiario es objetiva.",
+      "answer": true,
+      "explain": "Art. 32.",
+      "source": "Decreto 2245/2011 art. 32"
+    },
+    {
+      "id": "camb-q-004",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "Según la página de control cambiario, ¿qué actividades de la Subdirección de Fiscalización Cambiaria incluyen el control del régimen en materia de importaciones y exportaciones?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El recaudo del IVA de bienes importados."
+        },
+        {
+          "id": "B",
+          "text": "El control del cumplimiento del régimen cambiario en importación y exportación de bienes y servicios, gastos asociados, y financiación en moneda extranjera de esas operaciones."
+        },
+        {
+          "id": "C",
+          "text": "La regulación de la tasa de cambio."
+        }
+      ],
+      "answer": "B",
+      "explain": "Funciones de la Subdirección de Fiscalización Cambiaria (portal DIAN, Control Cambiario).",
+      "optionWhy": {
+        "A": "Es otra función de la Dirección de Impuestos.",
+        "C": "La regulación no es de la DIAN."
+      },
+      "source": "Portal DIAN, Control Cambiario (funciones de la Subdirección de Fiscalización Cambiaria)"
+    },
+    {
+      "id": "camb-q-005",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "¿En cuántos años debe notificarse el acto de formulación de cargos, contados desde los hechos constitutivos de infracción?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tres (3) años."
+        },
+        {
+          "id": "B",
+          "text": "Dos (2) años."
+        },
+        {
+          "id": "C",
+          "text": "Cinco (5) años."
+        }
+      ],
+      "answer": "C",
+      "explain": "Art. 5. En las infracciones continuadas se cuenta desde el último hecho.",
+      "optionWhy": {
+        "A": "Es la caducidad sancionatoria aduanera.",
+        "B": "No es el término del art. 5."
+      },
+      "source": "Decreto 2245/2011 art. 5"
+    },
+    {
+      "id": "camb-q-006",
+      "type": "pjs",
+      "difficulty": 3,
+      "case": "Una persona natural incurrió en varias omisiones que violan una misma norma cambiaria, ejecutadas en momentos distintos, la última hace 2 años.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Contar el término de prescripción desde la ocurrencia del último hecho, por tratarse de una infracción continuada."
+        },
+        {
+          "id": "B",
+          "text": "Contarlo desde la primera omisión."
+        },
+        {
+          "id": "C",
+          "text": "Considerar que ya prescribió por haber pasado dos años."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 5. No es infracción continuada el incumplimiento de plazos o términos legales.",
+      "optionWhy": {
+        "B": "En las infracciones continuadas se cuenta desde el último hecho.",
+        "C": "El término es de cinco años."
+      },
+      "source": "Decreto 2245/2011 art. 5"
+    },
+    {
+      "id": "camb-q-007",
+      "type": "truefalse",
+      "difficulty": 2,
+      "statement": "El incumplimiento de plazos o términos legales de las normas cambiarias se considera infracción continuada.",
+      "answer": false,
+      "explain": "Art. 5: expresamente no se considera infracción continuada.",
+      "source": "Decreto 2245/2011 art. 5"
+    },
+    {
+      "id": "camb-q-008",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "¿Cuánto dura el término de traslado del acto de formulación de cargos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Quince días hábiles."
+        },
+        {
+          "id": "B",
+          "text": "Dos (2) meses contados desde el día siguiente a la notificación."
+        },
+        {
+          "id": "C",
+          "text": "Un mes."
+        }
+      ],
+      "answer": "B",
+      "explain": "Art. 21: se pone el expediente a disposición de los presuntos infractores.",
+      "optionWhy": {
+        "A": "Es otro término del régimen aduanero.",
+        "C": "Es el término del recurso de reconsideración (art. 26)."
+      },
+      "source": "Decreto 2245/2011 art. 21"
+    },
+    {
+      "id": "camb-q-009",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Qué debe contener el acto de formulación de cargos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solo el valor de la multa definitiva."
+        },
+        {
+          "id": "B",
+          "text": "Únicamente la firma del funcionario."
+        },
+        {
+          "id": "C",
+          "text": "La identificación de los presuntos infractores, la relación de los hechos, las pruebas allegadas, las normas que se estiman infringidas, entre otros elementos."
+        }
+      ],
+      "answer": "C",
+      "explain": "Art. 11.",
+      "optionWhy": {
+        "A": "La multa se propone; los cargos incluyen hechos, pruebas y normas.",
+        "B": "Tiene un contenido mínimo más amplio."
+      },
+      "source": "Decreto 2245/2011 art. 11"
+    },
+    {
+      "id": "camb-q-010",
+      "type": "pjs",
+      "difficulty": 2,
+      "case": "Se notificó un acto de formulación de cargos a una empresa por infracciones cambiarias.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Informar que tiene dos meses de traslado para presentar descargos y consultar el expediente."
+        },
+        {
+          "id": "B",
+          "text": "Informar que tiene diez días hábiles."
+        },
+        {
+          "id": "C",
+          "text": "Informar que la sanción queda en firme de inmediato."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 21.",
+      "optionWhy": {
+        "B": "El traslado es de dos meses.",
+        "C": "Antes debe agotarse el traslado y la decisión de fondo."
+      },
+      "source": "Decreto 2245/2011 art. 21"
+    },
+    {
+      "id": "camb-q-011",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": "Relacione cada momento de reconocimiento de la infracción con el pago de la sanción reducida.",
+      "pairs": [
+        {
+          "left": "Antes de la visita administrativa",
+          "right": "40 % del monto de la sanción"
+        },
+        {
+          "left": "Dentro del traslado de cargos",
+          "right": "60 % de la multa propuesta"
+        },
+        {
+          "left": "Dentro del plazo del recurso de reconsideración",
+          "right": "75 % de la multa impuesta"
+        }
+      ],
+      "explain": "Art. 23, numerales 1, 2 y 3.",
+      "source": "Decreto 2245/2011 art. 23"
+    },
+    {
+      "id": "camb-q-012",
+      "type": "pjs",
+      "difficulty": 3,
+      "case": "Una empresa, sin visita administrativa previa, reconoce por escrito una infracción cambiaria y demuestra el pago del 40 % de la sanción que correspondería.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Rechazarlo porque la sanción reducida no existe en cambiario."
+        },
+        {
+          "id": "B",
+          "text": "Recibir el reconocimiento como válido, siempre que lo haga el investigado o su apoderado expresamente facultado y se acredite el pago reducido."
+        },
+        {
+          "id": "C",
+          "text": "Exigir el 75 % de la multa."
+        }
+      ],
+      "answer": "B",
+      "explain": "Art. 23 num. 1 y encabezado.",
+      "optionWhy": {
+        "A": "El art. 23 prevé la sanción reducida.",
+        "C": "El 75 % aplica solo dentro del plazo del recurso de reconsideración."
+      },
+      "source": "Decreto 2245/2011 art. 23"
+    },
+    {
+      "id": "camb-q-013",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Dentro de qué término se presenta el recurso de reconsideración contra la resolución que impone la multa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Dentro de los dos meses siguientes."
+        },
+        {
+          "id": "B",
+          "text": "Dentro de los quince días hábiles."
+        },
+        {
+          "id": "C",
+          "text": "Dentro del mes siguiente a la notificación del acto."
+        }
+      ],
+      "answer": "C",
+      "explain": "Art. 26: ante la División de Gestión Jurídica competente o la que haga sus veces.",
+      "optionWhy": {
+        "A": "Es el plazo del traslado de cargos.",
+        "B": "No es el plazo del art. 26."
+      },
+      "source": "Decreto 2245/2011 art. 26"
+    },
+    {
+      "id": "camb-q-014",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿En cuánto tiempo debe resolverse el recurso de reconsideración?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Siete (7) meses desde el día siguiente a su interposición en debida forma."
+        },
+        {
+          "id": "B",
+          "text": "Un año."
+        },
+        {
+          "id": "C",
+          "text": "Cinco meses."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 28.",
+      "optionWhy": {
+        "B": "Es el término tributario (ET art. 732).",
+        "C": "Es el término aduanero (Ley 2586 art. 94)."
+      },
+      "source": "Decreto 2245/2011 art. 28"
+    },
+    {
+      "id": "camb-q-015",
+      "type": "pjs",
+      "difficulty": 3,
+      "case": "Transcurrieron siete meses desde la interposición en debida forma del recurso de reconsideración sin que la DIAN lo resolviera ni notificara.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Considerar rechazado el recurso."
+        },
+        {
+          "id": "B",
+          "text": "Reconocer que opera el silencio administrativo a favor del recurrente."
+        },
+        {
+          "id": "C",
+          "text": "Ampliar el término por tres meses más."
+        }
+      ],
+      "answer": "B",
+      "explain": "Art. 30: se entiende fallado a favor del recurrente y la administración lo declara de oficio o a petición de parte.",
+      "optionWhy": {
+        "A": "El silencio es a favor del recurrente.",
+        "C": "La norma no prevé esa ampliación."
+      },
+      "source": "Decreto 2245/2011 art. 30"
+    },
+    {
+      "id": "camb-q-016",
+      "type": "truefalse",
+      "difficulty": 2,
+      "statement": "La resolución que rechace el recurso de reconsideración admite recurso adicional.",
+      "answer": false,
+      "explain": "Art. 28: contra la resolución que rechace el recurso no procede recurso alguno.",
+      "source": "Decreto 2245/2011 art. 28"
+    },
+    {
+      "id": "camb-q-017",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Cuál es el plazo máximo para practicar pruebas en el período probatorio cambiario si se practican en el territorio nacional?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Un mes."
+        },
+        {
+          "id": "B",
+          "text": "Diez días hábiles."
+        },
+        {
+          "id": "C",
+          "text": "Cuatro (4) meses (seis si deben practicarse en el exterior)."
+        }
+      ],
+      "answer": "C",
+      "explain": "Art. 24. Contra la resolución que deniegue pruebas procede reposición dentro del mes siguiente a su notificación.",
+      "optionWhy": {
+        "A": "Es el plazo del recurso de reposición contra la negación de pruebas.",
+        "B": "No es el término del art. 24."
+      },
+      "source": "Decreto 2245/2011 art. 24"
+    },
+    {
+      "id": "camb-q-018",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿En cuánto prescribe la acción de cobro de las sanciones cambiarias?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cinco (5) años contados a partir de la ejecutoria de la providencia que impuso la sanción."
+        },
+        {
+          "id": "B",
+          "text": "Tres años."
+        },
+        {
+          "id": "C",
+          "text": "Un año."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 37; puede decretarse de oficio o a solicitud del deudor.",
+      "optionWhy": {
+        "B": "No es el término del art. 37.",
+        "C": "No es el término del art. 37."
+      },
+      "source": "Decreto 2245/2011 art. 37"
+    },
+    {
+      "id": "camb-q-019",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Qué sanción corresponde por pagar o recibir pagos por el mercado no cambiario por operaciones obligatoriamente canalizables?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Amonestación escrita."
+        },
+        {
+          "id": "B",
+          "text": "Multa del 100 % del monto de la operación."
+        },
+        {
+          "id": "C",
+          "text": "Multa del 10 %."
+        }
+      ],
+      "answer": "B",
+      "explain": "Art. 3 num. 2 (operaciones canalizables a través del mercado cambiario).",
+      "optionWhy": {
+        "A": "La norma prevé multa.",
+        "C": "El numeral 2 del art. 3 prevé el 100 %."
+      },
+      "source": "Decreto 2245/2011 art. 3 num. 2"
+    },
+    {
+      "id": "camb-q-020",
+      "type": "pjs",
+      "difficulty": 3,
+      "case": "Una exportadora recibió el pago de sus ventas en el exterior y lo mantuvo fuera del mercado cambiario, aunque la operación era de obligatoria canalización.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Considerar que no hay infracción porque cobró."
+        },
+        {
+          "id": "B",
+          "text": "Sancionarla con amonestación solamente."
+        },
+        {
+          "id": "C",
+          "text": "Reconocer que hay una infracción por no canalizar por el mercado cambiario una operación de obligatoria canalización."
+        }
+      ],
+      "answer": "C",
+      "explain": "Art. 3 numerales 2, 3 y 5.",
+      "optionWhy": {
+        "A": "El pago por canales no cambiarios de operaciones canalizables es infracción (art. 3 num. 2).",
+        "B": "La multa es del 100 % del monto."
+      },
+      "source": "Decreto 2245/2011 art. 3"
+    },
+    {
+      "id": "camb-q-021",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Qué sanción corresponde por canalizar a través del mercado cambiario un valor inferior al consignado en los documentos de aduana?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Multa del 100 % de la diferencia entre el valor canalizado y el consignado."
+        },
+        {
+          "id": "B",
+          "text": "Multa del 100 % del valor total de la mercancía."
+        },
+        {
+          "id": "C",
+          "text": "No hay sanción si se informa luego."
+        }
+      ],
+      "answer": "A",
+      "explain": "Art. 3 num. 4.",
+      "optionWhy": {
+        "B": "La base es la diferencia, no el total.",
+        "C": "La infracción existe por la diferencia."
+      },
+      "source": "Decreto 2245/2011 art. 3 num. 4"
+    },
+    {
+      "id": "camb-q-022",
+      "type": "cloze",
+      "difficulty": 1,
+      "text": "El término de traslado del acto de formulación de cargos cambiario es de {{2}} meses.",
+      "alternatives": {
+        "2": [
+          "dos"
+        ]
+      },
+      "source": "Decreto 2245/2011 art. 21"
+    },
+    {
+      "id": "camb-q-023",
+      "type": "cloze",
+      "difficulty": 1,
+      "text": "El recurso de reconsideración cambiario se interpone dentro del {{mes}} siguiente a la notificación.",
+      "alternatives": {
+        "mes": [
+          "1 mes",
+          "un mes"
+        ]
+      },
+      "source": "Decreto 2245/2011 art. 26"
+    },
+    {
+      "id": "camb-q-024",
+      "type": "cloze",
+      "difficulty": 1,
+      "text": "El recurso de reconsideración cambiario debe resolverse en {{7}} meses.",
+      "alternatives": {
+        "7": [
+          "siete"
+        ]
+      },
+      "source": "Decreto 2245/2011 art. 28"
+    },
+    {
+      "id": "camb-q-025",
+      "type": "order",
+      "difficulty": 2,
+      "prompt": "Ordene el procedimiento administrativo sancionatorio cambiario.",
+      "items": [
+        "Formulación de cargos",
+        "Traslado (2 meses)",
+        "Período probatorio",
+        "Resolución sancionatoria",
+        "Recurso de reconsideración"
+      ],
+      "explain": "Arts. 11, 21, 24, 26 y 28 del Decreto 2245/2011.",
+      "source": "Decreto 2245/2011 art. 11, 21, 24, 26"
+    },
+    {
+      "id": "camb-q-026",
+      "type": "open",
+      "difficulty": 2,
+      "prompt": "Explique las reducciones de la sanción por reconocimiento de la infracción cambiaria.",
+      "modelAnswer": "El reconocimiento voluntario y expreso, hecho por el investigado o su apoderado facultado, permite pagar una sanción reducida: el 40 % del monto si se reconoce antes de la visita administrativa, el 60 % de la multa propuesta si se reconoce dentro del traslado de cargos, y el 75 % de la multa impuesta si se reconoce dentro del plazo del recurso de reconsideración.",
+      "keyPoints": [
+        "40 % antes de la visita",
+        "60 % en el traslado de cargos",
+        "75 % en el plazo del recurso"
+      ],
+      "keywords": [
+        "40",
+        "60",
+        "75",
+        "reconocimiento",
+        "traslado",
+        "recurso"
+      ],
+      "minKeywords": 3,
+      "source": "Decreto 2245/2011 art. 23"
+    },
+    {
+      "id": "camb-q-027",
+      "type": "open",
+      "difficulty": 2,
+      "prompt": "Describa los términos del recurso de reconsideración cambiario.",
+      "modelAnswer": "Se interpone dentro del mes siguiente a la notificación, ante la División de Gestión Jurídica competente; la DIAN tiene siete meses para resolverlo desde su interposición en debida forma; si no lo hace, se entiende fallado a favor del recurrente (silencio administrativo).",
+      "keyPoints": [
+        "Un mes para interponerlo",
+        "Siete meses para resolverlo",
+        "Silencio a favor del recurrente"
+      ],
+      "keywords": [
+        "mes",
+        "siete",
+        "reconsideración",
+        "silencio",
+        "recurrente"
+      ],
+      "minKeywords": 3,
+      "source": "Decreto 2245/2011 art. 26, 28 y 30"
+    }
+  ]
+}
