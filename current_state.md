@@ -1,6 +1,6 @@
-# Current State (2026-11-03)
+# Current State (2026-11-04)
 
-**Fases 1–4 hechas (reinicio).** Shell, motor de lecciones (10 tipos), mazo de tarjetas, progreso con repaso espaciado, panel y ajustes. **Contenido real:** `fiscalizacion`, `sanciones`, `obligaciones`, `liquidacion` (20 lecciones, 100 tarjetas, 160 preguntas). Faltan las unidades de las fases 5–6 y los simulacros (fase 7).
+**Fases 1–5 hechas (reinicio).** Shell, motor de lecciones (10 tipos), mazo de tarjetas, progreso con repaso espaciado, panel y ajustes. **Contenido real:** 4 unidades tributarias (fase 4) + `estructura`, `misionalidad`, `gestion-documental`, `lavado`, `cambiaria`, `auditoria` (fase 5): 44 lecciones, 222 tarjetas, 344 preguntas. Faltan `razonamiento`, `comportamentales`, `integridad` (fase 6) y los simulacros (fase 7).
 
 - Versión anterior respaldada en el tag git `backup-v1-before-restart` (también en GitHub).
 - Código: `js/app.js` (rutas, inicio, unidad), `js/content.js`, `js/engine/*`, `js/progress/*`, `js/screens/*`.
@@ -11,4 +11,4 @@
 - Pruebas: `node tests/progress.test.js` (14/14).
 - Sitio: https://gabriel86-as.github.io/dian-2676-estudio/ · `gh` no está instalado; basta `git push`.
 
-**Siguiente:** Fase 5 (`plan/05_CONTENT_INSTITUTIONAL_CONTROL.md`): `estructura`, `misionalidad`, `gestion-documental`, `lavado`, `cambiaria`, `auditoria`. Examen **8 nov 2026**. Al terminar cada ejecución, actualizar este archivo y `plan/PROGRESS_LOG.md`.
+**Siguiente:** Fase 6 (`plan/06_CONTENT_BEHAVIORAL_REASONING.md`): `razonamiento`, `comportamentales`, `integridad`. Luego fase 7 (simulacros). Examen **8 nov 2026**. Al terminar cada ejecución, actualizar este archivo y `plan/PROGRESS_LOG.md`.

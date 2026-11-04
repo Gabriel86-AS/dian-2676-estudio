@@ -1,0 +1,576 @@
+{
+  "id": "auditoria",
+  "title": "Normas y técnicas de auditoría",
+  "area": "funcional",
+  "priority": 3,
+  "summary": "Sistema de Control Interno (Ley 87/1993), MECI dentro del MIPG, línea estratégica y tres líneas de aseguramiento, roles de la Oficina de Control Interno, propósito y ética de la auditoría interna (Normas Globales IIA 2024), independencia, plan anual basado en riesgos, evidencia, técnicas, muestreo, papeles de trabajo, hallazgos e informe.",
+  "sources": [
+    "Ley 87 de 1993, arts. 1, 6, 10 y 12 (citados en la Guía FP v5)",
+    "Decreto 1083 de 2015, arts. 2.2.21.3.7, 2.2.21.4.7 y 2.2.21.5.3 (citados en la Guía FP v5)",
+    "Normas Globales de Auditoría Interna IIA 2024, vigentes desde ene-2025 (citadas en la Guía FP v5)",
+    "Guía para la gestión estratégica y el fortalecimiento de la auditoría interna en entidades públicas, Función Pública v5 (jul-2026, post-corte)"
+  ],
+  "lessons": [
+    {
+      "id": "aud-01",
+      "title": "Control interno y líneas de aseguramiento",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "aud-c-001",
+          "type": "concept",
+          "source": "Ley 87/1993 arts. 1, 6, 10 y 12 (Guía FP v5, Marco de referencia A)",
+          "title": "Sistema de Control Interno y Oficina de Control Interno",
+          "body": "- **Sistema de Control Interno (Ley 87 art. 1):** el esquema de organización y el conjunto de planes, métodos, principios, normas, procedimientos y mecanismos de verificación y evaluación que adopta una entidad para que sus actividades, la información y los recursos se manejen **conforme a la ley** y a las **metas** previstas.\n- **Quién lo implementa (art. 6):** el **representante legal o máximo directivo**, junto con los jefes de las áreas. No es tarea exclusiva de la Oficina de Control Interno.\n- **Oficina de Control Interno (OCI):** componente del sistema, de nivel gerencial o directivo, que **mide y evalúa** la eficiencia, eficacia y economía de los demás controles y asesora a la dirección. Sus funciones están en el **art. 12**; su jefe está adscrito al **nivel jerárquico superior** (art. 10)."
+        },
+        {
+          "id": "aud-c-002",
+          "type": "concept",
+          "source": "Guía FP v5, Marco de referencia B y Tabla 1; Decreto 1083/2015 art. 2.2.21.5.3",
+          "title": "MECI, COSO y el esquema de líneas",
+          "body": "El **MECI** es la dimensión 6 del **MIPG** y se apoya en dos elementos:\n1. **COSO 2013:** el control interno es un proceso hecho por personas que da un **aseguramiento razonable, no absoluto**, sobre objetivos de **operación, información y cumplimiento**.\n2. **Una línea estratégica y tres líneas de aseguramiento:**\n   - **Estratégica:** Alta Dirección y Comité Institucional de Coordinación de Control Interno. Asigna recursos y monitorea.\n   - **1ª línea:** los servidores que **aplican los controles** en el día a día.\n   - **2ª línea:** directivos o asesores que **monitorean temas transversales** (planeación, riesgos, contratación, financiera, TIC) y alertan a la 1ª línea.\n   - **3ª línea:** la **auditoría interna (OCI)**, que da aseguramiento **independiente y objetivo**.\n\n**Cinco roles de la OCI** (D1083 art. 2.2.21.5.3): liderazgo estratégico, enfoque hacia la prevención, evaluación de la gestión del riesgo, evaluación y seguimiento, y relación con entes externos de control."
+        },
+        { "ref": "aud-q-001" },
+        { "ref": "aud-q-002" },
+        { "ref": "aud-q-005" },
+        { "ref": "aud-q-003" },
+        { "ref": "aud-q-004" },
+        { "ref": "aud-q-006" },
+        { "ref": "aud-q-007" },
+        { "ref": "aud-q-031" }
+      ]
+    },
+    {
+      "id": "aud-02",
+      "title": "Propósito, ética y objetividad del auditor",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "aud-c-003",
+          "type": "concept",
+          "source": "Normas Globales IIA 2024, Dominio I (Guía FP v5, cap. 1)",
+          "title": "Para qué sirve la auditoría interna",
+          "body": "**Definición (IIA):** una actividad **independiente y objetiva de aseguramiento y asesoramiento** concebida para **agregar valor** y mejorar las operaciones. Aporta un enfoque **sistemático y disciplinado** para evaluar y mejorar los procesos de **gobierno, gestión de riesgos y control**.\n\n- **Aseguramiento:** evaluación objetiva de la evidencia para dar una conclusión independiente sobre la eficacia operativa, la confiabilidad de la información, la salvaguarda de activos, el cumplimiento y los controles.\n- **Asesoramiento:** a solicitud de la administración y con acuerdo previo de alcance. Por ejemplo, participar en comités **con voz pero sin voto**, revisar controles en diseño o capacitar. La OCI **no asume** la responsabilidad del diseño, la ejecución ni la aprobación de lo que asesora."
+        },
+        {
+          "id": "aud-c-004",
+          "type": "concept",
+          "source": "Normas Globales IIA 2024, Dominio II, normas 2.1–2.3 y 4.3 (Guía FP v5, cap. 2, Tablas 5–7 y 12)",
+          "title": "Ética y profesionalismo: 5 principios y 13 normas",
+          "body": "El Dominio II reemplaza el antiguo código de ética del IIA y en el sector público se articula con el **Código de Integridad** del servicio público.\n\n**Objetividad (normas 2.1–2.3):**\n- Actitud **imparcial y libre de sesgo**.\n- No aceptar **regalos, recompensas ni favores** que puedan verse como un impedimento.\n- **Abstenerse de evaluar actividades de las que antes fue responsable.**\n- **Declarar oportunamente** cualquier impedimento, de hecho o en apariencia.\n\n**Escepticismo profesional (norma 4.3):** mente inquisitiva, evaluar críticamente la fiabilidad de la información, preguntar por las inconsistencias y **buscar evidencia adicional** cuando algo parece incompleto o incoherente."
+        },
+        { "ref": "aud-q-008" },
+        { "ref": "aud-q-009" },
+        { "ref": "aud-q-014" },
+        { "ref": "aud-q-010" },
+        { "ref": "aud-q-011" },
+        { "ref": "aud-q-012" },
+        { "ref": "aud-q-013" },
+        { "ref": "aud-q-033" }
+      ]
+    },
+    {
+      "id": "aud-03",
+      "title": "Independencia y plan anual basado en riesgos",
+      "minutes": 7,
+      "steps": [
+        {
+          "id": "aud-c-005",
+          "type": "concept",
+          "source": "Ley 87/1993 art. 10; Guía FP v5, cap. 3 (Tabla 1 principio 5, Tabla 15)",
+          "title": "Independencia de la tercera línea",
+          "body": "- La independencia es la base de la **objetividad, la autoridad y la credibilidad** de la auditoría. Se logra con **acceso sin restricciones** a personas, recursos y datos, y con la **ausencia de interferencias** en la planeación y en los informes.\n- El jefe de control interno está **adscrito al nivel jerárquico superior** (Ley 87 art. 10): depende del representante legal.\n- La OCI puede fijar frecuencias, aplicar las técnicas que considere pertinentes y acceder a registros y sistemas, respetando las reglas sobre información **clasificada y reservada**.\n- El **Estatuto de Auditoría Interna** es obligatorio y lo **aprueba el Comité Institucional de Coordinación de Control Interno**.\n- **Posibles actos de corrupción** (D1083 art. 2.2.21.4.7): se informa al representante legal con copia a la Secretaría de Transparencia de la Presidencia. Esto **no exime** de denunciar (Ley 906 art. 67 y Ley 1474 art. 9)."
+        },
+        {
+          "id": "aud-c-006",
+          "type": "concept",
+          "source": "Guía FP v5, cap. 4 (Tablas 18–20; aprobación del plan); D1083/2015 art. 2.2.21.3.7",
+          "title": "Universo auditable, criticidad y plan anual",
+          "body": "1. **Universo de auditoría:** todas las unidades auditables (macroprocesos, procesos, proyectos…).\n2. **Priorización:** criterios ponderados (riesgos, resultados de auditorías previas, planes de mejoramiento…) dan un **nivel de criticidad**.\n3. **Ciclo de rotación** propuesto por la guía: extrema → **cada año**; alta → **cada 2 años**; media → **cada 3 años**; baja → **cada 4 años**; muy baja → **cada 5 años o más**.\n4. El **Plan Anual de Auditoría** necesita la **aprobación previa del Comité Institucional de Coordinación de Control Interno**, y también sus modificaciones.\n\nLos informes van al **representante legal** y al **Comité**, para que allí se adopten las mejoras."
+        },
+        { "ref": "aud-q-016" },
+        { "ref": "aud-q-017" },
+        { "ref": "aud-q-015" },
+        { "ref": "aud-q-034" },
+        { "ref": "aud-q-018" },
+        { "ref": "aud-q-019" },
+        { "ref": "aud-q-020" }
+      ]
+    },
+    {
+      "id": "aud-04",
+      "title": "Evidencia, técnicas, muestreo y hallazgos",
+      "minutes": 9,
+      "steps": [
+        {
+          "id": "aud-c-007",
+          "type": "concept",
+          "source": "Normas Globales IIA 2024, normas 14.1 y 14.2 (Guía FP v5, num. 5.2.2–5.2.3, Figura 22)",
+          "title": "Evidencia y técnicas de auditoría",
+          "body": "**La información debe ser** **suficiente** (otra persona prudente llegaría a las mismas conclusiones), **confiable** (basada en hechos y actualizada), **relevante** (dentro del objetivo y el alcance) y **útil**. Es más fiable cuando el auditor la obtiene **directamente**.\n\n**Técnicas tradicionales:**\n- **Comprobación:** prueba la **validez** de lo registrado, rastreando **hacia registros anteriores**.\n- **Seguimiento:** prueba que lo registrado esté **completo**.\n- **Repetición o recálculo:** volver a ejecutar el control para probar su **exactitud**.\n- **Confirmación independiente:** confirmación **escrita de un tercero**.\n- **Procedimientos analíticos:** indicadores, tendencias, razonabilidad, **comparación entre periodos**. Toda desviación significativa se investiga.\n\nCon **analítica de datos** se puede revisar **toda la población** en lugar de una muestra."
+        },
+        {
+          "id": "aud-c-008",
+          "type": "concept",
+          "source": "Normas Globales IIA 2024, normas 14.2, 14.3, 14.6 y 15.1 (Guía FP v5, num. 5.2.3–5.3, Tablas 25–26)",
+          "title": "Muestreo, papeles de trabajo y hallazgos",
+          "body": "- **Muestreo:** solo el **estadístico** permite **extrapolar** a toda la población. El de **juicio** (no estadístico) es aceptado. En ambos casos el auditor elige los elementos con **criterios objetivos** y documenta el método.\n- **Papeles de trabajo (norma 14.6):** deben permitir que otro auditor prudente **repita el trabajo y llegue a los mismos resultados**. El supervisor los revisa.\n- **Hallazgo:** la diferencia entre el **criterio** (lo que debería ser) y la **condición** (lo encontrado). Se completa con la **causa** (causa raíz), el **efecto**, la **recomendación** (que ataque la causa) y el **plan de mejoramiento**.\n- **Reuniones previas:** la guía las usa en lugar de los informes preliminares. El auditado ejerce su **contradicción** con evidencia objetiva, sin que se reabran las pruebas.\n- **Informe ejecutivo** (conciso, para la alta dirección) vs **informe detallado** (completo, para la unidad auditada)."
+        },
+        { "ref": "aud-q-030" },
+        { "ref": "aud-q-021" },
+        { "ref": "aud-q-023" },
+        { "ref": "aud-q-022" },
+        { "ref": "aud-q-025" },
+        { "ref": "aud-q-028" },
+        { "ref": "aud-q-029" },
+        { "ref": "aud-q-032" }
+      ]
+    }
+  ],
+  "flashcards": [
+    { "id": "aud-fc-001", "front": "Sistema de Control Interno (Ley 87 art. 1)", "back": "Esquema de organización y conjunto de planes, métodos, principios, normas, procedimientos y mecanismos de verificación y evaluación para que la entidad actúe conforme a la ley y a sus metas.", "source": "Ley 87/1993 art. 1 (Guía FP v5)" },
+    { "id": "aud-fc-002", "front": "¿Quién responde por implementar el Sistema de Control Interno?", "back": "El representante legal o máximo directivo, junto con los jefes de las áreas (Ley 87 art. 6). La OCI lo evalúa.", "source": "Ley 87/1993 art. 6 (Guía FP v5)" },
+    { "id": "aud-fc-003", "front": "Oficina de Control Interno: ¿qué hace?", "back": "Mide y evalúa la eficiencia, eficacia y economía de los demás controles y asesora a la dirección. Su jefe está adscrito al nivel jerárquico superior.", "source": "Ley 87/1993, definición citada en la Guía FP v5; arts. 10 y 12" },
+    { "id": "aud-fc-004", "front": "Línea estratégica", "back": "Alta Dirección y Comité Institucional de Coordinación de Control Interno: asigna y protege recursos y monitorea la gestión del riesgo.", "source": "Guía FP v5, Tabla 1" },
+    { "id": "aud-fc-005", "front": "1ª línea de aseguramiento", "back": "Los servidores, en sus diferentes niveles, que aplican los controles en las operaciones del día a día.", "source": "Guía FP v5, Tabla 1" },
+    { "id": "aud-fc-006", "front": "2ª línea de aseguramiento", "back": "Directivos o asesores que monitorean temas transversales (planeación, riesgos, contratación, financiera, TIC) y alertan a la 1ª línea y a la Alta Dirección.", "source": "Guía FP v5, Tabla 1" },
+    { "id": "aud-fc-007", "front": "3ª línea de aseguramiento", "back": "La auditoría interna (OCI): aseguramiento y asesoramiento independientes y objetivos sobre el gobierno y la gestión de riesgos.", "source": "Guía FP v5, Tabla 1" },
+    { "id": "aud-fc-008", "front": "Cinco roles de la OCI", "back": "Liderazgo estratégico, enfoque hacia la prevención, evaluación de la gestión del riesgo, evaluación y seguimiento, y relación con entes externos de control.", "source": "Decreto 1083/2015 art. 2.2.21.5.3 (Guía FP v5)" },
+    { "id": "aud-fc-009", "front": "Control interno según COSO 2013", "back": "Proceso hecho por personas que da un aseguramiento razonable (no absoluto) sobre objetivos de operación, información y cumplimiento.", "source": "COSO 2013, citado en Guía FP v5, Marco de referencia B" },
+    { "id": "aud-fc-010", "front": "Definición de auditoría interna (IIA)", "back": "Actividad independiente y objetiva de aseguramiento y asesoramiento que agrega valor y evalúa y mejora el gobierno, la gestión de riesgos y el control.", "source": "IIA Global, glosario 2024 (Guía FP v5, cap. 1)" },
+    { "id": "aud-fc-011", "front": "Asesoramiento de la OCI: límites", "back": "A solicitud y con acuerdo previo de alcance; en comités, con voz pero sin voto; no asume el diseño, la ejecución ni la aprobación de lo asesorado.", "source": "Guía FP v5, cap. 1 y 3.2", "tags": ["post-corte"] },
+    { "id": "aud-fc-012", "front": "Dominio II de las Normas Globales", "back": "Ética y profesionalismo: 5 principios y 13 normas (honestidad, objetividad, competencia, debido cuidado, escepticismo, uso y protección de la información…).", "source": "Normas Globales IIA 2024, Dominio II (Guía FP v5, cap. 2)" },
+    { "id": "aud-fc-013", "front": "Auditor que antes estuvo a cargo del proceso", "back": "Debe abstenerse de evaluar las actividades de las que antes fue responsable y declarar el impedimento.", "source": "Normas Globales IIA 2024, normas 2.2–2.3 (Guía FP v5, Tablas 6–7)" },
+    { "id": "aud-fc-014", "front": "Escepticismo profesional", "back": "Mente inquisitiva: evaluar críticamente la fiabilidad de la información, preguntar por las inconsistencias y buscar evidencia adicional.", "source": "Normas Globales IIA 2024, norma 4.3 (Guía FP v5, Tabla 12)" },
+    { "id": "aud-fc-015", "front": "¿Cómo se garantiza la independencia de la auditoría?", "back": "Con acceso sin restricciones a personas, recursos y datos, y sin interferencias en la planeación ni en los informes.", "source": "Guía FP v5, Tabla 1 (principio 5)" },
+    { "id": "aud-fc-016", "front": "Estatuto de Auditoría Interna", "back": "Documento obligatorio que fija el propósito, la autoridad y la responsabilidad de la auditoría; lo aprueba el Comité Institucional de Coordinación de Control Interno.", "source": "Guía FP v5, cap. 3" },
+    { "id": "aud-fc-017", "front": "Ciclo de rotación por criticidad (guía)", "back": "Extrema: cada año · Alta: 2 años · Media: 3 años · Baja: 4 años · Muy baja: 5 años o más.", "source": "Guía FP v5, Tabla 20", "tags": ["post-corte"] },
+    { "id": "aud-fc-018", "front": "Información de auditoría: 4 atributos", "back": "Suficiente, confiable, relevante y útil.", "source": "Normas Globales IIA 2024, norma 14.1 (Guía FP v5, Figura 22)" },
+    { "id": "aud-fc-019", "front": "Comprobación vs seguimiento", "back": "Comprobación: prueba la validez de lo registrado, rastreando hacia registros anteriores. Seguimiento: prueba que lo registrado esté completo.", "source": "Guía FP v5, num. 5.2.3" },
+    { "id": "aud-fc-020", "front": "Hallazgo", "back": "Diferencia entre el criterio y la condición encontrada. Se documenta con causa (raíz), efecto, recomendación y plan de mejoramiento.", "source": "Normas Globales IIA 2024, normas 14.2–14.3 (Guía FP v5, num. 5.2.4)" },
+    { "id": "aud-fc-021", "front": "Papeles de trabajo (norma 14.6)", "back": "Documentan la evidencia de modo que otro auditor prudente pueda repetir el trabajo y obtener los mismos resultados.", "source": "Normas Globales IIA 2024, norma 14.6 (Guía FP v5, num. 5.2.3)" },
+    { "id": "aud-fc-022", "front": "Muestreo estadístico vs de juicio", "back": "Solo el estadístico permite extrapolar a toda la población; en ambos el auditor elige los elementos con criterios objetivos y los documenta.", "source": "Guía FP v5, num. 5.2.3 (Figura 23)", "tags": ["post-corte"] }
+  ],
+  "questions": [
+    {
+      "id": "aud-q-001", "type": "mcq", "difficulty": 1, "source": "Ley 87/1993 art. 1 (Guía FP v5, Marco de referencia A)",
+      "prompt": "Según la Ley 87 de 1993, el Sistema de Control Interno es:",
+      "options": [
+        { "id": "a", "text": "Una oficina que audita la entidad una vez al año y reporta sus resultados a la Contraloría." },
+        { "id": "b", "text": "El esquema de organización, planes, métodos y mecanismos de verificación de la entidad." },
+        { "id": "c", "text": "El conjunto de auditorías que los organismos de control externo practican sobre la entidad." },
+        { "id": "d", "text": "El software institucional en el que cada dependencia registra sus riesgos y sus controles." }
+      ],
+      "answer": "b",
+      "explain": "El art. 1 lo define como el esquema de organización y el conjunto de planes, métodos, principios, normas, procedimientos y mecanismos de verificación y evaluación que adopta la entidad.",
+      "optionWhy": { "a": "Eso se parece a la OCI, que es solo uno de los componentes del sistema.", "c": "El control externo (fiscal) es distinto del control interno.", "d": "Una herramienta puede apoyar el sistema, pero no es el sistema." }
+    },
+    {
+      "id": "aud-q-002", "type": "truefalse", "difficulty": 1, "source": "Ley 87/1993 art. 6 (Guía FP v5, Marco de referencia A)",
+      "statement": "Implementar el Sistema de Control Interno es responsabilidad exclusiva de la Oficina de Control Interno.",
+      "answer": false,
+      "explain": "Falso. El art. 6 asigna esa responsabilidad al representante legal o máximo directivo, junto con los jefes de las áreas. La OCI lo evalúa."
+    },
+    {
+      "id": "aud-q-003", "type": "pjs", "difficulty": 2, "source": "Guía FP v5, Tabla 1",
+      "case": "La Oficina de Planeación revisa cada mes los mapas de riesgos de todas las seccionales, consolida los indicadores y envía alertas a los jefes de división cuando un control no se aplica.",
+      "prompt": "En el esquema de líneas, esta oficina actúa como:",
+      "options": [
+        { "id": "a", "text": "Línea estratégica, porque reporta a la Alta Dirección." },
+        { "id": "b", "text": "Tercera línea, porque evalúa si los controles funcionan." },
+        { "id": "c", "text": "Segunda línea, porque monitorea temas transversales." }
+      ],
+      "answer": "c",
+      "explain": "La 2ª línea la forman directivos o asesores (por ejemplo, los jefes de planeación) que monitorean temas transversales y alertan a la 1ª línea y a la Alta Dirección.",
+      "optionWhy": { "a": "La línea estratégica es la Alta Dirección y el Comité de Coordinación de Control Interno; rendir cuentas a ellos no convierte a Planeación en esa línea.", "b": "La 3ª línea es la auditoría interna, que da aseguramiento independiente; Planeación hace monitoreo de gestión." }
+    },
+    {
+      "id": "aud-q-004", "type": "pjs", "difficulty": 1, "source": "Guía FP v5, Tabla 1",
+      "case": "Antes de firmar un proyecto de liquidación oficial, un gestor de la División de Fiscalización revisa la lista de chequeo del procedimiento: términos, notificación del requerimiento y soporte de cada glosa.",
+      "prompt": "Al aplicar este control, el gestor actúa como:",
+      "options": [
+        { "id": "a", "text": "Primera línea de aseguramiento." },
+        { "id": "b", "text": "Segunda línea de aseguramiento." },
+        { "id": "c", "text": "Tercera línea de aseguramiento." }
+      ],
+      "answer": "a",
+      "explain": "La 1ª línea la forman los servidores que aplican los controles en las operaciones del día a día.",
+      "optionWhy": { "b": "La 2ª línea monitorea temas transversales desde cargos directivos o asesores.", "c": "La 3ª línea es la OCI, independiente de la operación." }
+    },
+    {
+      "id": "aud-q-005", "type": "match", "difficulty": 1, "source": "Guía FP v5, Tabla 1",
+      "prompt": "Relaciona cada línea con quiénes la conforman.",
+      "pairs": [
+        { "left": "Línea estratégica", "right": "Alta Dirección y Comité Institucional de Coordinación de Control Interno" },
+        { "left": "1ª línea", "right": "Servidores que aplican los controles en el día a día" },
+        { "left": "2ª línea", "right": "Directivos o asesores que monitorean temas transversales" },
+        { "left": "3ª línea", "right": "Oficina de Control Interno (auditoría interna)" }
+      ],
+      "explain": "Esquema de una línea estratégica y tres líneas de aseguramiento del MECI, adaptado del modelo de las tres líneas del IIA (2020)."
+    },
+    {
+      "id": "aud-q-006", "type": "mcq", "difficulty": 2, "source": "Decreto 1083/2015 art. 2.2.21.5.3 (Guía FP v5, Tabla 15)",
+      "prompt": "¿Cuál de estos NO es uno de los cinco roles de la Oficina de Control Interno?",
+      "options": [
+        { "id": "a", "text": "Enfoque hacia la prevención" },
+        { "id": "b", "text": "Relación con entes externos de control" },
+        { "id": "c", "text": "Evaluación de la gestión del riesgo" },
+        { "id": "d", "text": "Coadministración de los procesos misionales" }
+      ],
+      "answer": "d",
+      "explain": "Los cinco roles son: liderazgo estratégico, enfoque hacia la prevención, evaluación de la gestión del riesgo, evaluación y seguimiento, y relación con entes externos de control. Coadministrar afectaría su independencia.",
+      "optionWhy": { "a": "Es uno de los cinco roles.", "b": "Es uno de los cinco roles.", "c": "Es uno de los cinco roles." }
+    },
+    {
+      "id": "aud-q-007", "type": "cloze", "difficulty": 1, "source": "Decreto 1083/2015 art. 2.2.21.5.3 (Guía FP v5)",
+      "text": "La OCI actúa mediante cinco roles: liderazgo estratégico, enfoque hacia la {{prevención}}, evaluación de la gestión del {{riesgo}}, evaluación y seguimiento, y relación con entes externos de control.",
+      "alternatives": { "prevención": ["prevencion"], "riesgo": ["riesgos"] }
+    },
+    {
+      "id": "aud-q-008", "type": "mcq", "difficulty": 1, "source": "IIA Global, glosario 2024 (Guía FP v5, cap. 1)",
+      "prompt": "La auditoría interna se define como una actividad independiente y objetiva de:",
+      "options": [
+        { "id": "a", "text": "Investigación disciplinaria y sanción" },
+        { "id": "b", "text": "Coadministración y ejecución de procesos" },
+        { "id": "c", "text": "Aseguramiento y asesoramiento" },
+        { "id": "d", "text": "Vigilancia fiscal de los recursos públicos" }
+      ],
+      "answer": "c",
+      "explain": "Es una actividad independiente y objetiva de aseguramiento y asesoramiento que agrega valor y mejora el gobierno, la gestión de riesgos y el control.",
+      "optionWhy": { "a": "Lo disciplinario corresponde a otras dependencias y autoridades.", "b": "Coadministrar comprometería su independencia.", "d": "La vigilancia fiscal es control externo (contralorías)." }
+    },
+    {
+      "id": "aud-q-009", "type": "pjs", "difficulty": 2, "source": "Guía FP v5, cap. 1 (asesoramiento técnico) y 3.2", "tags": ["post-corte"],
+      "case": "El director seccional quiere que el jefe de control interno integre el comité de contratación con voto, «para que los contratos salgan sin errores desde el comienzo».",
+      "prompt": "Lo adecuado es que el jefe de control interno:",
+      "options": [
+        { "id": "a", "text": "Acepte el voto, porque así previene hallazgos en futuras auditorías." },
+        { "id": "b", "text": "Participe con voz pero sin voto y emita alertas preventivas." },
+        { "id": "c", "text": "Se niegue a asistir, porque la OCI no puede opinar sobre contratación." }
+      ],
+      "answer": "b",
+      "explain": "La OCI puede asesorar en comités con voz pero sin voto, con alertas preventivas, sin comprometer su independencia ni asumir responsabilidad por las decisiones.",
+      "optionWhy": { "a": "Votar lo haría corresponsable de las decisiones que después tendría que auditar.", "c": "El asesoramiento preventivo es parte de sus roles; no está prohibido opinar." }
+    },
+    {
+      "id": "aud-q-010", "type": "pjs", "difficulty": 3, "source": "Normas Globales IIA 2024, normas 2.2–2.3 (Guía FP v5, Tablas 6–7)",
+      "case": "Andrea llegó a la OCI hace seis meses, después de coordinar el grupo de devoluciones. Le asignan auditar las devoluciones del año pasado, cuando ella era la coordinadora.",
+      "prompt": "Andrea debe:",
+      "options": [
+        { "id": "a", "text": "Declarar el impedimento y abstenerse de auditar ese periodo." },
+        { "id": "b", "text": "Hacer la auditoría, porque nadie conoce mejor ese proceso que ella." },
+        { "id": "c", "text": "Hacer la auditoría y dejar por fuera los hallazgos de su gestión." }
+      ],
+      "answer": "a",
+      "explain": "Las normas de objetividad piden abstenerse de evaluar actividades de las que antes se fue responsable y declarar oportunamente el impedimento.",
+      "optionWhy": { "b": "Conocer el proceso no compensa el conflicto: estaría evaluando su propia gestión.", "c": "Omitir hallazgos agravaría el problema y afectaría la objetividad del informe." }
+    },
+    {
+      "id": "aud-q-011", "type": "pjs", "difficulty": 1, "source": "Normas Globales IIA 2024, norma 2.2 (Guía FP v5, Tabla 6)",
+      "case": "Al terminar la auditoría, el jefe del área auditada le ofrece al auditor un bono de regalo «por la buena disposición del equipo».",
+      "prompt": "El auditor debe:",
+      "options": [
+        { "id": "a", "text": "Aceptarlo solo si el informe final ya fue firmado y enviado." },
+        { "id": "b", "text": "Aceptarlo y dejar constancia del regalo en los papeles de trabajo." },
+        { "id": "c", "text": "Rechazarlo, pues afecta su objetividad." }
+      ],
+      "answer": "c",
+      "explain": "No se acepta ningún objeto, tangible o intangible, como regalo, recompensa o favor que pueda suponer o interpretarse como un impedimento a la objetividad.",
+      "optionWhy": { "a": "El momento no cambia que el regalo pueda verse como una recompensa por el resultado.", "b": "Registrarlo no elimina el impedimento." }
+    },
+    {
+      "id": "aud-q-012", "type": "pjs", "difficulty": 3, "source": "Normas Globales IIA 2024, norma 4.3 (Guía FP v5, Tabla 12)",
+      "case": "El líder del proceso entrega al auditor un resumen en Excel según el cual todas las devoluciones se resolvieron a tiempo. Al revisar el sistema, el auditor ve varias fechas que no coinciden con el resumen.",
+      "prompt": "Aplicando el escepticismo profesional, el auditor debe:",
+      "options": [
+        { "id": "a", "text": "Aceptar el resumen, porque lo firmó el responsable del proceso." },
+        { "id": "b", "text": "Preguntar por las diferencias y buscar evidencia en la fuente." },
+        { "id": "c", "text": "Reportar de inmediato un hallazgo de fraude al representante legal." }
+      ],
+      "answer": "b",
+      "explain": "El escepticismo profesional exige evaluar críticamente la información, preguntar por las inconsistencias y buscar evidencia adicional antes de concluir.",
+      "optionWhy": { "a": "Aceptar sin verificar ignora las inconsistencias detectadas.", "c": "Todavía no hay evidencia suficiente: primero hay que aclarar y verificar." }
+    },
+    {
+      "id": "aud-q-013", "type": "truefalse", "difficulty": 2, "source": "Normas Globales IIA 2024, norma 2.2 (Guía FP v5, Tabla 6)",
+      "statement": "Los trabajos de aseguramiento sobre funciones que están a cargo del jefe de control interno deben ser supervisados por una parte independiente, externa a la auditoría interna.",
+      "answer": true,
+      "explain": "Verdadero. Así se salvaguarda la objetividad: nadie debe dar aseguramiento sobre lo que él mismo dirige."
+    },
+    {
+      "id": "aud-q-014", "type": "mcq", "difficulty": 2, "source": "Normas Globales IIA 2024, Dominio II (Guía FP v5, cap. 2)",
+      "prompt": "El Dominio II de las Normas Globales (Ética y profesionalismo) se organiza en:",
+      "options": [
+        { "id": "a", "text": "3 principios y 10 normas" },
+        { "id": "b", "text": "5 principios y 13 normas" },
+        { "id": "c", "text": "4 principios y 15 normas" },
+        { "id": "d", "text": "6 principios y 12 normas" }
+      ],
+      "answer": "b",
+      "explain": "La guía resume el Dominio II en 5 principios y 13 normas. Reemplaza el antiguo código de ética del IIA.",
+      "optionWhy": { "a": "Cifras incorrectas.", "c": "Cifras incorrectas.", "d": "Cifras incorrectas." }
+    },
+    {
+      "id": "aud-q-015", "type": "pjs", "difficulty": 3, "source": "Guía FP v5, Tabla 1 (principio 5) y num. 5.3.1", "tags": ["post-corte"],
+      "case": "Antes de que el informe llegue al Comité de Coordinación de Control Interno, el secretario general le pide al jefe de control interno que retire un hallazgo sobre su área «para no generar ruido». No aporta ninguna evidencia nueva.",
+      "prompt": "El jefe de control interno debe:",
+      "options": [
+        { "id": "a", "text": "Retirarlo, porque el secretario general tiene mayor jerarquía." },
+        { "id": "b", "text": "Aplazar todo el informe hasta el siguiente año para evitar conflictos." },
+        { "id": "c", "text": "Mantenerlo; el área puede aportar pruebas en la reunión previa." }
+      ],
+      "answer": "c",
+      "explain": "La independencia exige ausencia de interferencias en los informes. El hallazgo solo cae si el auditado demuestra con evidencia objetiva que no hay desviación (contradicción en la reunión previa).",
+      "optionWhy": { "a": "Retirarlo por presión es una interferencia que afecta la independencia.", "b": "Aplazar el informe también cede a la presión y retrasa la mejora." }
+    },
+    {
+      "id": "aud-q-016", "type": "mcq", "difficulty": 1, "source": "Ley 87/1993 art. 10 (Guía FP v5, cap. 3)",
+      "prompt": "Según la Ley 87 de 1993, el jefe de la Oficina de Control Interno está adscrito:",
+      "options": [
+        { "id": "a", "text": "A la Secretaría General" },
+        { "id": "b", "text": "A la Oficina de Planeación" },
+        { "id": "c", "text": "A la Contraloría General de la República" },
+        { "id": "d", "text": "Al nivel jerárquico superior de la entidad" }
+      ],
+      "answer": "d",
+      "explain": "El art. 10 lo adscribe al nivel jerárquico superior, es decir, depende del representante legal. Esa ubicación protege su independencia y autoridad.",
+      "optionWhy": { "a": "Depender de un área que audita afectaría su independencia.", "b": "Planeación es 2ª línea; la OCI no depende de ella.", "c": "La Contraloría ejerce control externo; la OCI es interna." }
+    },
+    {
+      "id": "aud-q-017", "type": "mcq", "difficulty": 2, "source": "Guía FP v5, cap. 3 (Estatuto de Auditoría Interna)",
+      "prompt": "¿Quién aprueba el Estatuto de Auditoría Interna?",
+      "options": [
+        { "id": "a", "text": "El jefe de control interno, por sí solo" },
+        { "id": "b", "text": "El Comité Institucional de Coordinación de Control Interno" },
+        { "id": "c", "text": "La Contraloría General de la República" },
+        { "id": "d", "text": "El Departamento Administrativo de la Función Pública" }
+      ],
+      "answer": "b",
+      "explain": "El Estatuto es un documento obligatorio aprobado por el Comité Institucional de Coordinación de Control Interno. Fija el propósito, la autoridad y la responsabilidad de la auditoría interna.",
+      "optionWhy": { "a": "El jefe lo propone, pero la aprobación es del Comité.", "c": "La Contraloría no aprueba documentos internos de la entidad.", "d": "Función Pública da lineamientos, pero no aprueba el estatuto de cada entidad." }
+    },
+    {
+      "id": "aud-q-018", "type": "truefalse", "difficulty": 2, "source": "Guía FP v5, cap. 4 (aprobación del Plan Anual)", "tags": ["post-corte"],
+      "statement": "Como la OCI es independiente, puede ejecutar su Plan Anual de Auditoría sin aprobación previa del Comité Institucional de Coordinación de Control Interno.",
+      "answer": false,
+      "explain": "Falso. El Plan Anual requiere aprobación previa del Comité, y sus modificaciones también se someten a su aprobación."
+    },
+    {
+      "id": "aud-q-019", "type": "mcq", "difficulty": 3, "source": "Guía FP v5, Tabla 20", "tags": ["post-corte"],
+      "prompt": "Según la tabla de rotación de la guía, una unidad auditable con criticidad MEDIA debería auditarse:",
+      "options": [
+        { "id": "a", "text": "Cada año" },
+        { "id": "b", "text": "Cada 2 años" },
+        { "id": "c", "text": "Cada 3 años" },
+        { "id": "d", "text": "Cada 5 años o más" }
+      ],
+      "answer": "c",
+      "explain": "Rotación de la guía: extrema cada año, alta cada 2 años, media cada 3, baja cada 4 y muy baja cada 5 años o más.",
+      "optionWhy": { "a": "Cada año corresponde a criticidad extrema.", "b": "Cada 2 años corresponde a criticidad alta.", "d": "Cada 5 años o más corresponde a criticidad muy baja." }
+    },
+    {
+      "id": "aud-q-020", "type": "pjs", "difficulty": 3, "source": "Decreto 1083/2015 art. 2.2.21.4.7 (Guía FP v5, Tabla 15)",
+      "case": "En una auditoría a contratos, el jefe de control interno encuentra documentos que indican posibles pagos por servicios que nunca se prestaron.",
+      "prompt": "El jefe de control interno debe:",
+      "options": [
+        { "id": "a", "text": "Informar al representante legal con copia a la Secretaría de Transparencia, sin perjuicio de denunciar." },
+        { "id": "b", "text": "Esperar al informe anual de evaluación y mencionar allí la situación de forma general." },
+        { "id": "c", "text": "Reunirse con el supervisor del contrato para que corrija el problema sin escalarlo." }
+      ],
+      "answer": "a",
+      "explain": "Ante posibles actos de corrupción, el D1083 ordena informar al representante legal con copia a la Secretaría de Transparencia de la Presidencia. Este reporte no exime del deber de denunciar (Ley 906 art. 67, Ley 1474 art. 9).",
+      "optionWhy": { "b": "La norma exige un reporte específico y oportuno, no una mención general.", "c": "Resolverlo en privado omite deberes legales de reporte y denuncia." }
+    },
+    {
+      "id": "aud-q-021", "type": "pjs", "difficulty": 2, "source": "Guía FP v5, num. 5.2.3 (técnicas tradicionales)", "tags": ["post-corte"],
+      "case": "El área de recaudo afirma que un banco autorizado trasladó a la DIAN $480 millones el 15 de marzo. El auditor quiere evidencia de una fuente externa sobre esa cifra.",
+      "prompt": "La técnica más adecuada es:",
+      "options": [
+        { "id": "a", "text": "Recalcular el valor con la planilla interna del área." },
+        { "id": "b", "text": "Pedir al banco una confirmación escrita del traslado." },
+        { "id": "c", "text": "Entrevistar al coordinador de recaudo sobre el traslado." }
+      ],
+      "answer": "b",
+      "explain": "La confirmación independiente consiste en obtener de un tercero independiente una confirmación escrita de la exactitud de la información.",
+      "optionWhy": { "a": "Recalcular con datos internos no da evidencia externa.", "c": "La declaración del propio auditado es menos fiable y no es independiente." }
+    },
+    {
+      "id": "aud-q-022", "type": "pjs", "difficulty": 2, "source": "Guía FP v5, num. 5.2.3 (técnicas tradicionales)", "tags": ["post-corte"],
+      "case": "Un control del área de cobranzas consiste en liquidar los intereses de mora de cada acuerdo de pago. El auditor quiere evidencia directa de que ese control produce cifras exactas.",
+      "prompt": "La técnica más adecuada es:",
+      "options": [
+        { "id": "a", "text": "Volver a liquidar los intereses de una muestra de acuerdos." },
+        { "id": "b", "text": "Pedir al jefe una certificación de que el control funciona." },
+        { "id": "c", "text": "Revisar que el procedimiento esté publicado en el sistema." }
+      ],
+      "answer": "a",
+      "explain": "La repetición o recálculo vuelve a ejecutar el control y da evidencia directa de su exactitud y efectividad operativa.",
+      "optionWhy": { "b": "Una certificación del auditado no prueba que el cálculo sea exacto.", "c": "Que el procedimiento exista no demuestra que funcione." }
+    },
+    {
+      "id": "aud-q-023", "type": "pjs", "difficulty": 3, "source": "Guía FP v5, num. 5.2.3 (técnicas tradicionales)", "tags": ["post-corte"],
+      "case": "El auditor quiere saber si todas las actas físicas de aprehensión de un puerto quedaron registradas en el sistema. Teme que algunas nunca se hayan cargado.",
+      "prompt": "¿Qué prueba responde a esa preocupación?",
+      "options": [
+        { "id": "a", "text": "Partir de los registros del sistema y buscar el acta física de cada uno." },
+        { "id": "b", "text": "Pedir al administrador del sistema un certificado de integridad de la base." },
+        { "id": "c", "text": "Partir de las actas físicas y verificar que cada una esté en el sistema." }
+      ],
+      "answer": "c",
+      "explain": "El riesgo es de integridad (que falten registros). El seguimiento prueba que lo registrado esté completo, por eso se parte del documento fuente hacia el registro.",
+      "optionWhy": { "a": "Ir del registro al soporte prueba la validez de lo registrado (comprobación), pero no detecta actas que nunca se cargaron.", "b": "Un certificado del propio administrador no es evidencia obtenida por el auditor." }
+    },
+    {
+      "id": "aud-q-024", "type": "pjs", "difficulty": 2, "source": "Guía FP v5, num. 5.2.3 (procedimientos analíticos)", "tags": ["post-corte"],
+      "case": "Al comparar las devoluciones de IVA por mes durante tres años, el auditor ve que en marzo de este año el valor se triplicó frente a los demás periodos.",
+      "prompt": "El auditor debe:",
+      "options": [
+        { "id": "a", "text": "Concluir que hubo fraude y dar traslado a la Fiscalía." },
+        { "id": "b", "text": "Investigar la desviación para saber si su causa es razonable." },
+        { "id": "c", "text": "Ignorarla, porque una comparación no es evidencia de auditoría." }
+      ],
+      "answer": "b",
+      "explain": "Toda desviación significativa en un procedimiento analítico se investiga para ver si su causa es razonable (errores de registro, cambios en el proceso…). Si no se explica, se hacen pruebas adicionales.",
+      "optionWhy": { "a": "Una variación no prueba fraude; puede tener causas legítimas.", "c": "Los procedimientos analíticos sí son una técnica válida y orientan las pruebas." }
+    },
+    {
+      "id": "aud-q-025", "type": "pjs", "difficulty": 3, "source": "Guía FP v5, num. 5.2.3 (selección de la muestra)", "tags": ["post-corte"],
+      "case": "El aplicativo de muestreo indica que, de 100 historias laborales, se deben revisar 42. El auditor debe decidir cuáles.",
+      "prompt": "Lo correcto es:",
+      "options": [
+        { "id": "a", "text": "Escoger las 42 con criterios objetivos y documentar cómo lo hizo." },
+        { "id": "b", "text": "Pedir al área de talento humano que elija las 42 historias." },
+        { "id": "c", "text": "Tomar las primeras 42 de la lista, sin dejar registro del criterio." }
+      ],
+      "answer": "a",
+      "explain": "El muestreo estadístico se complementa con criterios objetivos de selección (por ejemplo, posesionados en el último año o al menos tres por nivel), y todo se documenta en los papeles de trabajo.",
+      "optionWhy": { "b": "Si el auditado elige la muestra, se pierde independencia.", "c": "Sin documentar el criterio, nadie puede repetir el trabajo ni validar la selección." }
+    },
+    {
+      "id": "aud-q-026", "type": "pjs", "difficulty": 3, "source": "Guía FP v5, num. 5.2.3 (Figura 23)", "tags": ["post-corte"],
+      "case": "Un auditor revisó 15 de 2.000 expedientes, elegidos a su juicio. Su jefe le pide escribir en el informe que «el 100 % de los expedientes de la seccional cumple».",
+      "prompt": "El auditor debe responder que:",
+      "options": [
+        { "id": "a", "text": "Puede afirmarlo, porque los 15 expedientes revisados cumplieron." },
+        { "id": "b", "text": "Solo puede afirmarlo si el jefe firma también los papeles de trabajo." },
+        { "id": "c", "text": "No puede extrapolarlo: solo el muestreo estadístico lo permite." }
+      ],
+      "answer": "c",
+      "explain": "Según la guía, el muestreo estadístico es el único que permite extrapolar las conclusiones a toda la población.",
+      "optionWhy": { "a": "Una muestra de juicio no respalda conclusiones sobre toda la población.", "b": "La firma del jefe no cambia el alcance de la evidencia." }
+    },
+    {
+      "id": "aud-q-027", "type": "order", "difficulty": 2, "source": "Guía FP v5, num. 5.2.1–5.3", "tags": ["post-corte"],
+      "prompt": "Ordena las actividades de la ejecución y la comunicación de una auditoría basada en riesgos.",
+      "items": [
+        "Reunión de inicio o apertura",
+        "Solicitud y recopilación de información",
+        "Análisis y evaluación de la información (pruebas)",
+        "Análisis, evaluación y documentación de hallazgos",
+        "Reuniones previas con el auditado (contradicción)",
+        "Informe final"
+      ],
+      "explain": "La guía describe la ejecución en los num. 5.2.1 a 5.2.4. Después vienen la comunicación previa de los hallazgos y el informe."
+    },
+    {
+      "id": "aud-q-028", "type": "match", "difficulty": 2, "source": "Normas Globales IIA 2024, normas 14.2–14.3 (Guía FP v5, num. 5.2.4)",
+      "prompt": "Relaciona cada elemento del hallazgo con su significado.",
+      "pairs": [
+        { "left": "Criterio", "right": "Norma o lineamiento contra el que se compara" },
+        { "left": "Condición", "right": "Situación que el auditor encontró" },
+        { "left": "Causa", "right": "Razón fundamental de la diferencia (causa raíz)" },
+        { "left": "Efecto", "right": "Impacto real o potencial de la diferencia" }
+      ],
+      "explain": "La diferencia entre el criterio y la condición indica un hallazgo; luego se evalúan su causa, su efecto y su importancia."
+    },
+    {
+      "id": "aud-q-029", "type": "pjs", "difficulty": 3, "source": "Guía FP v5, num. 5.3.1 (reuniones previas)", "tags": ["post-corte"],
+      "case": "En la reunión previa, el líder del proceso muestra actas firmadas y fechadas que prueban que el control sí se aplicó en los meses en que el auditor registró su ausencia.",
+      "prompt": "El auditor debe:",
+      "options": [
+        { "id": "a", "text": "Mantener el hallazgo, porque las pruebas ya estaban cerradas." },
+        { "id": "b", "text": "Valorar la evidencia y, si es suficiente, retirar el hallazgo." },
+        { "id": "c", "text": "Reabrir todas las pruebas de la auditoría desde el comienzo." }
+      ],
+      "answer": "b",
+      "explain": "La reunión previa es el escenario de contradicción: si el auditado demuestra objetivamente que no hay desviación, el hallazgo no se incluye. No implica reabrir las pruebas.",
+      "optionWhy": { "a": "La contradicción existe justamente para valorar evidencia objetiva nueva.", "c": "La guía aclara que esta etapa no reabre las pruebas de auditoría." }
+    },
+    {
+      "id": "aud-q-030", "type": "pjs", "difficulty": 1, "source": "Normas Globales IIA 2024, norma 14.1 (Guía FP v5, num. 5.2.2)",
+      "case": "Para verificar la fecha de notificación de varios actos, el auditor puede usar distintas fuentes.",
+      "prompt": "¿Qué fuente da la evidencia más fiable?",
+      "options": [
+        { "id": "a", "text": "Un resumen enviado por correo por el líder del área." },
+        { "id": "b", "text": "Lo que el funcionario recuerda de cada notificación." },
+        { "id": "c", "text": "La consulta directa del auditor en el sistema." }
+      ],
+      "answer": "c",
+      "explain": "La suficiencia y fiabilidad aumentan cuando la información está actualizada, comprobada y es obtenida directamente por el auditor.",
+      "optionWhy": { "a": "Un resumen preparado por el auditado es de segunda mano.", "b": "La memoria es la fuente menos fiable." }
+    },
+    {
+      "id": "aud-q-031", "type": "open", "difficulty": 2, "source": "Guía FP v5, Tabla 1",
+      "prompt": "Explica en 2–3 líneas el esquema de la línea estratégica y las tres líneas de aseguramiento.",
+      "modelAnswer": "La línea estratégica (Alta Dirección y Comité de Coordinación de Control Interno) asigna recursos y monitorea. La 1ª línea son los servidores que aplican los controles en el día a día; la 2ª, directivos o asesores que monitorean temas transversales como riesgos y planeación; la 3ª es la OCI, que da aseguramiento independiente y objetivo.",
+      "keyPoints": ["Estratégica: Alta Dirección y Comité", "1ª: servidores que aplican controles", "2ª: monitoreo de temas transversales", "3ª: OCI, aseguramiento independiente"],
+      "keywords": ["alta direccion", "comite", "servidores", "controles", "monitore", "transversal", "control interno", "independiente"],
+      "minKeywords": 4
+    },
+    {
+      "id": "aud-q-032", "type": "open", "difficulty": 3, "source": "Normas Globales IIA 2024, normas 14.2–14.3 y 15.1 (Guía FP v5, num. 5.2.4)",
+      "prompt": "Un auditor encuentra que 12 de 40 devoluciones se resolvieron fuera del término legal, porque el personal no sabía usar un aplicativo nuevo. Redacta el hallazgo con sus elementos.",
+      "modelAnswer": "Criterio: las devoluciones deben resolverse dentro del término legal. Condición: 12 de 40 revisadas se resolvieron por fuera. Causa: el personal no fue capacitado en el aplicativo nuevo. Efecto: riesgo de intereses a cargo de la entidad y de reclamos. Recomendación: capacitar y ajustar el control de términos; el área formula su plan de mejoramiento.",
+      "keyPoints": ["Criterio: término legal", "Condición: 12 de 40 fuera de término", "Causa raíz: falta de capacitación", "Efecto o impacto", "Recomendación dirigida a la causa y plan de mejoramiento"],
+      "keywords": ["criterio", "condicion", "causa", "efecto", "recomendacion", "capacita", "plan de mejoramiento"],
+      "minKeywords": 4
+    },
+    {
+      "id": "aud-q-033", "type": "open", "difficulty": 2, "source": "Normas Globales IIA 2024, Dominio I (Guía FP v5, cap. 1)",
+      "prompt": "Explica en 2–3 líneas la diferencia entre aseguramiento y asesoramiento, y cómo protege la OCI su independencia al asesorar.",
+      "modelAnswer": "El aseguramiento es una evaluación objetiva de la evidencia para dar una conclusión independiente sobre los controles, los riesgos o el cumplimiento. El asesoramiento se presta a solicitud y con acuerdo previo de alcance; la OCI participa con voz pero sin voto y no asume el diseño, la ejecución ni la aprobación de lo que asesora.",
+      "keyPoints": ["Aseguramiento: conclusión independiente basada en evidencia", "Asesoramiento: a solicitud, con alcance acordado", "Voz pero sin voto", "No asume diseño, ejecución ni aprobación"],
+      "keywords": ["evidencia", "conclusion", "solicitud", "alcance", "voz", "sin voto", "no asume", "independencia"],
+      "minKeywords": 4
+    },
+    {
+      "id": "aud-q-034", "type": "pjs", "difficulty": 1, "source": "Guía FP v5, cap. 3 (acceso a registros y Estatuto)",
+      "case": "Durante una auditoría, el jefe de un área se niega a darle al auditor acceso a una base de datos, diciendo que «es información reservada».",
+      "prompt": "El auditor debe:",
+      "options": [
+        { "id": "a", "text": "Usar la clave de un compañero del área que sí tiene acceso." },
+        { "id": "b", "text": "Pedir el acceso según el Estatuto y los protocolos de reserva." },
+        { "id": "c", "text": "Eliminar la prueba sin dejar constancia de la limitación." }
+      ],
+      "answer": "b",
+      "explain": "La OCI puede acceder a los registros y sistemas que necesita, según el Estatuto de Auditoría, que regula el manejo de información clasificada y reservada. Si el acceso se niega, la limitación se escala y se documenta.",
+      "optionWhy": { "a": "Usar credenciales ajenas es irregular y compromete la evidencia.", "c": "Una limitación al alcance debe documentarse y comunicarse, no ocultarse." }
+    },
+    {
+      "id": "aud-q-035", "type": "pjs", "difficulty": 1, "source": "Normas Globales IIA 2024, norma 14.6 (Guía FP v5, num. 5.2.3)",
+      "case": "Al cerrar una auditoría, un compañero sugiere borrar las hojas de cálculo de las pruebas: «con el informe final es suficiente».",
+      "prompt": "Lo correcto es:",
+      "options": [
+        { "id": "a", "text": "Conservar los papeles de trabajo para que se pueda repetir el trabajo." },
+        { "id": "b", "text": "Borrarlas, porque el informe final ya resume todos los resultados." },
+        { "id": "c", "text": "Guardar solo las hojas que respaldan hallazgos y borrar las demás." }
+      ],
+      "answer": "a",
+      "explain": "La documentación debe permitir que otro auditor prudente repita el trabajo y obtenga los mismos resultados, y se retiene según las normas y la TRD de la entidad.",
+      "optionWhy": { "b": "El informe no permite reconstruir las pruebas.", "c": "Las pruebas sin hallazgos también soportan las conclusiones de aseguramiento." }
+    },
+    {
+      "id": "aud-q-036", "type": "pjs", "difficulty": 2, "source": "Guía FP v5, num. 5.2.4 (recomendaciones)", "tags": ["post-corte"],
+      "case": "Un hallazgo muestra devoluciones fuera de término. El análisis identificó como causa raíz que el personal no recibió capacitación en el aplicativo nuevo.",
+      "prompt": "¿Qué recomendación agrega más valor?",
+      "options": [
+        { "id": "a", "text": "Abrir investigación disciplinaria a todos los funcionarios del grupo." },
+        { "id": "b", "text": "Exigir que cada devolución tenga doble firma del coordinador." },
+        { "id": "c", "text": "Capacitar en el aplicativo y vigilar los términos mientras tanto." }
+      ],
+      "answer": "c",
+      "explain": "Las recomendaciones deben prevenir, corregir o eliminar la causa raíz, considerando el balance costo-beneficio.",
+      "optionWhy": { "a": "No ataca la causa (falta de capacitación) y no mejora el proceso.", "b": "Agrega un control costoso que no corrige la causa del retraso." }
+    }
+  ]
+}
