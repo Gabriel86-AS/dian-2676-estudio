@@ -1,0 +1,1073 @@
+{
+  "id": "lavado",
+  "title": "Lavado de activos, FT, ROS y denuncias",
+  "area": "funcional",
+  "priority": 2,
+  "summary": "Conceptos de LA/FT, señales de alerta, reporte de operaciones sospechosas (ROS), reserva y deber de denuncia.",
+  "sources": [
+    "Circular DIAN 170 de 2002",
+    "Código Penal (Ley 599/2000) arts. 323 y 345",
+    "Política LA/FT/FPADM DIAN (15-sep-2026, post-corte: solo conceptos)"
+  ],
+  "lessons": [
+    {
+      "id": "lav-01",
+      "title": "Conceptos básicos de LA/FT",
+      "minutes": 5,
+      "steps": [
+        {
+          "id": "lav-c-001",
+          "type": "concept",
+          "title": "Dos delitos distintos",
+          "body": "**Lavado de activos** (C. Penal art. 323): dar apariencia de legalidad a recursos ilícitos. **Financiación del terrorismo** (art. 345): proveer o administrar fondos que sostienen grupos armados ilegales o terroristas.",
+          "source": "Ley 599/2000 arts. 323 y 345"
+        },
+        {
+          "id": "lav-q-001",
+          "type": "mcq",
+          "difficulty": 1,
+          "prompt": "¿Qué es el lavado de activos?",
+          "options": [
+            {
+              "id": "A",
+              "text": "El proceso mediante el cual organizaciones criminales buscan dar apariencia de legalidad a los recursos generados de sus actividades ilícitas."
+            },
+            {
+              "id": "B",
+              "text": "El pago de tributos atrasados con intereses."
+            },
+            {
+              "id": "C",
+              "text": "La financiación de grupos armados con fondos lícitos o ilícitos."
+            }
+          ],
+          "answer": "A",
+          "explain": "Glosario de la política LA/FT/FPADM; delito tipificado en el art. 323 del Código Penal.",
+          "optionWhy": {
+            "B": "Eso es una obligación tributaria, no lavado.",
+            "C": "Eso describe la financiación del terrorismo."
+          },
+          "source": "Política LA/FT/FPADM DIAN (glosario; post-corte, conceptos respaldados en Ley 599/2000 arts. 323 y 345)",
+          "tags": [
+            "post-corte"
+          ]
+        },
+        {
+          "id": "lav-q-002",
+          "type": "mcq",
+          "difficulty": 1,
+          "prompt": "¿Cuál de estas conductas describe la financiación del terrorismo?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Presentar una declaración sin pagar el impuesto."
+            },
+            {
+              "id": "B",
+              "text": "Proveer, recolectar, entregar, administrar o custodiar fondos o bienes que sostengan económicamente a grupos de delincuencia organizada, armados al margen de la ley o terroristas."
+            },
+            {
+              "id": "C",
+              "text": "Importar mercancías con subvaloración."
+            }
+          ],
+          "answer": "B",
+          "explain": "Código Penal art. 345 (modificado por Ley 1453/2011), citado en la política DIAN.",
+          "optionWhy": {
+            "A": "Es un incumplimiento tributario.",
+            "C": "Es una infracción aduanera, aunque puede ser señal de alerta."
+          },
+          "source": "Política LA/FT/FPADM DIAN (glosario; post-corte, conceptos respaldados en Ley 599/2000 arts. 323 y 345)",
+          "tags": [
+            "post-corte"
+          ]
+        },
+        {
+          "id": "lav-q-020",
+          "type": "cloze",
+          "difficulty": 1,
+          "text": "El delito de lavado de activos está tipificado en el artículo {{323}} del Código Penal.",
+          "alternatives": {
+            "323": [
+              "323"
+            ]
+          },
+          "source": "Ley 599/2000 art. 323"
+        },
+        {
+          "id": "lav-q-021",
+          "type": "cloze",
+          "difficulty": 1,
+          "text": "La financiación del terrorismo está tipificada en el artículo {{345}} del Código Penal.",
+          "alternatives": {
+            "345": [
+              "345"
+            ]
+          },
+          "source": "Ley 599/2000 art. 345"
+        },
+        {
+          "id": "lav-q-003",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Qué es una operación sospechosa según la Circular 170 de 2002?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Toda operación de gran valor."
+            },
+            {
+              "id": "B",
+              "text": "Cualquier operación realizada por un extranjero."
+            },
+            {
+              "id": "C",
+              "text": "Aquella que por su número, cantidad, frecuencia o características puede conducir razonablemente a concluir que se está ocultando o dando apariencia de legalidad a bienes provenientes de actividades delictivas."
+            }
+          ],
+          "answer": "C",
+          "explain": "Circular 170/2002, numeral 4.",
+          "optionWhy": {
+            "A": "El valor por sí solo no la hace sospechosa.",
+            "B": "La nacionalidad no define la operación sospechosa."
+          },
+          "source": "Circular DIAN 170/2002 §4"
+        }
+      ]
+    },
+    {
+      "id": "lav-02",
+      "title": "Señales de alerta y operaciones sospechosas",
+      "minutes": 6,
+      "steps": [
+        {
+          "id": "lav-c-002",
+          "type": "concept",
+          "title": "Alerta no es delito",
+          "body": "Una **señal de alerta** es un indicio que hay que analizar; por sí sola no prueba el lavado. Ejemplos aduaneros: importar por encima del capital, sin trayectoria, o mercancía vendida a bajo precio en la calle.",
+          "source": "Circular DIAN 170/2002 §4.3 y Anexo 1"
+        },
+        {
+          "id": "lav-q-004",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Qué es una señal de alerta?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Cualquier información, conducta o actividad que debe llamar la atención, pues puede ser un indicio de una operación inusual o sospechosa vinculada al lavado de activos."
+            },
+            {
+              "id": "B",
+              "text": "Una prueba definitiva de que se cometió lavado de activos."
+            },
+            {
+              "id": "C",
+              "text": "Una sanción impuesta por la DIAN."
+            }
+          ],
+          "answer": "A",
+          "explain": "Circular 170/2002, numeral 4.3: aparecer en la lista de riesgos no significa por sí solo vinculación con actividades ilícitas.",
+          "optionWhy": {
+            "B": "Por sí sola no prueba el delito; hay que estudiar la operación.",
+            "C": "No es una sanción."
+          },
+          "source": "Circular DIAN 170/2002 §4.3"
+        },
+        {
+          "id": "lav-q-013",
+          "type": "pjs",
+          "difficulty": 3,
+          "case": "Una empresa recién creada, sin trayectoria, importa con un valor superior a su capital mercancías que se venden en la calle a bajo precio.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Descartar la operación porque cumple formalidades."
+            },
+            {
+              "id": "B",
+              "text": "Concluir de inmediato que cometió lavado de activos."
+            },
+            {
+              "id": "C",
+              "text": "Considerar que existen señales de alerta aduaneras y verificar la operación para decidir si procede un reporte."
+            }
+          ],
+          "answer": "C",
+          "explain": "Circular 170/2002, Anexo 1: importaciones por valores superiores al capital de empresas de reciente creación, y de mercancías a bajo precio.",
+          "optionWhy": {
+            "A": "Las señales de alerta exigen analizar la operación más allá de las formalidades.",
+            "B": "Una señal de alerta no prueba por sí sola el delito."
+          },
+          "source": "Circular DIAN 170/2002 §10.1"
+        },
+        {
+          "id": "lav-q-014",
+          "type": "pjs",
+          "difficulty": 2,
+          "case": "Un usuario presenta inconsistencias entre su domicilio declarado y el que registran otras fuentes.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Tratarlo como señal de alerta general y estudiar la operación antes de decidir."
+            },
+            {
+              "id": "B",
+              "text": "Ignorarlo, por ser un detalle formal."
+            },
+            {
+              "id": "C",
+              "text": "Archivar la operación de inmediato."
+            }
+          ],
+          "answer": "A",
+          "explain": "Anexo 1 de la Circular 170/2002: inconsistencias sobre existencia, identificación, domicilio o ubicación.",
+          "optionWhy": {
+            "B": "Las inconsistencias en la identificación o ubicación son señales de alerta generales.",
+            "C": "Es necesario verificarla."
+          },
+          "source": "Circular DIAN 170/2002 §10.1"
+        },
+        {
+          "id": "lav-q-017",
+          "type": "mcq",
+          "difficulty": 3,
+          "prompt": "¿Qué principios deben observar los empleados en materia de prevención del lavado, según la circular?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Conocimiento del cliente y del mercado, reporte de operación sospechosa, conservación de documentos y atención oportuna a los requerimientos de las autoridades."
+            },
+            {
+              "id": "B",
+              "text": "Rotación de personal y reserva de identidad."
+            },
+            {
+              "id": "C",
+              "text": "Maximizar el volumen de operaciones."
+            }
+          ],
+          "answer": "A",
+          "explain": "Circular 170/2002, numeral 8 (Código de ética o de conducta: principios para los empleados).",
+          "optionWhy": {
+            "B": "No son los principios que cita la circular.",
+            "C": "Contradice la prevención."
+          },
+          "source": "Circular DIAN 170/2002 §8"
+        },
+        {
+          "id": "lav-q-023",
+          "type": "open",
+          "difficulty": 2,
+          "prompt": "Dé tres ejemplos de señales de alerta en operaciones aduaneras.",
+          "modelAnswer": "Importaciones de personas sin trayectoria en el producto; importaciones por valores superiores al capital de la empresa, sobre todo si es reciente; importaciones constantes de mercancías vendidas a bajo precio en la calle; y operaciones de personas con antecedentes de infracciones a la ley penal.",
+          "keyPoints": [
+            "Sin trayectoria comercial",
+            "Valores superiores al capital",
+            "Mercancía vendida a bajo precio",
+            "Antecedentes penales"
+          ],
+          "keywords": [
+            "trayectoria",
+            "capital",
+            "bajo precio",
+            "antecedentes",
+            "importaciones"
+          ],
+          "minKeywords": 3,
+          "source": "Circular DIAN 170/2002 §Anexo 1"
+        }
+      ]
+    },
+    {
+      "id": "lav-03",
+      "title": "ROS, reserva y denuncia",
+      "minutes": 8,
+      "steps": [
+        {
+          "id": "lav-c-003",
+          "type": "concept",
+          "title": "Cómo se reporta",
+          "body": "El **ROS** va a la **UIAF**, **inmediatamente** al detectar la operación, **sin certeza** del delito y **sin anexar documentos**. **No se informa** al usuario reportado. El ROS **no exime** de la denuncia penal.",
+          "source": "Circular DIAN 170/2002 §6"
+        },
+        {
+          "id": "lav-q-005",
+          "type": "mcq",
+          "difficulty": 1,
+          "prompt": "¿A qué entidad se envía el reporte de operaciones sospechosas (ROS)?",
+          "options": [
+            {
+              "id": "A",
+              "text": "A la Fiscalía General de la Nación."
+            },
+            {
+              "id": "B",
+              "text": "A la Unidad de Información y Análisis Financiero (UIAF)."
+            },
+            {
+              "id": "C",
+              "text": "A la Superintendencia de Sociedades."
+            }
+          ],
+          "answer": "B",
+          "explain": "Circular 170/2002, numeral 6.1.",
+          "optionWhy": {
+            "A": "La denuncia penal se presenta ante las autoridades; el ROS va a la UIAF.",
+            "C": "No es la destinataria del ROS."
+          },
+          "source": "Circular DIAN 170/2002 §6.1"
+        },
+        {
+          "id": "lav-q-006",
+          "type": "truefalse",
+          "difficulty": 2,
+          "statement": "Para reportar una operación sospechosa, la empresa debe tener certeza de que los recursos provienen de actividades delictivas.",
+          "answer": false,
+          "explain": "No se requiere certeza: basta que la operación sea inusual o sospechosa, o razonablemente irregular o extraña.",
+          "source": "Circular DIAN 170/2002 §6.1"
+        },
+        {
+          "id": "lav-q-007",
+          "type": "truefalse",
+          "difficulty": 1,
+          "statement": "Está expresamente prohibido informar a los usuarios reportados a la UIAF sobre las alertas u operaciones sospechosas.",
+          "answer": true,
+          "explain": "Circular 170/2002, numeral 6.1.",
+          "source": "Circular DIAN 170/2002 §6.1"
+        },
+        {
+          "id": "lav-q-008",
+          "type": "pjs",
+          "difficulty": 2,
+          "case": "Un asesor detecta una operación aduanera inusual y un cliente le pregunta si lo han reportado a la UIAF.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Confirmarle el reporte para mantener la transparencia."
+            },
+            {
+              "id": "B",
+              "text": "Pedirle que corrija sus operaciones antes de reportar."
+            },
+            {
+              "id": "C",
+              "text": "No revelar que existe o se prepara un reporte, y seguir el procedimiento interno."
+            }
+          ],
+          "answer": "C",
+          "explain": "Circular 170/2002 §6.1: prohibición de informar sobre alertas u operaciones sospechosas a los usuarios reportados.",
+          "optionWhy": {
+            "A": "Está prohibido informar al usuario reportado.",
+            "B": "No condiciona el reporte; se reporta cuando se detecta."
+          },
+          "source": "Circular DIAN 170/2002 §6.1"
+        },
+        {
+          "id": "lav-q-009",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿Cuándo debe enviarse a la UIAF el reporte de una operación sospechosa?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Inmediatamente como se detecte la operación."
+            },
+            {
+              "id": "B",
+              "text": "Al cierre del año fiscal."
+            },
+            {
+              "id": "C",
+              "text": "Solo cuando la Fiscalía lo solicite."
+            }
+          ],
+          "answer": "A",
+          "explain": "Circular 170/2002, numeral 6.1. No debe anexarse al reporte escritos o documentos.",
+          "optionWhy": {
+            "B": "No hay espera: es inmediato.",
+            "C": "El reporte es proactivo."
+          },
+          "source": "Circular DIAN 170/2002 §6.1"
+        },
+        {
+          "id": "lav-q-010",
+          "type": "mcq",
+          "difficulty": 2,
+          "prompt": "¿El reporte de operación sospechosa exime del deber de denunciar?",
+          "options": [
+            {
+              "id": "A",
+              "text": "Sí, porque la UIAF reemplaza a las autoridades penales."
+            },
+            {
+              "id": "B",
+              "text": "No: el ROS no exime del deber de denunciar las conductas punibles de las que se tenga conocimiento."
+            },
+            {
+              "id": "C",
+              "text": "Solo si el valor es inferior al umbral."
+            }
+          ],
+          "answer": "B",
+          "explain": "Circular 170/2002 numeral 6.2.",
+          "optionWhy": {
+            "A": "El deber de denuncia subsiste (art. 27 del Código de Procedimiento Penal).",
+            "C": "No hay tal umbral en la norma citada."
+          },
+          "source": "Circular DIAN 170/2002 §6.2"
+        },
+        {
+          "id": "lav-q-018",
+          "type": "pjs",
+          "difficulty": 3,
+          "case": "Un funcionario recibe de una empresa de intermediación aduanera un reporte interno de operación sospechosa y duda si debe enviar documentos soporte a la UIAF junto con el formato.",
+          "prompt": "Al gestor le corresponde:",
+          "options": [
+            {
+              "id": "A",
+              "text": "Anexar todos los soportes para que el reporte sea válido."
+            },
+            {
+              "id": "B",
+              "text": "Enviar el formato sin anexar documentos, guardando copia del reporte y de los soportes para cuando la UIAF los solicite."
+            },
+            {
+              "id": "C",
+              "text": "No guardar copia, para proteger la reserva."
+            }
+          ],
+          "answer": "B",
+          "explain": "Circular 170/2002 §6.1 y instrucciones del formato.",
+          "optionWhy": {
+            "A": "No debe anexarse al reporte escritos o documentos.",
+            "C": "Debe conservarse copia y llevar registro de los reportes enviados."
+          },
+          "source": "Circular DIAN 170/2002 §6.1"
+        },
+        {
+          "id": "lav-q-022",
+          "type": "open",
+          "difficulty": 2,
+          "prompt": "Explique en 2–3 líneas la diferencia entre el ROS y la denuncia penal.",
+          "modelAnswer": "El ROS es el reporte de operaciones sospechosas que se envía a la UIAF de forma reservada, sin necesidad de certeza del delito, apenas se detecta la operación. La denuncia penal es el deber de toda persona de informar a la autoridad las conductas punibles que conozca; el ROS no lo reemplaza ni exime de él.",
+          "keyPoints": [
+            "ROS: a la UIAF, reservado, sin certeza",
+            "Denuncia: deber ante la autoridad penal",
+            "El ROS no exime de denunciar"
+          ],
+          "keywords": [
+            "ROS",
+            "UIAF",
+            "certeza",
+            "denuncia",
+            "autoridad",
+            "exime"
+          ],
+          "minKeywords": 3,
+          "source": "Circular DIAN 170/2002 §6.1 y 6.2"
+        }
+      ]
+    }
+  ],
+  "flashcards": [
+    {
+      "id": "lav-fc-001",
+      "front": "Lavado de activos",
+      "back": "Dar apariencia de legalidad a recursos de actividades ilícitas (C. Penal art. 323).",
+      "source": "Ley 599/2000 art. 323; Política LA/FT/FPADM DIAN (glosario; post-corte, conceptos respaldados en Ley 599/2000 arts. 323 y 345)"
+    },
+    {
+      "id": "lav-fc-002",
+      "front": "Financiación del terrorismo",
+      "back": "Proveer, recolectar o administrar fondos que sostengan grupos armados ilegales o terroristas (C. Penal art. 345).",
+      "source": "Ley 599/2000 art. 345"
+    },
+    {
+      "id": "lav-fc-003",
+      "front": "Operación sospechosa",
+      "back": "Por número, cantidad, frecuencia o características permite concluir razonablemente que se oculta o legaliza bienes de origen delictivo.",
+      "source": "Circular DIAN 170/2002 §4"
+    },
+    {
+      "id": "lav-fc-004",
+      "front": "Señal de alerta",
+      "back": "Información, conducta o actividad que puede indicar una operación inusual o sospechosa; no prueba el delito por sí sola.",
+      "source": "Circular DIAN 170/2002 §4.3"
+    },
+    {
+      "id": "lav-fc-005",
+      "front": "Empleado de cumplimiento",
+      "back": "Verifica el cumplimiento de la circular; enlace con las subdirecciones de fiscalización.",
+      "source": "Circular DIAN 170/2002 §4.4"
+    },
+    {
+      "id": "lav-fc-006",
+      "front": "ROS",
+      "back": "Reporte de operación sospechosa a la UIAF, inmediato al detectar la operación, sin anexar documentos.",
+      "source": "Circular DIAN 170/2002 §6.1"
+    },
+    {
+      "id": "lav-fc-007",
+      "front": "Certeza en el ROS",
+      "back": "No se exige certeza del delito; basta lo inusual, sospechoso o razonablemente irregular.",
+      "source": "Circular DIAN 170/2002 §6.1"
+    },
+    {
+      "id": "lav-fc-008",
+      "front": "No avisar al reportado",
+      "back": "Prohibido informar a los usuarios reportados sobre alertas u operaciones sospechosas.",
+      "source": "Circular DIAN 170/2002 §6.1"
+    },
+    {
+      "id": "lav-fc-009",
+      "front": "ROS y denuncia",
+      "back": "El ROS no exime del deber de denunciar (art. 27 C. de Procedimiento Penal).",
+      "source": "Circular DIAN 170/2002 §6.2"
+    },
+    {
+      "id": "lav-fc-010",
+      "front": "Reserva comercial",
+      "back": "No es oponible a solicitudes de autoridades judiciales, aduaneras, tributarias, cambiarias y a la UIAF en sus investigaciones.",
+      "source": "Circular DIAN 170/2002 §5.5"
+    },
+    {
+      "id": "lav-fc-011",
+      "front": "Quiénes reportan según la circular",
+      "back": "Empresas auxiliares de la función aduanera y profesionales del cambio.",
+      "source": "Circular DIAN 170/2002 §Anexo 2"
+    },
+    {
+      "id": "lav-fc-012",
+      "front": "Principios para los empleados",
+      "back": "Conocimiento del cliente y del mercado, ROS, conservación de documentos y atención oportuna a las autoridades.",
+      "source": "Circular DIAN 170/2002 §8"
+    }
+  ],
+  "questions": [
+    {
+      "id": "lav-q-001",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "¿Qué es el lavado de activos?",
+      "options": [
+        {
+          "id": "A",
+          "text": "El proceso mediante el cual organizaciones criminales buscan dar apariencia de legalidad a los recursos generados de sus actividades ilícitas."
+        },
+        {
+          "id": "B",
+          "text": "El pago de tributos atrasados con intereses."
+        },
+        {
+          "id": "C",
+          "text": "La financiación de grupos armados con fondos lícitos o ilícitos."
+        }
+      ],
+      "answer": "A",
+      "explain": "Glosario de la política LA/FT/FPADM; delito tipificado en el art. 323 del Código Penal.",
+      "optionWhy": {
+        "B": "Eso es una obligación tributaria, no lavado.",
+        "C": "Eso describe la financiación del terrorismo."
+      },
+      "source": "Política LA/FT/FPADM DIAN (glosario; post-corte, conceptos respaldados en Ley 599/2000 arts. 323 y 345)",
+      "tags": [
+        "post-corte"
+      ]
+    },
+    {
+      "id": "lav-q-002",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "¿Cuál de estas conductas describe la financiación del terrorismo?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Presentar una declaración sin pagar el impuesto."
+        },
+        {
+          "id": "B",
+          "text": "Proveer, recolectar, entregar, administrar o custodiar fondos o bienes que sostengan económicamente a grupos de delincuencia organizada, armados al margen de la ley o terroristas."
+        },
+        {
+          "id": "C",
+          "text": "Importar mercancías con subvaloración."
+        }
+      ],
+      "answer": "B",
+      "explain": "Código Penal art. 345 (modificado por Ley 1453/2011), citado en la política DIAN.",
+      "optionWhy": {
+        "A": "Es un incumplimiento tributario.",
+        "C": "Es una infracción aduanera, aunque puede ser señal de alerta."
+      },
+      "source": "Política LA/FT/FPADM DIAN (glosario; post-corte, conceptos respaldados en Ley 599/2000 arts. 323 y 345)",
+      "tags": [
+        "post-corte"
+      ]
+    },
+    {
+      "id": "lav-q-003",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Qué es una operación sospechosa según la Circular 170 de 2002?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Toda operación de gran valor."
+        },
+        {
+          "id": "B",
+          "text": "Cualquier operación realizada por un extranjero."
+        },
+        {
+          "id": "C",
+          "text": "Aquella que por su número, cantidad, frecuencia o características puede conducir razonablemente a concluir que se está ocultando o dando apariencia de legalidad a bienes provenientes de actividades delictivas."
+        }
+      ],
+      "answer": "C",
+      "explain": "Circular 170/2002, numeral 4.",
+      "optionWhy": {
+        "A": "El valor por sí solo no la hace sospechosa.",
+        "B": "La nacionalidad no define la operación sospechosa."
+      },
+      "source": "Circular DIAN 170/2002 §4"
+    },
+    {
+      "id": "lav-q-004",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Qué es una señal de alerta?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Cualquier información, conducta o actividad que debe llamar la atención, pues puede ser un indicio de una operación inusual o sospechosa vinculada al lavado de activos."
+        },
+        {
+          "id": "B",
+          "text": "Una prueba definitiva de que se cometió lavado de activos."
+        },
+        {
+          "id": "C",
+          "text": "Una sanción impuesta por la DIAN."
+        }
+      ],
+      "answer": "A",
+      "explain": "Circular 170/2002, numeral 4.3: aparecer en la lista de riesgos no significa por sí solo vinculación con actividades ilícitas.",
+      "optionWhy": {
+        "B": "Por sí sola no prueba el delito; hay que estudiar la operación.",
+        "C": "No es una sanción."
+      },
+      "source": "Circular DIAN 170/2002 §4.3"
+    },
+    {
+      "id": "lav-q-005",
+      "type": "mcq",
+      "difficulty": 1,
+      "prompt": "¿A qué entidad se envía el reporte de operaciones sospechosas (ROS)?",
+      "options": [
+        {
+          "id": "A",
+          "text": "A la Fiscalía General de la Nación."
+        },
+        {
+          "id": "B",
+          "text": "A la Unidad de Información y Análisis Financiero (UIAF)."
+        },
+        {
+          "id": "C",
+          "text": "A la Superintendencia de Sociedades."
+        }
+      ],
+      "answer": "B",
+      "explain": "Circular 170/2002, numeral 6.1.",
+      "optionWhy": {
+        "A": "La denuncia penal se presenta ante las autoridades; el ROS va a la UIAF.",
+        "C": "No es la destinataria del ROS."
+      },
+      "source": "Circular DIAN 170/2002 §6.1"
+    },
+    {
+      "id": "lav-q-006",
+      "type": "truefalse",
+      "difficulty": 2,
+      "statement": "Para reportar una operación sospechosa, la empresa debe tener certeza de que los recursos provienen de actividades delictivas.",
+      "answer": false,
+      "explain": "No se requiere certeza: basta que la operación sea inusual o sospechosa, o razonablemente irregular o extraña.",
+      "source": "Circular DIAN 170/2002 §6.1"
+    },
+    {
+      "id": "lav-q-007",
+      "type": "truefalse",
+      "difficulty": 1,
+      "statement": "Está expresamente prohibido informar a los usuarios reportados a la UIAF sobre las alertas u operaciones sospechosas.",
+      "answer": true,
+      "explain": "Circular 170/2002, numeral 6.1.",
+      "source": "Circular DIAN 170/2002 §6.1"
+    },
+    {
+      "id": "lav-q-008",
+      "type": "pjs",
+      "difficulty": 2,
+      "case": "Un asesor detecta una operación aduanera inusual y un cliente le pregunta si lo han reportado a la UIAF.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Confirmarle el reporte para mantener la transparencia."
+        },
+        {
+          "id": "B",
+          "text": "Pedirle que corrija sus operaciones antes de reportar."
+        },
+        {
+          "id": "C",
+          "text": "No revelar que existe o se prepara un reporte, y seguir el procedimiento interno."
+        }
+      ],
+      "answer": "C",
+      "explain": "Circular 170/2002 §6.1: prohibición de informar sobre alertas u operaciones sospechosas a los usuarios reportados.",
+      "optionWhy": {
+        "A": "Está prohibido informar al usuario reportado.",
+        "B": "No condiciona el reporte; se reporta cuando se detecta."
+      },
+      "source": "Circular DIAN 170/2002 §6.1"
+    },
+    {
+      "id": "lav-q-009",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Cuándo debe enviarse a la UIAF el reporte de una operación sospechosa?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Inmediatamente como se detecte la operación."
+        },
+        {
+          "id": "B",
+          "text": "Al cierre del año fiscal."
+        },
+        {
+          "id": "C",
+          "text": "Solo cuando la Fiscalía lo solicite."
+        }
+      ],
+      "answer": "A",
+      "explain": "Circular 170/2002, numeral 6.1. No debe anexarse al reporte escritos o documentos.",
+      "optionWhy": {
+        "B": "No hay espera: es inmediato.",
+        "C": "El reporte es proactivo."
+      },
+      "source": "Circular DIAN 170/2002 §6.1"
+    },
+    {
+      "id": "lav-q-010",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿El reporte de operación sospechosa exime del deber de denunciar?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sí, porque la UIAF reemplaza a las autoridades penales."
+        },
+        {
+          "id": "B",
+          "text": "No: el ROS no exime del deber de denunciar las conductas punibles de las que se tenga conocimiento."
+        },
+        {
+          "id": "C",
+          "text": "Solo si el valor es inferior al umbral."
+        }
+      ],
+      "answer": "B",
+      "explain": "Circular 170/2002 numeral 6.2.",
+      "optionWhy": {
+        "A": "El deber de denuncia subsiste (art. 27 del Código de Procedimiento Penal).",
+        "C": "No hay tal umbral en la norma citada."
+      },
+      "source": "Circular DIAN 170/2002 §6.2"
+    },
+    {
+      "id": "lav-q-011",
+      "type": "match",
+      "difficulty": 2,
+      "prompt": "Relacione cada figura con su destinatario o naturaleza.",
+      "pairs": [
+        {
+          "left": "ROS",
+          "right": "Se reporta a la UIAF"
+        },
+        {
+          "left": "Denuncia penal",
+          "right": "Deber de toda persona ante la autoridad competente"
+        },
+        {
+          "left": "Señal de alerta",
+          "right": "Indicio que debe llamar la atención"
+        },
+        {
+          "left": "Empleado de cumplimiento",
+          "right": "Enlace con las subdirecciones de fiscalización"
+        }
+      ],
+      "explain": "Circular 170/2002 numerales 4.3, 4.4, 6.1 y 6.2.",
+      "source": "Circular DIAN 170/2002 §4.3, 4.4, 6"
+    },
+    {
+      "id": "lav-q-012",
+      "type": "truefalse",
+      "difficulty": 2,
+      "statement": "La reserva comercial es oponible a las solicitudes específicas de información de las autoridades aduaneras, tributarias, cambiarias y de la UIAF dentro de sus investigaciones.",
+      "answer": false,
+      "explain": "Circular 170/2002 §5.5: la reserva comercial no es oponible a esas solicitudes.",
+      "source": "Circular DIAN 170/2002 §5.5"
+    },
+    {
+      "id": "lav-q-013",
+      "type": "pjs",
+      "difficulty": 3,
+      "case": "Una empresa recién creada, sin trayectoria, importa con un valor superior a su capital mercancías que se venden en la calle a bajo precio.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Descartar la operación porque cumple formalidades."
+        },
+        {
+          "id": "B",
+          "text": "Concluir de inmediato que cometió lavado de activos."
+        },
+        {
+          "id": "C",
+          "text": "Considerar que existen señales de alerta aduaneras y verificar la operación para decidir si procede un reporte."
+        }
+      ],
+      "answer": "C",
+      "explain": "Circular 170/2002, Anexo 1: importaciones por valores superiores al capital de empresas de reciente creación, y de mercancías a bajo precio.",
+      "optionWhy": {
+        "A": "Las señales de alerta exigen analizar la operación más allá de las formalidades.",
+        "B": "Una señal de alerta no prueba por sí sola el delito."
+      },
+      "source": "Circular DIAN 170/2002 §10.1"
+    },
+    {
+      "id": "lav-q-014",
+      "type": "pjs",
+      "difficulty": 2,
+      "case": "Un usuario presenta inconsistencias entre su domicilio declarado y el que registran otras fuentes.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Tratarlo como señal de alerta general y estudiar la operación antes de decidir."
+        },
+        {
+          "id": "B",
+          "text": "Ignorarlo, por ser un detalle formal."
+        },
+        {
+          "id": "C",
+          "text": "Archivar la operación de inmediato."
+        }
+      ],
+      "answer": "A",
+      "explain": "Anexo 1 de la Circular 170/2002: inconsistencias sobre existencia, identificación, domicilio o ubicación.",
+      "optionWhy": {
+        "B": "Las inconsistencias en la identificación o ubicación son señales de alerta generales.",
+        "C": "Es necesario verificarla."
+      },
+      "source": "Circular DIAN 170/2002 §10.1"
+    },
+    {
+      "id": "lav-q-015",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿Qué rol cumple el empleado de cumplimiento?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Sanciona directamente a los usuarios."
+        },
+        {
+          "id": "B",
+          "text": "Verifica el cumplimiento adecuado y oportuno de la circular y es el enlace con las subdirecciones de fiscalización."
+        },
+        {
+          "id": "C",
+          "text": "Decide si la Fiscalía abre un proceso."
+        }
+      ],
+      "answer": "B",
+      "explain": "Circular 170/2002, numeral 4.4.",
+      "optionWhy": {
+        "A": "No ejerce la potestad sancionatoria.",
+        "C": "No es su función."
+      },
+      "source": "Circular DIAN 170/2002 §4.4"
+    },
+    {
+      "id": "lav-q-016",
+      "type": "mcq",
+      "difficulty": 2,
+      "prompt": "¿A quiénes se dirige el formato de reporte de la Circular 170, según sus instrucciones?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Solo a las entidades financieras."
+        },
+        {
+          "id": "B",
+          "text": "A los ciudadanos en general."
+        },
+        {
+          "id": "C",
+          "text": "A toda empresa auxiliar de la función aduanera o profesional del cambio que opere en Colombia."
+        }
+      ],
+      "answer": "C",
+      "explain": "Circular 170/2002, instrucciones de diligenciamiento del reporte.",
+      "optionWhy": {
+        "A": "La circular se dirige a auxiliares aduaneros y profesionales del cambio.",
+        "B": "Se dirige a los sujetos obligados citados."
+      },
+      "source": "Circular DIAN 170/2002 §Anexo 2"
+    },
+    {
+      "id": "lav-q-017",
+      "type": "mcq",
+      "difficulty": 3,
+      "prompt": "¿Qué principios deben observar los empleados en materia de prevención del lavado, según la circular?",
+      "options": [
+        {
+          "id": "A",
+          "text": "Conocimiento del cliente y del mercado, reporte de operación sospechosa, conservación de documentos y atención oportuna a los requerimientos de las autoridades."
+        },
+        {
+          "id": "B",
+          "text": "Rotación de personal y reserva de identidad."
+        },
+        {
+          "id": "C",
+          "text": "Maximizar el volumen de operaciones."
+        }
+      ],
+      "answer": "A",
+      "explain": "Circular 170/2002, numeral 8 (Código de ética o de conducta: principios para los empleados).",
+      "optionWhy": {
+        "B": "No son los principios que cita la circular.",
+        "C": "Contradice la prevención."
+      },
+      "source": "Circular DIAN 170/2002 §8"
+    },
+    {
+      "id": "lav-q-018",
+      "type": "pjs",
+      "difficulty": 3,
+      "case": "Un funcionario recibe de una empresa de intermediación aduanera un reporte interno de operación sospechosa y duda si debe enviar documentos soporte a la UIAF junto con el formato.",
+      "prompt": "Al gestor le corresponde:",
+      "options": [
+        {
+          "id": "A",
+          "text": "Anexar todos los soportes para que el reporte sea válido."
+        },
+        {
+          "id": "B",
+          "text": "Enviar el formato sin anexar documentos, guardando copia del reporte y de los soportes para cuando la UIAF los solicite."
+        },
+        {
+          "id": "C",
+          "text": "No guardar copia, para proteger la reserva."
+        }
+      ],
+      "answer": "B",
+      "explain": "Circular 170/2002 §6.1 y instrucciones del formato.",
+      "optionWhy": {
+        "A": "No debe anexarse al reporte escritos o documentos.",
+        "C": "Debe conservarse copia y llevar registro de los reportes enviados."
+      },
+      "source": "Circular DIAN 170/2002 §6.1"
+    },
+    {
+      "id": "lav-q-019",
+      "type": "cloze",
+      "difficulty": 1,
+      "text": "El reporte de operaciones sospechosas se envía a la {{UIAF}}.",
+      "alternatives": {
+        "UIAF": [
+          "uiaf"
+        ]
+      },
+      "source": "Circular DIAN 170/2002 §6.1"
+    },
+    {
+      "id": "lav-q-020",
+      "type": "cloze",
+      "difficulty": 1,
+      "text": "El delito de lavado de activos está tipificado en el artículo {{323}} del Código Penal.",
+      "alternatives": {
+        "323": [
+          "323"
+        ]
+      },
+      "source": "Ley 599/2000 art. 323"
+    },
+    {
+      "id": "lav-q-021",
+      "type": "cloze",
+      "difficulty": 1,
+      "text": "La financiación del terrorismo está tipificada en el artículo {{345}} del Código Penal.",
+      "alternatives": {
+        "345": [
+          "345"
+        ]
+      },
+      "source": "Ley 599/2000 art. 345"
+    },
+    {
+      "id": "lav-q-022",
+      "type": "open",
+      "difficulty": 2,
+      "prompt": "Explique en 2–3 líneas la diferencia entre el ROS y la denuncia penal.",
+      "modelAnswer": "El ROS es el reporte de operaciones sospechosas que se envía a la UIAF de forma reservada, sin necesidad de certeza del delito, apenas se detecta la operación. La denuncia penal es el deber de toda persona de informar a la autoridad las conductas punibles que conozca; el ROS no lo reemplaza ni exime de él.",
+      "keyPoints": [
+        "ROS: a la UIAF, reservado, sin certeza",
+        "Denuncia: deber ante la autoridad penal",
+        "El ROS no exime de denunciar"
+      ],
+      "keywords": [
+        "ROS",
+        "UIAF",
+        "certeza",
+        "denuncia",
+        "autoridad",
+        "exime"
+      ],
+      "minKeywords": 3,
+      "source": "Circular DIAN 170/2002 §6.1 y 6.2"
+    },
+    {
+      "id": "lav-q-023",
+      "type": "open",
+      "difficulty": 2,
+      "prompt": "Dé tres ejemplos de señales de alerta en operaciones aduaneras.",
+      "modelAnswer": "Importaciones de personas sin trayectoria en el producto; importaciones por valores superiores al capital de la empresa, sobre todo si es reciente; importaciones constantes de mercancías vendidas a bajo precio en la calle; y operaciones de personas con antecedentes de infracciones a la ley penal.",
+      "keyPoints": [
+        "Sin trayectoria comercial",
+        "Valores superiores al capital",
+        "Mercancía vendida a bajo precio",
+        "Antecedentes penales"
+      ],
+      "keywords": [
+        "trayectoria",
+        "capital",
+        "bajo precio",
+        "antecedentes",
+        "importaciones"
+      ],
+      "minKeywords": 3,
+      "source": "Circular DIAN 170/2002 §Anexo 1"
+    }
+  ]
+}
