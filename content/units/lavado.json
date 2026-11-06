@@ -2,7 +2,7 @@
   "id": "lavado",
   "title": "Lavado de activos, FT, ROS y denuncias",
   "area": "funcional",
-  "priority": 3,
+  "priority": 2,
   "summary": "Lavado de activos y financiación del terrorismo, el contrabando como delito asociado, señales de alerta, operaciones inusuales y sospechosas, el ROS a la UIAF (sin certeza, reservado, sin avisar al reportado), su diferencia con la denuncia penal, beneficiarios finales y el canal interno de la DIAN.",
   "sources": ["Circular Externa DIAN 170 de 2002", "Código Penal arts. 323 y 345 (citados en la Circular 170 y la Política DIAN)", "ET arts. 631-5 y 631-6", "Res. DIAN 210 de 2025 art. 1", "D1742/2020 art. 33", "Política LA/FT/FP DIAN (15-sep-2026, post-corte)"],
   "lessons": [

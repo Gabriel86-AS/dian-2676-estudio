@@ -1,6 +1,6 @@
 // Service worker: red primero (siempre lo más reciente si hay conexión) y caché como respaldo sin conexión.
 // Al instalarse guarda el shell y todo el contenido (unidades y simulacros) para estudiar offline.
-const VERSION = 'dian2676-v8';
+const VERSION = 'dian2676-v9';
 const SHELL = ['./', 'index.html', 'css/app.css', 'js/app.js', 'content/manifest.json', 'content/resources.json', 'content/tests/index.json'];
 
 self.addEventListener('install', (e) => {
@@ -22,7 +22,7 @@ self.addEventListener('install', (e) => {
 
 self.addEventListener('activate', (e) => {
   e.waitUntil((async () => {
-    for (const k of await caches.keys()) if (k !== VERSION) await caches.delete(k);
+    for (const k of await caches.keys()) if (k.startsWith('dian2676-') && k !== VERSION) await caches.delete(k);
     await self.clients.claim();
   })());
 });

@@ -3,8 +3,6 @@
 ## Goal
 A static learning website on GitHub Pages for one candidate preparing for the **DIAN 2676 written exam (CNSC/Areandina), Gestor I, nivel Profesional, OPEC 236767**. Exam: **Sunday 8 Nov 2026, 8:00 a.m.–1:00 p.m.** The site must be usable **today** and grow over the next days.
 
-> **Update 2026-11-04:** the user's job ficha **AF-LF-3005, Gestor III (303-03), Administrativo y Financiero** (`manual_de_funciones-gestor3_jiovani.pdf`, repo root, untracked) is the **main reference**. **The user's OPEC is 236739** (not 236767). Confirmed by the SIMO listing PDF. Its indicator list is not available (needs the candidate's inscription number); the ficha's functions are the proxy. See phase 9.
-
 Style: Duolingo/Brilliant-like interactive lessons, flashcards, multiple-choice ("ABC") questions, open-answer questions and full practice tests at different difficulties. **Progress and mistake tracking. No lives, hearts, streak penalties or gamified punishments.**
 
 All UI text and content in **Spanish (Colombia)**. Mobile-first: the user will mostly study on a phone.
@@ -59,7 +57,6 @@ Files are large. **Never read a whole file; use `grep -n` to locate article numb
 | 6 | `06_CONTENT_BEHAVIORAL_REASONING.md` | Units `razonamiento`, `comportamentales`, `integridad` | 1 h |
 | 7 | `07_PRACTICE_TESTS.md` | Full practice tests (3 difficulties + exam simulation) and external simulacro links | 1 h |
 | 8 | `08_QA_AND_LAUNCH.md` | Fact audit, mobile QA, accessibility, final deploy, user guide | 45 min |
-| 9 | `09_JOB_PROFILE_GAPS.md` | Ficha AF-LF-3005 (Gestor III) is the main reference: new units `disposicion-mercancias`, `procedimiento-administrativo`, `contratacion`; then `comportamentales` levels | 3 h |
 
 After phase 3 plus phase 4 the site is already useful: **deploy at the end of every phase** so the candidate can start studying immediately.
 

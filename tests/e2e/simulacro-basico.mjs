@@ -35,8 +35,7 @@ try {
   await until(`!!document.querySelector('.test-card')`);
   await ev(`localStorage.clear(); true`);
   await shot('e2e-1-lista.png');
-  const nTests = JSON.parse(fs.readFileSync(new URL('../../content/tests/index.json', import.meta.url), 'utf8')).tests.length;
-  check(await ev(`document.querySelectorAll('.test-card').length`) === nTests + 1, `lista: ${nTests} simulacros + aleatorio`);
+  check(await ev(`document.querySelectorAll('.test-card').length`) === 8, 'lista: 7 simulacros + aleatorio');
   check(await ev(`document.querySelectorAll('.ext-list li').length`) >= 5, 'lista: enlaces externos de simulacros');
 
   // Respuestas esperadas
@@ -77,7 +76,7 @@ try {
   await ev(`window.confirm = () => true; document.querySelector('[data-act="submit"]').click(); true`);
   await until(`!!document.querySelector('.score-n')`);
   const res = await ev(`({ score: document.querySelector('.score-n').textContent, label: document.querySelector('.score-l').textContent,
-    rows: [...document.querySelectorAll('.results table.tbl tbody tr')].map(r => r.children[1].textContent),
+    rows: [...document.querySelectorAll('.results tbody tr')].map(r => r.children[1].textContent),
     missed: document.querySelectorAll('.results .missed').length,
     saved: JSON.parse(localStorage.getItem('dian2676:v1')).tests.at(-1), session: localStorage.getItem('dian2676:simulacro'),
     mistakes: Object.values(JSON.parse(localStorage.getItem('dian2676:v1')).items).filter(x => x.inMistakes).length })`);

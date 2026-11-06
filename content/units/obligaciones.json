@@ -2,7 +2,7 @@
   "id": "obligaciones",
   "title": "Obligaciones formales y sustanciales en materia tributaria",
   "area": "funcional",
-  "priority": 3,
+  "priority": 1,
   "summary": "Quién debe cumplir los deberes tributarios y cómo: RUT y NIT, clases de declaraciones, declaraciones que se tienen por no presentadas, firmas, correcciones, no declarantes, facturación, información y conservación de documentos.",
   "sources": ["ET arts. 555–633", "UVT 2026 = $52.374 (Res. DIAN 238/2025)"],
   "lessons": [

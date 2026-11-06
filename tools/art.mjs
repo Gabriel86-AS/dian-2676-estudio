@@ -1,7 +1,7 @@
 // Imprime el texto de uno o varios artículos del paquete de fuentes, sin rótulos de notas.
 // Uso: node tools/art.mjs <archivo> <art> [art...] [--max=N]
 //   <archivo>: prefijo del archivo en dian_2676_recursos/dian_material/ (01, 02, 03, 04, 06, 08…)
-//   Ej.: node tools/art.mjs 01 705 707 --max=800   ·   node tools/art.mjs 15 2.2.1.1.1.4.1
+//   Ej.: node tools/art.mjs 01 705 707 --max=800   ·   node tools/art.mjs 03 19
 // Sin artículos, lista los encabezados encontrados.
 import fs from 'node:fs';
 import path from 'node:path';
@@ -15,7 +15,7 @@ const file = fs.readdirSync(DIR).find((f) => f.startsWith(`${prefix}_`));
 if (!file) { console.error(`No hay archivo que empiece por "${prefix}_" en ${DIR}`); process.exit(1); }
 
 const lines = fs.readFileSync(path.join(DIR, file), 'utf8').split(/\r?\n/);
-const HEAD = /^[\s ]*(?:ART[IÍ]CULO|Art[ií]culo)[\s ]*(\d+(?:[.-]\d+)*)\s*[.°ºo]?/u;
+const HEAD = /^[\s ]*(?:ART[IÍ]CULO|Art[ií]culo)[\s ]+(\d+(?:-\d+)?)\s*[.°ºo]?/u;
 const idx = [];
 lines.forEach((l, i) => { const m = l.normalize('NFC').match(HEAD); if (m) idx.push([m[1], i]); });
 // Rótulos del compilador que no son texto del artículo.

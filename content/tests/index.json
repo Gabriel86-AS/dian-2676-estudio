@@ -62,15 +62,6 @@
       "mode": "exam",
       "items": 60,
       "likert": 40
-    },
-    {
-      "id": "test-ficha-1",
-      "title": "Simulacro ficha Gestor III",
-      "difficulty": 2,
-      "minutes": 60,
-      "mode": "practice",
-      "items": 40,
-      "likert": 0
     }
   ]
 }

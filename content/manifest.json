@@ -1,24 +1,18 @@
 {
   "units": [
-    { "id": "disposicion-mercancias", "file": "units/disposicion-mercancias.json", "title": "Custodia y disposición de mercancías aprehendidas, decomisadas o abandonadas", "area": "funcional", "priority": 1 },
-    { "id": "procedimiento-administrativo", "file": "units/procedimiento-administrativo.json", "title": "Procedimiento administrativo (CPACA): peticiones, notificaciones y recursos", "area": "funcional", "priority": 1 },
-    { "id": "contratacion", "file": "units/contratacion.json", "title": "Contratación estatal: planeación, selección, supervisión y liquidación", "area": "funcional", "priority": 1 },
-    { "id": "recursos-fisicos", "file": "units/recursos-fisicos.json", "title": "Recursos físicos: inventarios, parque automotor, infraestructura y SIIF Nación", "area": "funcional", "priority": 1 },
-    { "id": "gestion-documental", "file": "units/gestion-documental.json", "title": "Gestión documental y trazabilidad de expedientes", "area": "funcional", "priority": 1 },
-    { "id": "constitucion-transparencia", "file": "units/constitucion-transparencia.json", "title": "Constitución, transparencia y servicio al ciudadano", "area": "funcional", "priority": 2 },
-    { "id": "mipg", "file": "units/mipg.json", "title": "MIPG: Modelo Integrado de Planeación y Gestión y servicio al ciudadano", "area": "funcional", "priority": 2 },
-    { "id": "fiscalizacion", "file": "units/fiscalizacion.json", "title": "Fiscalización y liquidación tributaria y aduanera", "area": "funcional", "priority": 2 },
-    { "id": "sanciones", "file": "units/sanciones.json", "title": "Imposición de sanciones", "area": "funcional", "priority": 2 },
+    { "id": "fiscalizacion", "file": "units/fiscalizacion.json", "title": "Fiscalización y liquidación tributaria y aduanera", "area": "funcional", "priority": 1 },
+    { "id": "sanciones", "file": "units/sanciones.json", "title": "Imposición de sanciones", "area": "funcional", "priority": 1 },
+    { "id": "obligaciones", "file": "units/obligaciones.json", "title": "Obligaciones formales y sustanciales en materia tributaria", "area": "funcional", "priority": 1 },
+    { "id": "liquidacion", "file": "units/liquidacion.json", "title": "Liquidación de impuestos nacionales", "area": "funcional", "priority": 2 },
     { "id": "estructura", "file": "units/estructura.json", "title": "Estructura organizacional de la DIAN", "area": "funcional", "priority": 2 },
     { "id": "misionalidad", "file": "units/misionalidad.json", "title": "Misionalidad de la DIAN", "area": "funcional", "priority": 2 },
-    { "id": "razonamiento", "file": "units/razonamiento.json", "title": "Razonamiento analítico", "area": "funcional", "priority": 2 },
-    { "id": "comportamentales", "file": "units/comportamentales.json", "title": "Competencias comportamentales", "area": "comportamental", "priority": 2 },
-    { "id": "integridad", "file": "units/integridad.json", "title": "Integridad", "area": "integridad", "priority": 2 },
-    { "id": "obligaciones", "file": "units/obligaciones.json", "title": "Obligaciones formales y sustanciales en materia tributaria", "area": "funcional", "priority": 3 },
-    { "id": "liquidacion", "file": "units/liquidacion.json", "title": "Liquidación de impuestos nacionales", "area": "funcional", "priority": 3 },
-    { "id": "lavado", "file": "units/lavado.json", "title": "Lavado de activos, FT, ROS y denuncias", "area": "funcional", "priority": 3 },
+    { "id": "gestion-documental", "file": "units/gestion-documental.json", "title": "Gestión documental y trazabilidad de expedientes", "area": "funcional", "priority": 2 },
+    { "id": "lavado", "file": "units/lavado.json", "title": "Lavado de activos, FT, ROS y denuncias", "area": "funcional", "priority": 2 },
     { "id": "cambiaria", "file": "units/cambiaria.json", "title": "Normativa cambiaria", "area": "funcional", "priority": 3 },
-    { "id": "auditoria", "file": "units/auditoria.json", "title": "Normas y técnicas de auditoría", "area": "funcional", "priority": 3 }
+    { "id": "auditoria", "file": "units/auditoria.json", "title": "Normas y técnicas de auditoría", "area": "funcional", "priority": 3 },
+    { "id": "razonamiento", "file": "units/razonamiento.json", "title": "Razonamiento analítico", "area": "funcional", "priority": 3 },
+    { "id": "comportamentales", "file": "units/comportamentales.json", "title": "Competencias comportamentales", "area": "comportamental", "priority": 3 },
+    { "id": "integridad", "file": "units/integridad.json", "title": "Integridad", "area": "integridad", "priority": 3 }
   ],
   "tests": []
 }

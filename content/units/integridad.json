@@ -2,15 +2,14 @@
   "id": "integridad",
   "title": "Integridad",
   "area": "integridad",
-  "priority": 2,
+  "priority": 3,
   "summary": "Los cinco valores del Código de Integridad (honestidad, respeto, compromiso, diligencia y justicia) con lo que hago y lo que no hago; conflictos de interés, regalos, reserva tributaria y canales de denuncia de la DIAN; y 20 afirmaciones de autoinforme para practicar el formato Likert.",
   "sources": [
     "Código de Integridad del Servicio Público (Función Pública) (texto adoptado por la Alcaldía de Santa Marta, 2024)",
     "Programa de Transparencia y Ética Pública DIAN 2025–2026, v3 (jun-2026)",
     "ET art. 583",
     "Res. DIAN 065/2024 (Comportamiento ético)",
-    "GOA DIAN 2676 (CNSC, 19-10-2026), §4.1.3 y págs. 18–19",
-    "Código de Buen Gobierno DIAN CG-PEC-0001 v15 (2026): introducción, políticas 2.1, 2.6, 2.7, 8.1.3, 8.1.5, 10.1–10.3 y 11"
+    "GOA DIAN 2676 (CNSC, 19-10-2026), §4.1.3 y págs. 18–19"
   ],
   "lessons": [
     {
@@ -100,45 +99,6 @@
         },
         {
           "ref": "integ-q-020"
-        }
-      ]
-    },
-    {
-      "id": "integ-05",
-      "title": "Código de Buen Gobierno de la DIAN",
-      "minutes": 7,
-      "steps": [
-        {
-          "id": "integ-c-005",
-          "type": "concept",
-          "source": "Código de Buen Gobierno DIAN CG-PEC-0001 v15 (2026), introducción, «Políticas de buen gobierno» y política 2.1",
-          "title": "Qué es y qué contiene",
-          "body": "**Código CG-PEC-0001, versión 15 (2026)**, del proceso Planeación, Estrategia y Control. Es el **instrumento gerencial** que guía a los servidores y a la entidad hacia una **gestión eficiente y transparente**, para fortalecer la credibilidad y la confianza de la ciudadanía. Es un **documento interno del MIPG** (Res. DIAN 6004/2018, art. 3, num. 1).\n\n**Políticas de buen gobierno:** directrices expresadas formalmente por la **alta dirección**. **No reemplazan la norma** y son **de obligatorio cumplimiento**.\n\n**Grupos de políticas:**\n- cumplimiento de la misión (recaudo, fiscalización, cultura de la contribución, cartera);\n- desarrollo organizacional y administrativo (ética, talento humano, régimen disciplinario, seguridad y salud en el trabajo, calidad, ambiente, **recursos**, **seguridad vial**);\n- seguridad y privacidad de la información, y gobierno de datos;\n- comunicaciones y **gestión documental**;\n- responsabilidad social y rendición de cuentas;\n- grupos de interés (servicio, **infraestructura**, proveedores y contratistas, socios de valor);\n- riesgos, **control** y **anticorrupción**.\n\n**Gestión ética (2.1):** se fortalece en todos los procesos para que los servidores comprendan y apropien los **valores institucionales** en sus decisiones."
-        },
-        {
-          "ref": "integ-q-041"
-        },
-        {
-          "ref": "integ-q-045"
-        },
-        {
-          "id": "integ-c-006",
-          "type": "concept",
-          "source": "Código de Buen Gobierno DIAN CG-PEC-0001 v15 (2026), políticas 8.1.5, 10.1, 10.2, 10.3 y 11",
-          "title": "Control, contratistas y Cero Tolerancia a la Corrupción",
-          "body": "**Control interno (10.1):** es **responsabilidad de todos y cada uno** de los servidores. Cada responsable de proceso lo mejora. La **Oficina de Control Interno** hace la **evaluación independiente y objetiva** y recomienda mejoras.\n\n**Organismos de control (10.2):** relaciones **respetuosas**. Los responsables de cada proceso entregan la información **puntual, completa y veraz** al **vocero designado** por la entidad y cumplen los **planes de mejoramiento** en los plazos acordados.\n\n**Auditorías (10.3):** imparciales y transparentes, basadas en el análisis de riesgo y en las evidencias obtenidas en debida forma.\n\n**Proveedores y contratistas (8.1.5):**\n- **Veedurías:** divulgar de manera amplia, anticipada y oportuna los trámites contractuales y facilitar el control ciudadano.\n- **Pacto de integridad:** que quienes participan en una licitación o concurso suscriban un **acuerdo sobre normas éticas** de comportamiento.\n- **Libre competencia:** actuar por el interés colectivo, sin beneficios personales o de terceros y sin discriminación.\n\n**Anticorrupción (11):** prevención, disuasión de conductas indebidas, **fomento a la denuncia** y el criterio de Gestión de Buen Gobierno **«Cero Tolerancia a la Corrupción»**."
-        },
-        {
-          "ref": "integ-q-043"
-        },
-        {
-          "ref": "integ-q-042"
-        },
-        {
-          "ref": "integ-q-044"
-        },
-        {
-          "ref": "integ-q-046"
         }
       ]
     },
@@ -271,24 +231,6 @@
       "front": "Base legal del PTEP",
       "back": "Ley 1474/2011 art. 73, modificado por la Ley 2195/2022 art. 31 (reglamentado por el D1122/2024).",
       "source": "PTEP DIAN 2025–2026 (v3, jun-2026), Introducción"
-    },
-    {
-      "id": "integ-fc-010",
-      "front": "Código de Buen Gobierno de la DIAN: código y versión vigente",
-      "back": "CG-PEC-0001, versión 15 (2026), proceso Planeación, Estrategia y Control. Es un documento interno del MIPG.",
-      "source": "Código de Buen Gobierno DIAN CG-PEC-0001 v15 (2026), portada e introducción"
-    },
-    {
-      "id": "integ-fc-011",
-      "front": "¿Quién hace la evaluación independiente del control interno en la DIAN?",
-      "back": "La Oficina de Control Interno. Pero el control interno es responsabilidad de todos los servidores.",
-      "source": "Código de Buen Gobierno DIAN CG-PEC-0001 v15 (2026), política 10.1"
-    },
-    {
-      "id": "integ-fc-012",
-      "front": "¿Cuál es el criterio de Gestión de Buen Gobierno de la política anticorrupción?",
-      "back": "«Cero Tolerancia a la Corrupción».",
-      "source": "Código de Buen Gobierno DIAN CG-PEC-0001 v15 (2026), política 11"
     }
   ],
   "questions": [
@@ -973,161 +915,6 @@
       "statement": "Cuando tengo un interés personal en un caso, lo declaro y pido que lo asuma otra persona, aunque eso cargue de trabajo a un compañero.",
       "competency": "Integridad · Justicia",
       "insight": "Código de Integridad, Justicia (lo que no hago): «Nunca permito que odios, simpatías, antipatías, caprichos, presiones o intereses de orden personal o grupal interfieran en mi criterio, toma de decisión y gestión pública.»"
-    },
-    {
-      "id": "integ-q-041",
-      "type": "mcq",
-      "difficulty": 1,
-      "source": "Código de Buen Gobierno DIAN CG-PEC-0001 v15 (2026), «Políticas de buen gobierno»",
-      "prompt": "¿Qué carácter tienen las políticas del Código de Buen Gobierno de la DIAN?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Reemplazan la norma cuando esta guarda silencio"
-        },
-        {
-          "id": "b",
-          "text": "Son recomendaciones voluntarias para directivos"
-        },
-        {
-          "id": "c",
-          "text": "Son obligatorias y no reemplazan la norma"
-        },
-        {
-          "id": "d",
-          "text": "Solo obligan a las dependencias del nivel central"
-        }
-      ],
-      "answer": "c",
-      "explain": "El código dice que las políticas de buen gobierno no reemplazan la norma y son de obligatorio cumplimiento.",
-      "optionWhy": {
-        "a": "Las políticas no reemplazan la norma en ningún caso.",
-        "b": "Son de obligatorio cumplimiento, no voluntarias.",
-        "d": "Orientan a servidores de todos los niveles y dependencias."
-      }
-    },
-    {
-      "id": "integ-q-042",
-      "type": "pjs",
-      "difficulty": 2,
-      "source": "Código de Buen Gobierno DIAN CG-PEC-0001 v15 (2026), política 10.2",
-      "case": "Un organismo de control pide a tu grupo información de un proceso. Un compañero propone enviarle al auditor, por mensaje directo, una versión incompleta «para salir del paso».",
-      "prompt": "¿Qué corresponde según el Código de Buen Gobierno?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Entregarla puntual, completa y veraz al vocero designado por la entidad."
-        },
-        {
-          "id": "b",
-          "text": "Enviarla como está, porque lo importante es cumplir el plazo pedido."
-        },
-        {
-          "id": "c",
-          "text": "Esperar a que el organismo de control insista antes de entregarla."
-        }
-      ],
-      "answer": "a",
-      "explain": "La política 10.2 pide suministrar la información de manera puntual, completa y veraz al vocero o voceros oficialmente designados.",
-      "optionWhy": {
-        "b": "La información incompleta incumple la exigencia de que sea completa y veraz.",
-        "c": "La entrega debe ser puntual, no esperar a que insistan."
-      }
-    },
-    {
-      "id": "integ-q-043",
-      "type": "truefalse",
-      "difficulty": 1,
-      "source": "Código de Buen Gobierno DIAN CG-PEC-0001 v15 (2026), política 10.1",
-      "statement": "Según el Código de Buen Gobierno de la DIAN, el control interno es responsabilidad exclusiva de la Oficina de Control Interno.",
-      "answer": false,
-      "explain": "Falso. Es responsabilidad de todos y cada uno de los servidores. La Oficina de Control Interno hace la evaluación independiente."
-    },
-    {
-      "id": "integ-q-044",
-      "type": "mcq",
-      "difficulty": 1,
-      "source": "Código de Buen Gobierno DIAN CG-PEC-0001 v15 (2026), política 8.1.5.2",
-      "prompt": "¿Qué promueve la DIAN con el pacto de integridad?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Que los supervisores firmen el acta de inicio de cada contrato"
-        },
-        {
-          "id": "b",
-          "text": "Que los oferentes suscriban normas éticas de comportamiento"
-        },
-        {
-          "id": "c",
-          "text": "Que los contratistas renuncien a pedir ajustes del precio"
-        },
-        {
-          "id": "d",
-          "text": "Que los servidores declaren sus bienes ante el jefe inmediato"
-        }
-      ],
-      "answer": "b",
-      "explain": "La política 8.1.5.2 promueve que quienes participan en una licitación o concurso suscriban un acuerdo sobre normas éticas de comportamiento que promuevan la transparencia.",
-      "optionWhy": {
-        "a": "El acta de inicio es un trámite del contrato, no el pacto de integridad.",
-        "c": "El pacto no trata de renunciar a ajustes del precio.",
-        "d": "La declaración de bienes es otra obligación, no el pacto de integridad."
-      }
-    },
-    {
-      "id": "integ-q-045",
-      "type": "match",
-      "difficulty": 2,
-      "source": "Código de Buen Gobierno DIAN CG-PEC-0001 v15 (2026), políticas 2.6, 2.7, 8.1.3 y 11",
-      "prompt": "Relaciona cada política del Código de Buen Gobierno con su contenido.",
-      "pairs": [
-        {
-          "left": "2.6 Recursos",
-          "right": "Planificar y ejecutar recursos físicos, tecnológicos y financieros"
-        },
-        {
-          "left": "2.7 Seguridad vial",
-          "right": "Uso adecuado de los medios de transporte"
-        },
-        {
-          "left": "8.1.3 Infraestructura",
-          "right": "Infraestructura locativa, tecnológica y de comunicaciones"
-        },
-        {
-          "left": "11 Anticorrupción",
-          "right": "«Cero Tolerancia a la Corrupción»"
-        }
-      ],
-      "explain": "Políticas del Código de Buen Gobierno DIAN v15."
-    },
-    {
-      "id": "integ-q-046",
-      "type": "pjs",
-      "difficulty": 2,
-      "source": "Código de Buen Gobierno DIAN CG-PEC-0001 v15 (2026), políticas 8.1.5.3 y 11",
-      "case": "En un proceso de compra, un oferente ofrece a un integrante del comité evaluador «un detalle» a cambio de conocer antes las observaciones a las ofertas.",
-      "prompt": "¿Qué debe hacer el servidor?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Aceptarlo si el valor es pequeño y no cambia la evaluación final."
-        },
-        {
-          "id": "b",
-          "text": "Compartir las observaciones con todos los oferentes por equidad."
-        },
-        {
-          "id": "c",
-          "text": "Rechazarlo y denunciarlo, conforme a «Cero Tolerancia a la Corrupción»."
-        }
-      ],
-      "answer": "c",
-      "explain": "La política anticorrupción fomenta la denuncia y adopta «Cero Tolerancia a la Corrupción». La libre competencia excluye toda acción que dé beneficios personales o a terceros.",
-      "optionWhy": {
-        "a": "El valor del regalo no cambia que busca un beneficio indebido.",
-        "b": "Divulgar antes de tiempo no corrige el ofrecimiento y rompe el procedimiento."
-      }
     }
   ]
 }

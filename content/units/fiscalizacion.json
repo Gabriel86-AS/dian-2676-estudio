@@ -2,7 +2,7 @@
   "id": "fiscalizacion",
   "title": "Fiscalización y liquidación tributaria y aduanera",
   "area": "funcional",
-  "priority": 2,
+  "priority": 1,
   "summary": "Cómo la DIAN verifica las declaraciones y determina oficialmente los impuestos: emplazamientos, corrección aritmética, requerimiento especial, liquidación de revisión y de aforo, liquidación provisional, recursos y su equivalente aduanero en la Ley 2586 de 2026.",
   "sources": ["ET arts. 684–734 y 764–764-3", "Ley 2586/2026 arts. 3–12, 56–98 y 112", "Decreto 1165/2019 arts. 576–582"],
   "lessons": [

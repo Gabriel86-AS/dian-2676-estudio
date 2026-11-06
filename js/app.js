@@ -81,8 +81,7 @@ async function home() {
     <details class="card how-to" ${getState().lessons && Object.keys(getState().lessons).length ? '' : 'open'}>
       <summary><h2>Cómo usar este sitio</h2></summary>
       <ol>
-        <li>Haz primero las lecciones de <strong>prioridad 1</strong>: las funciones de la ficha de Gestor III (mercancías, procedimiento administrativo, contratación y gestión documental).</li>
-        <li>Las unidades de <strong>prioridad 3</strong> no aparecen en la ficha AF-LF-3005; estúdialas solo si te sobra tiempo.</li>
+        <li>Haz primero las lecciones de <strong>prioridad 1</strong> (fiscalización, sanciones, obligaciones).</li>
         <li>Cada día, repasa <a href="#/repaso">tus errores</a> y las tarjetas que tocan.</li>
         <li><strong>Jueves:</strong> un <a href="#/simulacros">simulacro intermedio</a>. <strong>Viernes:</strong> la simulación del examen.</li>
         <li><strong>Sábado:</strong> solo repaso de errores y tarjetas. Descansa.</li>
@@ -134,7 +133,7 @@ function unitCard(s) {
         : 'Contenido en preparación'}</p>
       <div class="unit-meta">
         <span class="badge">${esc(AREA_LABEL[u.area] || u.area)}</span>
-        <span class="badge p${u.priority}">Prioridad ${u.priority}${u.priority === 3 ? ' · fuera de la ficha' : ''}</span>
+        <span class="badge p${u.priority}">Prioridad ${u.priority}</span>
         ${s.next ? `<a class="btn small-btn continue" href="#/leccion/${esc(u.id)}/${esc(s.next.id)}">Continuar</a>` : ''}
       </div>
     </div>`;

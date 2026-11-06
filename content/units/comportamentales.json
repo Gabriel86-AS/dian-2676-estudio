@@ -2,12 +2,11 @@
   "id": "comportamentales",
   "title": "Competencias comportamentales",
   "area": "comportamental",
-  "priority": 2,
-  "summary": "Diccionario de competencias de la DIAN (Res. 065/2024): las 6 competencias básicas (nivel 1) y las 4 específicas que exige la ficha AF-LF-3005 de Gestor III (Comportamiento ético 4, Adaptabilidad 4, Innovación 3, Solución de problemas 4), con sus conductas observables, más afirmaciones de autoinforme para practicar el formato Likert (sin respuestas correctas).",
+  "priority": 3,
+  "summary": "Diccionario de competencias de la DIAN (Res. 065/2024): las 6 competencias básicas, los niveles asumidos para Gestor I y sus conductas observables, más 30 afirmaciones de autoinforme para practicar el formato Likert (sin respuestas correctas).",
   "sources": [
     "Res. DIAN 065/2024 (diccionario de competencias), Caps. I, II y IV",
-    "Guía de Orientación al Aspirante DIAN 2676 (CNSC, 19-10-2026), págs. 18–19 y 25",
-    "Ficha AF-LF-3005 (Gestor III), competencias comportamentales"
+    "Guía de Orientación al Aspirante DIAN 2676 (CNSC, 19-10-2026), págs. 18–19 y 25"
   ],
   "lessons": [
     {
@@ -18,16 +17,16 @@
         {
           "id": "comp-c-001",
           "type": "concept",
-          "source": "Res. DIAN 065/2024, Caps. I, II y IV; ficha AF-LF-3005 (Gestor III)",
+          "source": "Res. DIAN 065/2024, Caps. I, II y IV",
           "title": "Cómo está organizado el diccionario de competencias",
-          "body": "La Res. DIAN 065/2024 describe las competencias como **conductas observables**: lo que una persona hace o dice.\n\n- **Tipos:** básicas, gerenciales, específicas y la de teletrabajo.\n- **Básicas (6):** Adaptabilidad, Comportamiento ético, Comunicación efectiva, Orientación al logro, Orientación al usuario y al ciudadano, y Trabajo en equipo. Están en **todas** las fichas de empleo y se asimilan al **nivel 1**.\n- **Específicas (10):** Adaptabilidad, Comportamiento ético, Compromiso con la organización, Comunicación efectiva, Iniciativa, Innovación, Orientación al logro, Orientación al usuario y al ciudadano, Solución de problemas y Trabajo en equipo. Cada ficha fija cuáles aplican y en qué nivel.\n- **Niveles 1 a 4:** cada nivel tiene una descripción y conductas observables. Cada nivel **suma** a los anteriores: el 1 es cumplir bien lo propio; el 4 es ser **referente** e impulsar a otros.\n- **Comportamiento ético** es básica (nivel 1), pero también específica y gerencial, con nivel **superior a 1**.\n\n**Niveles de la ficha AF-LF-3005 (Gestor III):** las 6 básicas en **nivel 1** y, como **específicas**: Comportamiento ético **4**, Adaptabilidad **4**, Innovación **3** y Solución de problemas **4**.\n\n**En la prueba:** afirmaciones en primera persona con 4 opciones (Totalmente en desacuerdo → Totalmente de acuerdo). No hay respuestas correctas. Dos subescalas de control detectan las respuestas exageradamente favorables (GOA, pág. 25)."
+          "body": "La Res. DIAN 065/2024 describe las competencias como **conductas observables**: lo que una persona hace o dice.\n\n- **Tipos:** básicas, gerenciales, específicas y la de teletrabajo.\n- **Básicas (6):** Adaptabilidad, Comportamiento ético, Comunicación efectiva, Orientación al logro, Orientación al usuario y al ciudadano, y Trabajo en equipo. Están en **todas** las fichas de empleo y se asimilan al **nivel 1**.\n- **Niveles 1 a 4:** cada nivel tiene una descripción y conductas observables. Cada nivel **suma** a los anteriores: el 1 es cumplir bien lo propio; el 4 es ser **referente** e impulsar a otros.\n- **Comportamiento ético** es básica (nivel 1), pero también específica y gerencial, con nivel **superior a 1**.\n\n**Niveles que este curso asume para Gestor I:** Adaptabilidad 1–2, Comportamiento ético 1 y 4, Comunicación efectiva 1–2, Orientación al logro 1, Orientación al usuario 1 y Trabajo en equipo 1 y 3. Confírmalos en la ficha de tu empleo en SIMO.\n\n**En la prueba:** afirmaciones en primera persona con 4 opciones (Totalmente en desacuerdo → Totalmente de acuerdo). No hay respuestas correctas. Dos subescalas de control detectan las respuestas exageradamente favorables (GOA, pág. 25)."
         },
         {
           "id": "comp-c-002",
           "type": "concept",
-          "source": "Res. DIAN 065/2024, Cap. IV — Adaptabilidad, niveles 1 a 4",
-          "title": "Adaptabilidad: nivel 1 (básica) y nivel 4 (Gestor III)",
-          "body": "**Definición:** comprender diferentes perspectivas y responder a tiempo a diversas situaciones, contextos, medios y personas, modificando la conducta y las formas de trabajo.\n\n**Nivel 1 (básica):** comprende perspectivas diferentes y cambia sus conductas para ajustarse a los contextos.\n- Pone en marcha los cambios que le proponen en sus objetivos laborales.\n- Integra con facilidad nuevas perspectivas, aprendizajes y **tecnologías**.\n- Acepta con disposición situaciones y medios **nuevos e inesperados**.\n\n**Nivel 4 (específica de Gestor III):** implementa y fomenta cambios de forma **proactiva** en su actividad y en la de los **equipos** donde participa, con base en la revisión de las estrategias de la entidad.\n- **Estimula a los equipos** a tomar los cambios como oportunidades de desarrollo, con capacidad de aprendizaje y criterio ético.\n- **Diseña e implementa** nuevas metodologías y herramientas de adaptación y fomenta su uso en los equipos.\n- Demuestra con sus acciones ser un **agente de cambio**.\n\n*Niveles intermedios:* el 2 **revalúa sus certezas** ante nuevos argumentos, evalúa posturas y apoya los cambios; el 3 **se anticipa** a los cambios, identifica sus repercusiones en su dependencia y fomenta nuevas metodologías."
+          "source": "Res. DIAN 065/2024, Cap. IV — Adaptabilidad, niveles 1 y 2",
+          "title": "Adaptabilidad: niveles 1 y 2",
+          "body": "**Definición:** comprender diferentes perspectivas y responder a tiempo a diversas situaciones, contextos, medios y personas, modificando la conducta y las formas de trabajo.\n\n**Nivel 1:** comprende perspectivas diferentes y cambia sus conductas para ajustarse a los contextos.\n- Pone en marcha los cambios que le proponen en sus objetivos laborales.\n- Integra con facilidad nuevas perspectivas, aprendizajes y **tecnologías**.\n- Acepta con disposición situaciones y medios **nuevos e inesperados**.\n\n**Nivel 2:** revalúa sus propias certezas y modifica su actuar ante nuevos argumentos, en línea con el Código de Integridad.\n- **Evalúa distintas posturas** y ajusta su actuar ante nuevas evidencias.\n- Se esfuerza por **entender sistémicamente** los cambios y aplica las metodologías y herramientas que propone la entidad.\n- **Apoya y promueve** los cambios en las dinámicas laborales.\n\n*Para comparar:* el nivel 3 **se anticipa** a los cambios; el nivel 4 es **agente de cambio** y diseña metodologías nuevas."
         },
         {
           "ref": "comp-q-001"
@@ -43,12 +42,6 @@
         },
         {
           "ref": "comp-q-005"
-        },
-        {
-          "ref": "comp-q-079"
-        },
-        {
-          "ref": "comp-q-080"
         }
       ]
     },
@@ -78,64 +71,6 @@
         },
         {
           "ref": "comp-q-010"
-        }
-      ]
-    },
-    {
-      "id": "comp-10",
-      "title": "Innovación (nivel 3)",
-      "minutes": 6,
-      "steps": [
-        {
-          "id": "comp-c-008",
-          "type": "concept",
-          "source": "Res. DIAN 065/2024, Cap. IV — Innovación, niveles 1 a 4; ficha AF-LF-3005",
-          "title": "Innovación: el nivel 3 de Gestor III",
-          "body": "**Definición:** idear e implementar soluciones **nuevas y diferentes** a problemas del puesto, la organización o los usuarios, **agregando valor** a la organización.\n\n**Nivel 3 (ficha AF-LF-3005):** presenta, recomienda y aplica **soluciones creativas a situaciones complejas**, agregando valor a la organización y **evaluando los impactos** de su aplicación.\n- Presenta soluciones que **exceden su puesto**: aplican a **toda el área** y están alineadas con los objetivos institucionales.\n- **Investiga y soporta** conceptual y empíricamente soluciones creativas a problemas complejos.\n- Es flexible y comprometido en buscar alternativas creativas y en su **implementación y evaluación**, con técnicas novedosas y dentro de los valores institucionales.\n\n| Nivel | Idea clave |\n|---|---|\n| 1 | Aplica soluciones según su **experiencia** en casos similares. |\n| 2 | Soluciones **pertinentes** que agregan valor a **su área**; aprovecha experiencias exitosas de otras áreas. |\n| 3 | Soluciones **creativas a situaciones complejas**; evalúa impactos. |\n| 4 | **Co-construcción** de propuestas de mejora; crea redes de ideas; es **referente**. |"
-        },
-        {
-          "ref": "comp-q-061"
-        },
-        {
-          "ref": "comp-q-062"
-        },
-        {
-          "ref": "comp-q-063"
-        },
-        {
-          "ref": "comp-q-064"
-        },
-        {
-          "ref": "comp-q-065"
-        }
-      ]
-    },
-    {
-      "id": "comp-11",
-      "title": "Solución de problemas (nivel 4)",
-      "minutes": 6,
-      "steps": [
-        {
-          "id": "comp-c-009",
-          "type": "concept",
-          "source": "Res. DIAN 065/2024, Cap. IV — Solución de problemas, niveles 1 a 4; ficha AF-LF-3005",
-          "title": "Solución de problemas: el nivel 4 de Gestor III",
-          "body": "**Definición:** identificar y analizar una situación, **generar opciones** de solución, **seleccionar e implementar** la más adecuada según los objetivos de la entidad.\n\n**Nivel 4 (ficha AF-LF-3005):** implementa **soluciones integrales a problemas complejos**, favoreciendo el **aprendizaje organizacional**.\n- Aborda el problema con **visión sistémica**, integrando **enfoques y especialistas**, y **evalúa los resultados** de la solución.\n- **Aplica, promueve y comunica** la gestión dada a los problemas.\n- **Vincula a sus pares** en la generación de opciones, sobre todo en situaciones críticas, y promueve el uso de **sistemas de información**.\n\n| Nivel | Idea clave |\n|---|---|\n| 1 | Más de una opción en lo **cotidiano**; ejecuta la más adecuada según el procedimiento. |\n| 2 | **Metodologías creativas**; decide con **hechos, datos y evidencias**; controla la calidad. |\n| 3 | Asuntos **críticos o sensibles**, con **autocontrol**; ataca causas y prevé obstáculos. |\n| 4 | Soluciones **integrales**, visión **sistémica**, **aprendizaje organizacional**. |"
-        },
-        {
-          "ref": "comp-q-070"
-        },
-        {
-          "ref": "comp-q-071"
-        },
-        {
-          "ref": "comp-q-072"
-        },
-        {
-          "ref": "comp-q-073"
-        },
-        {
-          "ref": "comp-q-074"
         }
       ]
     },
@@ -365,43 +300,6 @@
           "ref": "comp-q-040"
         }
       ]
-    },
-    {
-      "id": "comp-12",
-      "title": "Autoinforme D: competencias de Gestor III (práctica sin puntaje)",
-      "minutes": 5,
-      "steps": [
-        {
-          "ref": "comp-q-066"
-        },
-        {
-          "ref": "comp-q-075"
-        },
-        {
-          "ref": "comp-q-081"
-        },
-        {
-          "ref": "comp-q-067"
-        },
-        {
-          "ref": "comp-q-076"
-        },
-        {
-          "ref": "comp-q-082"
-        },
-        {
-          "ref": "comp-q-068"
-        },
-        {
-          "ref": "comp-q-077"
-        },
-        {
-          "ref": "comp-q-069"
-        },
-        {
-          "ref": "comp-q-078"
-        }
-      ]
     }
   ],
   "flashcards": [
@@ -458,42 +356,6 @@
       "front": "Prueba comportamental: formato",
       "back": "Autoinforme Likert de 4 opciones; sin respuestas correctas; dos subescalas de control detectan respuestas exageradamente favorables.",
       "source": "GOA DIAN 2676, págs. 18–19 y 25"
-    },
-    {
-      "id": "comp-fc-010",
-      "front": "Competencias comportamentales específicas de Gestor III (ficha AF-LF-3005)",
-      "back": "Comportamiento ético 4, Adaptabilidad 4, Innovación 3 y Solución de problemas 4.",
-      "source": "Ficha AF-LF-3005 (Gestor III), competencias comportamentales"
-    },
-    {
-      "id": "comp-fc-011",
-      "front": "Adaptabilidad nivel 4 (idea clave)",
-      "back": "Implementa y fomenta cambios en los equipos; diseña herramientas de adaptación; es agente de cambio.",
-      "source": "Res. DIAN 065/2024, Cap. IV — Adaptabilidad, nivel 4"
-    },
-    {
-      "id": "comp-fc-012",
-      "front": "Definición de Innovación",
-      "back": "Idear e implementar soluciones nuevas y diferentes a problemas del puesto, la organización o los usuarios, agregando valor.",
-      "source": "Res. DIAN 065/2024, Cap. IV — Innovación"
-    },
-    {
-      "id": "comp-fc-013",
-      "front": "Innovación nivel 3 (idea clave)",
-      "back": "Soluciones creativas a situaciones complejas, aplicables a toda el área, soportadas y evaluadas en su impacto.",
-      "source": "Res. DIAN 065/2024, Cap. IV — Innovación, nivel 3"
-    },
-    {
-      "id": "comp-fc-014",
-      "front": "Definición de Solución de problemas",
-      "back": "Identificar y analizar la situación, generar opciones, seleccionar e implementar la más adecuada.",
-      "source": "Res. DIAN 065/2024, Cap. IV — Solución de problemas"
-    },
-    {
-      "id": "comp-fc-015",
-      "front": "Solución de problemas nivel 4 (idea clave)",
-      "back": "Soluciones integrales a problemas complejos, con visión sistémica y especialistas; comunica lo aprendido.",
-      "source": "Res. DIAN 065/2024, Cap. IV — Solución de problemas, nivel 4"
     }
   ],
   "questions": [
@@ -1498,392 +1360,6 @@
       "competency": "Trabajo en equipo",
       "level": 3,
       "insight": "Conducta observable (nivel 3): «Orienta el trabajo del equipo, fomenta y reconoce la participación de todos, cuidando del buen ambiente de trabajo.»"
-    },
-    {
-      "id": "comp-q-061",
-      "type": "mcq",
-      "difficulty": 1,
-      "source": "Res. DIAN 065/2024, Cap. IV — Innovación, nivel 3",
-      "prompt": "¿Qué conducta corresponde al nivel 3 de Innovación?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Crea redes de estudio y de nuevas ideas a partir de su visión de la organización."
-        },
-        {
-          "id": "b",
-          "text": "Soporta conceptual y empíricamente soluciones creativas a problemas complejos."
-        },
-        {
-          "id": "c",
-          "text": "Presenta y aplica soluciones a partir de su experiencia en casos similares."
-        }
-      ],
-      "answer": "b",
-      "explain": "Es una de las conductas observables del nivel 3.",
-      "optionWhy": {
-        "a": "Crear redes de estudio y generación de ideas es del nivel 4.",
-        "c": "Basarse en la experiencia en casos similares es del nivel 1."
-      }
-    },
-    {
-      "id": "comp-q-062",
-      "type": "mcq",
-      "difficulty": 2,
-      "source": "Res. DIAN 065/2024, Cap. IV — Innovación, nivel 3",
-      "prompt": "¿Qué distingue al nivel 3 de Innovación del nivel 2?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Da soluciones creativas a situaciones complejas y evalúa sus impactos."
-        },
-        {
-          "id": "b",
-          "text": "Aplica soluciones basándose solo en lo que le funcionó antes en su propio puesto."
-        },
-        {
-          "id": "c",
-          "text": "Fomenta un ambiente de co-construcción de propuestas de mejora en toda la entidad."
-        }
-      ],
-      "answer": "a",
-      "explain": "El nivel 2 aporta soluciones pertinentes que agregan valor a su área; el nivel 3 va a situaciones complejas, aporta a la organización y evalúa el impacto de lo aplicado.",
-      "optionWhy": {
-        "b": "Eso describe el nivel 1.",
-        "c": "La co-construcción en toda la organización es del nivel 4."
-      }
-    },
-    {
-      "id": "comp-q-063",
-      "type": "mcq",
-      "difficulty": 2,
-      "source": "Res. DIAN 065/2024, Cap. IV — Innovación, nivel 3",
-      "prompt": "En la dependencia hay demoras repetidas al notificar actos administrativos. ¿Qué actuación refleja el nivel 3 de Innovación?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Aplica en su puesto el mismo ajuste que le funcionó el año pasado en otro trámite."
-        },
-        {
-          "id": "b",
-          "text": "Organiza una red de estudio sobre innovación para todas las seccionales de la DIAN."
-        },
-        {
-          "id": "c",
-          "text": "Propone una solución nueva para toda el área, la soporta con datos y evalúa su impacto."
-        }
-      ],
-      "answer": "c",
-      "explain": "El nivel 3 presenta soluciones que exceden el propio puesto y aplican a toda el área, las soporta conceptual y empíricamente y evalúa su implementación.",
-      "optionWhy": {
-        "a": "Reusar la propia experiencia en el puesto es del nivel 1.",
-        "b": "Crear redes de generación de ideas para toda la entidad es del nivel 4."
-      }
-    },
-    {
-      "id": "comp-q-064",
-      "type": "match",
-      "difficulty": 2,
-      "source": "Res. DIAN 065/2024, Cap. IV — Innovación, niveles 1 a 4",
-      "prompt": "Relaciona cada nivel de Innovación con su descripción.",
-      "pairs": [
-        {
-          "left": "Nivel 1",
-          "right": "Aplica soluciones a partir de su experiencia en casos similares"
-        },
-        {
-          "left": "Nivel 2",
-          "right": "Aplica soluciones pertinentes que agregan valor a su área"
-        },
-        {
-          "left": "Nivel 3",
-          "right": "Aplica soluciones creativas a situaciones complejas y evalúa sus impactos"
-        },
-        {
-          "left": "Nivel 4",
-          "right": "Fomenta la co-construcción de propuestas de mejora organizacional"
-        }
-      ],
-      "explain": "Descripciones de los cuatro niveles de Innovación en la Res. 065/2024."
-    },
-    {
-      "id": "comp-q-065",
-      "type": "truefalse",
-      "difficulty": 1,
-      "source": "Res. DIAN 065/2024, Caps. II y IV",
-      "statement": "Innovación es una de las seis competencias comportamentales básicas que aparecen en todas las fichas.",
-      "answer": false,
-      "explain": "Falso. Innovación es una competencia comportamental específica (Cap. IV). Las básicas son Adaptabilidad, Comportamiento ético, Comunicación efectiva, Orientación al logro, Orientación al usuario y al ciudadano y Trabajo en equipo."
-    },
-    {
-      "id": "comp-q-066",
-      "type": "likert",
-      "difficulty": 1,
-      "source": "Res. DIAN 065/2024, Cap. IV — Innovación, nivel 3",
-      "statement": "Cuando encuentro una forma mejor de hacer una tarea, la propongo para que la use toda el área.",
-      "competency": "Innovación",
-      "level": 3,
-      "insight": "Conducta observable (nivel 3): «Presenta nuevas soluciones que exceden su puesto de trabajo, ya que son aplicables a toda el área a la que pertenece y están alineadas a los objetivos institucionales.»"
-    },
-    {
-      "id": "comp-q-067",
-      "type": "likert",
-      "difficulty": 1,
-      "source": "Res. DIAN 065/2024, Cap. IV — Innovación, nivel 3",
-      "statement": "Antes de proponer un cambio en un procedimiento, reúno datos que muestren que puede funcionar.",
-      "competency": "Innovación",
-      "level": 3,
-      "insight": "Conducta observable (nivel 3): «Investiga y soporta conceptual y empíricamente soluciones creativas a problemas complejos.»"
-    },
-    {
-      "id": "comp-q-068",
-      "type": "likert",
-      "difficulty": 1,
-      "source": "Res. DIAN 065/2024, Cap. IV — Innovación, nivel 3",
-      "statement": "Después de aplicar una mejora, reviso sus resultados para ajustarla.",
-      "competency": "Innovación",
-      "level": 3,
-      "insight": "Conducta observable (nivel 3): «Se muestra flexible y comprometido en la búsqueda de alternativas creativas y su posterior implementación y evaluación, utilizando técnicas novedosas, en el marco de los valores institucionales.»"
-    },
-    {
-      "id": "comp-q-069",
-      "type": "likert",
-      "difficulty": 1,
-      "source": "Res. DIAN 065/2024, Cap. IV — Innovación, nivel 3",
-      "statement": "Si un problema complejo no se resuelve con lo habitual, pruebo técnicas o herramientas nuevas.",
-      "competency": "Innovación",
-      "level": 3,
-      "insight": "Conducta observable (nivel 3): «Se muestra flexible y comprometido en la búsqueda de alternativas creativas y su posterior implementación y evaluación, utilizando técnicas novedosas, en el marco de los valores institucionales.»"
-    },
-    {
-      "id": "comp-q-070",
-      "type": "mcq",
-      "difficulty": 1,
-      "source": "Res. DIAN 065/2024, Cap. IV — Solución de problemas, nivel 4",
-      "prompt": "¿Qué conducta corresponde al nivel 4 de Solución de problemas?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Aborda el problema con visión sistémica, integra enfoques y especialistas y evalúa los resultados."
-        },
-        {
-          "id": "b",
-          "text": "Genera más de una opción teniendo en cuenta los recursos y las soluciones ya probadas."
-        },
-        {
-          "id": "c",
-          "text": "Desarrolla soluciones creativas en asuntos críticos apoyándose en los sistemas de información."
-        }
-      ],
-      "answer": "a",
-      "explain": "Es una de las conductas observables del nivel 4.",
-      "optionWhy": {
-        "b": "Es del nivel 1.",
-        "c": "Es del nivel 3."
-      }
-    },
-    {
-      "id": "comp-q-071",
-      "type": "mcq",
-      "difficulty": 2,
-      "source": "Res. DIAN 065/2024, Cap. IV — Solución de problemas, nivel 4",
-      "prompt": "¿Qué describe el nivel 4 de Solución de problemas?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Resuelve asuntos críticos o sensibles manteniendo el autocontrol y previendo consecuencias."
-        },
-        {
-          "id": "b",
-          "text": "Implementa soluciones integrales a problemas complejos, favoreciendo el aprendizaje organizacional."
-        },
-        {
-          "id": "c",
-          "text": "Usa metodologías creativas y respalda sus decisiones en hechos, datos y evidencias."
-        }
-      ],
-      "answer": "b",
-      "explain": "Es la descripción del nivel 4 en la Res. 065/2024.",
-      "optionWhy": {
-        "a": "Describe el nivel 3.",
-        "c": "Describe el nivel 2."
-      }
-    },
-    {
-      "id": "comp-q-072",
-      "type": "mcq",
-      "difficulty": 3,
-      "source": "Res. DIAN 065/2024, Cap. IV — Solución de problemas, nivel 4",
-      "prompt": "El inventario de mercancías del sistema no coincide con el físico en varias seccionales. ¿Qué actuación refleja el nivel 4 de Solución de problemas?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Corrige las diferencias de su propia bodega aplicando el procedimiento vigente."
-        },
-        {
-          "id": "b",
-          "text": "Analiza los datos de su seccional y elige la opción que mejor controla la calidad."
-        },
-        {
-          "id": "c",
-          "text": "Integra a almacén, sistemas y contabilidad, ataca las causas y comunica lo aprendido."
-        }
-      ],
-      "answer": "c",
-      "explain": "El nivel 4 aborda el problema con visión sistémica, integra especialistas, evalúa los resultados y comunica la gestión para el aprendizaje de la organización.",
-      "optionWhy": {
-        "a": "Ejecutar la solución con el procedimiento vigente es del nivel 1.",
-        "b": "Elegir la opción controlando la calidad es del nivel 2."
-      }
-    },
-    {
-      "id": "comp-q-073",
-      "type": "match",
-      "difficulty": 2,
-      "source": "Res. DIAN 065/2024, Cap. IV — Solución de problemas, niveles 1 a 4",
-      "prompt": "Relaciona cada nivel de Solución de problemas con su descripción.",
-      "pairs": [
-        {
-          "left": "Nivel 1",
-          "right": "Genera más de una opción en situaciones cotidianas y ejecuta la más adecuada"
-        },
-        {
-          "left": "Nivel 2",
-          "right": "Usa metodologías creativas y respalda decisiones en hechos y datos"
-        },
-        {
-          "left": "Nivel 3",
-          "right": "Resuelve asuntos críticos con autocontrol, previendo consecuencias"
-        },
-        {
-          "left": "Nivel 4",
-          "right": "Implementa soluciones integrales que favorecen el aprendizaje organizacional"
-        }
-      ],
-      "explain": "Descripciones de los cuatro niveles de Solución de problemas en la Res. 065/2024."
-    },
-    {
-      "id": "comp-q-074",
-      "type": "truefalse",
-      "difficulty": 1,
-      "source": "Ficha AF-LF-3005 (Gestor III), competencias comportamentales",
-      "statement": "La ficha AF-LF-3005 de Gestor III exige Solución de problemas en nivel 4.",
-      "answer": true,
-      "explain": "Verdadero. Sus competencias comportamentales específicas son Comportamiento ético 4, Adaptabilidad 4, Innovación 3 y Solución de problemas 4."
-    },
-    {
-      "id": "comp-q-075",
-      "type": "likert",
-      "difficulty": 1,
-      "source": "Res. DIAN 065/2024, Cap. IV — Solución de problemas, nivel 4",
-      "statement": "Cuando un problema afecta a varias dependencias, busco a personas expertas de cada una para resolverlo juntos.",
-      "competency": "Solución de problemas",
-      "level": 4,
-      "insight": "Conducta observable (nivel 4): «Aborda el problema desde una visión sistémica, integrando diferentes enfoques y especialistas para buscar soluciones y evaluar los resultados de la solución implementada.»"
-    },
-    {
-      "id": "comp-q-076",
-      "type": "likert",
-      "difficulty": 1,
-      "source": "Res. DIAN 065/2024, Cap. IV — Solución de problemas, nivel 4",
-      "statement": "Después de resolver un problema difícil, comparto con el equipo cómo se resolvió.",
-      "competency": "Solución de problemas",
-      "level": 4,
-      "insight": "Conducta observable (nivel 4): «Aplica, promueve y comunica la gestión dada a los problemas para obtener el mejor resultado, en función a los objetivos institucionales.»"
-    },
-    {
-      "id": "comp-q-077",
-      "type": "likert",
-      "difficulty": 1,
-      "source": "Res. DIAN 065/2024, Cap. IV — Solución de problemas, nivel 4",
-      "statement": "En situaciones críticas, invito a mis compañeros a proponer opciones antes de decidir.",
-      "competency": "Solución de problemas",
-      "level": 4,
-      "insight": "Conducta observable (nivel 4): «Se interesa por vincular a sus pares en la generación de opciones múltiples, principalmente en situaciones críticas para la organización, promoviendo el uso de sistemas de información.»"
-    },
-    {
-      "id": "comp-q-078",
-      "type": "likert",
-      "difficulty": 1,
-      "source": "Res. DIAN 065/2024, Cap. IV — Solución de problemas, nivel 4",
-      "statement": "Verifico si la solución que aplicamos funcionó y corrijo lo que haga falta.",
-      "competency": "Solución de problemas",
-      "level": 4,
-      "insight": "Conducta observable (nivel 4): «Aborda el problema desde una visión sistémica, integrando diferentes enfoques y especialistas para buscar soluciones y evaluar los resultados de la solución implementada.»"
-    },
-    {
-      "id": "comp-q-079",
-      "type": "mcq",
-      "difficulty": 2,
-      "source": "Res. DIAN 065/2024, Cap. IV — Adaptabilidad, nivel 4",
-      "prompt": "¿Qué conducta es propia del nivel 4 de Adaptabilidad, el que exige la ficha de Gestor III?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Pone en marcha los cambios que le proponen en sus objetivos laborales."
-        },
-        {
-          "id": "b",
-          "text": "Se anticipa a los cambios de su contexto y ajusta su propio accionar."
-        },
-        {
-          "id": "c",
-          "text": "Diseña herramientas de adaptación y fomenta su uso en los equipos."
-        }
-      ],
-      "answer": "c",
-      "explain": "Diseñar e implementar nuevas metodologías y herramientas de adaptación y fomentar su uso en los equipos es conducta del nivel 4.",
-      "optionWhy": {
-        "a": "Es del nivel 1.",
-        "b": "Anticiparse a los cambios es del nivel 3."
-      }
-    },
-    {
-      "id": "comp-q-080",
-      "type": "mcq",
-      "difficulty": 3,
-      "source": "Res. DIAN 065/2024, Cap. IV — Adaptabilidad, nivel 4",
-      "prompt": "La DIAN implanta un nuevo aplicativo de inventarios y varios compañeros se resisten a usarlo. ¿Qué actuación refleja el nivel 4 de Adaptabilidad?",
-      "options": [
-        {
-          "id": "a",
-          "text": "Prepara una guía, acompaña al equipo y presenta el cambio como oportunidad."
-        },
-        {
-          "id": "b",
-          "text": "Aprende el aplicativo por su cuenta y lo usa sin demora en su propio trabajo."
-        },
-        {
-          "id": "c",
-          "text": "Entiende el porqué del cambio y aplica las herramientas que propone la entidad."
-        }
-      ],
-      "answer": "a",
-      "explain": "El nivel 4 implementa y fomenta cambios en los equipos: los estimula a ver el cambio como oportunidad y diseña herramientas que facilitan la adaptación.",
-      "optionWhy": {
-        "b": "Integrar nuevas tecnologías en el propio trabajo es del nivel 1.",
-        "c": "Entender el cambio y aplicar las herramientas propuestas es del nivel 2."
-      }
-    },
-    {
-      "id": "comp-q-081",
-      "type": "likert",
-      "difficulty": 1,
-      "source": "Res. DIAN 065/2024, Cap. IV — Adaptabilidad, nivel 4",
-      "statement": "Cuando llega un cambio en la forma de trabajar, ayudo a mis compañeros a verlo como una oportunidad de aprender.",
-      "competency": "Adaptabilidad",
-      "level": 4,
-      "insight": "Conducta observable (nivel 4): «Estimula a los equipos de trabajo en los que participa a tomar los cambios como oportunidades de desarrollo, demostrando capacidad de aprendizaje y gran criterio ético.»"
-    },
-    {
-      "id": "comp-q-082",
-      "type": "likert",
-      "difficulty": 1,
-      "source": "Res. DIAN 065/2024, Cap. IV — Adaptabilidad, nivel 4",
-      "statement": "Si un cambio llega sin herramientas de apoyo, preparo una guía o un método para facilitarlo al equipo.",
-      "competency": "Adaptabilidad",
-      "level": 4,
-      "insight": "Conducta observable (nivel 4): «Diseña e implementa nuevas metodologías y herramientas que facilitan la adaptación a diversas situaciones, contextos, medios y personas, y fomenta su uso en los equipos en los que participa.»"
     }
   ]
 }
